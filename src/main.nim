@@ -75,7 +75,7 @@ proc writePage(templatePath, outputPath: string, replacements: openArray[(string
 
   try:
     let dir = parentDir(outputPath)
-    if dir.len > 0:
+    if dir.len > 0 and dir != ".":
       createDir(dir)
     writeFile(outputPath, content)
   except CatchableError as exc:

@@ -63,7 +63,7 @@ proc extractParamsBillions(text: string): float =
         inc i
       if i < text.len and (text[i] == 'b' or text[i] == 'B'):
         let after = i + 1
-        if after >= text.len or (not text[after].isAlphaAscii() and text[after] != '.'):
+        if after >= text.len or not text[after].isAlphaAscii():
           try:
             let parsed = parseFloat(text[numStart ..< i])
             if parsed >= 0.5 and parsed <= 2000.0:
@@ -168,19 +168,24 @@ proc generateMarkdownTable*(rows: seq[ModelRow]): string =
   for row in rows:
     result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {formatRequestPrice(row.requestPrice, row.hasRequestPrice)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
 
+const
+  Fp16BytesPerParam = 2.0
+  BillionsToMillions = 1000.0
+  GbToMb = 1024.0
+
 proc formatParamCount(params: float): string =
   if params <= 0.0:
     return "?"
   if params < 1.0:
-    return formatFloat(params * 1000.0, ffDecimal, 0) & "M"
+    return formatFloat(params * BillionsToMillions, ffDecimal, 0) & "M"
   result = formatFloat(params, ffDecimal, 1) & "B"
 
 proc formatVramEstimate(params: float): string =
   if params <= 0.0:
     return "?"
-  let gb = params * 2.0
+  let gb = params * Fp16BytesPerParam
   if gb < 1.0:
-    return formatFloat(gb * 1024.0, ffDecimal, 0) & "MB"
+    return formatFloat(gb * GbToMb, ffDecimal, 0) & "MB"
   result = "~" & formatFloat(gb, ffDecimal, 0) & "GB"
 
 proc localModelRow(row: ModelRow): string =
@@ -207,7 +212,7 @@ proc generateLocalModelsTable*(rows: seq[ModelRow]): string =
 proc generateVramTable*(rows: seq[ModelRow], vramGb: int): string =
   let eligible = rows
     .filterIt(it.huggingFaceId.len > 0 and it.estimatedParams > 0.0 and
-              it.estimatedParams * 2.0 <= vramGb.float)
+              it.estimatedParams * Fp16BytesPerParam <= vramGb.float)
     .sortedByIt(-it.contextLength)
 
   let topFive = if eligible.len > 5: eligible[0 ..< 5] else: eligible
