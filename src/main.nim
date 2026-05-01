@@ -1,4 +1,4 @@
-import std/[os, strutils]
+import std/[os, sequtils, strutils]
 import puppy
 
 import parser
@@ -6,12 +6,35 @@ import parser
 const
   OpenRouterModelsUrl = "https://openrouter.ai/api/v1/models"
   RegistryPath = "data/registry.json"
+
+  # Template paths
   ReadmeTemplatePath = "templates/README.md"
+  LocalModelsTemplatePath = "templates/local-models.md"
+  VisionTemplatePath = "templates/best-models/vision.md"
+  AudioTemplatePath = "templates/best-models/audio.md"
+  ImageGenTemplatePath = "templates/best-models/image-gen.md"
+  VramBaseTemplatePath = "templates/vram-guide/base.md"
+
+  # Output paths
   ReadmeOutputPath = "README.md"
-  ModelTablePlaceholder = "{{MODEL_TABLE}}"
+  LocalModelsOutputPath = "local-models.md"
+  VisionOutputPath = "best-models/vision.md"
+  AudioOutputPath = "best-models/audio.md"
+  ImageGenOutputPath = "best-models/image-gen.md"
+
+  VramTiers = [4, 8, 16, 24, 48]
+
   DefaultReadmeTemplate = """# AI Model Price Tracker
 
-{{MODEL_TABLE}}
+## 💰 Paid Models
+
+{{PAID_MODEL_TABLE}}
+
+## 🆓 Free Models
+
+> ⚠️ Free models on OpenRouter may use your prompts to train AI models.
+
+{{FREE_MODEL_TABLE}}
 """
 
 proc fetchRegistryJson(): string =
@@ -34,28 +57,40 @@ proc writeRawRegistry(rawJson: string) =
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to write raw registry JSON: " & exc.msg)
 
-proc loadReadmeTemplate(): string =
+proc loadTemplate(path: string): string =
+  if fileExists(path):
+    try:
+      return readFile(path)
+    except CatchableError:
+      discard
+  return ""
+
+proc writePage(templatePath, outputPath: string, replacements: openArray[(string, string)]) =
+  var content = loadTemplate(templatePath)
+  if content.len == 0:
+    return
+
+  for (placeholder, value) in replacements:
+    content = content.replace(placeholder, value)
+
   try:
-    if fileExists(ReadmeTemplatePath):
-      return readFile(ReadmeTemplatePath)
-
-    if fileExists(ReadmeOutputPath):
-      let existingReadme = readFile(ReadmeOutputPath)
-      if ModelTablePlaceholder in existingReadme:
-        return existingReadme
-
-    result = DefaultReadmeTemplate
+    let dir = parentDir(outputPath)
+    if dir.len > 0:
+      createDir(dir)
+    writeFile(outputPath, content)
   except CatchableError as exc:
-    raise newException(CatchableError, "Unable to load README template: " & exc.msg)
+    raise newException(CatchableError, "Unable to write " & outputPath & ": " & exc.msg)
 
-proc writeReadme(tableMarkdown: string) =
-  let readmeTemplate = loadReadmeTemplate()
+proc writeReadme(paidTable, freeTable: string) =
+  var content = loadTemplate(ReadmeTemplatePath)
+  if content.len == 0:
+    content = DefaultReadmeTemplate
 
-  if ModelTablePlaceholder notin readmeTemplate:
-    raise newException(CatchableError, "README template is missing the {{MODEL_TABLE}} placeholder")
+  content = content.replace("{{PAID_MODEL_TABLE}}", paidTable)
+  content = content.replace("{{FREE_MODEL_TABLE}}", freeTable)
 
   try:
-    writeFile(ReadmeOutputPath, readmeTemplate.replace(ModelTablePlaceholder, tableMarkdown))
+    writeFile(ReadmeOutputPath, content)
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to write README.md: " & exc.msg)
 
@@ -65,10 +100,35 @@ proc main() =
     writeRawRegistry(rawJson)
 
     let rows = parseModels(rawJson)
-    let markdownTable = generateMarkdownTable(rows)
-    writeReadme(markdownTable)
+    let paidRows = rows.filterIt(not it.isFree)
+    let freeRows = rows.filterIt(it.isFree)
 
-    stdout.writeLine("Generated README.md for " & $rows.len & " models.")
+    # README: paid + free tables
+    writeReadme(generateMarkdownTable(paidRows), generateMarkdownTable(freeRows))
+
+    # Local models page
+    writePage(LocalModelsTemplatePath, LocalModelsOutputPath,
+      [("{{LOCAL_MODEL_TABLE}}", generateLocalModelsTable(rows))])
+
+    # Best-models pages
+    writePage(VisionTemplatePath, VisionOutputPath,
+      [("{{VISION_MODEL_TABLE}}", generateModalityTable(rows, "image", "input"))])
+
+    writePage(AudioTemplatePath, AudioOutputPath,
+      [("{{AUDIO_MODEL_TABLE}}", generateModalityTable(rows, "audio", "output"))])
+
+    writePage(ImageGenTemplatePath, ImageGenOutputPath,
+      [("{{IMAGE_GEN_TABLE}}", generateModalityTable(rows, "image", "output"))])
+
+    # VRAM guide pages
+    for vramGb in VramTiers:
+      let vramPath = "vram-guide/" & $vramGb & "gb.md"
+      writePage(VramBaseTemplatePath, vramPath, [
+        ("{{VRAM_SIZE}}", $vramGb & "GB"),
+        ("{{VRAM_MODEL_TABLE}}", generateVramTable(rows, vramGb))
+      ])
+
+    stdout.writeLine("Generated pages for " & $rows.len & " models.")
   except CatchableError as exc:
     stderr.writeLine("Error: " & exc.msg)
     quit(QuitFailure)
