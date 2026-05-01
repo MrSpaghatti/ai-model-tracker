@@ -1,0 +1,9 @@
+# Compiled binaries
+src/main
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Nimble
+nimble.lock
