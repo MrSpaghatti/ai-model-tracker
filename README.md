@@ -166,7 +166,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | thedrummer/cydonia-24b-v4.1 | TheDrummer: Cydonia 24B V4.1 | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
 | x-ai/grok-3-mini | xAI: Grok 3 Mini | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
 | x-ai/grok-3-mini-beta | xAI: Grok 3 Mini Beta | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
-| deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2100 | $0.7900 | - | 3,276,800,000 |
 | minimax/minimax-m2.1 | MiniMax: MiniMax M2.1 | 196,608 | $0.2900 | $0.9500 | - | 3,171,096,774 |
 | writer/palmyra-x5 | Writer: Palmyra X5 | 1,040,000 | $0.6000 | $6.0000 | - | 3,151,515,152 |
 | minimax/minimax-m2 | MiniMax: MiniMax M2 | 196,608 | $0.2550 | $1.0000 | - | 3,133,195,219 |
@@ -177,6 +176,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3500 | $0.5600 | - | 2,813,186,813 |
 | qwen/qwen3-14b | Qwen: Qwen3 14B | 40,960 | $0.0600 | $0.2400 | - | 2,730,666,667 |
 | deepseek/deepseek-chat | DeepSeek: DeepSeek V3 | 163,840 | $0.3200 | $0.8900 | - | 2,708,099,174 |
+| deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | 2,685,901,639 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1300 | $0.8500 | - | 2,674,938,776 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | 2,666,666,667 |
 | mistralai/mistral-large-2512 | Mistral: Mistral Large 3 2512 | 262,144 | $0.5000 | $1.5000 | - | 2,621,440,000 |
@@ -189,7 +189,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | tngtech/deepseek-r1t2-chimera | TNG: DeepSeek R1T2 Chimera | 163,840 | $0.3000 | $1.1000 | - | 2,340,571,429 |
 | bytedance-seed/seed-1.6 | ByteDance Seed: Seed 1.6 | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
-| qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 40,960 | $0.0800 | $0.2800 | - | 2,275,555,556 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | 2,240,547,009 |
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | 2,184,533,333 |
@@ -225,6 +224,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | sao10k/l3.1-euryale-70b | Sao10K: Llama 3.1 Euryale 70B v2.2 | 131,072 | $0.8500 | $0.8500 | - | 1,542,023,529 |
 | openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | 1,523,809,524 |
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | 1,523,809,524 |
+| qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 40,960 | $0.0900 | $0.4500 | - | 1,517,037,037 |
 | z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $2.0800 | - | 1,513,074,627 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | 1,500,000,000 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | 1,497,965,714 |
