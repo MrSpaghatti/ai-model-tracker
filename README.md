@@ -137,7 +137,8 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen-vl-plus | Qwen: Qwen VL Plus | 131,072 | $0.1365 | $0.4095 | - | 4,801,172,161 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 16,384 | $0.0200 | $0.0500 | - | 4,681,142,857 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 32,768 | $0.0400 | $0.1000 | - | 4,681,142,857 |
-| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1612 | $0.9652 | - | 4,654,338,852 |
+| qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1500 | $1.0000 | - | 4,559,026,087 |
+| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1500 | $1.0000 | - | 4,559,026,087 |
 | qwen/qwen3-vl-8b-instruct | Qwen: Qwen3 VL 8B Instruct | 131,072 | $0.0800 | $0.5000 | - | 4,519,724,138 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | 4,405,781,513 |
 | liquid/lfm-2-24b-a2b | LiquidAI: LFM2-24B-A2B | 32,768 | $0.0300 | $0.1200 | - | 4,369,066,667 |
@@ -151,7 +152,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen3-vl-30b-a3b-instruct | Qwen: Qwen3 VL 30B A3B Instruct | 131,072 | $0.1300 | $0.5200 | - | 4,032,984,615 |
 | tencent/hunyuan-a13b-instruct | Tencent: Hunyuan A13B Instruct | 131,072 | $0.1400 | $0.5700 | - | 3,692,169,014 |
 | google/gemma-3n-e4b-it | Google: Gemma 3n 4B | 32,768 | $0.0600 | $0.1200 | - | 3,640,888,889 |
-| qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1625 | $1.3000 | - | 3,584,875,214 |
 | openai/gpt-5-mini | OpenAI: GPT-5 Mini | 400,000 | $0.2500 | $2.0000 | - | 3,555,555,556 |
 | openai/gpt-5.1-codex-mini | OpenAI: GPT-5.1-Codex-Mini | 400,000 | $0.2500 | $2.0000 | - | 3,555,555,556 |
 | cohere/command-r-08-2024 | Cohere: Command R (08-2024) | 128,000 | $0.1500 | $0.6000 | - | 3,413,333,333 |
@@ -201,7 +201,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | 2,016,492,308 |
 | prime-intellect/intellect-3 | Prime Intellect: INTELLECT-3 | 131,072 | $0.2000 | $1.1000 | - | 2,016,492,308 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 262,144 | $0.3900 | $2.3400 | - | 1,920,468,864 |
-| z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.3800 | $1.7400 | - | 1,912,754,717 |
+| z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | 1,886,065,116 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | 1,872,457,143 |
 | sao10k/l3.3-euryale-70b | Sao10K: Llama 3.3 Euryale 70B | 131,072 | $0.6500 | $0.7500 | - | 1,872,457,143 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | 1,864,135,111 |
