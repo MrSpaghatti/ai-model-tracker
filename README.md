@@ -201,7 +201,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | 2,016,492,308 |
 | prime-intellect/intellect-3 | Prime Intellect: INTELLECT-3 | 131,072 | $0.2000 | $1.1000 | - | 2,016,492,308 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 262,144 | $0.3900 | $2.3400 | - | 1,920,468,864 |
-| z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | 1,886,065,116 |
+| z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.3800 | $1.7400 | - | 1,912,754,717 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | 1,872,457,143 |
 | sao10k/l3.3-euryale-70b | Sao10K: Llama 3.3 Euryale 70B | 131,072 | $0.6500 | $0.7500 | - | 1,872,457,143 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | 1,864,135,111 |
@@ -298,6 +298,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | openai/gpt-5.5 | OpenAI: GPT-5.5 | 1,050,000 | $5.0000 | $30.0000 | - | 600,000,000 |
 | ~openai/gpt-latest | OpenAI GPT Latest | 1,050,000 | $5.0000 | $30.0000 | - | 600,000,000 |
 | nousresearch/hermes-2-pro-llama-3-8b | NousResearch: Hermes 2 Pro - Llama-3 8B | 8,192 | $0.1400 | $0.1400 | - | 585,142,857 |
+| mistralai/mistral-medium-3-5 | Mistral: Mistral Medium 3.5 | 262,144 | $1.5000 | $7.5000 | - | 582,542,222 |
 | z-ai/glm-4.5v | Z.ai: GLM 4.5V | 65,536 | $0.6000 | $1.8000 | - | 546,133,333 |
 | ai21/jamba-large-1.7 | AI21: Jamba Large 1.7 | 256,000 | $2.0000 | $8.0000 | - | 512,000,000 |
 | openai/gpt-5.2 | OpenAI: GPT-5.2 | 400,000 | $1.7500 | $14.0000 | - | 507,936,508 |
