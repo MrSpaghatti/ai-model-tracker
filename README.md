@@ -8,11 +8,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
 | baidu/qianfan-ocr-fast:free | Baidu: Qianfan-OCR-Fast (free) | 65,536 | $0.0000 | $0.0000 | - | ∞ |
 | cognitivecomputations/dolphin-mistral-24b-venice-edition:free | Venice: Uncensored (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
-| google/gemma-3-12b-it:free | Google: Gemma 3 12B (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
-| google/gemma-3-27b-it:free | Google: Gemma 3 27B (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
-| google/gemma-3-4b-it:free | Google: Gemma 3 4B (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
-| google/gemma-3n-e2b-it:free | Google: Gemma 3n 2B (free) | 8,192 | $0.0000 | $0.0000 | - | ∞ |
-| google/gemma-3n-e4b-it:free | Google: Gemma 3n 4B (free) | 8,192 | $0.0000 | $0.0000 | - | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ∞ |
@@ -48,10 +43,10 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | 52,428,800,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1400 | $0.2800 | - | 49,932,190,476 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | 41,903,040,000 |
-| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,000,000 | $0.1000 | $0.4000 | - | 40,000,000,000 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | 30,660,116,959 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 1,048,576 | $0.1500 | $0.6000 | - | 27,962,026,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | - | 21,845,333,333 |
@@ -115,6 +110,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | meta-llama/llama-3.3-70b-instruct | Meta: Llama 3.3 70B Instruct | 131,072 | $0.1000 | $0.3200 | - | 6,241,523,810 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | 5,991,862,857 |
 | ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $0.5000 | $3.0000 | - | 5,991,862,857 |
+| microsoft/phi-4-mini-instruct | Microsoft: Phi 4 Mini Instruct | 128,000 | $0.0800 | $0.3500 | - | 5,953,488,372 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | - | 5,698,782,609 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | 5,517,241,379 |
 | qwen/qwen3-30b-a3b-thinking-2507 | Qwen: Qwen3 30B A3B Thinking 2507 | 131,072 | $0.0800 | $0.4000 | - | 5,461,333,333 |
@@ -217,6 +213,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | 1,691,251,613 |
 | rekaai/reka-edge | Reka Edge | 16,384 | $0.1000 | $0.1000 | - | 1,638,400,000 |
 | allenai/olmo-3.1-32b-instruct | AllenAI: Olmo 3.1 32B Instruct | 65,536 | $0.2000 | $0.6000 | - | 1,638,400,000 |
+| z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $1.9200 | - | 1,609,142,857 |
 | mistralai/voxtral-small-24b-2507 | Mistral: Voxtral Small 24B 2507 | 32,000 | $0.1000 | $0.3000 | - | 1,600,000,000 |
 | microsoft/phi-4 | Microsoft: Phi 4 | 16,384 | $0.0650 | $0.1400 | - | 1,598,439,024 |
 | qwen/qwen3-235b-a22b-thinking-2507 | Qwen: Qwen3 235B A22B Thinking 2507 | 131,072 | $0.1495 | $1.4950 | - | 1,594,065,065 |
@@ -225,7 +222,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | 1,523,809,524 |
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | 1,523,809,524 |
 | qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 40,960 | $0.0900 | $0.4500 | - | 1,517,037,037 |
-| z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $2.0800 | - | 1,513,074,627 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | 1,500,000,000 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | 1,497,965,714 |
 | google/gemini-3.1-pro-preview-customtools | Google: Gemini 3.1 Pro Preview Custom Tools | 1,048,576 | $2.0000 | $12.0000 | - | 1,497,965,714 |
@@ -323,6 +319,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | perplexity/sonar-reasoning-pro | Perplexity: Sonar Reasoning Pro | 128,000 | $2.0000 | $8.0000 | - | 256,000,000 |
 | openai/gpt-5.4-image-2 | OpenAI: GPT-5.4 Image 2 | 272,000 | $8.0000 | $15.0000 | - | 236,521,739 |
 | google/gemini-2.5-flash-image | Google: Nano Banana (Gemini 2.5 Flash Image) | 32,768 | $0.3000 | $2.5000 | - | 234,057,143 |
+| openai/gpt-chat-latest | OpenAI: GPT Chat Latest | 400,000 | $5.0000 | $30.0000 | - | 228,571,429 |
 | openai/gpt-5-chat | OpenAI: GPT-5 Chat | 128,000 | $1.2500 | $10.0000 | - | 227,555,556 |
 | openai/gpt-5.1-chat | OpenAI: GPT-5.1 Chat | 128,000 | $1.2500 | $10.0000 | - | 227,555,556 |
 | anthropic/claude-3.7-sonnet | Anthropic: Claude 3.7 Sonnet | 200,000 | $3.0000 | $15.0000 | - | 222,222,222 |
