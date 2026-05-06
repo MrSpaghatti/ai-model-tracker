@@ -6,6 +6,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Request ($/req) | Context per Cent |
 | --- | --- | ---: | ---: | ---: | ---: | ---: |
+| baidu/cobuddy:free | Baidu Qianfan: CoBuddy (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
 | baidu/qianfan-ocr-fast:free | Baidu: Qianfan-OCR-Fast (free) | 65,536 | $0.0000 | $0.0000 | - | ∞ |
 | cognitivecomputations/dolphin-mistral-24b-venice-edition:free | Venice: Uncensored (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
@@ -43,10 +44,10 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | 52,428,800,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1400 | $0.2800 | - | 49,932,190,476 |
-| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | 41,903,040,000 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,000,000 | $0.1000 | $0.4000 | - | 40,000,000,000 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | 30,660,116,959 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 1,048,576 | $0.1500 | $0.6000 | - | 27,962,026,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | - | 21,845,333,333 |
@@ -111,7 +112,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | 5,991,862,857 |
 | ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $0.5000 | $3.0000 | - | 5,991,862,857 |
 | microsoft/phi-4-mini-instruct | Microsoft: Phi 4 Mini Instruct | 128,000 | $0.0800 | $0.3500 | - | 5,953,488,372 |
-| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | - | 5,698,782,609 |
+| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | 5,761,406,593 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | 5,517,241,379 |
 | qwen/qwen3-30b-a3b-thinking-2507 | Qwen: Qwen3 30B A3B Thinking 2507 | 131,072 | $0.0800 | $0.4000 | - | 5,461,333,333 |
 | meta-llama/llama-3.2-11b-vision-instruct | Meta: Llama 3.2 11B Vision Instruct | 131,072 | $0.2450 | $0.2450 | - | 5,349,877,551 |
@@ -234,9 +235,9 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | 1,270,720,000 |
 | aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | 1,248,304,762 |
-| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,142 | $0.7400 | $3.4900 | - | 1,239,442,080 |
-| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,142 | $0.7400 | $3.4900 | - | 1,239,442,080 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | 1,236,528,302 |
+| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.7500 | $3.5000 | - | 1,233,618,824 |
+| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.7500 | $3.5000 | - | 1,233,618,824 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | 1,200,000,000 |
 | qwen/qwen3-235b-a22b | Qwen: Qwen3 235B A22B | 131,072 | $0.4550 | $1.8200 | - | 1,152,281,319 |
 | deepseek/deepseek-r1-distill-qwen-32b | DeepSeek: R1 Distill Qwen 32B | 32,768 | $0.2900 | $0.2900 | - | 1,129,931,034 |
