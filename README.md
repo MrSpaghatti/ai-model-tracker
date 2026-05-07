@@ -44,10 +44,10 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | 52,428,800,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1400 | $0.2800 | - | 49,932,190,476 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | 41,903,040,000 |
-| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,000,000 | $0.1000 | $0.4000 | - | 40,000,000,000 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | 30,660,116,959 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 1,048,576 | $0.1500 | $0.6000 | - | 27,962,026,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | - | 21,845,333,333 |
@@ -134,6 +134,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen-vl-plus | Qwen: Qwen VL Plus | 131,072 | $0.1365 | $0.4095 | - | 4,801,172,161 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 16,384 | $0.0200 | $0.0500 | - | 4,681,142,857 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 32,768 | $0.0400 | $0.1000 | - | 4,681,142,857 |
+| deepseek/deepseek-v3.2-speciale | DeepSeek: DeepSeek V3.2 Speciale | 163,840 | $0.2870 | $0.4310 | - | 4,563,788,301 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1500 | $1.0000 | - | 4,559,026,087 |
 | qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1500 | $1.0000 | - | 4,559,026,087 |
 | qwen/qwen3-vl-8b-instruct | Qwen: Qwen3 VL 8B Instruct | 131,072 | $0.0800 | $0.5000 | - | 4,519,724,138 |
@@ -159,7 +160,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 256,000 | $0.3000 | $1.2000 | - | 3,413,333,333 |
 | deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2000 | $0.7700 | - | 3,378,144,330 |
 | meta-llama/llama-3.1-70b-instruct | Meta: Llama 3.1 70B Instruct | 131,072 | $0.4000 | $0.4000 | - | 3,276,800,000 |
-| nvidia/nemotron-nano-12b-v2-vl | NVIDIA: Nemotron Nano 12B 2 VL | 131,072 | $0.2000 | $0.6000 | - | 3,276,800,000 |
 | thedrummer/cydonia-24b-v4.1 | TheDrummer: Cydonia 24B V4.1 | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
 | x-ai/grok-3-mini | xAI: Grok 3 Mini | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
 | x-ai/grok-3-mini-beta | xAI: Grok 3 Mini Beta | 131,072 | $0.3000 | $0.5000 | - | 3,276,800,000 |
@@ -182,7 +182,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 40,960 | $0.0800 | $0.2400 | - | 2,560,000,000 |
 | inception/mercury-2 | Inception: Mercury 2 | 128,000 | $0.2500 | $0.7500 | - | 2,560,000,000 |
 | relace/relace-apply-3 | Relace: Relace Apply 3 | 256,000 | $0.8500 | $1.2500 | - | 2,438,095,238 |
-| meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0300 | $0.0400 | - | 2,340,571,429 |
 | tngtech/deepseek-r1t2-chimera | TNG: DeepSeek R1T2 Chimera | 163,840 | $0.3000 | $1.1000 | - | 2,340,571,429 |
 | bytedance-seed/seed-1.6 | ByteDance Seed: Seed 1.6 | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
@@ -194,7 +193,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | xiaomi/mimo-v2-omni | Xiaomi: MiMo-V2-Omni | 262,144 | $0.4000 | $2.0000 | - | 2,184,533,333 |
 | moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.4400 | $2.0000 | - | 2,148,721,311 |
 | openai/gpt-4.1 | OpenAI: GPT-4.1 | 1,047,576 | $2.0000 | $8.0000 | - | 2,095,152,000 |
-| deepseek/deepseek-v3.2-speciale | DeepSeek: DeepSeek V3.2 Speciale | 163,840 | $0.4000 | $1.2000 | - | 2,048,000,000 |
+| meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | - | 2,048,000,000 |
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | 2,016,492,308 |
 | prime-intellect/intellect-3 | Prime Intellect: INTELLECT-3 | 131,072 | $0.2000 | $1.1000 | - | 2,016,492,308 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 262,144 | $0.3900 | $2.3400 | - | 1,920,468,864 |
@@ -213,7 +212,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | deepseek/deepseek-r1-distill-llama-70b | DeepSeek: R1 Distill Llama 70B | 131,072 | $0.7000 | $0.8000 | - | 1,747,626,667 |
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | 1,691,251,613 |
 | rekaai/reka-edge | Reka Edge | 16,384 | $0.1000 | $0.1000 | - | 1,638,400,000 |
-| allenai/olmo-3.1-32b-instruct | AllenAI: Olmo 3.1 32B Instruct | 65,536 | $0.2000 | $0.6000 | - | 1,638,400,000 |
 | z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $1.9200 | - | 1,609,142,857 |
 | mistralai/voxtral-small-24b-2507 | Mistral: Voxtral Small 24B 2507 | 32,000 | $0.1000 | $0.3000 | - | 1,600,000,000 |
 | microsoft/phi-4 | Microsoft: Phi 4 | 16,384 | $0.0650 | $0.1400 | - | 1,598,439,024 |
