@@ -13,7 +13,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ∞ |
-| inclusionai/ling-2.6-1t:free | inclusionAI: Ling-2.6-1T (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | liquid/lfm-2.5-1.2b-instruct:free | LiquidAI: LFM2.5-1.2B-Instruct (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
 | liquid/lfm-2.5-1.2b-thinking:free | LiquidAI: LFM2.5-1.2B-Thinking (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
 | meta-llama/llama-3.2-3b-instruct:free | Meta: Llama 3.2 3B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
@@ -81,6 +80,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | 13,107,200,000 |
 | stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.1000 | $0.3000 | - | 13,107,200,000 |
 | z-ai/glm-4-32b | Z.ai: GLM 4 32B  | 128,000 | $0.1000 | $0.1000 | - | 12,800,000,000 |
+| google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | 11,983,725,714 |
 | openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0390 | $0.1800 | - | 11,970,045,662 |
 | qwen/qwen3.6-flash | Qwen: Qwen3.6 Flash | 1,000,000 | $0.2500 | $1.5000 | - | 11,428,571,429 |
@@ -176,8 +176,8 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | 2,685,901,639 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1300 | $0.8500 | - | 2,674,938,776 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | 2,666,666,667 |
+| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.2990 | $1.2000 | - | 2,623,188,793 |
 | mistralai/mistral-large-2512 | Mistral: Mistral Large 3 2512 | 262,144 | $0.5000 | $1.5000 | - | 2,621,440,000 |
-| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.3000 | $1.2000 | - | 2,621,440,000 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 262,144 | $0.2200 | $1.8000 | - | 2,595,485,149 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 40,960 | $0.0800 | $0.2400 | - | 2,560,000,000 |
 | inception/mercury-2 | Inception: Mercury 2 | 128,000 | $0.2500 | $0.7500 | - | 2,560,000,000 |
@@ -200,6 +200,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.3800 | $1.7400 | - | 1,912,754,717 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | 1,872,457,143 |
 | sao10k/l3.3-euryale-70b | Sao10K: Llama 3.3 Euryale 70B | 131,072 | $0.6500 | $0.7500 | - | 1,872,457,143 |
+| inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.3000 | $2.5000 | - | 1,872,457,143 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | 1,864,135,111 |
 | google/gemini-2.5-pro-preview | Google: Gemini 2.5 Pro Preview 06-05 | 1,048,576 | $1.2500 | $10.0000 | - | 1,864,135,111 |
 | google/gemini-2.5-pro-preview-05-06 | Google: Gemini 2.5 Pro Preview 05-06 | 1,048,576 | $1.2500 | $10.0000 | - | 1,864,135,111 |
@@ -250,7 +251,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | mistralai/devstral-medium | Mistral: Devstral Medium | 131,072 | $0.4000 | $2.0000 | - | 1,092,266,667 |
 | mistralai/mistral-medium-3 | Mistral: Mistral Medium 3 | 131,072 | $0.4000 | $2.0000 | - | 1,092,266,667 |
 | mistralai/mistral-medium-3.1 | Mistral: Mistral Medium 3.1 | 131,072 | $0.4000 | $2.0000 | - | 1,092,266,667 |
-| nvidia/llama-3.1-nemotron-70b-instruct | NVIDIA: Llama 3.1 Nemotron 70B Instruct | 131,072 | $1.2000 | $1.2000 | - | 1,092,266,667 |
 | microsoft/wizardlm-2-8x22b | WizardLM-2 8x22B | 65,535 | $0.6200 | $0.6200 | - | 1,057,016,129 |
 | deepcogito/cogito-v2.1-671b | Deep Cogito: Cogito v2.1 671B | 128,000 | $1.2500 | $1.2500 | - | 1,024,000,000 |
 | qwen/qwen-vl-max | Qwen: Qwen VL Max | 131,072 | $0.5200 | $2.0800 | - | 1,008,246,154 |
@@ -289,7 +289,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen2.5-vl-72b-instruct | Qwen: Qwen2.5 VL 72B Instruct | 32,000 | $0.2500 | $0.7500 | - | 640,000,000 |
 | arcee-ai/maestro-reasoning | Arcee AI: Maestro Reasoning | 131,072 | $0.9000 | $3.3000 | - | 624,152,381 |
 | switchpoint/router | Switchpoint Router | 131,072 | $0.8500 | $3.4000 | - | 616,809,412 |
-| mistralai/mixtral-8x7b-instruct | Mistral: Mixtral 8x7B Instruct | 32,768 | $0.5400 | $0.5400 | - | 606,814,815 |
 | openai/gpt-5.5 | OpenAI: GPT-5.5 | 1,050,000 | $5.0000 | $30.0000 | - | 600,000,000 |
 | ~openai/gpt-latest | OpenAI GPT Latest | 1,050,000 | $5.0000 | $30.0000 | - | 600,000,000 |
 | nousresearch/hermes-2-pro-llama-3-8b | NousResearch: Hermes 2 Pro - Llama-3 8B | 8,192 | $0.1400 | $0.1400 | - | 585,142,857 |
