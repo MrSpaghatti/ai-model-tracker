@@ -6,21 +6,21 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| openrouter/pareto-code | Pareto Code Router | 2,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 262,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | ⚠️ | 9,411,764,706 |
 | mistralai/devstral-small | Mistral: Devstral Small 1.1 | 131,072 | $0.1000 | $0.3000 | ⚠️ | 6,553,600,000 |
+| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | ⚠️ | 5,761,406,593 |
 
 ## Top 5 Vision Models
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| openrouter/auto | Auto Router | 2,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
 
@@ -36,8 +36,8 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| openrouter/auto | Auto Router | 2,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| openrouter/pareto-code | Pareto Code Router | 2,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | ⚠️ | N/A |
+| openrouter/pareto-code | Pareto Code Router | 2,000,000 | N/A | N/A | ⚠️ | N/A |
 | x-ai/grok-4-fast | xAI: Grok 4 Fast | 2,000,000 | $0.2000 | $0.5000 | ⚠️ | 57,142,857,143 |
 | x-ai/grok-4.1-fast | xAI: Grok 4.1 Fast | 2,000,000 | $0.2000 | $0.5000 | ⚠️ | 57,142,857,143 |
 | x-ai/grok-4.20 | xAI: Grok 4.20 | 2,000,000 | $1.2500 | $2.5000 | ⚠️ | 10,666,666,667 |
@@ -60,11 +60,11 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| openrouter/auto | Auto Router | 2,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | ⚠️ | 55,924,053,333 |
+| google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | ⚠️ | 41,943,040,000 |
 
 ## Top 5 Models for ~8 GB VRAM
 

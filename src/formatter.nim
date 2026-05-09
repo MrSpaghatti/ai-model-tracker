@@ -55,7 +55,10 @@ proc formatWholeNumber(value: int): string =
   result = groups.join(",")
 
 proc formatLargeFloat(value: float): string =
-  if classify(value) in {fcInf, fcNegInf}:
+  let c = classify(value)
+  if c == fcNaN or c == fcNegInf:
+    return "N/A"
+  if c in {fcInf, fcNegInf}:
     return "∞"
 
   if value >= 1_000_000_000_000.0:
@@ -65,11 +68,16 @@ proc formatLargeFloat(value: float): string =
   result = formatWholeNumber(rounded)
 
 proc formatUsdPerMillion*(price: float): string =
+  if price.classify == fcNaN:
+    return "N/A"
   "$" & formatFloat(price * 1_000_000.0, ffDecimal, 4)
 
 proc formatRequestPrice(price: float; hasRequestPrice: bool): string =
   if not hasRequestPrice:
     return "-"
+
+  if price.classify == fcNaN:
+    return "N/A"
 
   "$" & formatFloat(price, ffDecimal, 6)
 

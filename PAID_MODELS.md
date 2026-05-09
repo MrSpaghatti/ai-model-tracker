@@ -340,5 +340,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/o1-pro | OpenAI: o1-pro | 200,000 | $150.0000 | $600.0000 | - | ✅ | 5,333,333 |
 | openai/gpt-4 | OpenAI: GPT-4 | 8,191 | $30.0000 | $60.0000 | - | ✅ | 1,820,222 |
 | openai/gpt-4-0314 | OpenAI: GPT-4 (older v0314) | 8,191 | $30.0000 | $60.0000 | - | ✅ | 1,820,222 |
+| openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
+| openrouter/bodybuilder | Body Builder (beta) | 128,000 | N/A | N/A | - | ⚠️ | N/A |
+| openrouter/pareto-code | Pareto Code Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
 
 > **Moderated**: ✅ means the top provider reports content moderation, which usually lowers the chance that raw prompts/outputs are used for training workflows. ⚠️ means the provider does not report moderation here, so treat the model as higher-risk for sensitive data.

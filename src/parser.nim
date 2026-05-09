@@ -29,7 +29,8 @@ proc parsePrice(value, fieldName, modelId: string): float =
   try:
     result = parseFloat(value)
     if result == -1.0:
-      return 0.0
+      # -1 means variable/unknown pricing (router/meta models like openrouter/auto)
+      return NaN
   except ValueError as exc:
     raise newException(
       ValueError,
@@ -56,8 +57,11 @@ proc toModelRow(model: OpenRouterModel): ModelRow =
       0.0
   let averagePrice = (promptPrice + completionPrice) / 2.0
   let contextPerCent =
-    if averagePrice <= 0.0:
-      Inf
+    if averagePrice <= 0.0 or averagePrice.classify == fcNaN:
+      if averagePrice.classify == fcNaN:
+        NegInf
+      else:
+        Inf
     else:
       model.context_length.float / (averagePrice * 100.0)
 
