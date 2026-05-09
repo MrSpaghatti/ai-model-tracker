@@ -31,7 +31,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | openrouter/bodybuilder | Body Builder (beta) | 128,000 | $0.0000 | $0.0000 | - | ∞ |
 | openrouter/free | Free Models Router | 200,000 | $0.0000 | $0.0000 | - | ∞ |
 | openrouter/owl-alpha | Owl Alpha | 1,048,756 | $0.0000 | $0.0000 | - | ∞ |
-| openrouter/pareto-code | Pareto Code Router | 200,000 | $0.0000 | $0.0000 | - | ∞ |
+| openrouter/pareto-code | Pareto Code Router | 2,000,000 | $0.0000 | $0.0000 | - | ∞ |
 | poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 262,000 | $0.0000 | $0.0000 | - | ∞ |
