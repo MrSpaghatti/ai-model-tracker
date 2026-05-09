@@ -13,6 +13,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ∞ |
+| inclusionai/ring-2.6-1t:free | inclusionAI: Ring-2.6-1T (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | liquid/lfm-2.5-1.2b-instruct:free | LiquidAI: LFM2.5-1.2B-Instruct (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
 | liquid/lfm-2.5-1.2b-thinking:free | LiquidAI: LFM2.5-1.2B-Thinking (free) | 32,768 | $0.0000 | $0.0000 | - | ∞ |
 | meta-llama/llama-3.2-3b-instruct:free | Meta: Llama 3.2 3B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
@@ -35,7 +36,6 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 262,000 | $0.0000 | $0.0000 | - | ∞ |
 | qwen/qwen3-next-80b-a3b-instruct:free | Qwen: Qwen3 Next 80B A3B Instruct (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
-| tencent/hy3-preview:free | Tencent: Hy3 preview (free) | 262,144 | $0.0000 | $0.0000 | - | ∞ |
 | z-ai/glm-4.5-air:free | Z.ai: GLM 4.5 Air (free) | 131,072 | $0.0000 | $0.0000 | - | ∞ |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | 61,538,461,538 |
 | x-ai/grok-4-fast | xAI: Grok 4 Fast | 2,000,000 | $0.2000 | $0.5000 | - | 57,142,857,143 |
@@ -43,10 +43,10 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | 52,428,800,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1400 | $0.2800 | - | 49,932,190,476 |
-| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | 41,903,040,000 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,000,000 | $0.1000 | $0.4000 | - | 40,000,000,000 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | 30,660,116,959 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 1,048,576 | $0.1500 | $0.6000 | - | 27,962,026,667 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | - | 27,594,105,263 |
@@ -64,13 +64,13 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | - | 17,094,017,094 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0800 | $0.2400 | - | 16,384,000,000 |
 | qwen/qwen-turbo | Qwen: Qwen-Turbo | 131,072 | $0.0325 | $0.1300 | - | 16,131,938,462 |
+| tencent/hy3-preview | Tencent: Hy3 preview | 262,144 | $0.0660 | $0.2600 | - | 16,082,453,988 |
 | deepseek/deepseek-v4-pro | DeepSeek: DeepSeek V4 Pro | 1,048,576 | $0.4350 | $0.8700 | - | 16,070,130,268 |
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0400 | $0.1300 | - | 15,420,235,294 |
 | openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0300 | $0.1400 | - | 15,420,235,294 |
 | minimax/minimax-01 | MiniMax: MiniMax-01 | 1,000,192 | $0.2000 | $1.1000 | - | 15,387,569,231 |
 | amazon/nova-micro-v1 | Amazon: Nova Micro 1.0 | 128,000 | $0.0350 | $0.1400 | - | 14,628,571,429 |
 | bytedance-seed/seed-1.6-flash | ByteDance Seed: Seed 1.6 Flash | 262,144 | $0.0750 | $0.3000 | - | 13,981,013,333 |
-| xiaomi/mimo-v2-flash | Xiaomi: MiMo-V2-Flash | 262,144 | $0.0900 | $0.2900 | - | 13,797,052,632 |
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | 13,653,333,333 |
 | arcee-ai/trinity-mini | Arcee AI: Trinity Mini | 131,072 | $0.0450 | $0.1500 | - | 13,443,282,051 |
 | qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0900 | $0.3000 | - | 13,443,282,051 |
@@ -79,6 +79,7 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | nvidia/nemotron-nano-9b-v2 | NVIDIA: Nemotron Nano 9B V2 | 131,072 | $0.0400 | $0.1600 | - | 13,107,200,000 |
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | 13,107,200,000 |
 | stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.1000 | $0.3000 | - | 13,107,200,000 |
+| xiaomi/mimo-v2-flash | Xiaomi: MiMo-V2-Flash | 262,144 | $0.1000 | $0.3000 | - | 13,107,200,000 |
 | z-ai/glm-4-32b | Z.ai: GLM 4 32B  | 128,000 | $0.1000 | $0.1000 | - | 12,800,000,000 |
 | google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | 11,983,725,714 |
@@ -176,15 +177,14 @@ This table tracks the cost effectiveness of various models. **Context/Cent** rep
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | 2,685,901,639 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1300 | $0.8500 | - | 2,674,938,776 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | 2,666,666,667 |
+| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.2990 | $1.2000 | - | 2,623,188,793 |
 | mistralai/mistral-large-2512 | Mistral: Mistral Large 3 2512 | 262,144 | $0.5000 | $1.5000 | - | 2,621,440,000 |
-| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.3000 | $1.2000 | - | 2,621,440,000 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 262,144 | $0.2200 | $1.8000 | - | 2,595,485,149 |
-| qwen/qwen3-32b | Qwen: Qwen3 32B | 40,960 | $0.0800 | $0.2400 | - | 2,560,000,000 |
 | inception/mercury-2 | Inception: Mercury 2 | 128,000 | $0.2500 | $0.7500 | - | 2,560,000,000 |
 | relace/relace-apply-3 | Relace: Relace Apply 3 | 256,000 | $0.8500 | $1.2500 | - | 2,438,095,238 |
-| tngtech/deepseek-r1t2-chimera | TNG: DeepSeek R1T2 Chimera | 163,840 | $0.3000 | $1.1000 | - | 2,340,571,429 |
 | bytedance-seed/seed-1.6 | ByteDance Seed: Seed 1.6 | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | 2,330,168,889 |
+| qwen/qwen3-32b | Qwen: Qwen3 32B | 40,960 | $0.0800 | $0.2800 | - | 2,275,555,556 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | 2,240,547,009 |
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | 2,184,533,333 |
