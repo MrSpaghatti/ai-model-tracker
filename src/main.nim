@@ -59,7 +59,8 @@ proc writeReadme(content: string) =
     )
     return
 
-  writeOutputFile(ReadmeOutputPath, content, "README.md")
+  # Template is the complete README (no placeholder needed)
+  writeOutputFile(ReadmeOutputPath, readmeTemplate, "README.md")
 
 proc main() =
   try:
