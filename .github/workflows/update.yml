@@ -11,12 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: iffy/install-nim@v5
-      - run: nimble install -y puppy jsony
-      - run: nim c -r src/main.nim
+      - run: nimble install -y puppy
+      - run: nim c src/main.nim
+      - run: ./src/main
       - name: Push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add .
+          git add README.md LOCAL_MODELS.md CATEGORIES.md data/registry.json
           git commit -m "update: $(date -u)" || exit 0
           git push

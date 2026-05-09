@@ -1,38 +1,20 @@
 import std/[os, strutils]
-import puppy
 
+import fetcher
+import formatter
 import parser
 
 const
-  OpenRouterModelsUrl = "https://openrouter.ai/api/v1/models"
-  RegistryPath = "data/registry.json"
   ReadmeTemplatePath = "templates/README.md"
   ReadmeOutputPath = "README.md"
+  LocalModelsOutputPath = "LOCAL_MODELS.md"
+  CategoriesOutputPath = "CATEGORIES.md"
   ModelTablePlaceholder = "{{MODEL_TABLE}}"
+  ModelTablesPlaceholder = "{{MODEL_TABLES}}"
   DefaultReadmeTemplate = """# AI Model Price Tracker
 
-{{MODEL_TABLE}}
+{{MODEL_TABLES}}
 """
-
-proc fetchRegistryJson(): string =
-  try:
-    result = fetch(
-      OpenRouterModelsUrl,
-      headers = @[
-        Header(key: "Accept", value: "application/json"),
-        Header(key: "HTTP-Referer", value: "https://github.com/spag/ai-model-tracker"),
-        Header(key: "X-Title", value: "ai-model-tracker")
-      ]
-    )
-  except PuppyError as exc:
-    raise newException(CatchableError, "Unable to fetch OpenRouter model registry: " & exc.msg)
-
-proc writeRawRegistry(rawJson: string) =
-  try:
-    createDir(parentDir(RegistryPath))
-    writeFile(RegistryPath, rawJson)
-  except CatchableError as exc:
-    raise newException(CatchableError, "Unable to write raw registry JSON: " & exc.msg)
 
 proc loadReadmeTemplate(): string =
   try:
@@ -41,23 +23,39 @@ proc loadReadmeTemplate(): string =
 
     if fileExists(ReadmeOutputPath):
       let existingReadme = readFile(ReadmeOutputPath)
-      if ModelTablePlaceholder in existingReadme:
+      if ModelTablesPlaceholder in existingReadme or ModelTablePlaceholder in existingReadme:
         return existingReadme
 
     result = DefaultReadmeTemplate
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to load README template: " & exc.msg)
 
+proc writeOutputFile(path, content, label: string) =
+  try:
+    writeFile(path, content)
+  except CatchableError as exc:
+    raise newException(CatchableError, "Unable to write " & label & ": " & exc.msg)
+
 proc writeReadme(tableMarkdown: string) =
   let readmeTemplate = loadReadmeTemplate()
 
-  if ModelTablePlaceholder notin readmeTemplate:
-    raise newException(CatchableError, "README template is missing the {{MODEL_TABLE}} placeholder")
+  if ModelTablesPlaceholder in readmeTemplate:
+    writeOutputFile(
+      ReadmeOutputPath,
+      readmeTemplate.replace(ModelTablesPlaceholder, tableMarkdown),
+      "README.md"
+    )
+    return
 
-  try:
-    writeFile(ReadmeOutputPath, readmeTemplate.replace(ModelTablePlaceholder, tableMarkdown))
-  except CatchableError as exc:
-    raise newException(CatchableError, "Unable to write README.md: " & exc.msg)
+  if ModelTablePlaceholder in readmeTemplate:
+    writeOutputFile(
+      ReadmeOutputPath,
+      readmeTemplate.replace(ModelTablePlaceholder, tableMarkdown),
+      "README.md"
+    )
+    return
+
+  raise newException(CatchableError, "README template is missing the {{MODEL_TABLES}} or {{MODEL_TABLE}} placeholder")
 
 proc main() =
   try:
@@ -65,10 +63,11 @@ proc main() =
     writeRawRegistry(rawJson)
 
     let rows = parseModels(rawJson)
-    let markdownTable = generateMarkdownTable(rows)
-    writeReadme(markdownTable)
+    writeReadme(generateFreeVsPaidTables(rows))
+    writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")
+    writeOutputFile(CategoriesOutputPath, generateCategoryPages(rows), "CATEGORIES.md")
 
-    stdout.writeLine("Generated README.md for " & $rows.len & " models.")
+    stdout.writeLine("Generated README.md, LOCAL_MODELS.md, and CATEGORIES.md for " & $rows.len & " models.")
   except CatchableError as exc:
     stderr.writeLine("Error: " & exc.msg)
     quit(QuitFailure)

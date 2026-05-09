@@ -1,31 +1,26 @@
-import std/[algorithm, math, strformat, strutils]
-import jsony
+import std/[algorithm, json, math, strformat, strutils]
 
-type
-  Pricing* = object
-    prompt*: string
-    completion*: string
-    request*: string
+import types
 
-  OpenRouterModel* = object
-    id*: string
-    name*: string
-    context_length*: int
-    pricing*: Pricing
+proc getString(node: JsonNode; key: string): string =
+  if key notin node or node[key].kind == JNull:
+    return ""
 
-  OpenRouterResponse* = object
-    data*: seq[OpenRouterModel]
+  node[key].getStr()
 
-  ModelRow* = object
-    id*: string
-    name*: string
-    contextLength*: int
-    promptPrice*: float
-    completionPrice*: float
-    requestPrice*: float
-    hasRequestPrice*: bool
-    averagePrice*: float
-    contextPerCent*: float
+proc getInt(node: JsonNode; key: string): int =
+  if key notin node or node[key].kind == JNull:
+    return 0
+
+  node[key].getInt()
+
+proc getStringSeq(node: JsonNode; key: string): seq[string] =
+  if key notin node or node[key].kind != JArray:
+    return @[]
+
+  for item in node[key].items:
+    if item.kind == JString:
+      result.add(item.getStr())
 
 proc parsePrice(value, fieldName, modelId: string): float =
   if value.len == 0:
@@ -40,6 +35,15 @@ proc parsePrice(value, fieldName, modelId: string): float =
       ValueError,
       fmt"Invalid {fieldName} price for model '{modelId}': {value}. {exc.msg}"
     )
+
+proc collectModalities(model: OpenRouterModel): seq[string] =
+  for modality in model.architecture.input_modalities:
+    if modality.len == 0:
+      continue
+
+    let normalized = modality.toLowerAscii()
+    if normalized notin result:
+      result.add(normalized)
 
 proc toModelRow(model: OpenRouterModel): ModelRow =
   let promptPrice = parsePrice(model.pricing.prompt, "prompt", model.id)
@@ -66,48 +70,68 @@ proc toModelRow(model: OpenRouterModel): ModelRow =
     requestPrice: requestPrice,
     hasRequestPrice: hasRequestPrice,
     averagePrice: averagePrice,
-    contextPerCent: contextPerCent
+    contextPerCent: contextPerCent,
+    isFree: promptPrice == 0.0 and completionPrice == 0.0,
+    isModerated: model.top_provider.is_moderated,
+    modalities: collectModalities(model)
   )
 
-proc formatWholeNumber(value: int): string =
-  let digits = $value
-  var groups: seq[string]
-  var index = digits.len
+proc toOpenRouterModel(node: JsonNode): OpenRouterModel =
+  let pricingNode =
+    if "pricing" in node and node["pricing"].kind == JObject:
+      node["pricing"]
+    else:
+      newJObject()
 
-  while index > 3:
-    groups.insert(digits[index - 3 ..< index], 0)
-    index -= 3
+  let architectureNode =
+    if "architecture" in node and node["architecture"].kind == JObject:
+      node["architecture"]
+    else:
+      newJObject()
 
-  groups.insert(digits[0 ..< index], 0)
-  result = groups.join(",")
+  let topProviderNode =
+    if "top_provider" in node and node["top_provider"].kind == JObject:
+      node["top_provider"]
+    else:
+      newJObject()
 
-proc formatLargeFloat(value: float): string =
-  if classify(value) in {fcInf, fcNegInf}:
-    return "∞"
-
-  if value >= 1_000_000_000_000.0:
-    return formatFloat(value, ffScientific, 2)
-
-  let rounded = value.round.int
-  result = formatWholeNumber(rounded)
-
-proc formatUsdPerMillion*(price: float): string =
-  "$" & formatFloat(price * 1_000_000.0, ffDecimal, 4)
-
-proc formatRequestPrice(price: float, hasRequestPrice: bool): string =
-  if not hasRequestPrice:
-    return "-"
-
-  "$" & formatFloat(price, ffDecimal, 6)
-
-proc escapeMarkdownCell(value: string): string =
-  value.replace("|", "\\|").replace("\n", " ")
+  result = OpenRouterModel(
+    id: node.getString("id"),
+    name: node.getString("name"),
+    context_length: node.getInt("context_length"),
+    pricing: Pricing(
+      prompt: pricingNode.getString("prompt"),
+      completion: pricingNode.getString("completion"),
+      request: pricingNode.getString("request"),
+      image: pricingNode.getString("image"),
+      audio: pricingNode.getString("audio"),
+      web_search: pricingNode.getString("web_search"),
+      internal_reasoning: pricingNode.getString("internal_reasoning")
+    ),
+    architecture: Architecture(
+      modality: architectureNode.getString("modality"),
+      input_modalities: architectureNode.getStringSeq("input_modalities"),
+      output_modalities: architectureNode.getStringSeq("output_modalities"),
+      tokenizer: architectureNode.getString("tokenizer"),
+      instruct_type: architectureNode.getString("instruct_type")
+    ),
+    top_provider: TopProvider(
+      context_length: topProviderNode.getInt("context_length"),
+      max_completion_tokens: topProviderNode.getInt("max_completion_tokens"),
+      is_moderated: topProviderNode.hasKey("is_moderated") and topProviderNode["is_moderated"].kind == JBool and topProviderNode["is_moderated"].getBool()
+    ),
+    hugging_face_id: node.getString("hugging_face_id")
+  )
 
 proc parseModels*(rawJson: string): seq[ModelRow] =
-  let payload = rawJson.fromJson(OpenRouterResponse)
+  let payload = parseJson(rawJson)
 
-  for model in payload.data:
-    result.add model.toModelRow()
+  if "data" notin payload or payload["data"].kind != JArray:
+    raise newException(CatchableError, "Unable to parse OpenRouter model registry: missing data array")
+
+  for modelNode in payload["data"].items:
+    if modelNode.kind == JObject:
+      result.add modelNode.toOpenRouterModel().toModelRow()
 
   result.sort(proc (left, right: ModelRow): int =
     if left.contextPerCent > right.contextPerCent:
@@ -122,10 +146,3 @@ proc parseModels*(rawJson: string): seq[ModelRow] =
 
     cmp(left.id, right.id)
   )
-
-proc generateMarkdownTable*(rows: seq[ModelRow]): string =
-  result = "| Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Request ($/req) | Context per Cent |\n"
-  result.add "| --- | --- | ---: | ---: | ---: | ---: | ---: |\n"
-
-  for row in rows:
-    result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {formatRequestPrice(row.requestPrice, row.hasRequestPrice)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
