@@ -94,12 +94,8 @@ proc generateModelTable*(rows: seq[ModelRow]; title: string): string =
   result.add generateRowsTable(rows)
   result.add "\n"
 
-proc generateFreeVsPaidTables*(allRows: seq[ModelRow]): string =
-  let split = splitFreeVsPaid(allRows)
-  var freeModels = split.freeRows
-  var paidModels = split.paidRows
-
-  freeModels.sort(proc (left, right: ModelRow): int =
+proc sortFreeModels(rows: var seq[ModelRow]) =
+  rows.sort(proc (left, right: ModelRow): int =
     if left.contextLength > right.contextLength:
       return -1
     if left.contextLength < right.contextLength:
@@ -107,7 +103,8 @@ proc generateFreeVsPaidTables*(allRows: seq[ModelRow]): string =
     cmp(left.id, right.id)
   )
 
-  paidModels.sort(proc (left, right: ModelRow): int =
+proc sortPaidModels(rows: var seq[ModelRow]) =
+  rows.sort(proc (left, right: ModelRow): int =
     if left.contextPerCent > right.contextPerCent:
       return -1
     if left.contextPerCent < right.contextPerCent:
@@ -119,12 +116,24 @@ proc generateFreeVsPaidTables*(allRows: seq[ModelRow]): string =
     cmp(left.id, right.id)
   )
 
-  result.add "## 🆓 Free Models\n"
-  result.add "Models are considered free when both prompt and completion prices are zero. These are sorted by context length so the biggest context windows rise to the top.\n\n"
+proc generateFreeModelsPage*(allRows: seq[ModelRow]): string =
+  let split = splitFreeVsPaid(allRows)
+  var freeModels = split.freeRows
+  sortFreeModels(freeModels)
+
+  result = "# 🆓 Free Models\n\n"
+  result.add "Models are considered free when both prompt and completion prices are zero. Sorted by context length descending.\n\n"
   result.add generateRowsTable(freeModels)
   result.add "\n"
-  result.add "## 💳 Paid Models\n"
-  result.add "Paid models stay sorted by **Context/Cent**, showing how much context you get for $0.01 based on the average of prompt and completion pricing.\n\n"
+  result.add "> **Moderated**: ✅ means the top provider reports content moderation, which usually lowers the chance that raw prompts/outputs are used for training workflows. ⚠️ means the provider does not report moderation here, so treat the model as higher-risk for sensitive data.\n"
+
+proc generatePaidModelsPage*(allRows: seq[ModelRow]): string =
+  let split = splitFreeVsPaid(allRows)
+  var paidModels = split.paidRows
+  sortPaidModels(paidModels)
+
+  result = "# 💳 Paid Models\n\n"
+  result.add "Paid models sorted by **Context/Cent** — how much context you get for $0.01 based on the average of prompt and completion pricing.\n\n"
   result.add generateRowsTable(paidModels)
   result.add "\n"
   result.add "> **Moderated**: ✅ means the top provider reports content moderation, which usually lowers the chance that raw prompts/outputs are used for training workflows. ⚠️ means the provider does not report moderation here, so treat the model as higher-risk for sensitive data.\n"
@@ -214,4 +223,5 @@ proc generateCategoryPages*(allRows: seq[ModelRow]): string =
   result.add generateCategorySection("Top 5 Models for ~8 GB VRAM", getTopModelsByVram(allRows, 8))
   result.add generateCategorySection("Top 5 Models for ~16 GB VRAM", getTopModelsByVram(allRows, 16))
   result.add generateCategorySection("Top 5 Models for ~24 GB VRAM", getTopModelsByVram(allRows, 24))
+  result.add generateCategorySection("Top 5 Models for ~32 GB VRAM", getTopModelsByVram(allRows, 32))
   result.add generateCategorySection("Top 5 Models for ~48 GB VRAM", getTopModelsByVram(allRows, 48))
