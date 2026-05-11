@@ -1,3 +1,5 @@
+import std/options
+
 type
   Pricing* = object
     prompt*: string
@@ -45,3 +47,31 @@ type
     isFree*: bool
     isModerated*: bool
     modalities*: seq[string]
+
+  JsonModel* = object
+    id*: string
+    name*: string
+    provider*: string
+    context_length*: int
+    pricing*: Pricing
+    created_at*: string
+    is_free*: bool
+    is_moderated*: bool
+    modalities*: seq[string]
+
+  JsonHistoryEntry* = object
+    model_id*: string
+    from_date*: string
+    to_date*: Option[string]
+    prompt_price*: float
+    completion_price*: float
+
+  JsonCurrentRoot* = object
+    version*: int
+    generated_at*: string
+    models*: seq[JsonModel]
+
+  JsonHistoryRoot* = object
+    version*: int
+    generated_at*: string
+    entries*: seq[JsonHistoryEntry]
