@@ -214,7 +214,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(schema): define versioned JSON data types`
   - Files: `src/types.nim`
 
-- [ ] 2. **Write backfill history script (scripts/backfill-history.nim)**
+- [x] 2. **Write backfill history script (scripts/backfill-history.nim)**
 
   **What to do**:
   - Create `scripts/backfill-history.nim` — a one-time script, NOT part of CI
