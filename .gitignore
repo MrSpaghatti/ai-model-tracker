@@ -1,5 +1,11 @@
 # Compiled binaries
 src/main
+src/main.exe
+main
+.nimcache/
+
+# Generated pages (tracked in git, but listed for clarity)
+# README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md
 
 # OS files
 .DS_Store

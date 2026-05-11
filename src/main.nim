@@ -1,38 +1,32 @@
 import std/[os, strutils]
-import puppy
 
+import fetcher
+import formatter
 import parser
 
 const
-  OpenRouterModelsUrl = "https://openrouter.ai/api/v1/models"
-  RegistryPath = "data/registry.json"
   ReadmeTemplatePath = "templates/README.md"
   ReadmeOutputPath = "README.md"
-  ModelTablePlaceholder = "{{MODEL_TABLE}}"
-  DefaultReadmeTemplate = """# AI Model Price Tracker
+  FreeModelsOutputPath = "FREE_MODELS.md"
+  PaidModelsOutputPath = "PAID_MODELS.md"
+  LocalModelsOutputPath = "LOCAL_MODELS.md"
+  CategoriesOutputPath = "CATEGORIES.md"
+  ReadmeContentPlaceholder = "{{README_CONTENT}}"
+  DefaultReadmeTemplate = """# AI Model Price & Context Tracker
 
-{{MODEL_TABLE}}
+> Automatically updated every 12 hours via GitHub Actions.
+
+## 📊 Pages
+
+- [🆓 Free Models](FREE_MODELS.md) — All models with zero pricing, sorted by context length
+- [💳 Paid Models](PAID_MODELS.md) — All paid models, sorted by context/cent efficiency
+- [🏆 Category Picks](CATEGORIES.md) — Top-5 models for coding, vision, value, VRAM tiers, and more
+- [💻 Local Models](LOCAL_MODELS.md) — Curated self-hosted model recommendations with VRAM estimates
+
+## 📈 Raw Data
+
+Historical JSON snapshots are stored in the `data/` directory.
 """
-
-proc fetchRegistryJson(): string =
-  try:
-    result = fetch(
-      OpenRouterModelsUrl,
-      headers = @[
-        Header(key: "Accept", value: "application/json"),
-        Header(key: "HTTP-Referer", value: "https://github.com/spag/ai-model-tracker"),
-        Header(key: "X-Title", value: "ai-model-tracker")
-      ]
-    )
-  except PuppyError as exc:
-    raise newException(CatchableError, "Unable to fetch OpenRouter model registry: " & exc.msg)
-
-proc writeRawRegistry(rawJson: string) =
-  try:
-    createDir(parentDir(RegistryPath))
-    writeFile(RegistryPath, rawJson)
-  except CatchableError as exc:
-    raise newException(CatchableError, "Unable to write raw registry JSON: " & exc.msg)
 
 proc loadReadmeTemplate(): string =
   try:
@@ -41,23 +35,32 @@ proc loadReadmeTemplate(): string =
 
     if fileExists(ReadmeOutputPath):
       let existingReadme = readFile(ReadmeOutputPath)
-      if ModelTablePlaceholder in existingReadme:
+      if ReadmeContentPlaceholder in existingReadme:
         return existingReadme
 
     result = DefaultReadmeTemplate
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to load README template: " & exc.msg)
 
-proc writeReadme(tableMarkdown: string) =
+proc writeOutputFile(path, content, label: string) =
+  try:
+    writeFile(path, content)
+  except CatchableError as exc:
+    raise newException(CatchableError, "Unable to write " & label & ": " & exc.msg)
+
+proc writeReadme(content: string) =
   let readmeTemplate = loadReadmeTemplate()
 
-  if ModelTablePlaceholder notin readmeTemplate:
-    raise newException(CatchableError, "README template is missing the {{MODEL_TABLE}} placeholder")
+  if ReadmeContentPlaceholder in readmeTemplate:
+    writeOutputFile(
+      ReadmeOutputPath,
+      readmeTemplate.replace(ReadmeContentPlaceholder, content),
+      "README.md"
+    )
+    return
 
-  try:
-    writeFile(ReadmeOutputPath, readmeTemplate.replace(ModelTablePlaceholder, tableMarkdown))
-  except CatchableError as exc:
-    raise newException(CatchableError, "Unable to write README.md: " & exc.msg)
+  # Template is the complete README (no placeholder needed)
+  writeOutputFile(ReadmeOutputPath, readmeTemplate, "README.md")
 
 proc main() =
   try:
@@ -65,10 +68,13 @@ proc main() =
     writeRawRegistry(rawJson)
 
     let rows = parseModels(rawJson)
-    let markdownTable = generateMarkdownTable(rows)
-    writeReadme(markdownTable)
+    writeReadme("")
+    writeOutputFile(FreeModelsOutputPath, generateFreeModelsPage(rows), "FREE_MODELS.md")
+    writeOutputFile(PaidModelsOutputPath, generatePaidModelsPage(rows), "PAID_MODELS.md")
+    writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")
+    writeOutputFile(CategoriesOutputPath, generateCategoryPages(rows), "CATEGORIES.md")
 
-    stdout.writeLine("Generated README.md for " & $rows.len & " models.")
+    stdout.writeLine("Generated README.md, FREE_MODELS.md, PAID_MODELS.md, LOCAL_MODELS.md, and CATEGORIES.md for " & $rows.len & " models.")
   except CatchableError as exc:
     stderr.writeLine("Error: " & exc.msg)
     quit(QuitFailure)
