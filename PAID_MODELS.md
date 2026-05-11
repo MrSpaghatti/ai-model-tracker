@@ -153,12 +153,12 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | ⚠️ | 2,330,168,889 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 40,960 | $0.0800 | $0.2800 | - | ⚠️ | 2,275,555,556 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | ⚠️ | 2,240,547,009 |
+| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.4000 | $1.9800 | - | ⚠️ | 2,202,890,756 |
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | ⚠️ | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | ⚠️ | 2,184,533,333 |
 | mistralai/devstral-2512 | Mistral: Devstral 2 2512 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
 | moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
 | xiaomi/mimo-v2-omni | Xiaomi: MiMo-V2-Omni | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
-| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.4400 | $2.0000 | - | ⚠️ | 2,148,721,311 |
 | openai/gpt-4.1 | OpenAI: GPT-4.1 | 1,047,576 | $2.0000 | $8.0000 | - | ⚠️ | 2,095,152,000 |
 | meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | - | ⚠️ | 2,048,000,000 |
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | ⚠️ | 2,016,492,308 |
@@ -287,8 +287,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-chat-latest | OpenAI: GPT Chat Latest | 400,000 | $5.0000 | $30.0000 | - | ✅ | 228,571,429 |
 | openai/gpt-5-chat | OpenAI: GPT-5 Chat | 128,000 | $1.2500 | $10.0000 | - | ✅ | 227,555,556 |
 | openai/gpt-5.1-chat | OpenAI: GPT-5.1 Chat | 128,000 | $1.2500 | $10.0000 | - | ✅ | 227,555,556 |
-| anthropic/claude-3.7-sonnet | Anthropic: Claude 3.7 Sonnet | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
-| anthropic/claude-3.7-sonnet:thinking | Anthropic: Claude 3.7 Sonnet (thinking) | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
 | perplexity/sonar-pro | Perplexity: Sonar Pro | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
 | perplexity/sonar-pro-search | Perplexity: Sonar Pro Search | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
 | aion-labs/aion-1.0 | AionLabs: Aion-1.0 | 131,072 | $4.0000 | $8.0000 | - | ⚠️ | 218,453,333 |
