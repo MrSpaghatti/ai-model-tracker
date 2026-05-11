@@ -397,7 +397,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(schema): define versioned JSON data types`
   - Files: `docs/assets/style.css`
 
-- [ ] 5. **Setup docs directory and CNAME**
+- [x] 5. **Setup docs directory and CNAME**
 
   **What to do**:
   - Ensure `docs/` directory exists
