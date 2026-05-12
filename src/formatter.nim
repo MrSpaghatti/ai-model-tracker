@@ -1,4 +1,4 @@
-import std/[algorithm, math, strformat, strutils]
+import std/[algorithm, json, math, strformat, strutils, times]
 
 import categorizer
 import types
@@ -234,3 +234,51 @@ proc generateCategoryPages*(allRows: seq[ModelRow]): string =
   result.add generateCategorySection("Top 5 Models for ~24 GB VRAM", getTopModelsByVram(allRows, 24))
   result.add generateCategorySection("Top 5 Models for ~32 GB VRAM", getTopModelsByVram(allRows, 32))
   result.add generateCategorySection("Top 5 Models for ~48 GB VRAM", getTopModelsByVram(allRows, 48))
+
+proc formatPriceForJson(price: float): string =
+  if price.classify == fcNaN:
+    return ""
+  formatFloat(price, ffDecimal, 12)
+
+proc utcIsoTimestamp(): string =
+  now().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
+
+proc toJsonModel(row: ModelRow): JsonModel =
+  let provider =
+    if "/" in row.id:
+      row.id.split("/")[0]
+    else:
+      ""
+
+  result = JsonModel(
+    id: row.id,
+    name: row.name,
+    provider: provider,
+    context_length: row.contextLength,
+    pricing: Pricing(
+      prompt: formatPriceForJson(row.promptPrice),
+      completion: formatPriceForJson(row.completionPrice),
+      request:
+        if row.hasRequestPrice:
+          formatPriceForJson(row.requestPrice)
+        else:
+          ""
+    ),
+    created_at: utcIsoTimestamp(),
+    is_free: row.isFree,
+    is_moderated: row.isModerated,
+    modalities: row.modalities
+  )
+
+proc generateCurrentJson*(rows: seq[ModelRow]): string =
+  var models: seq[JsonModel] = @[]
+  for row in rows:
+    models.add toJsonModel(row)
+
+  let root = JsonCurrentRoot(
+    version: 1,
+    generated_at: utcIsoTimestamp(),
+    models: models
+  )
+
+  result = pretty(%root)
