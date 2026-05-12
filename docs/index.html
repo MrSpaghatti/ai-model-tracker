@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AI Model Price Tracker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Model Price Tracker</h1>
+        <div class="controls">
+            <button id="theme-toggle" aria-label="Toggle dark/light theme">Theme</button>
+            <select id="provider-filter" aria-label="Filter by provider">
+                <option value="">All Providers</option>
+            </select>
+            <input type="search" id="model-search" placeholder="Search models..." aria-label="Search models">
+        </div>
+    </header>
+
+    <main>
+        <noscript>
+            <div class="noscript-warning">
+                <p>JavaScript is required for the interactive table and charts.</p>
+                <p>Please view the static markdown versions instead:</p>
+                <ul>
+                    <li><a href="data/prices.md">Current Prices</a></li>
+                </ul>
+            </div>
+        </noscript>
+
+        <div id="chart-container"></div>
+        <div id="table-container"></div>
+    </main>
+
+    <footer>
+        <p>Last updated: <span id="last-updated">...</span></p>
+        <p>Data from <a href="https://openrouter.ai/" target="_blank" rel="noopener noreferrer">OpenRouter</a></p>
+        <p><a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/uplot@1.6.30/dist/uPlot.iife.min.js" defer></script>
+    <script src="assets/app.js" defer></script>
+</body>
+</html>
