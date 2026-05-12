@@ -64,7 +64,7 @@ _No matching models found._
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | ⚠️ | 55,924,053,333 |
-| google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | ⚠️ | 41,943,040,000 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | ⚠️ | 41,943,040,000 |
 
 ## Top 5 Models for ~8 GB VRAM
 
