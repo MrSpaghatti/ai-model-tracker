@@ -441,7 +441,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(schema): define versioned JSON data types`
   - Files: `docs/CNAME`, `docs/assets/.gitkeep`, `docs/data/.gitkeep`
 
-- [ ] 6. **Nim generator emits current.json**
+- [x] 6. **Nim generator emits current.json**
 
   **What to do**:
   - Add a new proc `generateCurrentJson(rows: seq[ModelRow]): string` to `src/formatter.nim`

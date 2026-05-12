@@ -1,8 +1,9 @@
-import std/[os, strutils]
+import std/[json, os, sequtils, strutils, times]
 
 import fetcher
 import formatter
 import parser
+import types
 
 const
   ReadmeTemplatePath = "templates/README.md"
@@ -48,6 +49,42 @@ proc writeOutputFile(path, content, label: string) =
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to write " & label & ": " & exc.msg)
 
+proc toJsonModel(row: ModelRow): JsonModel =
+  let providerParts = row.id.split("/")
+  let provider =
+    if providerParts.len > 0:
+      providerParts[0]
+    else:
+      ""
+
+  result = JsonModel(
+    id: row.id,
+    name: row.name,
+    provider: provider,
+    context_length: row.contextLength,
+    pricing: Pricing(
+      prompt: $row.promptPrice,
+      completion: $row.completionPrice,
+      request: if row.hasRequestPrice: $row.requestPrice else: ""
+    ),
+    created_at: getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'"),
+    is_free: row.isFree,
+    is_moderated: row.isModerated,
+    modalities: row.modalities
+  )
+
+proc writeJsonCurrent(rows: seq[ModelRow]) =
+  createDir("docs/data")
+
+  let generatedAt = getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
+  let models = rows.mapIt(toJsonModel(it))
+  let root = JsonCurrentRoot(version: 1, generated_at: generatedAt, models: models)
+
+  try:
+    writeFile("docs/data/current.json", pretty(%*root))
+  except CatchableError as exc:
+    raise newException(CatchableError, "Unable to write docs/data/current.json: " & exc.msg)
+
 proc writeReadme(content: string) =
   let readmeTemplate = loadReadmeTemplate()
 
@@ -69,6 +106,7 @@ proc main() =
 
     let rows = parseModels(rawJson)
     writeReadme("")
+    writeJsonCurrent(rows)
     writeOutputFile(FreeModelsOutputPath, generateFreeModelsPage(rows), "FREE_MODELS.md")
     writeOutputFile(PaidModelsOutputPath, generatePaidModelsPage(rows), "PAID_MODELS.md")
     writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")
