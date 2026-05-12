@@ -271,7 +271,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(schema): define versioned JSON data types`
   - Files: `scripts/backfill-history.nim`
 
-- [ ] 3. **Create index.html skeleton with noscript fallback**
+- [x] 3. **Create index.html skeleton with noscript fallback**
 
   **What to do**:
   - Create `docs/index.html` — the single-page frontend
@@ -331,7 +331,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(schema): define versioned JSON data types`
   - Files: `docs/index.html`
 
-- [ ] 4. **Create dark theme CSS (docs/assets/style.css)**
+- [x] 4. **Create dark theme CSS (docs/assets/style.css)**
 
   **What to do**:
   - Create `docs/assets/style.css`
