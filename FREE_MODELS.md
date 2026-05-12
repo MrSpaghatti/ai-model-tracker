@@ -7,6 +7,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | openrouter/owl-alpha | Owl Alpha | 1,048,756 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| arcee-ai/trinity-large-thinking:free | Arcee AI: Trinity Large Thinking (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | inclusionai/ring-2.6-1t:free | inclusionAI: Ring-2.6-1T (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
