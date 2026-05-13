@@ -2,7 +2,11 @@
 src/main
 src/main.exe
 main
+scripts/backfill_history
 .nimcache/
+
+# Sisyphus orchestrator
+.sisyphus/
 
 # Generated pages (tracked in git, but listed for clarity)
 # README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md
@@ -13,3 +17,4 @@ Thumbs.db
 
 # Nimble
 nimble.lock
+.desloppify/

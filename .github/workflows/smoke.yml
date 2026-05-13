@@ -1,0 +1,47 @@
+name: Smoke Tests
+on:
+  schedule:
+    - cron: '6 */6 * * *'
+  workflow_dispatch:
+concurrency:
+  group: smoke
+  cancel-in-progress: true
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check index page
+        run: |
+          response=$(curl -s -o /dev/null -w "%{http_code}" https://models.spagserv.uk/)
+          if [ "$response" != "200" ]; then
+            echo "Index page returned $response"
+            exit 1
+          fi
+          echo "Index: OK ($response)"
+
+      - name: Validate current.json
+        run: |
+          count=$(curl -s https://models.spagserv.uk/data/current.json | jq '.models | length')
+          echo "Model count: $count"
+          if [ "$count" -lt 300 ]; then
+            echo "FAIL: Expected >= 300 models, got $count"
+            exit 1
+          fi
+
+      - name: Validate history.json
+        run: |
+          count=$(curl -s https://models.spagserv.uk/data/history.json | jq '.entries | length')
+          echo "History entries: $count"
+          if [ "$count" -lt 1 ]; then
+            echo "FAIL: Expected >= 1 history entry"
+            exit 1
+          fi
+
+      - name: Check file size
+        run: |
+          size=$(curl -s -w '%{size_download}' -o /dev/null https://models.spagserv.uk/data/current.json)
+          echo "current.json size: $size bytes"
+          if [ "$size" -gt 204800 ]; then
+            echo "FAIL: current.json exceeds 200KB limit"
+            exit 1
+          fi
