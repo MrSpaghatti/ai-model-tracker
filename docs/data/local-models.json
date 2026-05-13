@@ -1,0 +1,368 @@
+{
+  "models": [
+    {
+      "id": "model",
+      "name": "Model",
+      "size": "",
+      "vram_fp16": "VRAM (FP16)",
+      "vram_fp8": "VRAM (FP8)",
+      "vram_4bit": "VRAM (4-bit)",
+      "best_for": [
+        "Best For"
+      ],
+      "notes": "Notes",
+      "ollama_cmd": "ollama run model"
+    },
+    {
+      "id": "llama-3-2",
+      "name": "Llama 3.2",
+      "size": "3.2",
+      "vram_fp16": "4 GB",
+      "vram_fp8": "2 GB",
+      "vram_4bit": "2 GB",
+      "best_for": [
+        "Light chat",
+        " assistants"
+      ],
+      "notes": "Great for edge devices and cheap VPS GPUs.",
+      "ollama_cmd": "ollama run llama-3-2"
+    },
+    {
+      "id": "llama-3-2",
+      "name": "Llama 3.2",
+      "size": "3.2",
+      "vram_fp16": "6 GB",
+      "vram_fp8": "4 GB",
+      "vram_4bit": "3 GB",
+      "best_for": [
+        "General chat",
+        " summarization"
+      ],
+      "notes": "Comfortable on consumer 6 GB cards with 4-bit quantization.",
+      "ollama_cmd": "ollama run llama-3-2"
+    },
+    {
+      "id": "llama-3-1",
+      "name": "Llama 3.1",
+      "size": "3.1",
+      "vram_fp16": "16 GB",
+      "vram_fp8": "10 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Balanced general-purpose use"
+      ],
+      "notes": "One of the easiest strong 8B-class local models to run.",
+      "ollama_cmd": "ollama run llama-3-1"
+    },
+    {
+      "id": "qwen2-5",
+      "name": "Qwen2.5",
+      "size": "",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "General chat",
+        " multilingual work"
+      ],
+      "notes": "Strong instruction following for the footprint.",
+      "ollama_cmd": "ollama run qwen2-5"
+    },
+    {
+      "id": "qwen2-5",
+      "name": "Qwen2.5",
+      "size": "",
+      "vram_fp16": "28 GB",
+      "vram_fp8": "17 GB",
+      "vram_4bit": "16 GB",
+      "best_for": [
+        "Higher-quality reasoning"
+      ],
+      "notes": "Needs a roomier GPU for comfortable generation.",
+      "ollama_cmd": "ollama run qwen2-5"
+    },
+    {
+      "id": "qwen2-5",
+      "name": "Qwen2.5",
+      "size": "",
+      "vram_fp16": "64 GB",
+      "vram_fp8": "38 GB",
+      "vram_4bit": "24 GB",
+      "best_for": [
+        "Premium local reasoning"
+      ],
+      "notes": "Great fit for 24 GB cards when quantized.",
+      "ollama_cmd": "ollama run qwen2-5"
+    },
+    {
+      "id": "qwen2-5",
+      "name": "Qwen2.5",
+      "size": "",
+      "vram_fp16": "144 GB",
+      "vram_fp8": "86 GB",
+      "vram_4bit": "48 GB",
+      "best_for": [
+        "Large-model quality"
+      ],
+      "notes": "Multi-GPU or very large cards recommended.",
+      "ollama_cmd": "ollama run qwen2-5"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "size": "",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "General chat",
+        " instruction tuning"
+      ],
+      "notes": "Still a solid baseline for local inference.",
+      "ollama_cmd": "ollama run mistral"
+    },
+    {
+      "id": "gemma-2",
+      "name": "Gemma 2",
+      "size": "2",
+      "vram_fp16": "18 GB",
+      "vram_fp8": "11 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Chat",
+        " analysis"
+      ],
+      "notes": "Efficient option for consumer GPUs.",
+      "ollama_cmd": "ollama run gemma-2"
+    },
+    {
+      "id": "gemma-2",
+      "name": "Gemma 2",
+      "size": "2",
+      "vram_fp16": "54 GB",
+      "vram_fp8": "32 GB",
+      "vram_4bit": "20 GB",
+      "best_for": [
+        "Long-form quality"
+      ],
+      "notes": "Good target for 24 GB-class systems with quantization.",
+      "ollama_cmd": "ollama run gemma-2"
+    },
+    {
+      "id": "deepseek-coder-v2-lite",
+      "name": "DeepSeek Coder V2 Lite",
+      "size": "Coder",
+      "vram_fp16": "32 GB",
+      "vram_fp8": "19 GB",
+      "vram_4bit": "12 GB",
+      "best_for": [
+        "Coding"
+      ],
+      "notes": "Local coding specialist with good IDE-assistant potential.",
+      "ollama_cmd": "ollama run deepseek-coder-v2-lite"
+    },
+    {
+      "id": "phi-3-mini",
+      "name": "Phi-3 Mini",
+      "size": "Mini",
+      "vram_fp16": "8 GB",
+      "vram_fp8": "5 GB",
+      "vram_4bit": "4 GB",
+      "best_for": [
+        "Tiny assistants",
+        " local apps"
+      ],
+      "notes": "Fits low-end GPUs and laptops with eGPU setups.",
+      "ollama_cmd": "ollama run phi-3-mini"
+    },
+    {
+      "id": "phi-3-small",
+      "name": "Phi-3 Small",
+      "size": "Small",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "6 GB",
+      "best_for": [
+        "Compact reasoning"
+      ],
+      "notes": "Good step-up from mini models.",
+      "ollama_cmd": "ollama run phi-3-small"
+    },
+    {
+      "id": "phi-3-medium",
+      "name": "Phi-3 Medium",
+      "size": "Medium",
+      "vram_fp16": "28 GB",
+      "vram_fp8": "17 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Reasoning",
+        " analysis"
+      ],
+      "notes": "Can squeeze onto 8 GB only with aggressive quantization/offload.",
+      "ollama_cmd": "ollama run phi-3-medium"
+    },
+    {
+      "id": "neural-chat",
+      "name": "Neural Chat",
+      "size": "Chat",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Friendly assistant chat"
+      ],
+      "notes": "Optimized for dialogue quality.",
+      "ollama_cmd": "ollama run neural-chat"
+    },
+    {
+      "id": "zephyr",
+      "name": "Zephyr",
+      "size": "",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Instruction following"
+      ],
+      "notes": "Popular open instruct baseline.",
+      "ollama_cmd": "ollama run zephyr"
+    },
+    {
+      "id": "starcoder2",
+      "name": "StarCoder2",
+      "size": "",
+      "vram_fp16": "6 GB",
+      "vram_fp8": "4 GB",
+      "vram_4bit": "4 GB",
+      "best_for": [
+        "Lightweight coding"
+      ],
+      "notes": "Good for autocomplete and small coding tasks.",
+      "ollama_cmd": "ollama run starcoder2"
+    },
+    {
+      "id": "starcoder2",
+      "name": "StarCoder2",
+      "size": "",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Coding"
+      ],
+      "notes": "Better completion quality on standard developer GPUs.",
+      "ollama_cmd": "ollama run starcoder2"
+    },
+    {
+      "id": "starcoder2",
+      "name": "StarCoder2",
+      "size": "",
+      "vram_fp16": "30 GB",
+      "vram_fp8": "18 GB",
+      "vram_4bit": "12 GB",
+      "best_for": [
+        "Higher-end coding"
+      ],
+      "notes": "Best on 12 GB+ cards with quantization.",
+      "ollama_cmd": "ollama run starcoder2"
+    },
+    {
+      "id": "codellama",
+      "name": "CodeLlama",
+      "size": "",
+      "vram_fp16": "14 GB",
+      "vram_fp8": "8 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "Coding"
+      ],
+      "notes": "Reliable local coding baseline.",
+      "ollama_cmd": "ollama run codellama"
+    },
+    {
+      "id": "codellama",
+      "name": "CodeLlama",
+      "size": "",
+      "vram_fp16": "26 GB",
+      "vram_fp8": "16 GB",
+      "vram_4bit": "12 GB",
+      "best_for": [
+        "Coding",
+        " refactoring"
+      ],
+      "notes": "Good sweet spot for 12 GB GPUs.",
+      "ollama_cmd": "ollama run codellama"
+    },
+    {
+      "id": "codellama",
+      "name": "CodeLlama",
+      "size": "",
+      "vram_fp16": "68 GB",
+      "vram_fp8": "41 GB",
+      "vram_4bit": "24 GB",
+      "best_for": [
+        "Heavy coding workloads"
+      ],
+      "notes": "Strong option for 24 GB workstations.",
+      "ollama_cmd": "ollama run codellama"
+    },
+    {
+      "id": "mixtral",
+      "name": "Mixtral",
+      "size": "",
+      "vram_fp16": "90 GB",
+      "vram_fp8": "54 GB",
+      "vram_4bit": "48 GB",
+      "best_for": [
+        "Reasoning",
+        " agent workflows"
+      ],
+      "notes": "MoE model with very strong quality but big memory needs.",
+      "ollama_cmd": "ollama run mixtral"
+    },
+    {
+      "id": "command-r",
+      "name": "Command R",
+      "size": "R",
+      "vram_fp16": "70 GB",
+      "vram_fp8": "42 GB",
+      "vram_4bit": "48 GB",
+      "best_for": [
+        "RAG",
+        " tool use"
+      ],
+      "notes": "Excellent for retrieval-heavy local assistants.",
+      "ollama_cmd": "ollama run command-r"
+    },
+    {
+      "id": "yi",
+      "name": "Yi",
+      "size": "",
+      "vram_fp16": "68 GB",
+      "vram_fp8": "41 GB",
+      "vram_4bit": "24 GB",
+      "best_for": [
+        "Long-form writing",
+        " analysis"
+      ],
+      "notes": "High-quality large open model family.",
+      "ollama_cmd": "ollama run yi"
+    },
+    {
+      "id": "solar",
+      "name": "SOLAR",
+      "size": "",
+      "vram_fp16": "22 GB",
+      "vram_fp8": "13 GB",
+      "vram_4bit": "8 GB",
+      "best_for": [
+        "General chat",
+        " summarization"
+      ],
+      "notes": "Great performance for modest 4-bit VRAM budgets.",
+      "ollama_cmd": "ollama run solar"
+    }
+  ],
+  "generated_at": "2026-05-13T00:00:00Z"
+}

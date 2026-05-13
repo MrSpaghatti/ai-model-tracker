@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local AI Models - AI Model Price Tracker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Local AI Models</h1>
+            <div id="nav-container"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h2>VRAM Calculator</h2>
+            <p>Enter your GPU memory to see which models fit.</p>
+            <div class="vram-calc">
+                <label for="gpu-memory">GPU Memory (GB):</label>
+                <input type="number" id="gpu-memory" min="2" max="256" value="24" placeholder="24">
+                <select id="quantization">
+                    <option value="fp16">FP16 (Full precision)</option>
+                    <option value="fp8">FP8 (Balanced)</option>
+                    <option value="4bit" selected>4-bit (Max capacity)</option>
+                </select>
+                <button id="calc-btn">Calculate</button>
+            </div>
+            <div id="vram-results" class="vram-results"></div>
+        </div>
+
+        <div class="page-header">
+            <h2>Local Model Reference</h2>
+            <p>Popular self-hosted models with VRAM requirements. Quantization, KV cache, batching, and context length can significantly affect requirements.</p>
+        </div>
+        <div id="table-container"></div>
+    </main>
+
+    <footer>
+        <p>VRAM estimates are approximate. Always test with your specific setup.</p>
+        <p><a href="https://github.com/MrSpaghatti/ai-model-tracker" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+
+    <script src="assets/shared.js" defer></script>
+    <script src="assets/nav.js" defer></script>
+    <script src="assets/local.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AIMTNav.initNav('nav-container', 'local.html');
+        });
+    </script>
+</body>
+</html>
