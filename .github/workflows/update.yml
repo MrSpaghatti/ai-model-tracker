@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: '0 */12 * * *'
   workflow_dispatch:
+concurrency:
+  group: update-data
+  cancel-in-progress: true
 jobs:
   run:
     runs-on: ubuntu-latest
@@ -10,14 +13,26 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: iffy/install-nim@v5
       - run: nimble install -y puppy
       - run: nim c src/main.nim
       - run: ./src/main
+      # Custom domain models.spagserv.uk is expected to serve the generated data.
+      - name: Validate generated data
+        run: |
+          jq -e '.version == 1' docs/data/current.json
+          jq -e '.models | length >= 300' docs/data/current.json
+          test "$(stat -c%s docs/data/current.json)" -lt 204800
+          if [ -f docs/data/history.json ]; then
+            jq -e '.version == 1' docs/data/history.json
+            jq -e '.entries | length >= 1' docs/data/history.json
+          fi
       - name: Push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md data/registry.json
+          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md data/registry.json docs/data/current.json docs/data/history.json
           git commit -m "update: $(date -u)" || exit 0
           git push

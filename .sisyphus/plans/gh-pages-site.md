@@ -501,7 +501,7 @@ Parallel Speedup: ~60% faster than sequential
   - Message: `feat(generator): emit current.json and history.json`
   - Files: `src/formatter.nim`, `src/main.nim`
 
-- [ ] 7. **Nim generator emits history.json (incremental)**
+- [x] 7. **Nim generator emits history.json (incremental)**
 
   **What to do**:
   - Add a proc in `src/formatter.nim` (or new module `src/historian.nim`) for incremental history updates
