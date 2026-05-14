@@ -156,7 +156,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | ⚠️ | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | ⚠️ | 2,184,533,333 |
 | mistralai/devstral-2512 | Mistral: Devstral 2 2512 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
-| moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
 | xiaomi/mimo-v2-omni | Xiaomi: MiMo-V2-Omni | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
 | openai/gpt-4.1 | OpenAI: GPT-4.1 | 1,047,576 | $2.0000 | $8.0000 | - | ⚠️ | 2,095,152,000 |
 | meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | - | ⚠️ | 2,048,000,000 |
@@ -167,16 +166,17 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | ⚠️ | 1,872,457,143 |
 | sao10k/l3.3-euryale-70b | Sao10K: Llama 3.3 Euryale 70B | 131,072 | $0.6500 | $0.7500 | - | ⚠️ | 1,872,457,143 |
 | inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.3000 | $2.5000 | - | ⚠️ | 1,872,457,143 |
+| z-ai/glm-4.6 | Z.ai: GLM 4.6 | 202,752 | $0.4300 | $1.7400 | - | ⚠️ | 1,868,682,028 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | google/gemini-2.5-pro-preview | Google: Gemini 2.5 Pro Preview 06-05 | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | google/gemini-2.5-pro-preview-05-06 | Google: Gemini 2.5 Pro Preview 05-06 | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | qwen/qwen3-8b | Qwen: Qwen3 8B | 40,960 | $0.0500 | $0.4000 | - | ⚠️ | 1,820,444,444 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | - | ⚠️ | 1,820,444,444 |
-| z-ai/glm-4.6 | Z.ai: GLM 4.6 | 204,800 | $0.3900 | $1.9000 | - | ⚠️ | 1,788,646,288 |
 | baidu/ernie-4.5-300b-a47b | Baidu: ERNIE 4.5 300B A47B  | 123,000 | $0.2800 | $1.1000 | - | ⚠️ | 1,782,608,696 |
 | openai/gpt-5-image-mini | OpenAI: GPT-5 Image Mini | 400,000 | $2.5000 | $2.0000 | - | ✅ | 1,777,777,778 |
 | qwen/qwen3-vl-8b-thinking | Qwen: Qwen3 VL 8B Thinking | 131,072 | $0.1170 | $1.3650 | - | ⚠️ | 1,768,852,901 |
 | deepseek/deepseek-r1-distill-llama-70b | DeepSeek: R1 Distill Llama 70B | 131,072 | $0.7000 | $0.8000 | - | ⚠️ | 1,747,626,667 |
+| moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | rekaai/reka-edge | Reka Edge | 16,384 | $0.1000 | $0.1000 | - | ⚠️ | 1,638,400,000 |
 | z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $1.9200 | - | ⚠️ | 1,609,142,857 |

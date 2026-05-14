@@ -14,6 +14,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-next-80b-a3b-instruct:free | Qwen: Qwen3 Next 80B A3B Instruct (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 262,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| deepseek/deepseek-v4-flash:free | DeepSeek: DeepSeek V4 Flash (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-30b-a3b:free | NVIDIA: Nemotron 3 Nano 30B A3B (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | openrouter/free | Free Models Router | 200,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
