@@ -140,10 +140,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3500 | $0.5600 | - | ⚠️ | 2,813,186,813 |
 | qwen/qwen3-14b | Qwen: Qwen3 14B | 40,960 | $0.0600 | $0.2400 | - | ⚠️ | 2,730,666,667 |
 | deepseek/deepseek-chat | DeepSeek: DeepSeek V3 | 163,840 | $0.3200 | $0.8900 | - | ⚠️ | 2,708,099,174 |
+| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.2600 | $1.2000 | - | ⚠️ | 2,693,260,274 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | ⚠️ | 2,685,901,639 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1300 | $0.8500 | - | ⚠️ | 2,674,938,776 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | ✅ | 2,666,666,667 |
-| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 196,608 | $0.2800 | $1.2000 | - | ⚠️ | 2,656,864,865 |
 | mistralai/mistral-large-2512 | Mistral: Mistral Large 3 2512 | 262,144 | $0.5000 | $1.5000 | - | ⚠️ | 2,621,440,000 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 262,144 | $0.2200 | $1.8000 | - | ⚠️ | 2,595,485,149 |
 | inception/mercury-2 | Inception: Mercury 2 | 128,000 | $0.2500 | $0.7500 | - | ⚠️ | 2,560,000,000 |

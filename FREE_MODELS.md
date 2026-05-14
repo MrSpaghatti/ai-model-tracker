@@ -29,7 +29,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | z-ai/glm-4.5-air:free | Z.ai: GLM 4.5 Air (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-12b-v2-vl:free | NVIDIA: Nemotron Nano 12B 2 VL (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-9b-v2:free | NVIDIA: Nemotron Nano 9B V2 (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| baidu/qianfan-ocr-fast:free | Baidu: Qianfan-OCR-Fast (free) | 65,536 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | meta-llama/llama-3.3-70b-instruct:free | Meta: Llama 3.3 70B Instruct (free) | 65,536 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | cognitivecomputations/dolphin-mistral-24b-venice-edition:free | Venice: Uncensored (free) | 32,768 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | liquid/lfm-2.5-1.2b-instruct:free | LiquidAI: LFM2.5-1.2B-Instruct (free) | 32,768 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
