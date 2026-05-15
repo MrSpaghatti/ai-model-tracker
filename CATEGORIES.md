@@ -26,11 +26,11 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
 | x-ai/grok-4-fast | xAI: Grok 4 Fast | 2,000,000 | $0.2000 | $0.5000 | ⚠️ | 57,142,857,143 |
 | x-ai/grok-4.1-fast | xAI: Grok 4.1 Fast | 2,000,000 | $0.2000 | $0.5000 | ⚠️ | 57,142,857,143 |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | ⚠️ | 55,924,053,333 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1260 | $0.2520 | ⚠️ | 55,480,211,640 |
 
 ## Top 5 Largest Context Windows
 
@@ -46,11 +46,11 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 16,384 | $0.0200 | $0.0500 | ⚠️ | 4,681,142,857 |
 | meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | ⚠️ | 2,048,000,000 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | ⚠️ | 1,820,444,444 |
-| gryphe/mythomax-l2-13b | MythoMax 13B | 4,096 | $0.0600 | $0.0600 | ⚠️ | 682,666,667 |
 
 ## Top 5 Models for Encoding
 

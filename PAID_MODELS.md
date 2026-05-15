@@ -4,6 +4,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Request ($/req) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
+| inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | - | ⚠️ | 131,072,000,000 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | x-ai/grok-4-fast | xAI: Grok 4 Fast | 2,000,000 | $0.2000 | $0.5000 | - | ⚠️ | 57,142,857,143 |
 | x-ai/grok-4.1-fast | xAI: Grok 4.1 Fast | 2,000,000 | $0.2000 | $0.5000 | - | ⚠️ | 57,142,857,143 |
@@ -29,7 +30,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | - | ⚠️ | 17,476,266,667 |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 327,680 | $0.0800 | $0.3000 | - | ⚠️ | 17,246,315,789 |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | - | ⚠️ | 17,094,017,094 |
-| inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0800 | $0.2400 | - | ⚠️ | 16,384,000,000 |
 | tencent/hy3-preview | Tencent: Hy3 preview | 262,144 | $0.0660 | $0.2600 | - | ⚠️ | 16,082,453,988 |
 | deepseek/deepseek-v4-pro | DeepSeek: DeepSeek V4 Pro | 1,048,576 | $0.4350 | $0.8700 | - | ⚠️ | 16,070,130,268 |
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0400 | $0.1300 | - | ⚠️ | 15,420,235,294 |
