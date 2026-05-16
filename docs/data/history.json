@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-15T13:48:06Z",
+  "generated_at": "2026-05-16T02:11:56Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44819,7 +44819,7 @@
     {
       "model_id": "x-ai/grok-4.1-fast",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000005
     },
@@ -44924,7 +44924,7 @@
     {
       "model_id": "ibm-granite/granite-4.0-h-micro",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 1.7e-8,
       "completion_price": 0.00000011
     },
@@ -45106,7 +45106,7 @@
     {
       "model_id": "x-ai/grok-4-fast",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000005
     },
@@ -45190,7 +45190,7 @@
     {
       "model_id": "x-ai/grok-code-fast-1",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000015
     },
@@ -45449,7 +45449,7 @@
     {
       "model_id": "x-ai/grok-4",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -45540,14 +45540,14 @@
     {
       "model_id": "x-ai/grok-3-mini",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000005
     },
     {
       "model_id": "x-ai/grok-3",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -45729,14 +45729,14 @@
     {
       "model_id": "x-ai/grok-3-mini-beta",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000005
     },
     {
       "model_id": "x-ai/grok-3-beta",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -45771,7 +45771,7 @@
     {
       "model_id": "mistralai/mistral-small-3.1-24b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.00000035,
       "completion_price": 0.00000056
     },
@@ -45904,7 +45904,7 @@
     {
       "model_id": "meta-llama/llama-guard-3-8b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.00000048,
       "completion_price": 3e-8
     },
@@ -46212,14 +46212,14 @@
     {
       "model_id": "meta-llama/llama-3.2-3b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 5.1e-8,
       "completion_price": 0.00000034
     },
     {
       "model_id": "meta-llama/llama-3.2-1b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 2.7e-8,
       "completion_price": 0.0000002
     },
@@ -46541,14 +46541,14 @@
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
       "from_date": "2026-05-14T02:30:43Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-05-14T02:30:43Z",
-      "to_date": null,
+      "to_date": "2026-05-16T02:11:56Z",
       "prompt_price": 0.000000126,
       "completion_price": 0.000000252
     },
@@ -46891,20 +46891,90 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-15T13:48:06Z",
+      "to_date": "2026-05-16T02:11:56Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-15T13:48:06Z",
+      "to_date": "2026-05-16T02:11:56Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-15T13:48:06Z",
+      "to_date": "2026-05-16T02:11:56Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 0.000000112,
+      "completion_price": 0.000000224
+    },
+    {
+      "model_id": "ibm-granite/granite-4.0-h-micro",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 1.7e-8,
+      "completion_price": 0.000000112
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-1b-instruct",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 2.7e-8,
+      "completion_price": 0.000000201
+    },
+    {
+      "model_id": "inclusionai/ring-2.6-1t",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.000000625
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 5.09e-8,
+      "completion_price": 0.000000335
+    },
+    {
+      "model_id": "meta-llama/llama-guard-3-8b",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 0.000000484,
+      "completion_price": 3e-8
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.1-24b-instruct",
+      "from_date": "2026-05-16T02:11:56Z",
+      "to_date": null,
+      "prompt_price": 0.000000351,
+      "completion_price": 0.000000555
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-16T02:11:56Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-15T13:48:06Z",
+      "from_date": "2026-05-16T02:11:56Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-15T13:48:06Z",
+      "from_date": "2026-05-16T02:11:56Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
