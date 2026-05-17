@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-16T13:04:43Z",
+  "generated_at": "2026-05-17T02:26:45Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44175,7 +44175,7 @@
     {
       "model_id": "google/gemma-4-26b-a4b-it",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-17T02:26:45Z",
       "prompt_price": 6e-8,
       "completion_price": 0.00000033
     },
@@ -44315,7 +44315,7 @@
     {
       "model_id": "nvidia/nemotron-3-super-120b-a12b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-17T02:26:45Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000045
     },
@@ -45295,7 +45295,7 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-17T02:26:45Z",
       "prompt_price": 3.9e-8,
       "completion_price": 0.00000018
     },
@@ -46310,7 +46310,7 @@
     {
       "model_id": "mistralai/mistral-nemo",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-17T02:26:45Z",
       "prompt_price": 2e-8,
       "completion_price": 3e-8
     },
@@ -46982,20 +46982,69 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-16T13:04:43Z",
+      "to_date": "2026-05-17T02:26:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-16T13:04:43Z",
+      "to_date": "2026-05-17T02:26:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-16T13:04:43Z",
+      "to_date": "2026-05-17T02:26:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "from_date": "2026-05-17T02:26:45Z",
+      "to_date": null,
+      "prompt_price": 2e-8,
+      "completion_price": 4e-8
+    },
+    {
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "from_date": "2026-05-17T02:26:45Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "from_date": "2026-05-17T02:26:45Z",
+      "to_date": null,
+      "prompt_price": 7e-8,
+      "completion_price": 0.00000034
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-05-17T02:26:45Z",
+      "to_date": null,
+      "prompt_price": 3.9e-8,
+      "completion_price": 0.00000019
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-17T02:26:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-16T13:04:43Z",
+      "from_date": "2026-05-17T02:26:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-16T13:04:43Z",
+      "from_date": "2026-05-17T02:26:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
