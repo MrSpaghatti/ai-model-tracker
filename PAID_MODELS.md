@@ -9,13 +9,13 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1120 | $0.2240 | - | ⚠️ | 62,415,238,095 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | ⚠️ | 55,924,053,333 |
-| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0400 | - | ⚠️ | 43,690,666,667 |
+| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
 | google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | ✅ | 41,903,040,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | - | ⚠️ | 37,449,142,857 |
-| nvidia/nemotron-3-super-120b-a12b | NVIDIA: Nemotron 3 Super | 1,000,000 | $0.1000 | $0.5000 | - | ⚠️ | 33,333,333,333 |
+| nvidia/nemotron-3-super-120b-a12b | NVIDIA: Nemotron 3 Super | 1,000,000 | $0.0900 | $0.4500 | - | ⚠️ | 37,037,037,037 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | ⚠️ | 30,660,116,959 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 1,048,576 | $0.1500 | $0.6000 | - | ⚠️ | 27,962,026,667 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | - | ⚠️ | 27,594,105,263 |
@@ -43,17 +43,17 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | ✅ | 13,653,333,333 |
 | arcee-ai/trinity-mini | Arcee AI: Trinity Mini | 131,072 | $0.0450 | $0.1500 | - | ⚠️ | 13,443,282,051 |
 | qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0900 | $0.3000 | - | ⚠️ | 13,443,282,051 |
+| google/gemma-4-26b-a4b-it | Google: Gemma 4 26B A4B  | 262,144 | $0.0600 | $0.3300 | - | ⚠️ | 13,443,282,051 |
 | mistralai/ministral-3b-2512 | Mistral: Ministral 3 3B 2512 | 131,072 | $0.1000 | $0.1000 | - | ⚠️ | 13,107,200,000 |
 | nvidia/nemotron-nano-9b-v2 | NVIDIA: Nemotron Nano 9B V2 | 131,072 | $0.0400 | $0.1600 | - | ⚠️ | 13,107,200,000 |
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | ⚠️ | 13,107,200,000 |
 | stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.1000 | $0.3000 | - | ⚠️ | 13,107,200,000 |
 | xiaomi/mimo-v2-flash | Xiaomi: MiMo-V2-Flash | 262,144 | $0.1000 | $0.3000 | - | ⚠️ | 13,107,200,000 |
 | z-ai/glm-4-32b | Z.ai: GLM 4 32B  | 128,000 | $0.1000 | $0.1000 | - | ⚠️ | 12,800,000,000 |
-| google/gemma-4-26b-a4b-it | Google: Gemma 4 26B A4B  | 262,144 | $0.0700 | $0.3400 | - | ⚠️ | 12,787,512,195 |
 | google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
+| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0390 | $0.1800 | - | ⚠️ | 11,970,045,662 |
 | meta-llama/llama-3.2-1b-instruct | Meta: Llama 3.2 1B Instruct | 131,072 | $0.0270 | $0.2010 | - | ⚠️ | 11,497,543,860 |
-| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0390 | $0.1900 | - | ⚠️ | 11,447,336,245 |
 | qwen/qwen3.5-plus-02-15 | Qwen: Qwen3.5 Plus 2026-02-15 | 1,000,000 | $0.2600 | $1.5600 | - | ⚠️ | 10,989,010,989 |
 | google/gemma-3-27b-it | Google: Gemma 3 27B | 131,072 | $0.0800 | $0.1600 | - | ⚠️ | 10,922,666,667 |
 | google/gemma-4-31b-it | Google: Gemma 4 31B | 262,144 | $0.1200 | $0.3700 | - | ⚠️ | 10,699,755,102 |
