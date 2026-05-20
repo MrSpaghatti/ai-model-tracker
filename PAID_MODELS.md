@@ -10,10 +10,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | ⚠️ | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
-| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite-preview-09-2025 | Google: Gemini 2.5 Flash Lite Preview 09-2025 | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | ✅ | 41,903,040,000 |
+| google/gemini-2.0-flash-001 | Google: Gemini 2.0 Flash | 1,000,000 | $0.1000 | $0.4000 | - | ⚠️ | 40,000,000,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | - | ⚠️ | 37,449,142,857 |
 | nvidia/nemotron-3-super-120b-a12b | NVIDIA: Nemotron 3 Super | 1,000,000 | $0.0900 | $0.4500 | - | ⚠️ | 37,037,037,037 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0710 | $0.1000 | - | ⚠️ | 30,660,116,959 |
@@ -110,7 +110,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1390 | $1.0000 | - | ⚠️ | 4,603,055,312 |
 | deepseek/deepseek-v3.2-speciale | DeepSeek: DeepSeek V3.2 Speciale | 163,840 | $0.2870 | $0.4310 | - | ⚠️ | 4,563,788,301 |
-| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1500 | $1.0000 | - | ⚠️ | 4,559,026,087 |
+| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1490 | $1.0000 | - | ⚠️ | 4,562,993,908 |
 | deepseek/deepseek-r1-distill-qwen-32b | DeepSeek: R1 Distill Qwen 32B | 128,000 | $0.2900 | $0.2900 | - | ⚠️ | 4,413,793,103 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
