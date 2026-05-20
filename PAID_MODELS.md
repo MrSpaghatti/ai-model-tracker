@@ -88,7 +88,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | meta-llama/llama-3.3-70b-instruct | Meta: Llama 3.3 70B Instruct | 131,072 | $0.1000 | $0.3200 | - | ⚠️ | 6,241,523,810 |
 | microsoft/phi-4-mini-instruct | Microsoft: Phi 4 Mini Instruct | 131,072 | $0.0800 | $0.3500 | - | ⚠️ | 6,096,372,093 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
-| ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-8b | Qwen: Qwen3 8B | 131,072 | $0.0500 | $0.4000 | - | ⚠️ | 5,825,422,222 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
@@ -165,6 +164,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | - | ⚠️ | 2,048,000,000 |
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | ⚠️ | 2,016,492,308 |
 | prime-intellect/intellect-3 | Prime Intellect: INTELLECT-3 | 131,072 | $0.2000 | $1.1000 | - | ⚠️ | 2,016,492,308 |
+| google/gemini-3.5-flash | Google: Gemini 3.5 Flash | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
+| ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 262,144 | $0.3900 | $2.3400 | - | ⚠️ | 1,920,468,864 |
 | baidu/ernie-4.5-300b-a47b | Baidu: ERNIE 4.5 300B A47B  | 131,072 | $0.2800 | $1.1000 | - | ⚠️ | 1,899,594,203 |
 | z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | ⚠️ | 1,886,065,116 |
@@ -220,7 +221,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | microsoft/wizardlm-2-8x22b | WizardLM-2 8x22B | 65,536 | $0.6200 | $0.6200 | - | ⚠️ | 1,057,032,258 |
 | deepcogito/cogito-v2.1-671b | Deep Cogito: Cogito v2.1 671B | 128,000 | $1.2500 | $1.2500 | - | ⚠️ | 1,024,000,000 |
 | deepseek/deepseek-r1 | DeepSeek: R1 | 163,840 | $0.7000 | $2.5000 | - | ⚠️ | 1,024,000,000 |
-| z-ai/glm-5.1 | Z.ai: GLM 5.1 | 202,752 | $0.9800 | $3.0800 | - | ⚠️ | 998,778,325 |
 | z-ai/glm-4.5 | Z.ai: GLM 4.5 | 131,072 | $0.6000 | $2.2000 | - | ⚠️ | 936,228,571 |
 | qwen/qwen3-vl-235b-a22b-thinking | Qwen: Qwen3 VL 235B A22B Thinking | 131,072 | $0.2600 | $2.6000 | - | ⚠️ | 916,587,413 |
 | moonshotai/kimi-k2 | MoonshotAI: Kimi K2 0711 | 131,072 | $0.5700 | $2.3000 | - | ⚠️ | 913,393,728 |

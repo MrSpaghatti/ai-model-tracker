@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-19T14:42:29Z",
+  "generated_at": "2026-05-20T02:35:57Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -43993,7 +43993,7 @@
     {
       "model_id": "~google/gemini-flash-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-20T02:35:57Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.000003
     },
@@ -46849,7 +46849,7 @@
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-05-15T02:29:38Z",
-      "to_date": null,
+      "to_date": "2026-05-20T02:35:57Z",
       "prompt_price": 0.00000098,
       "completion_price": 0.00000308
     },
@@ -47171,20 +47171,62 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-19T14:42:29Z",
+      "to_date": "2026-05-20T02:35:57Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-19T14:42:29Z",
+      "to_date": "2026-05-20T02:35:57Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-19T14:42:29Z",
+      "to_date": "2026-05-20T02:35:57Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-05-20T02:35:57Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "google/gemini-3.5-flash",
+      "from_date": "2026-05-20T02:35:57Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.000009
+    },
+    {
+      "model_id": "~google/gemini-flash-latest",
+      "from_date": "2026-05-20T02:35:57Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.000009
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-20T02:35:57Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-19T14:42:29Z",
+      "from_date": "2026-05-20T02:35:57Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-19T14:42:29Z",
+      "from_date": "2026-05-20T02:35:57Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
