@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Compare Models - AI Model Price Tracker</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Compare Models</h1>
+            <div id="nav-container"></div>
+        </div>
+    </header>
+
+    <main>
+        <div class="page-header">
+            <h2>Select Models to Compare</h2>
+            <div class="compare-selector">
+                <input type="search" id="model-search" placeholder="Search models to add...">
+                <div id="search-results" class="search-results"></div>
+            </div>
+            <div id="selected-models" class="selected-models"></div>
+        </div>
+
+        <div id="comparison-container" class="comparison-container"></div>
+    </main>
+
+    <footer>
+        <p><a href="https://github.com/MrSpaghatti/ai-model-tracker" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/uplot@1.6.30/dist/uPlot.iife.min.js" defer></script>
+    <script src="assets/shared.js" defer></script>
+    <script src="assets/nav.js" defer></script>
+    <script src="assets/compare.js" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            AIMTNav.initNav('nav-container', 'compare.html');
+        });
+    </script>
+</body>
+</html>
