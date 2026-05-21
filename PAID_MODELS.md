@@ -111,12 +111,11 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1390 | $1.0000 | - | ⚠️ | 4,603,055,312 |
 | deepseek/deepseek-v3.2-speciale | DeepSeek: DeepSeek V3.2 Speciale | 163,840 | $0.2870 | $0.4310 | - | ⚠️ | 4,563,788,301 |
-| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1490 | $1.0000 | - | ⚠️ | 4,562,993,908 |
+| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1500 | $1.0000 | - | ⚠️ | 4,559,026,087 |
 | deepseek/deepseek-r1-distill-qwen-32b | DeepSeek: R1 Distill Qwen 32B | 128,000 | $0.2900 | $0.2900 | - | ⚠️ | 4,413,793,103 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
 | nousresearch/hermes-3-llama-3.1-70b | Nous: Hermes 3 70B Instruct | 131,072 | $0.3000 | $0.3000 | - | ⚠️ | 4,369,066,667 |
-| arcee-ai/trinity-large-preview | Arcee AI: Trinity Large Preview | 131,000 | $0.1500 | $0.4500 | - | ⚠️ | 4,366,666,667 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | - | ⚠️ | 4,266,666,667 |
 | deepseek/deepseek-v3.2 | DeepSeek: DeepSeek V3.2 | 131,072 | $0.2520 | $0.3780 | - | ⚠️ | 4,161,015,873 |
 | nex-agi/deepseek-v3.1-nex-n1 | Nex AGI: DeepSeek V3.1 Nex N1 | 131,072 | $0.1350 | $0.5000 | - | ⚠️ | 4,128,251,969 |
@@ -196,7 +195,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3.1-pro-preview-customtools | Google: Gemini 3.1 Pro Preview Custom Tools | 1,048,756 | $2.0000 | $12.0000 | - | ⚠️ | 1,498,222,857 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
 | ~google/gemini-pro-latest | Google Gemini Pro Latest | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
-| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.3200 | $3.2000 | - | ⚠️ | 1,489,454,545 |
+| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.3170 | $3.2000 | - | ⚠️ | 1,490,725,050 |
 | arcee-ai/virtuoso-large | Arcee AI: Virtuoso Large | 131,072 | $0.7500 | $1.2000 | - | ⚠️ | 1,344,328,205 |
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | nousresearch/hermes-3-llama-3.1-405b | Nous: Hermes 3 405B Instruct | 131,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,310,720,000 |
