@@ -75,3 +75,10 @@ type
     version*: int
     generated_at*: string
     entries*: seq[JsonHistoryEntry]
+
+  LocalModelMeta* = object
+    hfId*: string
+    name*: string
+    size*: string
+    bestFor*: string
+    notes*: string

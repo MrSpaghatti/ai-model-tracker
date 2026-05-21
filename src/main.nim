@@ -213,9 +213,11 @@ proc main() =
     writeOutputFile(FreeModelsOutputPath, generateFreeModelsPage(rows), "FREE_MODELS.md")
     writeOutputFile(PaidModelsOutputPath, generatePaidModelsPage(rows), "PAID_MODELS.md")
     writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")
+    createDir("docs/data")
+    writeFile("docs/data/local-models.json", generateLocalModelsJson())
     writeOutputFile(CategoriesOutputPath, generateCategoryPages(rows), "CATEGORIES.md")
 
-    stdout.writeLine("Generated README.md, FREE_MODELS.md, PAID_MODELS.md, LOCAL_MODELS.md, and CATEGORIES.md for " & $rows.len & " models.")
+    stdout.writeLine("Generated README.md, FREE_MODELS.md, PAID_MODELS.md, LOCAL_MODELS.md, CATEGORIES.md, and local-models.json for " & $rows.len & " models.")
   except CatchableError as exc:
     stderr.writeLine("Error: " & exc.msg)
     quit(QuitFailure)

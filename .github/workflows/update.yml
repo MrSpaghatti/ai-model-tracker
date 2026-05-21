@@ -29,10 +29,15 @@ jobs:
             jq -e '.version == 1' docs/data/history.json
             jq -e '.entries | length >= 1' docs/data/history.json
           fi
+          if [ -f docs/data/local-models.json ]; then
+            jq -e '.version == 1' docs/data/local-models.json
+            jq -e '.models | length >= 1' docs/data/local-models.json
+            jq -e 'all(.models[]; has("ctx_window") and has("quant"))' docs/data/local-models.json
+          fi
       - name: Push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md data/registry.json docs/data/current.json docs/data/history.json
+          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md data/registry.json docs/data/current.json docs/data/history.json docs/data/local-models.json
           git commit -m "update: $(date -u)" || exit 0
           git push

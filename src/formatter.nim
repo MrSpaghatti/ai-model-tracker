@@ -1,5 +1,5 @@
-import std/[algorithm, json, math, strformat, strutils, times]
-
+import std/[algorithm, json, math, sequtils, strformat, strutils, times]
+import puppy
 import categorizer
 import types
 
@@ -7,6 +7,8 @@ type
   LocalModelEntry = tuple[
     model: string,
     size: string,
+    ctxWindow: int,
+    quant: string,
     fp16: string,
     fp8: string,
     q4: string,
@@ -14,34 +16,138 @@ type
     notes: string
   ]
 
-const LocalModels: array[26, LocalModelEntry] = [
-  ("Llama 3.2", "1B", "4 GB", "2 GB", "2 GB", "Light chat, assistants", "Great for edge devices and cheap VPS GPUs."),
-  ("Llama 3.2", "3B", "6 GB", "4 GB", "3 GB", "General chat, summarization", "Comfortable on consumer 6 GB cards with 4-bit quantization."),
-  ("Llama 3.1", "8B", "16 GB", "10 GB", "8 GB", "Balanced general-purpose use", "One of the easiest strong 8B-class local models to run."),
-  ("Qwen2.5", "7B", "14 GB", "8 GB", "8 GB", "General chat, multilingual work", "Strong instruction following for the footprint."),
-  ("Qwen2.5", "14B", "28 GB", "17 GB", "16 GB", "Higher-quality reasoning", "Needs a roomier GPU for comfortable generation."),
-  ("Qwen2.5", "32B", "64 GB", "38 GB", "24 GB", "Premium local reasoning", "Great fit for 24 GB cards when quantized."),
-  ("Qwen2.5", "72B", "144 GB", "86 GB", "48 GB", "Large-model quality", "Multi-GPU or very large cards recommended."),
-  ("Mistral", "7B", "14 GB", "8 GB", "8 GB", "General chat, instruction tuning", "Still a solid baseline for local inference."),
-  ("Gemma 2", "9B", "18 GB", "11 GB", "8 GB", "Chat, analysis", "Efficient option for consumer GPUs."),
-  ("Gemma 2", "27B", "54 GB", "32 GB", "20 GB", "Long-form quality", "Good target for 24 GB-class systems with quantization."),
-  ("DeepSeek Coder V2 Lite", "16B", "32 GB", "19 GB", "12 GB", "Coding", "Local coding specialist with good IDE-assistant potential."),
-  ("Phi-3 Mini", "3.8B", "8 GB", "5 GB", "4 GB", "Tiny assistants, local apps", "Fits low-end GPUs and laptops with eGPU setups."),
-  ("Phi-3 Small", "7B", "14 GB", "8 GB", "6 GB", "Compact reasoning", "Good step-up from mini models."),
-  ("Phi-3 Medium", "14B", "28 GB", "17 GB", "8 GB", "Reasoning, analysis", "Can squeeze onto 8 GB only with aggressive quantization/offload."),
-  ("Neural Chat", "7B", "14 GB", "8 GB", "8 GB", "Friendly assistant chat", "Optimized for dialogue quality."),
-  ("Zephyr", "7B", "14 GB", "8 GB", "8 GB", "Instruction following", "Popular open instruct baseline."),
-  ("StarCoder2", "3B", "6 GB", "4 GB", "4 GB", "Lightweight coding", "Good for autocomplete and small coding tasks."),
-  ("StarCoder2", "7B", "14 GB", "8 GB", "8 GB", "Coding", "Better completion quality on standard developer GPUs."),
-  ("StarCoder2", "15B", "30 GB", "18 GB", "12 GB", "Higher-end coding", "Best on 12 GB+ cards with quantization."),
-  ("CodeLlama", "7B", "14 GB", "8 GB", "8 GB", "Coding", "Reliable local coding baseline."),
-  ("CodeLlama", "13B", "26 GB", "16 GB", "12 GB", "Coding, refactoring", "Good sweet spot for 12 GB GPUs."),
-  ("CodeLlama", "34B", "68 GB", "41 GB", "24 GB", "Heavy coding workloads", "Strong option for 24 GB workstations."),
-  ("Mixtral", "8x7B", "90 GB", "54 GB", "48 GB", "Reasoning, agent workflows", "MoE model with very strong quality but big memory needs."),
-  ("Command R", "35B", "70 GB", "42 GB", "48 GB", "RAG, tool use", "Excellent for retrieval-heavy local assistants."),
-  ("Yi", "34B", "68 GB", "41 GB", "24 GB", "Long-form writing, analysis", "High-quality large open model family."),
-  ("SOLAR", "10.7B", "22 GB", "13 GB", "8 GB", "General chat, summarization", "Great performance for modest 4-bit VRAM budgets.")
+# Curated list of local models with their HuggingFace IDs and metadata
+# Updated May 2026 — including Gemma 4, Phi-4, and Qwen 2.5 families
+# ctxWindow and VRAM values are fetched from HuggingFace or calculated
+const LocalModelsMeta: array[21, LocalModelMeta] = [
+  # --- Edge / Small GPU (< 8 GB) ---
+  LocalModelMeta(hfId: "google/gemma-4-e2b-it", name: "Gemma 4 E2B", size: "2.3B", bestFor: "Edge devices, phones, audio AI", notes: "2.3B active params, native audio + vision, Apache 2.0. Runs on phones."),
+  LocalModelMeta(hfId: "google/gemma-4-e4b-it", name: "Gemma 4 E4B", size: "4.5B", bestFor: "Small GPU, multimodal chat", notes: "4.5B active, vision + audio + video. Great for 8 GB GPUs."),
+  LocalModelMeta(hfId: "microsoft/Phi-4-mini-instruct", name: "Phi-4 Mini", size: "3.8B", bestFor: "Tiny coding assistants, local apps", notes: "MIT license, 128K context, punches above its weight on coding."),
+  LocalModelMeta(hfId: "meta-llama/Llama-3.2-3B-Instruct", name: "Llama 3.2", size: "3B", bestFor: "Light chat, summarization", notes: "Solid small model with 128K context. Great for cheap VPS GPUs."),
+
+  # --- Mid-range GPU (8-16 GB) ---
+  LocalModelMeta(hfId: "mistralai/Mistral-7B-Instruct-v0.3", name: "Mistral", size: "7B", bestFor: "General chat, instruction tuning", notes: "Reliable 7B baseline, 32K context, Apache 2.0."),
+  LocalModelMeta(hfId: "meta-llama/Llama-3.1-8B-Instruct", name: "Llama 3.1", size: "8B", bestFor: "Balanced general-purpose use", notes: "One of the strongest 8B-class models. 128K context."),
+  LocalModelMeta(hfId: "Qwen/Qwen2.5-7B-Instruct", name: "Qwen2.5", size: "7B", bestFor: "Multilingual chat, high-quality output", notes: "Battle-tested 7B with excellent instruction following."),
+  LocalModelMeta(hfId: "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct", name: "DeepSeek Coder V2 Lite", size: "16B", bestFor: "Coding", notes: "Strong coding specialist, fits 12 GB cards with quantization."),
+  LocalModelMeta(hfId: "upstage/SOLAR-10.7B-v1.0", name: "SOLAR", size: "10.7B", bestFor: "General chat, summarization", notes: "Great quality-per-VRAM at 10.7B. Fits 8 GB with 4-bit."),
+  LocalModelMeta(hfId: "microsoft/Phi-3-medium-4k-instruct", name: "Phi-3 Medium", size: "14B", bestFor: "Reasoning, analysis", notes: "Solid 14B option, squeezes onto 8 GB with aggressive quantization."),
+
+  # --- Single GPU workstation (16-32 GB) ---
+  LocalModelMeta(hfId: "google/gemma-4-26b-a4b-it", name: "Gemma 4 26B MoE", size: "26B", bestFor: "Premium efficiency, reasoning", notes: "3.8B active / 26B total MoE. ~97% of 31B quality, 256K context."),
+  LocalModelMeta(hfId: "google/gemma-4-31b-it", name: "Gemma 4 31B", size: "31B", bestFor: "Best overall, math, coding, vision", notes: "#3 on LMArena. 89% AIME, 80% LiveCodeBench. Apache 2.0. Needs 24 GB at Q4."),
+  LocalModelMeta(hfId: "Qwen/Qwen2.5-14B-Instruct", name: "Qwen2.5", size: "14B", bestFor: "Higher-quality reasoning", notes: "Comfortable on 16 GB cards. Strong multilingual support."),
+  LocalModelMeta(hfId: "Qwen/Qwen2.5-32B-Instruct", name: "Qwen2.5", size: "32B", bestFor: "Premium local reasoning", notes: "Great fit for 24 GB cards with 4-bit quantization."),
+  LocalModelMeta(hfId: "codellama/CodeLlama-34b-Instruct-hf", name: "CodeLlama", size: "34B", bestFor: "Heavy coding workloads", notes: "Dedicated coding model. Strong option for 24 GB workstations."),
+
+  # --- High-end / Multi-GPU (32+ GB) ---
+  LocalModelMeta(hfId: "Qwen/Qwen2.5-72B-Instruct", name: "Qwen2.5", size: "72B", bestFor: "Large-model quality", notes: "Multi-GPU or very large cards recommended. Top-tier output."),
+  LocalModelMeta(hfId: "mistralai/Mixtral-8x7B-Instruct-v0.1", name: "Mixtral", size: "8x7B", bestFor: "Reasoning, agent workflows", notes: "MoE with very strong quality but 90 GB+ at FP16. Needs multi-GPU."),
+  LocalModelMeta(hfId: "CohereForAI/c4ai-command-r-v01", name: "Command R", size: "35B", bestFor: "RAG, tool use", notes: "Excellent retrieval quality. Optimized for RAG pipelines."),
+  LocalModelMeta(hfId: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B", name: "DeepSeek R1 Distill", size: "8B", bestFor: "Reasoning tasks", notes: "Distilled reasoning model. Fits 8 GB GPUs with quantization."),
+  LocalModelMeta(hfId: "mistralai/Mistral-Small-3.1-24B-Instruct", name: "Mistral Small 3.1", size: "24B", bestFor: "Fast inference, quality output", notes: "Apache 2.0, 128K context. ~35 tok/s on RTX 4090 at Q4."),
+  LocalModelMeta(hfId: "01-ai/Yi-34B", name: "Yi", size: "34B", bestFor: "Long-form writing, analysis", notes: "High-quality 34B open model. Suitable for 24 GB with quantization.")
 ]
+
+# Known context windows for gated models (from official documentation)
+proc getFallbackCtxWindow(hfId: string): int =
+  case hfId
+  of "google/gemma-4-e2b-it": result = 131072
+  of "google/gemma-4-e4b-it": result = 131072
+  of "google/gemma-4-26b-a4b-it": result = 262144
+  of "google/gemma-4-31b-it": result = 262144
+  of "meta-llama/Llama-3.2-1B": result = 131072
+  of "meta-llama/Llama-3.2-3B": result = 131072
+  of "meta-llama/Llama-3.2-3B-Instruct": result = 131072
+  of "meta-llama/Llama-3.1-8B-Instruct": result = 131072
+  of "codellama/CodeLlama-7b-Instruct-hf": result = 16384
+  of "codellama/CodeLlama-13b-Instruct-hf": result = 16384
+  of "codellama/CodeLlama-34b-Instruct-hf": result = 16384
+  of "01-ai/Yi-34B": result = 4096
+  of "CohereForAI/c4ai-command-r-v01": result = 131072
+  of "mistralai/Mistral-Small-3.1-24B-Instruct": result = 131072
+  of "deepseek-ai/DeepSeek-R1-Distill-Llama-8B": result = 131072
+  else: result = 4096 # conservative default
+
+# Parse model size string to float (billions of parameters)
+proc parseModelSize(size: string): float =
+  let s = size.replace("B", "")
+  if s.contains("x"):
+    # Handle MoE models like "8x7B" -> total params = sum of experts? Actually just track the base
+    let parts = s.split("x")
+    if parts.len == 2:
+      try:
+        let n = parseFloat(parts[0])
+        let per = parseFloat(parts[1])
+        result = n * per
+      except: result = 0.0
+  else:
+    try: result = parseFloat(s)
+    except: result = 0.0
+
+# Calculate VRAM requirement based on model size and quantization bits
+# Includes overhead for KV cache, activations, and system memory
+proc calcVram(paramsB: float; bytesPerParam: float): string =
+  let baseGb = paramsB * bytesPerParam
+  let kvCacheGb = paramsB * 0.3  # KV cache overhead ~0.3GB per 1B params
+  let activationGb = baseGb * 0.15  # Activation memory ~15% of weights
+  let overhead = 0.5  # System overhead (CUDA kernels, etc.)
+  let total = baseGb + kvCacheGb + activationGb + overhead
+  let rounded = ceil(total).int
+  result = $rounded & " GB"
+
+# Fetch context window length from HuggingFace config.json
+proc fetchHfContextWindow(hfId: string): int =
+  try:
+    let configUrl = "https://huggingface.co/" & hfId & "/resolve/main/config.json"
+    let rawConfig = fetch(
+      configUrl,
+      headers = @[
+        Header(key: "Accept", value: "application/json"),
+        Header(key: "User-Agent", value: "ai-model-tracker/1.0")
+      ]
+    )
+    let config = parseJson(rawConfig)
+    # Try various known field names for context window
+    if config.hasKey("max_position_embeddings"):
+      result = config["max_position_embeddings"].getInt()
+    elif config.hasKey("n_positions"):
+      result = config["n_positions"].getInt()
+    elif config.hasKey("n_ctx"):
+      result = config["n_ctx"].getInt()
+    elif config.hasKey("seq_length"):
+      result = config["seq_length"].getInt()
+    elif config.hasKey("sliding_window"):
+      result = config["sliding_window"].getInt()
+    elif config.hasKey("model_max_length"):
+      result = config["model_max_length"].getInt()
+    else:
+      result = 0
+  except:
+    result = 0
+
+# Main function to build local models data from HuggingFace sources
+proc buildLocalModels*(): seq[LocalModelEntry] =
+  for meta in LocalModelsMeta:
+    let paramsB = parseModelSize(meta.size)
+    
+    # Try to fetch context window from HuggingFace
+    var ctxWindow = fetchHfContextWindow(meta.hfId)
+    if ctxWindow == 0:
+      ctxWindow = getFallbackCtxWindow(meta.hfId)
+    
+    var entry: LocalModelEntry
+    entry.model = meta.name
+    entry.size = meta.size
+    entry.ctxWindow = ctxWindow
+    entry.quant = "FP16, FP8, 4-bit"
+    entry.fp16 = calcVram(paramsB, 2.0)
+    entry.fp8 = calcVram(paramsB, 1.0)
+    entry.q4 = calcVram(paramsB, 0.5)
+    entry.bestFor = meta.bestFor
+    entry.notes = meta.notes
+    result.add(entry)
 
 proc formatWholeNumber(value: int): string =
   let digits = $value
@@ -148,13 +254,45 @@ proc generatePaidModelsPage*(allRows: seq[ModelRow]): string =
   result.add "> **Moderated**: ✅ means the top provider reports content moderation, which usually lowers the chance that raw prompts/outputs are used for training workflows. ⚠️ means the provider does not report moderation here, so treat the model as higher-risk for sensitive data.\n"
 
 proc generateLocalModelsTable*(): string =
+  let localModels = buildLocalModels()
   result = "# Local Model Recommendations\n\n"
-  result.add "> Static reference page for popular self-hosted models. VRAM estimates are approximate and assume standard inference setups; quantization, KV cache, batching, and context length can move these numbers significantly.\n\n"
-  result.add "| Model | Size | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | Best For | Notes |\n"
-  result.add "| --- | --- | ---: | ---: | ---: | --- | --- |\n"
+  result.add "> Data sourced from HuggingFace model configs. Models updated May 2026. VRAM estimates include weights, KV cache, and activation overhead. Actual usage varies.\n\n"
+  result.add "| Model | Size | Ctx Window | Quant | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | Best For | Notes |\n"
+  result.add "| --- | --- | ---: | --- | ---: | ---: | ---: | --- | --- |\n"
 
-  for entry in LocalModels:
-    result.add fmt"| {escapeMarkdownCell(entry.model)} | {escapeMarkdownCell(entry.size)} | {escapeMarkdownCell(entry.fp16)} | {escapeMarkdownCell(entry.fp8)} | {escapeMarkdownCell(entry.q4)} | {escapeMarkdownCell(entry.bestFor)} | {escapeMarkdownCell(entry.notes)} |" & "\n"
+  for entry in localModels:
+    let ctxWin = if entry.ctxWindow > 0: formatWholeNumber(entry.ctxWindow) else: "N/A"
+    result.add fmt"| {escapeMarkdownCell(entry.model)} | {escapeMarkdownCell(entry.size)} | {ctxWin} | {escapeMarkdownCell(entry.quant)} | {escapeMarkdownCell(entry.fp16)} | {escapeMarkdownCell(entry.fp8)} | {escapeMarkdownCell(entry.q4)} | {escapeMarkdownCell(entry.bestFor)} | {escapeMarkdownCell(entry.notes)} |" & "\n"
+
+proc generateLocalModelsJson*(): string =
+  let localModels = buildLocalModels()
+  var jsonModels: seq[JsonNode] = @[]
+  
+  for entry in localModels:
+    let bestForJson = %entry.bestFor.split(",").mapIt(%it.strip())
+    let sizeSlug = entry.size.toLowerAscii().replace(".", "-").replace("x", "x")
+    let idSlug = entry.model.toLowerAscii().replace(" ", "-").replace(",", "") & "-" & sizeSlug
+    
+    let modelJson = %*{
+      "id": idSlug,
+      "name": entry.model & " " & entry.size,
+      "size": entry.size,
+      "ctx_window": entry.ctxWindow,
+      "quant": entry.quant,
+      "vram_fp16": entry.fp16,
+      "vram_fp8": entry.fp8,
+      "vram_4bit": entry.q4,
+      "best_for": bestForJson,
+      "notes": entry.notes
+    }
+    jsonModels.add(modelJson)
+  
+  let root = %*{
+    "version": 1,
+    "generated_at": getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'"),
+    "models": jsonModels
+  }
+  result = pretty(root)
 
 proc topRows(rows: seq[ModelRow]; limit: int = 5): seq[ModelRow] =
   let capped = min(rows.len, limit)
