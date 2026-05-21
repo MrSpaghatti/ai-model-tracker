@@ -1,32 +1,27 @@
 # Local Model Recommendations
 
-> Static reference page for popular self-hosted models. VRAM estimates are approximate and assume standard inference setups; quantization, KV cache, batching, and context length can move these numbers significantly.
+> Data sourced from HuggingFace model configs. Models updated May 2026. VRAM estimates include weights, KV cache, and activation overhead. Actual usage varies.
 
-| Model | Size | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | Best For | Notes |
-| --- | --- | ---: | ---: | ---: | --- | --- |
-| Llama 3.2 | 1B | 4 GB | 2 GB | 2 GB | Light chat, assistants | Great for edge devices and cheap VPS GPUs. |
-| Llama 3.2 | 3B | 6 GB | 4 GB | 3 GB | General chat, summarization | Comfortable on consumer 6 GB cards with 4-bit quantization. |
-| Llama 3.1 | 8B | 16 GB | 10 GB | 8 GB | Balanced general-purpose use | One of the easiest strong 8B-class local models to run. |
-| Qwen2.5 | 7B | 14 GB | 8 GB | 8 GB | General chat, multilingual work | Strong instruction following for the footprint. |
-| Qwen2.5 | 14B | 28 GB | 17 GB | 16 GB | Higher-quality reasoning | Needs a roomier GPU for comfortable generation. |
-| Qwen2.5 | 32B | 64 GB | 38 GB | 24 GB | Premium local reasoning | Great fit for 24 GB cards when quantized. |
-| Qwen2.5 | 72B | 144 GB | 86 GB | 48 GB | Large-model quality | Multi-GPU or very large cards recommended. |
-| Mistral | 7B | 14 GB | 8 GB | 8 GB | General chat, instruction tuning | Still a solid baseline for local inference. |
-| Gemma 2 | 9B | 18 GB | 11 GB | 8 GB | Chat, analysis | Efficient option for consumer GPUs. |
-| Gemma 2 | 27B | 54 GB | 32 GB | 20 GB | Long-form quality | Good target for 24 GB-class systems with quantization. |
-| DeepSeek Coder V2 Lite | 16B | 32 GB | 19 GB | 12 GB | Coding | Local coding specialist with good IDE-assistant potential. |
-| Phi-3 Mini | 3.8B | 8 GB | 5 GB | 4 GB | Tiny assistants, local apps | Fits low-end GPUs and laptops with eGPU setups. |
-| Phi-3 Small | 7B | 14 GB | 8 GB | 6 GB | Compact reasoning | Good step-up from mini models. |
-| Phi-3 Medium | 14B | 28 GB | 17 GB | 8 GB | Reasoning, analysis | Can squeeze onto 8 GB only with aggressive quantization/offload. |
-| Neural Chat | 7B | 14 GB | 8 GB | 8 GB | Friendly assistant chat | Optimized for dialogue quality. |
-| Zephyr | 7B | 14 GB | 8 GB | 8 GB | Instruction following | Popular open instruct baseline. |
-| StarCoder2 | 3B | 6 GB | 4 GB | 4 GB | Lightweight coding | Good for autocomplete and small coding tasks. |
-| StarCoder2 | 7B | 14 GB | 8 GB | 8 GB | Coding | Better completion quality on standard developer GPUs. |
-| StarCoder2 | 15B | 30 GB | 18 GB | 12 GB | Higher-end coding | Best on 12 GB+ cards with quantization. |
-| CodeLlama | 7B | 14 GB | 8 GB | 8 GB | Coding | Reliable local coding baseline. |
-| CodeLlama | 13B | 26 GB | 16 GB | 12 GB | Coding, refactoring | Good sweet spot for 12 GB GPUs. |
-| CodeLlama | 34B | 68 GB | 41 GB | 24 GB | Heavy coding workloads | Strong option for 24 GB workstations. |
-| Mixtral | 8x7B | 90 GB | 54 GB | 48 GB | Reasoning, agent workflows | MoE model with very strong quality but big memory needs. |
-| Command R | 35B | 70 GB | 42 GB | 48 GB | RAG, tool use | Excellent for retrieval-heavy local assistants. |
-| Yi | 34B | 68 GB | 41 GB | 24 GB | Long-form writing, analysis | High-quality large open model family. |
-| SOLAR | 10.7B | 22 GB | 13 GB | 8 GB | General chat, summarization | Great performance for modest 4-bit VRAM budgets. |
+| Model | Size | Ctx Window | Quant | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | Best For | Notes |
+| --- | --- | ---: | --- | ---: | ---: | ---: | --- | --- |
+| Gemma 4 E2B | 2.3B | 131,072 | FP16, FP8, 4-bit | 7 GB | 4 GB | 3 GB | Edge devices, phones, audio AI | 2.3B active params, native audio + vision, Apache 2.0. Runs on phones. |
+| Gemma 4 E4B | 4.5B | 131,072 | FP16, FP8, 4-bit | 13 GB | 8 GB | 5 GB | Small GPU, multimodal chat | 4.5B active, vision + audio + video. Great for 8 GB GPUs. |
+| Phi-4 Mini | 3.8B | 131,072 | FP16, FP8, 4-bit | 11 GB | 7 GB | 4 GB | Tiny coding assistants, local apps | MIT license, 128K context, punches above its weight on coding. |
+| Llama 3.2 | 3B | 131,072 | FP16, FP8, 4-bit | 9 GB | 5 GB | 4 GB | Light chat, summarization | Solid small model with 128K context. Great for cheap VPS GPUs. |
+| Mistral | 7B | 32,768 | FP16, FP8, 4-bit | 19 GB | 11 GB | 7 GB | General chat, instruction tuning | Reliable 7B baseline, 32K context, Apache 2.0. |
+| Llama 3.1 | 8B | 131,072 | FP16, FP8, 4-bit | 22 GB | 13 GB | 8 GB | Balanced general-purpose use | One of the strongest 8B-class models. 128K context. |
+| Qwen2.5 | 7B | 32,768 | FP16, FP8, 4-bit | 19 GB | 11 GB | 7 GB | Multilingual chat, high-quality output | Battle-tested 7B with excellent instruction following. |
+| DeepSeek Coder V2 Lite | 16B | 163,840 | FP16, FP8, 4-bit | 43 GB | 24 GB | 15 GB | Coding | Strong coding specialist, fits 12 GB cards with quantization. |
+| SOLAR | 10.7B | 4,096 | FP16, FP8, 4-bit | 29 GB | 17 GB | 10 GB | General chat, summarization | Great quality-per-VRAM at 10.7B. Fits 8 GB with 4-bit. |
+| Phi-3 Medium | 14B | 4,096 | FP16, FP8, 4-bit | 37 GB | 21 GB | 13 GB | Reasoning, analysis | Solid 14B option, squeezes onto 8 GB with aggressive quantization. |
+| Gemma 4 26B MoE | 26B | 262,144 | FP16, FP8, 4-bit | 69 GB | 39 GB | 24 GB | Premium efficiency, reasoning | 3.8B active / 26B total MoE. ~97% of 31B quality, 256K context. |
+| Gemma 4 31B | 31B | 262,144 | FP16, FP8, 4-bit | 82 GB | 46 GB | 28 GB | Best overall, math, coding, vision | #3 on LMArena. 89% AIME, 80% LiveCodeBench. Apache 2.0. Needs 24 GB at Q4. |
+| Qwen2.5 | 14B | 32,768 | FP16, FP8, 4-bit | 37 GB | 21 GB | 13 GB | Higher-quality reasoning | Comfortable on 16 GB cards. Strong multilingual support. |
+| Qwen2.5 | 32B | 32,768 | FP16, FP8, 4-bit | 84 GB | 47 GB | 29 GB | Premium local reasoning | Great fit for 24 GB cards with 4-bit quantization. |
+| CodeLlama | 34B | 16,384 | FP16, FP8, 4-bit | 89 GB | 50 GB | 31 GB | Heavy coding workloads | Dedicated coding model. Strong option for 24 GB workstations. |
+| Qwen2.5 | 72B | 32,768 | FP16, FP8, 4-bit | 188 GB | 105 GB | 64 GB | Large-model quality | Multi-GPU or very large cards recommended. Top-tier output. |
+| Mixtral | 8x7B | 32,768 | FP16, FP8, 4-bit | 147 GB | 82 GB | 50 GB | Reasoning, agent workflows | MoE with very strong quality but 90 GB+ at FP16. Needs multi-GPU. |
+| Command R | 35B | 131,072 | FP16, FP8, 4-bit | 92 GB | 52 GB | 32 GB | RAG, tool use | Excellent retrieval quality. Optimized for RAG pipelines. |
+| DeepSeek R1 Distill | 8B | 131,072 | FP16, FP8, 4-bit | 22 GB | 13 GB | 8 GB | Reasoning tasks | Distilled reasoning model. Fits 8 GB GPUs with quantization. |
+| Mistral Small 3.1 | 24B | 131,072 | FP16, FP8, 4-bit | 63 GB | 36 GB | 22 GB | Fast inference, quality output | Apache 2.0, 128K context. ~35 tok/s on RTX 4090 at Q4. |
+| Yi | 34B | 4,096 | FP16, FP8, 4-bit | 89 GB | 50 GB | 31 GB | Long-form writing, analysis | High-quality 34B open model. Suitable for 24 GB with quantization. |
