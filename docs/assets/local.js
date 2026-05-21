@@ -118,7 +118,26 @@
         resultsEl.innerHTML = html;
     }
 
+    function initThemeButton() {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn || btn.dataset.initialized) return;
+        btn.dataset.initialized = '1';
+        btn.addEventListener('click', function() {
+            AIMT.toggleTheme();
+            updateThemeIcon();
+        });
+    }
+
+    function updateThemeIcon() {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.textContent = (document.documentElement.dataset.theme === 'light') ? '☀️' : '🌙';
+    }
+
     function init() {
+        initThemeButton();
+        updateThemeIcon();
+
         var calcBtn = document.getElementById('calc-btn');
         if (calcBtn) {
             calcBtn.addEventListener('click', calculateVRAM);

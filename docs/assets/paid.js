@@ -77,14 +77,25 @@
         });
     };
 
-    window.__renderTheme = function(st) {
+    function initThemeButton() {
+        var btn = document.getElementById('theme-toggle');
+        if (!btn || btn.dataset.initialized) return;
+        btn.dataset.initialized = '1';
+        btn.addEventListener('click', function() {
+            AIMT.toggleTheme();
+            updateThemeIcon();
+        });
+    }
+
+    function updateThemeIcon() {
         var btn = document.getElementById('theme-toggle');
         if (!btn) return;
         btn.textContent = (document.documentElement.dataset.theme === 'light') ? '☀️' : '🌙';
-        btn.addEventListener('click', function() {
-            AIMT.toggleTheme();
-            window.__renderTheme(st);
-        });
+    }
+
+    window.__renderTheme = function(st) {
+        initThemeButton();
+        updateThemeIcon();
     };
 
     function populateProviderDropdown() {
