@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-21T14:47:31Z",
+  "generated_at": "2026-05-22T02:38:54Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -46541,7 +46541,7 @@
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-05-22T02:38:54Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -46940,20 +46940,55 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-21T14:47:31Z",
+      "to_date": "2026-05-22T02:38:54Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-21T14:47:31Z",
+      "to_date": "2026-05-22T02:38:54Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-21T14:47:31Z",
+      "to_date": "2026-05-22T02:38:54Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3.7-max",
+      "from_date": "2026-05-22T02:38:54Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-05-22T02:38:54Z",
+      "to_date": null,
+      "prompt_price": 0.00000098,
+      "completion_price": 0.00000308
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-22T02:38:54Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-21T14:47:31Z",
+      "from_date": "2026-05-22T02:38:54Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-21T14:47:31Z",
+      "from_date": "2026-05-22T02:38:54Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

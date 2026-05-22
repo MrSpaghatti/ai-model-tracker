@@ -17,7 +17,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nvidia/nemotron-3-nano-30b-a3b:free | NVIDIA: Nemotron 3 Nano 30B A3B (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | minimax/minimax-m2.5:free | MiniMax: MiniMax M2.5 (free) | 204,800 | $0.0000 | $0.0000 | - | ✅ | ∞ |
-| z-ai/glm-5.1 | Z.ai: GLM 5.1 | 202,800 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | openrouter/free | Free Models Router | 200,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | baidu/cobuddy:free | Baidu Qianfan: CoBuddy (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | meta-llama/llama-3.2-3b-instruct:free | Meta: Llama 3.2 3B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
