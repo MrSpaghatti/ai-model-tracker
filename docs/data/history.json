@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-22T14:23:30Z",
+  "generated_at": "2026-05-23T02:15:16Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -46555,7 +46555,7 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-05-23T02:15:16Z",
       "prompt_price": 0.000000112,
       "completion_price": 0.000000224
     },
@@ -47003,20 +47003,48 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-22T14:23:30Z",
+      "to_date": "2026-05-23T02:15:16Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-22T14:23:30Z",
+      "to_date": "2026-05-23T02:15:16Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-22T14:23:30Z",
+      "to_date": "2026-05-23T02:15:16Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-05-23T02:15:16Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-23T02:15:16Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-22T14:23:30Z",
+      "from_date": "2026-05-23T02:15:16Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-22T14:23:30Z",
+      "from_date": "2026-05-23T02:15:16Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
