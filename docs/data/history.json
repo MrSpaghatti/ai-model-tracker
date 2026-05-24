@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-23T13:07:18Z",
+  "generated_at": "2026-05-24T02:34:13Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -47052,20 +47052,41 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-23T13:07:18Z",
+      "to_date": "2026-05-24T02:34:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-23T13:07:18Z",
+      "to_date": "2026-05-24T02:34:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-23T13:07:18Z",
+      "to_date": "2026-05-24T02:34:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-24T02:34:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-23T13:07:18Z",
+      "from_date": "2026-05-24T02:34:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-23T13:07:18Z",
+      "from_date": "2026-05-24T02:34:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
