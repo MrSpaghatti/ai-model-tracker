@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-25T02:42:46Z",
+  "generated_at": "2026-05-25T14:39:17Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -45113,7 +45113,7 @@
     {
       "model_id": "alibaba/tongyi-deepresearch-30b-a3b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-25T14:39:17Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000045
     },
@@ -46051,7 +46051,7 @@
     {
       "model_id": "deepseek/deepseek-chat",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-25T14:39:17Z",
       "prompt_price": 0.00000032,
       "completion_price": 0.00000089
     },
@@ -47115,20 +47115,48 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-25T02:42:46Z",
+      "to_date": "2026-05-25T14:39:17Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-25T02:42:46Z",
+      "to_date": "2026-05-25T14:39:17Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-25T02:42:46Z",
+      "to_date": "2026-05-25T14:39:17Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
+      "from_date": "2026-05-25T14:39:17Z",
+      "to_date": null,
+      "prompt_price": 0.0000002288,
+      "completion_price": 0.0000009144
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-25T14:39:17Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-25T02:42:46Z",
+      "from_date": "2026-05-25T14:39:17Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-25T02:42:46Z",
+      "from_date": "2026-05-25T14:39:17Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
