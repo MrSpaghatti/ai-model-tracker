@@ -154,6 +154,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | ⚠️ | 2,330,168,889 |
 | deepseek/deepseek-chat | DeepSeek: DeepSeek V3 | 131,072 | $0.2288 | $0.9144 | - | ⚠️ | 2,293,072,078 |
 | moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.4000 | $1.9000 | - | ⚠️ | 2,279,513,043 |
+| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.3000 | $2.0000 | - | ⚠️ | 2,279,513,043 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | ⚠️ | 2,240,547,009 |
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | ⚠️ | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | ⚠️ | 2,184,533,333 |
@@ -193,7 +194,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | ⚠️ | 1,523,809,524 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | ✅ | 1,500,000,000 |
 | google/gemini-3.1-pro-preview-customtools | Google: Gemini 3.1 Pro Preview Custom Tools | 1,048,756 | $2.0000 | $12.0000 | - | ⚠️ | 1,498,222,857 |
-| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.3000 | $3.2000 | - | ⚠️ | 1,497,965,714 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
 | ~google/gemini-pro-latest | Google Gemini Pro Latest | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
 | arcee-ai/virtuoso-large | Arcee AI: Virtuoso Large | 131,072 | $0.7500 | $1.2000 | - | ⚠️ | 1,344,328,205 |

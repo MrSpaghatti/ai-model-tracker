@@ -13,6 +13,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | arcee-ai/trinity-large-thinking:free | Arcee AI: Trinity Large Thinking (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-next-80b-a3b-instruct:free | Qwen: Qwen3 Next 80B A3B Instruct (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-30b-a3b:free | NVIDIA: Nemotron 3 Nano 30B A3B (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
@@ -24,7 +25,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nousresearch/hermes-3-llama-3.1-405b:free | Nous: Hermes 3 405B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | openai/gpt-oss-120b:free | OpenAI: gpt-oss-120b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | openai/gpt-oss-20b:free | OpenAI: gpt-oss-20b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
-| poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | z-ai/glm-4.5-air:free | Z.ai: GLM 4.5 Air (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-12b-v2-vl:free | NVIDIA: Nemotron Nano 12B 2 VL (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
