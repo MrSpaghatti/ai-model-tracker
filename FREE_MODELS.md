@@ -10,7 +10,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| arcee-ai/trinity-large-thinking:free | Arcee AI: Trinity Large Thinking (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
