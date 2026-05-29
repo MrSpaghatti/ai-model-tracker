@@ -12,13 +12,13 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| minimax/minimax-m2.5:free | MiniMax: MiniMax M2.5 (free) | 262,144 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | moonshotai/kimi-k2.6:free | MoonshotAI: Kimi K2.6 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-next-80b-a3b-instruct:free | Qwen: Qwen3 Next 80B A3B Instruct (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-30b-a3b:free | NVIDIA: Nemotron 3 Nano 30B A3B (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| minimax/minimax-m2.5:free | MiniMax: MiniMax M2.5 (free) | 204,800 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | openrouter/free | Free Models Router | 200,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | meta-llama/llama-3.2-3b-instruct:free | Meta: Llama 3.2 3B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | meta-llama/llama-3.3-70b-instruct:free | Meta: Llama 3.3 70B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |

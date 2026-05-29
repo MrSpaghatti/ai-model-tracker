@@ -110,7 +110,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1390 | $1.0000 | - | ⚠️ | 4,603,055,312 |
 | qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
-| deepseek/deepseek-v3.2-speciale | DeepSeek: DeepSeek V3.2 Speciale | 163,840 | $0.2870 | $0.4310 | - | ⚠️ | 4,563,788,301 |
 | deepseek/deepseek-r1-distill-qwen-32b | DeepSeek: R1 Distill Qwen 32B | 128,000 | $0.2900 | $0.2900 | - | ⚠️ | 4,413,793,103 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
@@ -119,6 +118,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v3.2 | DeepSeek: DeepSeek V3.2 | 131,072 | $0.2520 | $0.3780 | - | ⚠️ | 4,161,015,873 |
 | nex-agi/deepseek-v3.1-nex-n1 | Nex AGI: DeepSeek V3.1 Nex N1 | 131,072 | $0.1350 | $0.5000 | - | ⚠️ | 4,128,251,969 |
 | qwen/qwen3.7-max | Qwen: Qwen3.7 Max | 1,000,000 | $1.2500 | $3.7500 | - | ⚠️ | 4,000,000,000 |
+| stepfun/step-3.7-flash | StepFun: Step 3.7 Flash | 256,000 | $0.2000 | $1.1500 | - | ⚠️ | 3,792,592,593 |
 | baidu/ernie-4.5-vl-28b-a3b | Baidu: ERNIE 4.5 VL 28B A3B | 131,072 | $0.1400 | $0.5600 | - | ⚠️ | 3,744,914,286 |
 | tencent/hunyuan-a13b-instruct | Tencent: Hunyuan A13B Instruct | 131,072 | $0.1400 | $0.5700 | - | ⚠️ | 3,692,169,014 |
 | google/gemma-3n-e4b-it | Google: Gemma 3n 4B | 32,768 | $0.0600 | $0.1200 | - | ⚠️ | 3,640,888,889 |
@@ -249,6 +249,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~anthropic/claude-haiku-latest | Anthropic Claude Haiku Latest | 200,000 | $1.0000 | $5.0000 | - | ✅ | 666,666,667 |
 | anthropic/claude-opus-4.6 | Anthropic: Claude Opus 4.6 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | anthropic/claude-opus-4.7 | Anthropic: Claude Opus 4.7 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
+| anthropic/claude-opus-4.8 | Anthropic: Claude Opus 4.8 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | ~anthropic/claude-opus-latest | Anthropic: Claude Opus Latest | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | nousresearch/hermes-4-405b | Nous: Hermes 4 405B | 131,072 | $1.0000 | $3.0000 | - | ⚠️ | 655,360,000 |
 | arcee-ai/maestro-reasoning | Arcee AI: Maestro Reasoning | 131,072 | $0.9000 | $3.3000 | - | ⚠️ | 624,152,381 |
@@ -269,6 +270,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/o4-mini-deep-research | OpenAI: o4 Mini Deep Research | 200,000 | $2.0000 | $8.0000 | - | ✅ | 400,000,000 |
 | openai/gpt-5-image | OpenAI: GPT-5 Image | 400,000 | $10.0000 | $10.0000 | - | ✅ | 400,000,000 |
 | perceptron/perceptron-mk1 | Perceptron: Perceptron Mk1 | 32,768 | $0.1500 | $1.5000 | - | ⚠️ | 397,187,879 |
+| anthropic/claude-opus-4.8-fast | Anthropic: Claude Opus 4.8 (Fast) | 1,000,000 | $10.0000 | $50.0000 | - | ✅ | 333,333,333 |
 | mistralai/mistral-large-2407 | Mistral Large 2407 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/mistral-large-2411 | Mistral Large 2411 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/pixtral-large-2411 | Mistral: Pixtral Large 2411 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
