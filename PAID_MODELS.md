@@ -6,7 +6,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 10,000,000 | $0.0800 | $0.3000 | - | ⚠️ | 526,315,789,474 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | - | ⚠️ | 131,072,000,000 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.1000 | $0.2000 | - | ⚠️ | 69,905,066,667 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0983 | $0.1966 | - | ⚠️ | 71,114,004,747 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | google/gemini-2.0-flash-lite-001 | Google: Gemini 2.0 Flash Lite | 1,048,576 | $0.0750 | $0.3000 | - | ⚠️ | 55,924,053,333 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
@@ -200,10 +200,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | nousresearch/hermes-3-llama-3.1-405b | Nous: Hermes 3 405B Instruct | 131,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,310,720,000 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
+| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6840 | $3.4200 | - | ⚠️ | 1,277,504,873 |
+| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6840 | $3.4200 | - | ⚠️ | 1,277,504,873 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
 | aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
-| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.7300 | $3.4900 | - | ⚠️ | 1,242,388,626 |
-| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.7300 | $3.4900 | - | ⚠️ | 1,242,388,626 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
 | qwen/qwen3-235b-a22b | Qwen: Qwen3 235B A22B | 131,072 | $0.4550 | $1.8200 | - | ⚠️ | 1,152,281,319 |
@@ -291,7 +291,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4o | OpenAI: GPT-4o | 128,000 | $2.5000 | $10.0000 | - | ⚠️ | 204,800,000 |
 | openai/gpt-4o-2024-08-06 | OpenAI: GPT-4o (2024-08-06) | 128,000 | $2.5000 | $10.0000 | - | ⚠️ | 204,800,000 |
 | openai/gpt-4o-2024-11-20 | OpenAI: GPT-4o (2024-11-20) | 128,000 | $2.5000 | $10.0000 | - | ✅ | 204,800,000 |
-| openai/gpt-4o-audio-preview | OpenAI: GPT-4o Audio | 128,000 | $2.5000 | $10.0000 | - | ✅ | 204,800,000 |
 | openai/gpt-4o-search-preview | OpenAI: GPT-4o Search Preview | 128,000 | $2.5000 | $10.0000 | - | ✅ | 204,800,000 |
 | openai/gpt-audio | OpenAI: GPT Audio | 128,000 | $2.5000 | $10.0000 | - | ✅ | 204,800,000 |
 | openai/gpt-3.5-turbo | OpenAI: GPT-3.5 Turbo | 16,385 | $0.5000 | $1.5000 | - | ✅ | 163,850,000 |
