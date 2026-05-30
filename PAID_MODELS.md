@@ -36,8 +36,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | liquid/lfm-2-24b-a2b | LiquidAI: LFM2-24B-A2B | 128,000 | $0.0300 | $0.1200 | - | ⚠️ | 17,066,666,667 |
 | deepseek/deepseek-v4-pro | DeepSeek: DeepSeek V4 Pro | 1,048,576 | $0.4350 | $0.8700 | - | ⚠️ | 16,070,130,268 |
 | xiaomi/mimo-v2.5-pro | Xiaomi: MiMo-V2.5-Pro | 1,048,576 | $0.4350 | $0.8700 | - | ⚠️ | 16,070,130,268 |
+| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0290 | $0.1400 | - | ⚠️ | 15,511,479,290 |
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0400 | $0.1300 | - | ⚠️ | 15,420,235,294 |
-| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0300 | $0.1400 | - | ⚠️ | 15,420,235,294 |
 | minimax/minimax-01 | MiniMax: MiniMax-01 | 1,000,192 | $0.2000 | $1.1000 | - | ⚠️ | 15,387,569,231 |
 | qwen/qwen3.6-flash | Qwen: Qwen3.6 Flash | 1,000,000 | $0.1875 | $1.1250 | - | ⚠️ | 15,238,095,238 |
 | amazon/nova-micro-v1 | Amazon: Nova Micro 1.0 | 128,000 | $0.0350 | $0.1400 | - | ✅ | 14,628,571,429 |
@@ -108,7 +108,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 131,072 | $0.0900 | $0.4500 | - | ⚠️ | 4,854,518,519 |
 | qwen/qwen3-vl-235b-a22b-instruct | Qwen: Qwen3 VL 235B A22B Instruct | 262,144 | $0.2000 | $0.8800 | - | ⚠️ | 4,854,518,519 |
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
-| qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1390 | $1.0000 | - | ⚠️ | 4,603,055,312 |
+| qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
 | qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
 | deepseek/deepseek-r1-distill-qwen-32b | DeepSeek: R1 Distill Qwen 32B | 128,000 | $0.2900 | $0.2900 | - | ⚠️ | 4,413,793,103 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
@@ -143,7 +143,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1500 | $1.1500 | - | ⚠️ | 3,150,769,231 |
 | qwen/qwen3.5-27b | Qwen: Qwen3.5-27B | 262,144 | $0.1950 | $1.5600 | - | ⚠️ | 2,987,396,011 |
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3510 | $0.5550 | - | ⚠️ | 2,825,607,064 |
-| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 204,800 | $0.2790 | $1.2000 | - | ⚠️ | 2,769,438,810 |
+| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 204,800 | $0.2600 | $1.2000 | - | ⚠️ | 2,805,479,452 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1250 | $0.8500 | - | ⚠️ | 2,688,656,410 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | ⚠️ | 2,685,901,639 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | ✅ | 2,666,666,667 |
@@ -275,7 +275,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/mistral-large-2411 | Mistral Large 2411 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/pixtral-large-2411 | Mistral: Pixtral Large 2411 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/mistral-large | Mistral Large | 128,000 | $2.0000 | $6.0000 | - | ⚠️ | 320,000,000 |
-| mistralai/mistral-7b-instruct-v0.1 | Mistral: Mistral 7B Instruct v0.1 | 4,096 | $0.1100 | $0.1900 | - | ⚠️ | 273,066,667 |
 | aion-labs/aion-rp-llama-3.1-8b | AionLabs: Aion-RP 1.0 (8B) | 32,768 | $0.8000 | $1.6000 | - | ⚠️ | 273,066,667 |
 | perplexity/sonar-deep-research | Perplexity: Sonar Deep Research | 128,000 | $2.0000 | $8.0000 | - | ⚠️ | 256,000,000 |
 | perplexity/sonar-reasoning-pro | Perplexity: Sonar Reasoning Pro | 128,000 | $2.0000 | $8.0000 | - | ⚠️ | 256,000,000 |
