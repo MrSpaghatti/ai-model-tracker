@@ -3,6 +3,8 @@
 
     var models = [];
     var history = null;
+    var changes = null;
+    var providerStats = [];
     var state = {
         provider: null,
         search: '',
@@ -13,7 +15,8 @@
         maxPrice: undefined,
         modality: null,
         free: undefined,
-        moderated: undefined
+        moderated: undefined,
+        dataPolicy: null
     };
 
     function showFatalError(msg) {
@@ -33,7 +36,8 @@
             maxPrice: st.maxPrice,
             modality: st.modality,
             free: st.free,
-            moderated: st.moderated
+            moderated: st.moderated,
+            dataPolicy: st.dataPolicy
         };
         var rows = AIMT.filterModels(allModels, filters);
         rows = AIMT.sortModels(rows, st.sortCol, st.sortDir);
@@ -51,7 +55,8 @@
         }
 
         var th = function(col, label) {
-            return '<th data-col="' + AIMT.escHtml(col) + '" class="sortable' + (st.sortCol === col ? ' sorted' : '') + '">' + AIMT.escHtml(label) + AIMT.getSortArrow(col, st.sortCol, st.sortDir) + '</th>';
+            var stateClass = st.sortCol === col ? (' sorted ' + st.sortDir) : '';
+            return '<th data-col="' + AIMT.escHtml(col) + '" class="sortable' + stateClass + '">' + AIMT.escHtml(label) + AIMT.getSortArrow(col, st.sortCol, st.sortDir) + '</th>';
         };
 
         var html = '<table class="model-table"><thead><tr>';
@@ -61,7 +66,8 @@
         html += th('prompt_price', 'Prompt$/M');
         html += th('completion_price', 'Completion$/M');
         html += th('contextPerCent', 'Ctx/Cent');
-        html += '<th>Mod.</th></tr></thead><tbody>';
+        html += '<th>Policy</th>';
+        html += '<th>Mod.</th><th>ID</th></tr></thead><tbody>';
         rows.forEach(function(m) {
             var isSelected = st.selectedModel === m.id;
             html += '<tr class="model-row' + (isSelected ? ' selected' : '') + '" data-id="' + AIMT.escHtml(m.id || '') + '">';
@@ -71,7 +77,9 @@
             html += '<td class="model-prompt" data-sort="' + (AIMT.toNumber(m.pricing && m.pricing.prompt) || -1) + '">' + AIMT.formatPrice(m.pricing && m.pricing.prompt) + '</td>';
             html += '<td class="model-completion" data-sort="' + (AIMT.toNumber(m.pricing && m.pricing.completion) || -1) + '">' + AIMT.formatPrice(m.pricing && m.pricing.completion) + '</td>';
             html += '<td class="model-cpc" data-sort="' + (m.contextPerCent !== undefined ? m.contextPerCent : -Infinity) + '">' + AIMT.formatCtxPerCent(m.contextPerCent) + '</td>';
+            html += '<td class="model-policy">' + AIMT.escHtml(m.data_policy_level || 'unknown') + '</td>';
             html += '<td class="model-mod">' + (m.is_moderated ? '✓' : '') + '</td>';
+            html += '<td><button class="copy-model-id" data-id="' + AIMT.escHtml(m.id || '') + '" title="Copy model ID">Copy</button></td>';
             html += '</tr>';
         });
         html += '</tbody></table>';
@@ -103,7 +111,56 @@
                 render();
             });
         });
+
+        el.querySelectorAll('.copy-model-id').forEach(function(btn) {
+            btn.addEventListener('click', async function(ev) {
+                ev.stopPropagation();
+                var id = btn.dataset.id || '';
+                var ok = await AIMT.copyText(id);
+                btn.textContent = ok ? 'Copied' : 'Copy';
+                setTimeout(function() { btn.textContent = 'Copy'; }, 900);
+            });
+        });
     };
+
+    function renderOverview() {
+        var host = document.getElementById('overview-container');
+        if (!host) return;
+
+        var summary = changes || { new_models: [], removed_models: [], price_changes: [], biggest_movers: [] };
+        var stats = providerStats || [];
+        var topProviders = stats.slice(0, 5);
+        var movers = (summary.biggest_movers || []).slice(0, 5);
+
+        var html = '<div class="provider-stats">';
+        html += '<div class="stat-card"><div class="stat-label">New Models</div><div class="stat-value">' + (summary.new_models || []).length + '</div></div>';
+        html += '<div class="stat-card"><div class="stat-label">Removed Models</div><div class="stat-value">' + (summary.removed_models || []).length + '</div></div>';
+        html += '<div class="stat-card"><div class="stat-label">Price Changes</div><div class="stat-value">' + (summary.price_changes || []).length + '</div></div>';
+        html += '<div class="stat-card"><div class="stat-label">Providers</div><div class="stat-value">' + stats.length + '</div></div>';
+        html += '</div>';
+
+        html += '<div class="page-header"><h2>Top Providers</h2><p>By model count with moderation coverage and free/paid split.</p>';
+        html += '<table class="model-table"><thead><tr><th>Provider</th><th>Total</th><th>Free</th><th>Paid</th><th>Moderation</th></tr></thead><tbody>';
+        topProviders.forEach(function(p) {
+            html += '<tr><td>' + AIMT.escHtml(p.provider) + '</td><td>' + p.total_models + '</td><td>' + p.free_models + '</td><td>' + p.paid_models + '</td><td>' + Number(p.moderation_coverage_pct || 0).toFixed(1) + '%</td></tr>';
+        });
+        html += '</tbody></table></div>';
+
+        html += '<div class="page-header"><h2>Biggest Movers</h2><p>Largest prompt/completion price delta since prior snapshot.</p>';
+        if (!movers.length) {
+            html += '<p>No movers yet.</p>';
+        } else {
+            html += '<ul>';
+            movers.forEach(function(m) {
+                var delta = Math.max(Math.abs(Number(m.prompt_delta_pct || 0)), Math.abs(Number(m.completion_delta_pct || 0)));
+                html += '<li><code>' + AIMT.escHtml(m.model_id) + '</code> (' + AIMT.escHtml(m.provider || '') + '): ' + delta.toFixed(2) + '%</li>';
+            });
+            html += '</ul>';
+        }
+        html += '</div>';
+
+        host.innerHTML = html;
+    }
 
     window.__renderChart = function(hist, st) {
         var el = document.getElementById('chart-container');
@@ -218,6 +275,7 @@
         if (typeof window.__renderTheme === 'function') {
             try { window.__renderTheme(state); } catch (e) { console.error('renderTheme:', e); }
         }
+        renderOverview();
     }
 
     function initSearch() {
@@ -239,6 +297,16 @@
                 render();
             });
         }
+
+        var policy = document.getElementById('policy-filter');
+        if (policy) {
+            policy.value = state.dataPolicy || '';
+            policy.addEventListener('change', function() {
+                state.dataPolicy = policy.value || null;
+                AIMT.writeHash(state);
+                render();
+            });
+        }
     }
 
     function applyHashToState() {
@@ -253,6 +321,7 @@
         state.modality = parsed.modality;
         state.free = parsed.free;
         state.moderated = parsed.moderated;
+        state.dataPolicy = parsed.dataPolicy;
     }
 
     window.addEventListener('hashchange', function() { applyHashToState(); render(); });
@@ -266,6 +335,8 @@
             var data = await AIMT.loadData('./data/');
             models = data.models;
             history = data.history;
+            changes = data.changes;
+            providerStats = data.providerStats;
             var lastEl = document.getElementById('last-updated');
             if (lastEl) lastEl.textContent = AIMT.formatTimestamp(data.generatedAt);
             populateProviderDropdown();

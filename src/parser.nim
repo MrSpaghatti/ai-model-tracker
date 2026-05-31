@@ -1,5 +1,6 @@
 import std/[algorithm, json, math, strformat, strutils]
 
+import policy
 import types
 
 proc getString(node: JsonNode; key: string): string =
@@ -47,6 +48,12 @@ proc collectModalities(model: OpenRouterModel): seq[string] =
       result.add(normalized)
 
 proc toModelRow(model: OpenRouterModel): ModelRow =
+  let provider =
+    if "/" in model.id:
+      model.id.split("/")[0]
+    else:
+      ""
+  let dataPolicy = getDataPolicy(provider, model.id)
   let promptPrice = parsePrice(model.pricing.prompt, "prompt", model.id)
   let completionPrice = parsePrice(model.pricing.completion, "completion", model.id)
   let hasRequestPrice = model.pricing.request.len > 0
@@ -68,6 +75,7 @@ proc toModelRow(model: OpenRouterModel): ModelRow =
   result = ModelRow(
     id: model.id,
     name: model.name,
+    provider: provider,
     contextLength: model.context_length,
     promptPrice: promptPrice,
     completionPrice: completionPrice,
@@ -77,7 +85,10 @@ proc toModelRow(model: OpenRouterModel): ModelRow =
     contextPerCent: contextPerCent,
     isFree: promptPrice == 0.0 and completionPrice == 0.0,
     isModerated: model.top_provider.is_moderated,
-    modalities: collectModalities(model)
+    modalities: collectModalities(model),
+    dataPolicyLevel: dataPolicy.level,
+    dataPolicyNotes: dataPolicy.notes,
+    dataPolicySource: dataPolicy.source
   )
 
 proc toOpenRouterModel(node: JsonNode): OpenRouterModel =

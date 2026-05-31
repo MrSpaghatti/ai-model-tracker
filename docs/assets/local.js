@@ -31,10 +31,12 @@
         html += '<th>Model</th>';
         html += '<th>Size</th>';
         html += '<th>Ctx Window</th>';
+        html += '<th>Ctx Meta</th>';
         html += '<th>Quant</th>';
         html += '<th>FP16</th>';
         html += '<th>FP8</th>';
         html += '<th>4-bit</th>';
+        html += '<th>VRAM Meta</th>';
         html += '<th>Best For</th>';
         html += '</tr></thead><tbody>';
 
@@ -45,10 +47,12 @@
             html += '</td>';
             html += '<td class="model-size">' + AIMT.escHtml(m.size) + '</td>';
             html += '<td class="model-ctx">' + (m.ctx_window ? AIMT.escHtml(m.ctx_window.toLocaleString()) : 'N/A') + '</td>';
+            html += '<td class="model-quant">' + AIMT.escHtml((m.metadata && m.metadata.ctx_window && m.metadata.ctx_window.source) || 'n/a') + ' / ' + AIMT.escHtml((m.metadata && m.metadata.ctx_window && m.metadata.ctx_window.confidence) || 'n/a') + '</td>';
             html += '<td class="model-quant">' + AIMT.escHtml(m.quant || 'N/A') + '</td>';
             html += '<td class="model-vram" data-vram="' + (parseVRAM(m.vram_fp16) || 0) + '">' + formatVRAM(parseVRAM(m.vram_fp16)) + '</td>';
             html += '<td class="model-vram" data-vram="' + (parseVRAM(m.vram_fp8) || 0) + '">' + formatVRAM(parseVRAM(m.vram_fp8)) + '</td>';
             html += '<td class="model-vram" data-vram="' + (parseVRAM(m.vram_4bit) || 0) + '">' + formatVRAM(parseVRAM(m.vram_4bit)) + '</td>';
+            html += '<td class="model-quant">' + AIMT.escHtml((m.metadata && m.metadata.vram && m.metadata.vram.source) || 'n/a') + ' / ' + AIMT.escHtml((m.metadata && m.metadata.vram && m.metadata.vram.confidence) || 'n/a') + '</td>';
             html += '<td class="model-tags">' + getBestForBadge(m.best_for) + '</td>';
             html += '</tr>';
         });

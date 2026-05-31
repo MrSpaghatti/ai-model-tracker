@@ -1,9 +1,11 @@
-import std/[json, math, options, os, sequtils, strutils, tables, times]
+import std/[algorithm, json, math, options, os, sequtils, strutils, tables, times]
 
 import fetcher
 import formatter
+import json_mapper
 import parser
 import types
+import validator
 
 const
   ReadmeTemplatePath = "templates/README.md"
@@ -23,6 +25,7 @@ const
 - [💳 Paid Models](PAID_MODELS.md) — All paid models, sorted by context/cent efficiency
 - [🏆 Category Picks](CATEGORIES.md) — Top-5 models for coding, vision, value, VRAM tiers, and more
 - [💻 Local Models](LOCAL_MODELS.md) — Curated self-hosted model recommendations with VRAM estimates
+- [🛣️ Roadmap](ROADMAP.md) — Backlog grouped by data quality, ranking quality, UX, and ops reliability
 
 ## 📈 Raw Data
 
@@ -49,36 +52,132 @@ proc writeOutputFile(path, content, label: string) =
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to write " & label & ": " & exc.msg)
 
-proc toJsonModel(row: ModelRow): JsonModel =
-  let providerParts = row.id.split("/")
-  let provider =
-    if providerParts.len > 0:
-      providerParts[0]
-    else:
-      ""
+proc buildProviderStats(rows: seq[ModelRow]): seq[JsonProviderStats] =
+  type ProviderAccumulator = object
+    totalModels: int
+    freeModels: int
+    paidModels: int
+    moderatedModels: int
+    promptTotal: float
+    completionTotal: float
+    pricedCount: int
 
-  result = JsonModel(
-    id: row.id,
-    name: row.name,
-    provider: provider,
-    context_length: row.contextLength,
-    pricing: Pricing(
-      prompt: $row.promptPrice,
-      completion: $row.completionPrice,
-      request: if row.hasRequestPrice: $row.requestPrice else: ""
-    ),
-    created_at: getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'"),
-    is_free: row.isFree,
-    is_moderated: row.isModerated,
-    modalities: row.modalities
+  var acc = initTable[string, ProviderAccumulator]()
+  for row in rows:
+    let provider = row.provider
+    if provider.len == 0:
+      continue
+    var item = acc.getOrDefault(provider)
+    inc(item.totalModels)
+    if row.isFree: inc(item.freeModels) else: inc(item.paidModels)
+    if row.isModerated: inc(item.moderatedModels)
+    if row.promptPrice.classify != fcNaN and row.completionPrice.classify != fcNaN:
+      item.promptTotal += row.promptPrice
+      item.completionTotal += row.completionPrice
+      inc(item.pricedCount)
+    acc[provider] = item
+
+  for provider, item in acc.pairs:
+    let moderationCoverage =
+      if item.totalModels == 0: 0.0
+      else: (item.moderatedModels.float / item.totalModels.float) * 100.0
+    let avgPrompt =
+      if item.pricedCount == 0: ""
+      else: formatFloat(item.promptTotal / item.pricedCount.float, ffDecimal, 12)
+    let avgCompletion =
+      if item.pricedCount == 0: ""
+      else: formatFloat(item.completionTotal / item.pricedCount.float, ffDecimal, 12)
+
+    result.add(JsonProviderStats(
+      provider: provider,
+      total_models: item.totalModels,
+      free_models: item.freeModels,
+      paid_models: item.paidModels,
+      moderated_models: item.moderatedModels,
+      moderation_coverage_pct: moderationCoverage,
+      avg_prompt_price: avgPrompt,
+      avg_completion_price: avgCompletion
+    ))
+
+  result.sort(proc(a, b: JsonProviderStats): int =
+    if a.total_models > b.total_models: return -1
+    if a.total_models < b.total_models: return 1
+    cmp(a.provider, b.provider)
   )
 
-proc writeJsonCurrent(rows: seq[ModelRow]) =
+proc buildChangeSummary(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntry]): JsonChangesSummary =
+  var latestClosed = initTable[string, JsonHistoryEntry]()
+  var latestOpen = initTable[string, JsonHistoryEntry]()
+  var latestAny = initTable[string, JsonHistoryEntry]()
+  for entry in historyEntries:
+    let existingAny = latestAny.getOrDefault(entry.model_id)
+    if existingAny.model_id.len == 0 or existingAny.from_date < entry.from_date:
+      latestAny[entry.model_id] = entry
+
+    if entry.to_date.isNone:
+      let existing = latestOpen.getOrDefault(entry.model_id)
+      if existing.model_id.len == 0 or existing.from_date < entry.from_date:
+        latestOpen[entry.model_id] = entry
+    else:
+      let existing = latestClosed.getOrDefault(entry.model_id)
+      if existing.model_id.len == 0 or existing.from_date < entry.from_date:
+        latestClosed[entry.model_id] = entry
+
+  var currentById = initTable[string, ModelRow]()
+  for row in rows:
+    currentById[row.id] = row
+    if not latestOpen.hasKey(row.id):
+      result.new_models.add(row.id)
+
+    if latestClosed.hasKey(row.id):
+      let prev = latestClosed[row.id]
+      if not pricesEqual(prev.prompt_price, row.promptPrice) or
+         not pricesEqual(prev.completion_price, row.completionPrice):
+        let promptDelta =
+          if abs(prev.prompt_price) < PriceEpsilon: 0.0
+          else: ((row.promptPrice - prev.prompt_price) / prev.prompt_price) * 100.0
+        let completionDelta =
+          if abs(prev.completion_price) < PriceEpsilon: 0.0
+          else: ((row.completionPrice - prev.completion_price) / prev.completion_price) * 100.0
+        result.price_changes.add(JsonPriceChange(
+          model_id: row.id,
+          provider: row.provider,
+          old_prompt_price: prev.prompt_price,
+          new_prompt_price: row.promptPrice,
+          old_completion_price: prev.completion_price,
+          new_completion_price: row.completionPrice,
+          prompt_delta_pct: promptDelta,
+          completion_delta_pct: completionDelta
+        ))
+
+  for modelId, entry in latestAny.pairs:
+    if not currentById.hasKey(modelId) and entry.to_date.isSome:
+      result.removed_models.add(modelId)
+
+  var movers = result.price_changes
+  movers.sort(proc(a, b: JsonPriceChange): int =
+    let am = max(abs(a.prompt_delta_pct), abs(a.completion_delta_pct))
+    let bm = max(abs(b.prompt_delta_pct), abs(b.completion_delta_pct))
+    if am > bm: return -1
+    if am < bm: return 1
+    cmp(a.model_id, b.model_id)
+  )
+  let capped = min(5, movers.len)
+  if capped > 0:
+    result.biggest_movers = movers[0 ..< capped]
+
+proc writeJsonCurrent(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntry]) =
   createDir("docs/data")
 
-  let generatedAt = getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
+  let generatedAt = utcIsoTimestamp()
   let models = rows.mapIt(toJsonModel(it))
-  let root = JsonCurrentRoot(version: 1, generated_at: generatedAt, models: models)
+  let root = JsonCurrentRoot(
+    version: 1,
+    generated_at: generatedAt,
+    models: models,
+    changes: buildChangeSummary(rows, historyEntries),
+    provider_stats: buildProviderStats(rows)
+  )
 
   try:
     writeFile("docs/data/current.json", pretty(%*root))
@@ -101,11 +200,11 @@ proc parseHistoryEntry(node: JsonNode): JsonHistoryEntry =
 proc pricesEqual(a, b: float): bool =
   abs(a - b) < PriceEpsilon
 
-proc writeJsonHistoryIncremental(rows: seq[ModelRow]) =
+proc writeJsonHistoryIncremental(rows: seq[ModelRow]): seq[JsonHistoryEntry] =
   if not fileExists(HistoryJsonPath):
     stderr.writeLine("Warning: " & HistoryJsonPath &
       " does not exist; skipping incremental history update (run backfill_history first).")
-    return
+    return @[]
 
   let now = getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
 
@@ -186,6 +285,8 @@ proc writeJsonHistoryIncremental(rows: seq[ModelRow]) =
   except CatchableError as exc:
     raise newException(CatchableError,
       "Unable to write " & HistoryJsonPath & ": " & exc.msg)
+  validateHistoryEntries(newEntries)
+  result = newEntries
 
 proc writeReadme(content: string) =
   let readmeTemplate = loadReadmeTemplate()
@@ -207,9 +308,10 @@ proc main() =
     writeRawRegistry(rawJson)
 
     let rows = parseModels(rawJson)
+    validateCurrentRows(rows)
+    let historyEntries = writeJsonHistoryIncremental(rows)
     writeReadme("")
-    writeJsonCurrent(rows)
-    writeJsonHistoryIncremental(rows)
+    writeJsonCurrent(rows, historyEntries)
     writeOutputFile(FreeModelsOutputPath, generateFreeModelsPage(rows), "FREE_MODELS.md")
     writeOutputFile(PaidModelsOutputPath, generatePaidModelsPage(rows), "PAID_MODELS.md")
     writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")

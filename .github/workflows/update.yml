@@ -24,20 +24,26 @@ jobs:
         run: |
           jq -e '.version == 1' docs/data/current.json
           jq -e '.models | length >= 300' docs/data/current.json
+          jq -e 'all(.models[]; has("data_policy_level") and has("data_policy_source"))' docs/data/current.json
+          jq -e '.changes and (.changes | has("new_models") and has("removed_models") and has("price_changes") and has("biggest_movers"))' docs/data/current.json
+          jq -e '.provider_stats and (.provider_stats | length >= 1)' docs/data/current.json
+          jq -e '([.models[].id] | length) == ([.models[].id] | unique | length)' docs/data/current.json
           test "$(stat -c%s docs/data/current.json)" -lt 204800
           if [ -f docs/data/history.json ]; then
             jq -e '.version == 1' docs/data/history.json
             jq -e '.entries | length >= 1' docs/data/history.json
+            jq -e 'all(.entries[]; (.to_date == null) or (.to_date >= .from_date))' docs/data/history.json
           fi
           if [ -f docs/data/local-models.json ]; then
             jq -e '.version == 1' docs/data/local-models.json
             jq -e '.models | length >= 1' docs/data/local-models.json
             jq -e 'all(.models[]; has("ctx_window") and has("quant"))' docs/data/local-models.json
+            jq -e 'all(.models[]; has("metadata") and (.metadata | has("ctx_window") and has("vram")))' docs/data/local-models.json
           fi
       - name: Push updates
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md data/registry.json docs/data/current.json docs/data/history.json docs/data/local-models.json
+          git add README.md FREE_MODELS.md PAID_MODELS.md LOCAL_MODELS.md CATEGORIES.md ROADMAP.md data/registry.json docs/data/current.json docs/data/history.json docs/data/local-models.json
           git commit -m "update: $(date -u)" || exit 0
           git push

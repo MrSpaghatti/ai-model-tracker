@@ -280,6 +280,10 @@ main {
   background-color: var(--bg);
 }
 
+#overview-container {
+  margin-bottom: 1rem;
+}
+
 .model-table {
   width: 100%;
   border-collapse: collapse;
@@ -355,6 +359,11 @@ main {
 
 .model-name {
   font-weight: 600;
+}
+
+.copy-model-id {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
 }
 
 .price-good {

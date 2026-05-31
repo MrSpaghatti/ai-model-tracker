@@ -1,6 +1,7 @@
-import std/[algorithm, json, math, sequtils, strformat, strutils, times]
+import std/[algorithm, json, math, os, sequtils, strformat, strutils, times]
 import puppy
 import categorizer
+import json_mapper
 import types
 
 type
@@ -8,10 +9,14 @@ type
     model: string,
     size: string,
     ctxWindow: int,
+    ctxWindowSource: string,
+    ctxWindowConfidence: string,
     quant: string,
     fp16: string,
     fp8: string,
     q4: string,
+    vramSource: string,
+    vramConfidence: string,
     bestFor: string,
     notes: string
   ]
@@ -99,33 +104,35 @@ proc calcVram(paramsB: float; bytesPerParam: float): string =
 
 # Fetch context window length from HuggingFace config.json
 proc fetchHfContextWindow(hfId: string): int =
-  try:
-    let configUrl = "https://huggingface.co/" & hfId & "/resolve/main/config.json"
-    let rawConfig = fetch(
-      configUrl,
-      headers = @[
-        Header(key: "Accept", value: "application/json"),
-        Header(key: "User-Agent", value: "ai-model-tracker/1.0")
-      ]
-    )
-    let config = parseJson(rawConfig)
-    # Try various known field names for context window
-    if config.hasKey("max_position_embeddings"):
-      result = config["max_position_embeddings"].getInt()
-    elif config.hasKey("n_positions"):
-      result = config["n_positions"].getInt()
-    elif config.hasKey("n_ctx"):
-      result = config["n_ctx"].getInt()
-    elif config.hasKey("seq_length"):
-      result = config["seq_length"].getInt()
-    elif config.hasKey("sliding_window"):
-      result = config["sliding_window"].getInt()
-    elif config.hasKey("model_max_length"):
-      result = config["model_max_length"].getInt()
-    else:
-      result = 0
-  except:
-    result = 0
+  let configUrl = "https://huggingface.co/" & hfId & "/resolve/main/config.json"
+  for attempt in 0..2:
+    try:
+      let rawConfig = fetch(
+        configUrl,
+        headers = @[
+          Header(key: "Accept", value: "application/json"),
+          Header(key: "User-Agent", value: "ai-model-tracker/1.0")
+        ]
+      )
+      let config = parseJson(rawConfig)
+      # Try various known field names for context window
+      if config.hasKey("max_position_embeddings"):
+        return config["max_position_embeddings"].getInt()
+      if config.hasKey("n_positions"):
+        return config["n_positions"].getInt()
+      if config.hasKey("n_ctx"):
+        return config["n_ctx"].getInt()
+      if config.hasKey("seq_length"):
+        return config["seq_length"].getInt()
+      if config.hasKey("sliding_window"):
+        return config["sliding_window"].getInt()
+      if config.hasKey("model_max_length"):
+        return config["model_max_length"].getInt()
+      return 0
+    except:
+      if attempt < 2:
+        sleep(200 * (attempt + 1))
+  0
 
 # Main function to build local models data from HuggingFace sources
 proc buildLocalModels*(): seq[LocalModelEntry] =
@@ -134,17 +141,25 @@ proc buildLocalModels*(): seq[LocalModelEntry] =
     
     # Try to fetch context window from HuggingFace
     var ctxWindow = fetchHfContextWindow(meta.hfId)
+    var ctxSource = "huggingface-config"
+    var ctxConfidence = "high"
     if ctxWindow == 0:
       ctxWindow = getFallbackCtxWindow(meta.hfId)
+      ctxSource = "fallback-curated"
+      ctxConfidence = "medium"
     
     var entry: LocalModelEntry
     entry.model = meta.name
     entry.size = meta.size
     entry.ctxWindow = ctxWindow
+    entry.ctxWindowSource = ctxSource
+    entry.ctxWindowConfidence = ctxConfidence
     entry.quant = "FP16, FP8, 4-bit"
     entry.fp16 = calcVram(paramsB, 2.0)
     entry.fp8 = calcVram(paramsB, 1.0)
     entry.q4 = calcVram(paramsB, 0.5)
+    entry.vramSource = "heuristic-size-formula"
+    entry.vramConfidence = "medium"
     entry.bestFor = meta.bestFor
     entry.notes = meta.notes
     result.add(entry)
@@ -198,11 +213,11 @@ proc formatModerationStatus(row: ModelRow): string =
     "⚠️"
 
 proc generateRowsTable(rows: seq[ModelRow]): string =
-  result = "| Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Request ($/req) | Moderated | Context per Cent |\n"
-  result.add "| --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |\n"
+  result = "| Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Request ($/req) | Data Policy | Moderated | Context per Cent |\n"
+  result.add "| --- | --- | ---: | ---: | ---: | ---: | --- | :---: | ---: |\n"
 
   for row in rows:
-    result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {formatRequestPrice(row.requestPrice, row.hasRequestPrice)} | {formatModerationStatus(row)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
+    result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {formatRequestPrice(row.requestPrice, row.hasRequestPrice)} | {escapeMarkdownCell(row.dataPolicyLevel)} | {formatModerationStatus(row)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
 
 proc generateModelTable*(rows: seq[ModelRow]; title: string): string =
   result = "## " & title & "\n\n"
@@ -256,13 +271,13 @@ proc generatePaidModelsPage*(allRows: seq[ModelRow]): string =
 proc generateLocalModelsTable*(): string =
   let localModels = buildLocalModels()
   result = "# Local Model Recommendations\n\n"
-  result.add "> Data sourced from HuggingFace model configs. Models updated May 2026. VRAM estimates include weights, KV cache, and activation overhead. Actual usage varies.\n\n"
-  result.add "| Model | Size | Ctx Window | Quant | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | Best For | Notes |\n"
-  result.add "| --- | --- | ---: | --- | ---: | ---: | ---: | --- | --- |\n"
+  result.add "> Context windows prefer live HuggingFace config values; curated fallbacks are used when unavailable. VRAM is a heuristic estimate including weights, KV cache, and activation overhead.\n\n"
+  result.add "| Model | Size | Ctx Window | Ctx Source | Ctx Confidence | Quant | VRAM (FP16) | VRAM (FP8) | VRAM (4-bit) | VRAM Source | VRAM Confidence | Best For | Notes |\n"
+  result.add "| --- | --- | ---: | --- | --- | --- | ---: | ---: | ---: | --- | --- | --- | --- |\n"
 
   for entry in localModels:
     let ctxWin = if entry.ctxWindow > 0: formatWholeNumber(entry.ctxWindow) else: "N/A"
-    result.add fmt"| {escapeMarkdownCell(entry.model)} | {escapeMarkdownCell(entry.size)} | {ctxWin} | {escapeMarkdownCell(entry.quant)} | {escapeMarkdownCell(entry.fp16)} | {escapeMarkdownCell(entry.fp8)} | {escapeMarkdownCell(entry.q4)} | {escapeMarkdownCell(entry.bestFor)} | {escapeMarkdownCell(entry.notes)} |" & "\n"
+    result.add fmt"| {escapeMarkdownCell(entry.model)} | {escapeMarkdownCell(entry.size)} | {ctxWin} | {escapeMarkdownCell(entry.ctxWindowSource)} | {escapeMarkdownCell(entry.ctxWindowConfidence)} | {escapeMarkdownCell(entry.quant)} | {escapeMarkdownCell(entry.fp16)} | {escapeMarkdownCell(entry.fp8)} | {escapeMarkdownCell(entry.q4)} | {escapeMarkdownCell(entry.vramSource)} | {escapeMarkdownCell(entry.vramConfidence)} | {escapeMarkdownCell(entry.bestFor)} | {escapeMarkdownCell(entry.notes)} |" & "\n"
 
 proc generateLocalModelsJson*(): string =
   let localModels = buildLocalModels()
@@ -283,7 +298,17 @@ proc generateLocalModelsJson*(): string =
       "vram_fp8": entry.fp8,
       "vram_4bit": entry.q4,
       "best_for": bestForJson,
-      "notes": entry.notes
+      "notes": entry.notes,
+      "metadata": {
+        "ctx_window": {
+          "source": entry.ctxWindowSource,
+          "confidence": entry.ctxWindowConfidence
+        },
+        "vram": {
+          "source": entry.vramSource,
+          "confidence": entry.vramConfidence
+        }
+      }
     }
     jsonModels.add(modelJson)
   
@@ -305,11 +330,11 @@ proc generateCompactTable(rows: seq[ModelRow]): string =
   if rows.len == 0:
     return "_No matching models found._\n"
 
-  result = "| Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |\n"
-  result.add "| --- | --- | ---: | ---: | ---: | :---: | ---: |\n"
+  result = "| Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Data Policy | Moderated | Context per Cent |\n"
+  result.add "| --- | --- | ---: | ---: | ---: | --- | :---: | ---: |\n"
 
   for row in rows:
-    result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {formatModerationStatus(row)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
+    result.add fmt"| {escapeMarkdownCell(row.id)} | {escapeMarkdownCell(row.name)} | {formatWholeNumber(row.contextLength)} | {formatUsdPerMillion(row.promptPrice)} | {formatUsdPerMillion(row.completionPrice)} | {escapeMarkdownCell(row.dataPolicyLevel)} | {formatModerationStatus(row)} | {formatLargeFloat(row.contextPerCent)} |" & "\n"
 
 proc generateCategorySection(title: string; rows: seq[ModelRow]): string =
   result = "## " & title & "\n\n"
@@ -372,41 +397,6 @@ proc generateCategoryPages*(allRows: seq[ModelRow]): string =
   result.add generateCategorySection("Top 5 Models for ~24 GB VRAM", getTopModelsByVram(allRows, 24))
   result.add generateCategorySection("Top 5 Models for ~32 GB VRAM", getTopModelsByVram(allRows, 32))
   result.add generateCategorySection("Top 5 Models for ~48 GB VRAM", getTopModelsByVram(allRows, 48))
-
-proc formatPriceForJson(price: float): string =
-  if price.classify == fcNaN:
-    return ""
-  formatFloat(price, ffDecimal, 12)
-
-proc utcIsoTimestamp(): string =
-  now().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
-
-proc toJsonModel(row: ModelRow): JsonModel =
-  let provider =
-    if "/" in row.id:
-      row.id.split("/")[0]
-    else:
-      ""
-
-  result = JsonModel(
-    id: row.id,
-    name: row.name,
-    provider: provider,
-    context_length: row.contextLength,
-    pricing: Pricing(
-      prompt: formatPriceForJson(row.promptPrice),
-      completion: formatPriceForJson(row.completionPrice),
-      request:
-        if row.hasRequestPrice:
-          formatPriceForJson(row.requestPrice)
-        else:
-          ""
-    ),
-    created_at: utcIsoTimestamp(),
-    is_free: row.isFree,
-    is_moderated: row.isModerated,
-    modalities: row.modalities
-  )
 
 proc generateCurrentJson*(rows: seq[ModelRow]): string =
   var models: seq[JsonModel] = @[]

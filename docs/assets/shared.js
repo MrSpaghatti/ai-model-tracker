@@ -174,6 +174,12 @@
                 return (!!m.is_moderated) === filters.moderated;
             });
         }
+
+        if (filters.dataPolicy) {
+            result = result.filter(function(m) {
+                return (m.data_policy_level || '').toLowerCase() === filters.dataPolicy.toLowerCase();
+            });
+        }
         
         // Capability filter (based on supported_parameters)
         if (filters.capability) {
@@ -255,6 +261,7 @@
             modality: params.get('modality') || null,
             free: params.get('free') === 'true' ? true : params.get('free') === 'false' ? false : undefined,
             moderated: params.get('mod') === 'true' ? true : params.get('mod') === 'false' ? false : undefined,
+            dataPolicy: params.get('policy') || null,
         };
     }
 
@@ -271,6 +278,7 @@
         if (state.modality) params.set('modality', state.modality);
         if (state.free !== undefined) params.set('free', state.free);
         if (state.moderated !== undefined) params.set('mod', state.moderated);
+        if (state.dataPolicy) params.set('policy', state.dataPolicy);
         
         const str = params.toString();
         const next = str ? ('#' + str) : '';
@@ -332,8 +340,21 @@
         return {
             models: models,
             history: history,
-            generatedAt: current.generated_at
+            generatedAt: current.generated_at,
+            changes: current.changes || { new_models: [], removed_models: [], price_changes: [], biggest_movers: [] },
+            providerStats: current.provider_stats || []
         };
+    }
+
+    async function copyText(text) {
+        if (!text) return false;
+        try {
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                await navigator.clipboard.writeText(text);
+                return true;
+            }
+        } catch (_e) {}
+        return false;
     }
 
     // ============ Theme Functions ============
@@ -396,6 +417,7 @@
         
         // Data
         loadData: loadData,
+        copyText: copyText,
         
         // Theme
         initTheme: initTheme,

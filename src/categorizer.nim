@@ -96,31 +96,78 @@ proc getTopModelsByVram*(rows: seq[ModelRow]; vramGb: int): seq[ModelRow] =
 proc getBestModelsForTask*(rows: seq[ModelRow]; task: string): seq[ModelRow] =
   let taskName = task.toLowerAscii()
 
-  for row in rows:
-    let searchable = (row.id & " " & row.name).toLowerAscii()
-    var matchesTask = false
-
+  proc taskTagScore(searchable: string; row: ModelRow): float =
     case taskName
     of "coding":
-      matchesTask = searchable.contains("code") or searchable.contains("coder") or
-        searchable.contains("codex") or searchable.contains("codestral") or
-        searchable.contains("devstral")
+      if searchable.contains("code") or searchable.contains("coder") or searchable.contains("codex") or
+         searchable.contains("codestral") or searchable.contains("devstral"):
+        return 1.0
+      return 0.0
     of "vision":
-      matchesTask = row.hasModality("image") or searchable.contains("vision") or searchable.contains("vl")
+      if row.hasModality("image") or searchable.contains("vision") or searchable.contains("vl"):
+        return 1.0
+      return 0.0
     of "encoding":
-      matchesTask = searchable.contains("embed") or searchable.contains("embedding") or
-        searchable.contains("encoder") or searchable.contains("encode") or
-        searchable.contains("retrieval") or searchable.contains("rerank")
+      if searchable.contains("embed") or searchable.contains("embedding") or searchable.contains("encoder") or
+         searchable.contains("encode") or searchable.contains("retrieval") or searchable.contains("rerank"):
+        return 1.0
+      return 0.0
     of "tts":
-      matchesTask = row.hasModality("audio") or searchable.contains("tts") or searchable.contains("speech") or
-        searchable.contains("voice") or searchable.contains("lyria") or searchable.contains("audio")
+      if row.hasModality("audio") or searchable.contains("tts") or searchable.contains("speech") or
+         searchable.contains("voice") or searchable.contains("lyria") or searchable.contains("audio"):
+        return 1.0
+      return 0.0
     else:
-      matchesTask = searchable.contains(taskName)
+      if searchable.contains(taskName):
+        return 1.0
+      return 0.0
 
-    if matchesTask:
-      result.add(row)
+  proc taskScore(row: ModelRow): float =
+    let searchable = (row.id & " " & row.name).toLowerAscii()
+    let tagScore = taskTagScore(searchable, row)
+    if tagScore <= 0.0:
+      return -1.0
 
-  sortRows(result)
+    let contextComponent = min(1.0, ln(max(1.0, row.contextLength.float)) / ln(1_048_576.0))
+    let valueComponent =
+      if row.contextPerCent.classify in {fcNaN, fcNegInf}:
+        0.0
+      elif row.contextPerCent.classify == fcInf:
+        1.0
+      else:
+        min(1.0, ln(max(1.0, row.contextPerCent)) / ln(1_000_000.0))
+    let moderationComponent = if row.isModerated: 1.0 else: 0.0
+    let priceComponent =
+      if row.averagePrice.classify in {fcNaN, fcNegInf}:
+        0.0
+      elif row.averagePrice <= 0.0:
+        1.0
+      else:
+        max(0.0, 1.0 - min(1.0, row.averagePrice * 2000.0))
+
+    (0.35 * tagScore) + (0.25 * valueComponent) + (0.2 * contextComponent) +
+      (0.1 * moderationComponent) + (0.1 * priceComponent)
+
+  var scored: seq[(ModelRow, float)] = @[]
+  for row in rows:
+    let score = taskScore(row)
+    if score >= 0.0:
+      scored.add((row, score))
+
+  scored.sort(proc(a, b: (ModelRow, float)): int =
+    if a[1] > b[1]:
+      return -1
+    if a[1] < b[1]:
+      return 1
+    if a[0].contextPerCent > b[0].contextPerCent:
+      return -1
+    if a[0].contextPerCent < b[0].contextPerCent:
+      return 1
+    cmp(a[0].id, b[0].id)
+  )
+
+  for item in scored:
+    result.add(item[0])
 
 proc categorizeByModality*(rows: seq[ModelRow]): Table[string, seq[ModelRow]] =
   for row in rows:

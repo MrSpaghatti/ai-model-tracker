@@ -7,7 +7,8 @@
         search: '',
         sortCol: 'contextPerCent',
         sortDir: 'desc',
-        selectedModel: null
+        selectedModel: null,
+        dataPolicy: null
     };
 
     function showFatalError(msg) {
@@ -21,13 +22,14 @@
         if (!el) return;
         
         var freeModels = allModels.filter(function(m) { return m.isFree; });
-        var rows = AIMT.filterModels(freeModels, { search: st.search });
+        var rows = AIMT.filterModels(freeModels, { search: st.search, dataPolicy: st.dataPolicy });
         rows = AIMT.sortModels(rows, st.sortCol, st.sortDir);
 
         el.innerHTML = '<div class="result-count">' + rows.length + ' free models</div>';
 
         var th = function(col, label) {
-            return '<th data-col="' + AIMT.escHtml(col) + '" class="sortable' + (st.sortCol === col ? ' sorted' : '') + '">' + AIMT.escHtml(label) + AIMT.getSortArrow(col, st.sortCol, st.sortDir) + '</th>';
+            var stateClass = st.sortCol === col ? (' sorted ' + st.sortDir) : '';
+            return '<th data-col="' + AIMT.escHtml(col) + '" class="sortable' + stateClass + '">' + AIMT.escHtml(label) + AIMT.getSortArrow(col, st.sortCol, st.sortDir) + '</th>';
         };
 
         var html = '<table class="model-table"><thead><tr>';
@@ -35,7 +37,7 @@
         html += th('provider', 'Provider');
         html += th('context_length', 'Context');
         html += th('contextPerCent', 'Ctx/Cent');
-        html += '<th>Mod.</th></tr></thead><tbody>';
+        html += '<th>Policy</th><th>Mod.</th><th>ID</th></tr></thead><tbody>';
         rows.forEach(function(m) {
             var isSelected = st.selectedModel === m.id;
             html += '<tr class="model-row' + (isSelected ? ' selected' : '') + '" data-id="' + AIMT.escHtml(m.id || '') + '">';
@@ -43,7 +45,9 @@
             html += '<td class="model-provider">' + AIMT.escHtml(m.provider || '') + '</td>';
             html += '<td class="model-context">' + AIMT.formatCtx(m.context_length) + '</td>';
             html += '<td class="model-cpc">' + AIMT.formatCtxPerCent(m.contextPerCent) + '</td>';
+            html += '<td class="model-policy">' + AIMT.escHtml(m.data_policy_level || 'unknown') + '</td>';
             html += '<td class="model-mod">' + (m.is_moderated ? '✓' : '') + '</td>';
+            html += '<td><button class="copy-model-id" data-id="' + AIMT.escHtml(m.id || '') + '">Copy</button></td>';
             html += '</tr>';
         });
         html += '</tbody></table>';
@@ -69,6 +73,15 @@
                 st.selectedModel = st.selectedModel === id ? null : id;
                 AIMT.writeHash(state);
                 render();
+            });
+        });
+
+        el.querySelectorAll('.copy-model-id').forEach(function(btn) {
+            btn.addEventListener('click', async function(ev) {
+                ev.stopPropagation();
+                var ok = await AIMT.copyText(btn.dataset.id || '');
+                btn.textContent = ok ? 'Copied' : 'Copy';
+                setTimeout(function() { btn.textContent = 'Copy'; }, 900);
             });
         });
     };
@@ -156,8 +169,18 @@
             inp.value = state.search || '';
             inp.addEventListener('input', AIMT.debounce(function() {
                 state.search = inp.value;
+                AIMT.writeHash(state);
                 render();
             }, AIMT.DEBOUNCE_MS));
+        }
+
+        var policy = document.getElementById('policy-filter');
+        if (policy) {
+            policy.addEventListener('change', function() {
+                state.dataPolicy = policy.value || null;
+                AIMT.writeHash(state);
+                render();
+            });
         }
     }
 
@@ -167,6 +190,7 @@
         state.sortCol = parsed.sortCol || 'contextPerCent';
         state.sortDir = parsed.sortDir || 'desc';
         state.selectedModel = parsed.selectedModel;
+        state.dataPolicy = parsed.dataPolicy;
     }
 
     window.addEventListener('hashchange', function() { applyHashToState(); render(); });
@@ -180,6 +204,8 @@
             var data = await AIMT.loadData('./data/');
             models = data.models;
             history = data.history;
+            var policy = document.getElementById('policy-filter');
+            if (policy) policy.value = state.dataPolicy || '';
         } catch (e) {
             showFatalError(e.message);
             return;
