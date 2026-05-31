@@ -4,10 +4,12 @@ import puppy
 const
   OpenRouterModelsUrl = "https://openrouter.ai/api/v1/models"
   RegistryPath* = "data/registry.json"
+  RegistryFetchAttempts = 4
+  RegistryRetryBaseSleepMs = 300
 
 proc fetchRegistryJson*(): string =
   var lastError = ""
-  for attempt in 0..3:
+  for attempt in 0..<RegistryFetchAttempts:
     try:
       return fetch(
         OpenRouterModelsUrl,
@@ -19,8 +21,8 @@ proc fetchRegistryJson*(): string =
       )
     except PuppyError as exc:
       lastError = exc.msg
-      if attempt < 3:
-        sleep(300 * (attempt + 1))
+      if attempt < RegistryFetchAttempts - 1:
+        sleep(RegistryRetryBaseSleepMs * (attempt + 1))
   raise newException(CatchableError, "Unable to fetch OpenRouter model registry: " & lastError)
 
 proc writeRawRegistry*(rawJson: string) =

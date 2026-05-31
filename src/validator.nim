@@ -19,8 +19,20 @@ proc validateHistoryEntries*(entries: seq[JsonHistoryEntry]) =
     var sortedEntries = modelEntries
     sortedEntries.sort(proc(a, b: JsonHistoryEntry): int = cmp(a.from_date, b.from_date))
     var openCount = 0
-    var lastToDate = ""
+    var previous: Option[JsonHistoryEntry] = none(JsonHistoryEntry)
     for entry in sortedEntries:
+      if previous.isSome:
+        let prev = previous.get
+        if entry.from_date < prev.from_date:
+          raise newException(
+            CatchableError,
+            "Validation failed: non-monotonic history timeline for '" & modelId & "'"
+          )
+        if prev.to_date.isSome and entry.from_date < prev.to_date.get:
+          raise newException(
+            CatchableError,
+            "Validation failed: overlapping history ranges for '" & modelId & "'"
+          )
       if entry.to_date.isNone:
         inc(openCount)
       else:
@@ -30,12 +42,7 @@ proc validateHistoryEntries*(entries: seq[JsonHistoryEntry]) =
             CatchableError,
             "Validation failed: history to_date earlier than from_date for '" & modelId & "'"
           )
-        if lastToDate.len > 0 and entry.from_date < lastToDate:
-          raise newException(
-            CatchableError,
-            "Validation failed: non-monotonic history timeline for '" & modelId & "'"
-          )
-        lastToDate = toDate
+      previous = some(entry)
 
     if openCount > 1:
       raise newException(

@@ -54,6 +54,8 @@ const LocalModelsMeta: array[21, LocalModelMeta] = [
   LocalModelMeta(hfId: "mistralai/Mistral-Small-3.1-24B-Instruct", name: "Mistral Small 3.1", size: "24B", bestFor: "Fast inference, quality output", notes: "Apache 2.0, 128K context. ~35 tok/s on RTX 4090 at Q4."),
   LocalModelMeta(hfId: "01-ai/Yi-34B", name: "Yi", size: "34B", bestFor: "Long-form writing, analysis", notes: "High-quality 34B open model. Suitable for 24 GB with quantization.")
 ]
+const HfConfigFetchAttempts = 3
+const HfRetryBaseSleepMs = 200
 
 # Known context windows for gated models (from official documentation)
 proc getFallbackCtxWindow(hfId: string): int =
@@ -105,7 +107,7 @@ proc calcVram(paramsB: float; bytesPerParam: float): string =
 # Fetch context window length from HuggingFace config.json
 proc fetchHfContextWindow(hfId: string): int =
   let configUrl = "https://huggingface.co/" & hfId & "/resolve/main/config.json"
-  for attempt in 0..2:
+  for attempt in 0..<HfConfigFetchAttempts:
     try:
       let rawConfig = fetch(
         configUrl,
@@ -130,8 +132,8 @@ proc fetchHfContextWindow(hfId: string): int =
         return config["model_max_length"].getInt()
       return 0
     except:
-      if attempt < 2:
-        sleep(200 * (attempt + 1))
+      if attempt < HfConfigFetchAttempts - 1:
+        sleep(HfRetryBaseSleepMs * (attempt + 1))
   0
 
 # Main function to build local models data from HuggingFace sources
@@ -405,7 +407,7 @@ proc generateCurrentJson*(rows: seq[ModelRow]): string =
 
   let root = JsonCurrentRoot(
     version: 1,
-    generated_at: utcIsoTimestamp(),
+    generated_at: utc_iso_timestamp(),
     models: models
   )
 

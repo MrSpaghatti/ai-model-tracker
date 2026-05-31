@@ -2,6 +2,15 @@ import std/[algorithm, math, strutils, tables]
 
 import types
 
+const
+  TaskWeightTag = 0.35
+  TaskWeightValue = 0.25
+  TaskWeightContext = 0.20
+  TaskWeightModeration = 0.10
+  TaskWeightPrice = 0.10
+  MaxContextBaseline = 1_048_576.0
+  PricePenaltyScale = 2000.0
+
 proc hasModality(row: ModelRow; target: string): bool =
   for modality in row.modalities:
     if modality.toLowerAscii() == target.toLowerAscii():
@@ -128,7 +137,7 @@ proc getBestModelsForTask*(rows: seq[ModelRow]; task: string): seq[ModelRow] =
     if tagScore <= 0.0:
       return -1.0
 
-    let contextComponent = min(1.0, ln(max(1.0, row.contextLength.float)) / ln(1_048_576.0))
+    let contextComponent = min(1.0, ln(max(1.0, row.contextLength.float)) / ln(MaxContextBaseline))
     let valueComponent =
       if row.contextPerCent.classify in {fcNaN, fcNegInf}:
         0.0
@@ -143,10 +152,11 @@ proc getBestModelsForTask*(rows: seq[ModelRow]; task: string): seq[ModelRow] =
       elif row.averagePrice <= 0.0:
         1.0
       else:
-        max(0.0, 1.0 - min(1.0, row.averagePrice * 2000.0))
+        max(0.0, 1.0 - min(1.0, row.averagePrice * PricePenaltyScale))
 
-    (0.35 * tagScore) + (0.25 * valueComponent) + (0.2 * contextComponent) +
-      (0.1 * moderationComponent) + (0.1 * priceComponent)
+    (TaskWeightTag * tagScore) + (TaskWeightValue * valueComponent) +
+      (TaskWeightContext * contextComponent) + (TaskWeightModeration * moderationComponent) +
+      (TaskWeightPrice * priceComponent)
 
   var scored: seq[(ModelRow, float)] = @[]
   for row in rows:

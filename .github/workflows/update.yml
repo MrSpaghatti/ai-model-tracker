@@ -27,6 +27,7 @@ jobs:
           jq -e 'all(.models[]; has("data_policy_level") and has("data_policy_source"))' docs/data/current.json
           jq -e '.changes and (.changes | has("new_models") and has("removed_models") and has("price_changes") and has("biggest_movers"))' docs/data/current.json
           jq -e '.provider_stats and (.provider_stats | length >= 1)' docs/data/current.json
+          # CI safety net for duplicates in case generator validation is bypassed/regresses.
           jq -e '([.models[].id] | length) == ([.models[].id] | unique | length)' docs/data/current.json
           test "$(stat -c%s docs/data/current.json)" -lt 204800
           if [ -f docs/data/history.json ]; then

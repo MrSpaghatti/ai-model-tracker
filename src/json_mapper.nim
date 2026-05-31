@@ -2,11 +2,11 @@ import std/[math, strutils, times]
 import types
 
 proc formatPriceForJson(price: float): string =
-  if price.classify == fcNaN:
+  if price.classify in {fcNaN, fcInf, fcNegInf}:
     return ""
   formatFloat(price, ffDecimal, 12)
 
-proc utcIsoTimestamp*(): string =
+proc utc_iso_timestamp*(): string =
   now().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
 
 proc toJsonModel*(row: ModelRow): JsonModel =
@@ -36,7 +36,7 @@ proc toJsonModel*(row: ModelRow): JsonModel =
       web_search: "",
       internal_reasoning: ""
     ),
-    created_at: utcIsoTimestamp(),
+    created_at: utc_iso_timestamp(),
     is_free: row.isFree,
     is_moderated: row.isModerated,
     modalities: row.modalities,

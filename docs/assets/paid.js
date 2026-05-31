@@ -1,5 +1,6 @@
 (function() {
     'use strict';
+    var COPY_FEEDBACK_DURATION_MS = 900;
 
     var models = [];
     var state = {
@@ -85,7 +86,7 @@
                 ev.stopPropagation();
                 var ok = await AIMT.copyText(btn.dataset.id || '');
                 btn.textContent = ok ? 'Copied' : 'Copy';
-                setTimeout(function() { btn.textContent = 'Copy'; }, 900);
+                setTimeout(function() { btn.textContent = 'Copy'; }, COPY_FEEDBACK_DURATION_MS);
             });
         });
     };

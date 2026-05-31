@@ -1,5 +1,6 @@
 (function() {
     'use strict';
+    var COPY_FEEDBACK_DURATION_MS = 900;
 
     var models = [];
     var history = null;
@@ -23,6 +24,12 @@
         var el = document.getElementById('table-container');
         if (!el) return;
         el.innerHTML = '<div class="error-block" role="alert"><p><strong>Failed to load model data.</strong></p><p>' + AIMT.escHtml(msg || '') + '</p><p>View <a href="../FREE_MODELS.md">static markdown pages</a>.</p></div>';
+    }
+
+    function maxDeltaPct(move) {
+        var prompt = Math.abs(Number(move?.prompt_delta_pct ?? 0));
+        var completion = Math.abs(Number(move?.completion_delta_pct ?? 0));
+        return Math.max(prompt, completion);
     }
 
     window.__renderTable = function(allModels, st) {
@@ -118,7 +125,7 @@
                 var id = btn.dataset.id || '';
                 var ok = await AIMT.copyText(id);
                 btn.textContent = ok ? 'Copied' : 'Copy';
-                setTimeout(function() { btn.textContent = 'Copy'; }, 900);
+                setTimeout(function() { btn.textContent = 'Copy'; }, COPY_FEEDBACK_DURATION_MS);
             });
         });
     };
@@ -152,7 +159,7 @@
         } else {
             html += '<ul>';
             movers.forEach(function(m) {
-                var delta = Math.max(Math.abs(Number(m.prompt_delta_pct || 0)), Math.abs(Number(m.completion_delta_pct || 0)));
+                var delta = maxDeltaPct(m);
                 html += '<li><code>' + AIMT.escHtml(m.model_id) + '</code> (' + AIMT.escHtml(m.provider || '') + '): ' + delta.toFixed(2) + '%</li>';
             });
             html += '</ul>';

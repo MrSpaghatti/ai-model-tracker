@@ -31,6 +31,7 @@ const
 
 Historical JSON snapshots are stored in the `data/` directory.
 """
+  PriceEpsilon = 1e-12
 
 proc loadReadmeTemplate(): string =
   try:
@@ -51,6 +52,9 @@ proc writeOutputFile(path, content, label: string) =
     writeFile(path, content)
   except CatchableError as exc:
     raise newException(CatchableError, "Unable to write " & label & ": " & exc.msg)
+
+proc pricesEqual(a, b: float): bool =
+  abs(a - b) < PriceEpsilon
 
 proc buildProviderStats(rows: seq[ModelRow]): seq[JsonProviderStats] =
   type ProviderAccumulator = object
@@ -129,8 +133,16 @@ proc buildChangeSummary(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntr
     if not latestOpen.hasKey(row.id):
       result.new_models.add(row.id)
 
+    var hasPrev = false
+    var prev: JsonHistoryEntry
     if latestClosed.hasKey(row.id):
-      let prev = latestClosed[row.id]
+      prev = latestClosed[row.id]
+      hasPrev = true
+    elif latestOpen.hasKey(row.id):
+      prev = latestOpen[row.id]
+      hasPrev = true
+
+    if hasPrev:
       if not pricesEqual(prev.prompt_price, row.promptPrice) or
          not pricesEqual(prev.completion_price, row.completionPrice):
         let promptDelta =
@@ -169,7 +181,7 @@ proc buildChangeSummary(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntr
 proc writeJsonCurrent(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntry]) =
   createDir("docs/data")
 
-  let generatedAt = utcIsoTimestamp()
+  let generatedAt = utc_iso_timestamp()
   let models = rows.mapIt(toJsonModel(it))
   let root = JsonCurrentRoot(
     version: 1,
@@ -185,7 +197,6 @@ proc writeJsonCurrent(rows: seq[ModelRow], historyEntries: seq[JsonHistoryEntry]
     raise newException(CatchableError, "Unable to write docs/data/current.json: " & exc.msg)
 
 const HistoryJsonPath = "docs/data/history.json"
-const PriceEpsilon = 1e-12
 
 proc parseHistoryEntry(node: JsonNode): JsonHistoryEntry =
   result.model_id = node["model_id"].getStr
@@ -196,9 +207,6 @@ proc parseHistoryEntry(node: JsonNode): JsonHistoryEntry =
     result.to_date = none(string)
   result.prompt_price = node["prompt_price"].getFloat
   result.completion_price = node["completion_price"].getFloat
-
-proc pricesEqual(a, b: float): bool =
-  abs(a - b) < PriceEpsilon
 
 proc writeJsonHistoryIncremental(rows: seq[ModelRow]): seq[JsonHistoryEntry] =
   if not fileExists(HistoryJsonPath):
