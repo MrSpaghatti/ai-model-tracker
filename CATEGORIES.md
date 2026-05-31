@@ -10,7 +10,7 @@
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 1,048,576 | $0.2200 | $1.8000 | ⚠️ | 10,381,940,594 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | ⚠️ | 9,411,764,706 |
-| mistralai/devstral-small | Mistral: Devstral Small 1.1 | 131,072 | $0.1000 | $0.3000 | ⚠️ | 6,553,600,000 |
+| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | ⚠️ | 5,761,406,593 |
 
 ## Top 5 Vision Models
 

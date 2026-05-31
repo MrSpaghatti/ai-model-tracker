@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-05-31T02:43:51Z",
+  "generated_at": "2026-05-31T13:20:45Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44259,14 +44259,14 @@
     {
       "model_id": "xiaomi/mimo-v2-omni",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.000002
     },
     {
       "model_id": "xiaomi/mimo-v2-pro",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.000001,
       "completion_price": 0.000003
     },
@@ -45428,14 +45428,14 @@
     {
       "model_id": "mistralai/devstral-medium",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.000002
     },
     {
       "model_id": "mistralai/devstral-small",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000003
     },
@@ -46121,7 +46121,7 @@
     {
       "model_id": "mistralai/mistral-large-2411",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.000002,
       "completion_price": 0.000006
     },
@@ -46135,7 +46135,7 @@
     {
       "model_id": "mistralai/pixtral-large-2411",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 0.000002,
       "completion_price": 0.000006
     },
@@ -46646,7 +46646,7 @@
     {
       "model_id": "inclusionai/ring-2.6-1t",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-05-31T13:20:45Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.000000625
     },
@@ -47514,20 +47514,48 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-05-31T02:43:51Z",
+      "to_date": "2026-05-31T13:20:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-05-31T02:43:51Z",
+      "to_date": "2026-05-31T13:20:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-05-31T02:43:51Z",
+      "to_date": "2026-05-31T13:20:45Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "inclusionai/ring-2.6-1t",
+      "from_date": "2026-05-31T13:20:45Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-05-31T13:20:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-05-31T02:43:51Z",
+      "from_date": "2026-05-31T13:20:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-05-31T02:43:51Z",
+      "from_date": "2026-05-31T13:20:45Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
