@@ -43,6 +43,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.6-flash | Qwen: Qwen3.6 Flash | 1,000,000 | $0.1875 | $1.1250 | - | ⚠️ | 15,238,095,238 |
 | amazon/nova-micro-v1 | Amazon: Nova Micro 1.0 | 128,000 | $0.0350 | $0.1400 | - | ✅ | 14,628,571,429 |
 | bytedance-seed/seed-1.6-flash | ByteDance Seed: Seed 1.6 Flash | 262,144 | $0.0750 | $0.3000 | - | ⚠️ | 13,981,013,333 |
+| minimax/minimax-m3 | MiniMax: MiniMax M3 | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | ✅ | 13,653,333,333 |
 | arcee-ai/trinity-mini | Arcee AI: Trinity Mini | 131,072 | $0.0450 | $0.1500 | - | ⚠️ | 13,443,282,051 |
 | qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0900 | $0.3000 | - | ⚠️ | 13,443,282,051 |
@@ -126,6 +127,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4o-mini | OpenAI: GPT-4o-mini | 128,000 | $0.1500 | $0.6000 | - | ⚠️ | 3,413,333,333 |
 | openai/gpt-4o-mini-2024-07-18 | OpenAI: GPT-4o-mini (2024-07-18) | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
 | openai/gpt-4o-mini-search-preview | OpenAI: GPT-4o-mini Search Preview | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
+| upstage/solar-pro-3 | Upstage: Solar Pro 3 | 128,000 | $0.1500 | $0.6000 | - | ⚠️ | 3,413,333,333 |
 | kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 256,000 | $0.3000 | $1.2000 | - | ⚠️ | 3,413,333,333 |
 | deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2000 | $0.7700 | - | ⚠️ | 3,378,144,330 |
 | minimax/minimax-m2.1 | MiniMax: MiniMax M2.1 | 204,800 | $0.2900 | $0.9500 | - | ⚠️ | 3,303,225,806 |
