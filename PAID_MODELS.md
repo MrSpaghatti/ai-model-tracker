@@ -76,6 +76,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-14b | Qwen: Qwen3 14B | 131,702 | $0.1000 | $0.2400 | - | ⚠️ | 7,747,176,471 |
 | minimax/minimax-m1 | MiniMax: MiniMax M1 | 1,000,000 | $0.4000 | $2.2000 | - | ⚠️ | 7,692,307,692 |
 | inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
+| inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
 | arcee-ai/spotlight | Arcee AI: Spotlight | 131,072 | $0.1800 | $0.1800 | - | ⚠️ | 7,281,777,778 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
@@ -160,11 +161,9 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3.5-flash | Google: Gemini 3.5 Flash | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
 | ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 262,144 | $0.3900 | $2.3400 | - | ⚠️ | 1,920,468,864 |
-| baidu/ernie-4.5-300b-a47b | Baidu: ERNIE 4.5 300B A47B  | 131,072 | $0.2800 | $1.1000 | - | ⚠️ | 1,899,594,203 |
 | z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | ⚠️ | 1,886,065,116 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | ⚠️ | 1,872,457,143 |
 | sao10k/l3.3-euryale-70b | Sao10K: Llama 3.3 Euryale 70B | 131,072 | $0.6500 | $0.7500 | - | ⚠️ | 1,872,457,143 |
-| inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.3000 | $2.5000 | - | ⚠️ | 1,872,457,143 |
 | z-ai/glm-4.6 | Z.ai: GLM 4.6 | 202,752 | $0.4300 | $1.7400 | - | ⚠️ | 1,868,682,028 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | google/gemini-2.5-pro-preview | Google: Gemini 2.5 Pro Preview 06-05 | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
