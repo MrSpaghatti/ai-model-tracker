@@ -64,6 +64,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4.1-mini | OpenAI: GPT-4.1 Mini | 1,047,576 | $0.4000 | $1.6000 | - | ✅ | 10,475,760,000 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 1,048,576 | $0.2200 | $1.8000 | - | ⚠️ | 10,381,940,594 |
 | qwen/qwen3-vl-32b-instruct | Qwen: Qwen3 VL 32B Instruct | 262,144 | $0.1040 | $0.4160 | - | ⚠️ | 10,082,461,538 |
+| qwen/qwen3.7-plus | Qwen: Qwen3.7 Plus | 1,000,000 | $0.4000 | $1.6000 | - | ⚠️ | 10,000,000,000 |
 | qwen/qwen3.5-plus-20260420 | Qwen: Qwen3.5 Plus 2026-04-20 | 1,000,000 | $0.3000 | $1.8000 | - | ⚠️ | 9,523,809,524 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | - | ⚠️ | 9,411,764,706 |
 | mistralai/mistral-small-3.2-24b-instruct | Mistral: Mistral Small 3.2 24B | 128,000 | $0.0750 | $0.2000 | - | ⚠️ | 9,309,090,909 |
@@ -175,6 +176,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | rekaai/reka-edge | Reka Edge | 16,384 | $0.1000 | $0.1000 | - | ⚠️ | 1,638,400,000 |
+| z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $1.9200 | - | ⚠️ | 1,609,142,857 |
 | mistralai/voxtral-small-24b-2507 | Mistral: Voxtral Small 24B 2507 | 32,000 | $0.1000 | $0.3000 | - | ⚠️ | 1,600,000,000 |
 | microsoft/phi-4 | Microsoft: Phi 4 | 16,384 | $0.0650 | $0.1400 | - | ⚠️ | 1,598,439,024 |
 | baidu/ernie-4.5-vl-424b-a47b | Baidu: ERNIE 4.5 VL 424B A47B  | 131,072 | $0.4200 | $1.2500 | - | ⚠️ | 1,569,724,551 |
@@ -183,7 +185,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | sao10k/l3.1-euryale-70b | Sao10K: Llama 3.1 Euryale 70B v2.2 | 131,072 | $0.8500 | $0.8500 | - | ⚠️ | 1,542,023,529 |
 | openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
-| z-ai/glm-5 | Z.ai: GLM 5 | 202,752 | $0.6000 | $2.0800 | - | ⚠️ | 1,513,074,627 |
 | qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2900 | $3.2000 | - | ⚠️ | 1,502,257,880 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | ✅ | 1,500,000,000 |
 | google/gemini-3.1-pro-preview-customtools | Google: Gemini 3.1 Pro Preview Custom Tools | 1,048,756 | $2.0000 | $12.0000 | - | ⚠️ | 1,498,222,857 |
