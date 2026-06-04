@@ -9,6 +9,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| nvidia/nemotron-3-ultra-550b-a55b:free | NVIDIA: Nemotron 3 Ultra (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | moonshotai/kimi-k2.6:free | MoonshotAI: Kimi K2.6 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
@@ -24,6 +25,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | openai/gpt-oss-120b:free | OpenAI: gpt-oss-120b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | openai/gpt-oss-20b:free | OpenAI: gpt-oss-20b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | z-ai/glm-4.5-air:free | Z.ai: GLM 4.5 Air (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| nvidia/nemotron-3.5-content-safety:free | NVIDIA: Nemotron 3.5 Content Safety (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-12b-v2-vl:free | NVIDIA: Nemotron Nano 12B 2 VL (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-9b-v2:free | NVIDIA: Nemotron Nano 9B V2 (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | cognitivecomputations/dolphin-mistral-24b-venice-edition:free | Venice: Uncensored (free) | 32,768 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
