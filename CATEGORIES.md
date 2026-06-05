@@ -30,7 +30,7 @@
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0983 | $0.1966 | ⚠️ | 71,114,004,747 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
-| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 
 ## Top 5 Largest Context Windows
 
@@ -47,8 +47,8 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
 | meta-llama/llama-3-8b-instruct | Meta: Llama 3 8B Instruct | 8,192 | $0.0400 | $0.0400 | ⚠️ | 2,048,000,000 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | ⚠️ | 1,820,444,444 |
 
@@ -70,7 +70,7 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | ⚠️ | 27,594,105,263 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | ⚠️ | 21,845,333,333 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
@@ -80,7 +80,7 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | ⚠️ | 27,594,105,263 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | ⚠️ | 21,845,333,333 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
@@ -90,7 +90,7 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | ⚠️ | 27,594,105,263 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | ⚠️ | 21,845,333,333 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
@@ -100,7 +100,7 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | ⚠️ | 27,594,105,263 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | ⚠️ | 21,845,333,333 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
@@ -110,7 +110,7 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0500 | ⚠️ | 37,449,142,857 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0400 | $0.1500 | ⚠️ | 27,594,105,263 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0800 | ⚠️ | 21,845,333,333 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
