@@ -250,7 +250,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | switchpoint/router | Switchpoint Router | 131,072 | $0.8500 | $3.4000 | - | ⚠️ | 616,809,412 |
 | openai/gpt-5.5 | OpenAI: GPT-5.5 | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
 | ~openai/gpt-latest | OpenAI GPT Latest | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
-| nousresearch/hermes-2-pro-llama-3-8b | NousResearch: Hermes 2 Pro - Llama-3 8B | 8,192 | $0.1400 | $0.1400 | - | ⚠️ | 585,142,857 |
 | mistralai/mistral-medium-3-5 | Mistral: Mistral Medium 3.5 | 262,144 | $1.5000 | $7.5000 | - | ⚠️ | 582,542,222 |
 | z-ai/glm-4.5v | Z.ai: GLM 4.5V | 65,536 | $0.6000 | $1.8000 | - | ⚠️ | 546,133,333 |
 | ai21/jamba-large-1.7 | AI21: Jamba Large 1.7 | 256,000 | $2.0000 | $8.0000 | - | ⚠️ | 512,000,000 |
@@ -305,7 +304,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4-turbo | OpenAI: GPT-4 Turbo | 128,000 | $10.0000 | $30.0000 | - | ✅ | 64,000,000 |
 | openai/gpt-4-turbo-preview | OpenAI: GPT-4 Turbo Preview | 128,000 | $10.0000 | $30.0000 | - | ✅ | 64,000,000 |
 | openai/gpt-5-pro | OpenAI: GPT-5 Pro | 400,000 | $15.0000 | $120.0000 | - | ✅ | 59,259,259 |
-| sao10k/l3-euryale-70b | Sao10k: Llama 3 Euryale 70B v2.1 | 8,192 | $1.4800 | $1.4800 | - | ⚠️ | 55,351,351 |
 | sao10k/l3.1-70b-hanami-x1 | Sao10K: Llama 3.1 70B Hanami x1 | 16,000 | $3.0000 | $3.0000 | - | ⚠️ | 53,333,333 |
 | openai/o1 | OpenAI: o1 | 200,000 | $15.0000 | $60.0000 | - | ✅ | 53,333,333 |
 | openai/gpt-3.5-turbo-16k | OpenAI: GPT-3.5 Turbo 16k | 16,385 | $3.0000 | $4.0000 | - | ✅ | 46,814,286 |
