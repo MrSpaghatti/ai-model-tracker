@@ -56,9 +56,9 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0390 | $0.1800 | - | ⚠️ | 11,970,045,662 |
 | meta-llama/llama-3.2-1b-instruct | Meta: Llama 3.2 1B Instruct | 131,072 | $0.0270 | $0.2010 | - | ⚠️ | 11,497,543,860 |
 | qwen/qwen3.5-plus-02-15 | Qwen: Qwen3.5 Plus 2026-02-15 | 1,000,000 | $0.2600 | $1.5600 | - | ⚠️ | 10,989,010,989 |
+| google/gemma-4-31b-it | Google: Gemma 4 31B | 262,144 | $0.1200 | $0.3600 | - | ⚠️ | 10,922,666,667 |
 | google/gemma-3-27b-it | Google: Gemma 3 27B | 131,072 | $0.0800 | $0.1600 | - | ⚠️ | 10,922,666,667 |
 | qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 131,072 | $0.0481 | $0.1930 | - | ⚠️ | 10,868,325,041 |
-| google/gemma-4-31b-it | Google: Gemma 4 31B | 262,144 | $0.1200 | $0.3700 | - | ⚠️ | 10,699,755,102 |
 | x-ai/grok-4.20 | xAI: Grok 4.20 | 2,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 10,666,666,667 |
 | bytedance-seed/seed-2.0-mini | ByteDance Seed: Seed-2.0-Mini | 262,144 | $0.1000 | $0.4000 | - | ⚠️ | 10,485,760,000 |
 | openai/gpt-4.1-mini | OpenAI: GPT-4.1 Mini | 1,047,576 | $0.4000 | $1.6000 | - | ✅ | 10,475,760,000 |
