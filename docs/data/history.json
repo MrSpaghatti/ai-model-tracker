@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-06T13:14:26Z",
+  "generated_at": "2026-06-07T02:47:31Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -45239,7 +45239,7 @@
     {
       "model_id": "baidu/ernie-4.5-vl-28b-a3b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T02:47:31Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.00000056
     },
@@ -45610,7 +45610,7 @@
     {
       "model_id": "arcee-ai/spotlight",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T02:47:31Z",
       "prompt_price": 0.00000018,
       "completion_price": 0.00000018
     },
@@ -46450,7 +46450,7 @@
     {
       "model_id": "openai/gpt-4-1106-preview",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T02:47:31Z",
       "prompt_price": 0.00001,
       "completion_price": 0.00003
     },
@@ -46751,7 +46751,7 @@
     {
       "model_id": "meta-llama/llama-3-8b-instruct",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-07T02:47:31Z",
       "prompt_price": 4e-8,
       "completion_price": 4e-8
     },
@@ -47269,7 +47269,7 @@
     {
       "model_id": "qwen/qwen3.6-27b",
       "from_date": "2026-05-27T14:59:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T02:47:31Z",
       "prompt_price": 0.00000029,
       "completion_price": 0.0000032
     },
@@ -47969,27 +47969,69 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-06T13:14:26Z",
+      "to_date": "2026-06-07T02:47:31Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-06T13:14:26Z",
+      "to_date": "2026-06-07T02:47:31Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-06T13:14:26Z",
+      "to_date": "2026-06-07T02:47:31Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-06T13:14:26Z",
+      "to_date": "2026-06-07T02:47:31Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "from_date": "2026-06-07T02:47:31Z",
+      "to_date": null,
+      "prompt_price": 0.000000289,
+      "completion_price": 0.0000024
+    },
+    {
+      "model_id": "meta-llama/llama-3-8b-instruct",
+      "from_date": "2026-06-07T02:47:31Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.00000014
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-07T02:47:31Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-06T13:14:26Z",
+      "from_date": "2026-06-07T02:47:31Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-06T13:14:26Z",
+      "from_date": "2026-06-07T02:47:31Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-06T13:14:26Z",
+      "from_date": "2026-06-07T02:47:31Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
