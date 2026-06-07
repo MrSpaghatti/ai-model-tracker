@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-07T02:47:31Z",
+  "generated_at": "2026-06-07T13:26:01Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44980,7 +44980,7 @@
     {
       "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000004
     },
@@ -45407,7 +45407,7 @@
     {
       "model_id": "qwen/qwen3-235b-a22b-2507",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 7.1e-8,
       "completion_price": 0.0000001
     },
@@ -45750,7 +45750,7 @@
     {
       "model_id": "meta-llama/llama-4-scout",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 8e-8,
       "completion_price": 0.0000003
     },
@@ -45785,7 +45785,7 @@
     {
       "model_id": "google/gemma-3-4b-it",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 4e-8,
       "completion_price": 8e-8
     },
@@ -45799,7 +45799,7 @@
     {
       "model_id": "google/gemma-3-12b-it",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 4e-8,
       "completion_price": 0.00000013
     },
@@ -46226,7 +46226,7 @@
     {
       "model_id": "meta-llama/llama-3.2-11b-vision-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 0.000000245,
       "completion_price": 0.000000245
     },
@@ -46261,7 +46261,7 @@
     {
       "model_id": "nousresearch/hermes-3-llama-3.1-70b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000003
     },
@@ -46562,7 +46562,7 @@
     {
       "model_id": "qwen/qwen3.5-9b",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 4e-8,
       "completion_price": 0.00000015
     },
@@ -46688,7 +46688,7 @@
     {
       "model_id": "qwen/qwen3-30b-a3b",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-07T13:26:01Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000045
     },
@@ -48011,27 +48011,118 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-07T02:47:31Z",
+      "to_date": "2026-06-07T13:26:01Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-07T02:47:31Z",
+      "to_date": "2026-06-07T13:26:01Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-07T02:47:31Z",
+      "to_date": "2026-06-07T13:26:01Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-07T02:47:31Z",
+      "to_date": "2026-06-07T13:26:01Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "meta-llama/llama-4-scout",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 9e-8,
+      "completion_price": 0.0000001
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.00000015
+    },
+    {
+      "model_id": "google/gemma-3-4b-it",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.0000001
+    },
+    {
+      "model_id": "google/gemma-3-12b-it",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000015
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.00000012,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-11b-vision-instruct",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.000000345,
+      "completion_price": 0.000000345
+    },
+    {
+      "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.0000004,
+      "completion_price": 0.0000004
+    },
+    {
+      "model_id": "nousresearch/hermes-3-llama-3.1-70b",
+      "from_date": "2026-06-07T13:26:01Z",
+      "to_date": null,
+      "prompt_price": 0.0000007,
+      "completion_price": 0.0000007
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-07T13:26:01Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-07T02:47:31Z",
+      "from_date": "2026-06-07T13:26:01Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-07T02:47:31Z",
+      "from_date": "2026-06-07T13:26:01Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-07T02:47:31Z",
+      "from_date": "2026-06-07T13:26:01Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
