@@ -111,6 +111,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | - | ⚠️ | 4,266,666,667 |
 | qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 131,072 | $0.1200 | $0.5000 | - | ⚠️ | 4,228,129,032 |
 | qwen/qwen3.7-max | Qwen: Qwen3.7 Max | 1,000,000 | $1.2500 | $3.7500 | - | ⚠️ | 4,000,000,000 |
+| minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1500 | $0.9000 | - | ⚠️ | 3,900,952,381 |
 | meta-llama/llama-3.2-11b-vision-instruct | Meta: Llama 3.2 11B Vision Instruct | 131,072 | $0.3450 | $0.3450 | - | ⚠️ | 3,799,188,406 |
 | stepfun/step-3.7-flash | StepFun: Step 3.7 Flash | 256,000 | $0.2000 | $1.1500 | - | ⚠️ | 3,792,592,593 |
 | tencent/hunyuan-a13b-instruct | Tencent: Hunyuan A13B Instruct | 131,072 | $0.1400 | $0.5700 | - | ⚠️ | 3,692,169,014 |
@@ -133,10 +134,9 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-chat-v3.1 | DeepSeek: DeepSeek V3.1 | 163,840 | $0.2100 | $0.7900 | - | ⚠️ | 3,276,800,000 |
 | minimax/minimax-m2 | MiniMax: MiniMax M2 | 204,800 | $0.2550 | $1.0000 | - | ⚠️ | 3,263,745,020 |
 | writer/palmyra-x5 | Writer: Palmyra X5 | 1,040,000 | $0.6000 | $6.0000 | - | ✅ | 3,151,515,152 |
-| minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1500 | $1.1500 | - | ⚠️ | 3,150,769,231 |
+| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 204,800 | $0.2700 | $1.0800 | - | ⚠️ | 3,034,074,074 |
 | qwen/qwen3.5-27b | Qwen: Qwen3.5-27B | 262,144 | $0.1950 | $1.5600 | - | ⚠️ | 2,987,396,011 |
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3510 | $0.5550 | - | ⚠️ | 2,825,607,064 |
-| minimax/minimax-m2.7 | MiniMax: MiniMax M2.7 | 204,800 | $0.2790 | $1.2000 | - | ⚠️ | 2,769,438,810 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1250 | $0.8500 | - | ⚠️ | 2,688,656,410 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | ⚠️ | 2,685,901,639 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | ✅ | 2,666,666,667 |
@@ -242,7 +242,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | anthropic/claude-opus-4.8 | Anthropic: Claude Opus 4.8 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | ~anthropic/claude-opus-latest | Anthropic: Claude Opus Latest | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | nousresearch/hermes-4-405b | Nous: Hermes 4 405B | 131,072 | $1.0000 | $3.0000 | - | ⚠️ | 655,360,000 |
-| arcee-ai/maestro-reasoning | Arcee AI: Maestro Reasoning | 131,072 | $0.9000 | $3.3000 | - | ⚠️ | 624,152,381 |
 | switchpoint/router | Switchpoint Router | 131,072 | $0.8500 | $3.4000 | - | ⚠️ | 616,809,412 |
 | openai/gpt-5.5 | OpenAI: GPT-5.5 | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
 | ~openai/gpt-latest | OpenAI GPT Latest | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
