@@ -25,7 +25,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nousresearch/hermes-3-llama-3.1-405b:free | Nous: Hermes 3 405B Instruct (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | openai/gpt-oss-120b:free | OpenAI: gpt-oss-120b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | openai/gpt-oss-20b:free | OpenAI: gpt-oss-20b (free) | 131,072 | $0.0000 | $0.0000 | - | ✅ | ∞ |
-| z-ai/glm-4.5-air:free | Z.ai: GLM 4.5 Air (free) | 131,072 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-content-safety:free | NVIDIA: Nemotron 3.5 Content Safety (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-12b-v2-vl:free | NVIDIA: Nemotron Nano 12B 2 VL (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-nano-9b-v2:free | NVIDIA: Nemotron Nano 9B V2 (free) | 128,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
