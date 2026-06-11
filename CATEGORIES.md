@@ -20,7 +20,7 @@
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| moonshotai/kimi-k2.6:free | MoonshotAI: Kimi K2.6 (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| nex-agi/nex-n2-pro:free | Nex AGI: Nex-N2-Pro (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
 
