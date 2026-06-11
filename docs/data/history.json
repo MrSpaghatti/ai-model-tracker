@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-11T02:50:49Z",
+  "generated_at": "2026-06-11T15:40:08Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -45169,7 +45169,7 @@
     {
       "model_id": "nvidia/nemotron-nano-9b-v2",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-11T15:40:08Z",
       "prompt_price": 4e-8,
       "completion_price": 0.00000016
     },
@@ -46016,7 +46016,7 @@
     {
       "model_id": "deepseek/deepseek-r1-distill-llama-70b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-11T15:40:08Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000008
     },
@@ -47262,7 +47262,7 @@
     {
       "model_id": "qwen/qwen3.6-35b-a3b",
       "from_date": "2026-05-27T14:59:56Z",
-      "to_date": null,
+      "to_date": "2026-06-11T15:40:08Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.000001
     },
@@ -47745,7 +47745,7 @@
     {
       "model_id": "qwen/qwen3.7-plus",
       "from_date": "2026-06-03T16:22:51Z",
-      "to_date": null,
+      "to_date": "2026-06-11T15:40:08Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.0000016
     },
@@ -47934,7 +47934,7 @@
     {
       "model_id": "google/gemma-4-31b-it",
       "from_date": "2026-06-06T02:29:16Z",
-      "to_date": null,
+      "to_date": "2026-06-11T15:40:08Z",
       "prompt_price": 0.00000012,
       "completion_price": 0.00000036
     },
@@ -48347,27 +48347,83 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-11T02:50:49Z",
+      "to_date": "2026-06-11T15:40:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-11T02:50:49Z",
+      "to_date": "2026-06-11T15:40:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-11T02:50:49Z",
+      "to_date": "2026-06-11T15:40:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-11T02:50:49Z",
+      "to_date": "2026-06-11T15:40:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3.7-plus",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000032,
+      "completion_price": 0.00000128
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000012,
+      "completion_price": 0.00000035
+    },
+    {
+      "model_id": "qwen/qwen3.6-35b-a3b",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "deepseek/deepseek-r1-distill-llama-70b",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": null,
+      "prompt_price": 0.0000008,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-11T15:40:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-11T02:50:49Z",
+      "from_date": "2026-06-11T15:40:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-11T02:50:49Z",
+      "from_date": "2026-06-11T15:40:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-11T02:50:49Z",
+      "from_date": "2026-06-11T15:40:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

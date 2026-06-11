@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-11T02:50:49Z",
+  "generated_at": "2026-06-11T15:40:08Z",
   "models": [
     {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
@@ -16,7 +16,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -37,7 +37,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -60,7 +60,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -83,7 +83,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -105,7 +105,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -127,7 +127,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -148,7 +148,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -169,7 +169,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -190,7 +190,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -211,7 +211,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -233,7 +233,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -254,7 +254,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -275,7 +275,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -299,7 +299,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -320,7 +320,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -341,7 +341,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -363,7 +363,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -386,7 +386,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -407,7 +407,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": true,
       "modalities": [
@@ -428,7 +428,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": true,
       "modalities": [
@@ -449,7 +449,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -471,7 +471,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -492,7 +492,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -513,7 +513,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -534,7 +534,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -555,7 +555,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -576,7 +576,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -598,7 +598,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -619,7 +619,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -640,7 +640,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -663,7 +663,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -684,7 +684,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -705,7 +705,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -729,7 +729,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -754,7 +754,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -779,7 +779,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -802,7 +802,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -823,7 +823,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -845,7 +845,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -866,7 +866,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -887,7 +887,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -908,7 +908,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -931,7 +931,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -952,7 +952,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -974,7 +974,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -995,7 +995,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1016,7 +1016,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1037,7 +1037,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1058,7 +1058,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1079,7 +1079,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1102,7 +1102,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1124,7 +1124,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1145,7 +1145,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1167,7 +1167,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1188,7 +1188,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1209,7 +1209,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1230,7 +1230,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1251,7 +1251,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1272,7 +1272,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1294,7 +1294,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1317,7 +1317,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1338,7 +1338,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1361,7 +1361,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1384,7 +1384,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1405,7 +1405,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1426,7 +1426,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1447,7 +1447,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1470,7 +1470,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1492,33 +1492,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image"
-      ]
-    },
-    {
-      "id": "nvidia/nemotron-nano-9b-v2",
-      "name": "NVIDIA: Nemotron Nano 9B V2",
-      "provider": "nvidia",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "4e-8",
-        "completion": "0.00000016",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-06-11T02:50:49Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -1535,7 +1514,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1557,11 +1536,33 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3.7-plus",
+      "name": "Qwen: Qwen3.7 Plus",
+      "provider": "qwen",
+      "context_length": 1000000,
+      "pricing": {
+        "prompt": "0.00000032",
+        "completion": "0.00000128",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-06-11T15:40:08Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
       ]
     },
     {
@@ -1578,7 +1579,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1603,7 +1604,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1628,7 +1629,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1649,11 +1650,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "provider": "google",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000012",
+        "completion": "0.00000035",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-06-11T15:40:08Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "image",
+        "text",
+        "video"
       ]
     },
     {
@@ -1670,35 +1694,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
-        "video"
-      ]
-    },
-    {
-      "id": "google/gemma-4-31b-it",
-      "name": "Google: Gemma 4 31B",
-      "provider": "google",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000036",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-06-11T02:50:49Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "image",
-        "text",
         "video"
       ]
     },
@@ -1716,7 +1717,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1738,7 +1739,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1759,7 +1760,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1782,7 +1783,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1805,7 +1806,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1828,7 +1829,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1849,29 +1850,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "qwen/qwen3.7-plus",
-      "name": "Qwen: Qwen3.7 Plus",
-      "provider": "qwen",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000016",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1893,7 +1872,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1916,7 +1895,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1937,7 +1916,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1959,7 +1938,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1981,7 +1960,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2003,7 +1982,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2024,7 +2003,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2047,7 +2026,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2069,7 +2048,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2091,7 +2070,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2112,7 +2091,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2133,7 +2112,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2154,7 +2133,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2175,7 +2154,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2200,7 +2179,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2221,7 +2200,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -2245,7 +2224,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2266,7 +2245,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2288,7 +2267,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2309,7 +2288,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2330,7 +2309,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2351,7 +2330,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2372,7 +2351,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2397,7 +2376,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2418,7 +2397,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2439,7 +2418,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2460,7 +2439,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2483,7 +2462,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2504,7 +2483,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2526,7 +2505,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2547,7 +2526,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2568,7 +2547,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2589,7 +2568,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2612,7 +2591,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2633,7 +2612,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2654,7 +2633,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2676,7 +2655,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2697,30 +2676,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video"
-      ]
-    },
-    {
-      "id": "qwen/qwen3.6-35b-a3b",
-      "name": "Qwen: Qwen3.6 35B A3B",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.000001",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2743,11 +2699,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "name": "Qwen: Qwen3.6 35B A3B",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000015",
+        "completion": "0.000001",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-06-11T15:40:08Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image",
+        "video"
       ]
     },
     {
@@ -2764,7 +2743,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2785,7 +2764,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2806,7 +2785,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2827,7 +2806,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2849,7 +2828,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2870,7 +2849,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2891,7 +2870,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2912,7 +2891,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2934,7 +2913,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2957,7 +2936,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2978,7 +2957,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2999,7 +2978,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3022,7 +3001,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3044,7 +3023,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3066,7 +3045,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3087,7 +3066,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3108,7 +3087,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3131,7 +3110,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3154,7 +3133,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3175,7 +3154,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3196,7 +3175,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3217,7 +3196,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3238,7 +3217,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3259,7 +3238,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3280,7 +3259,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3301,7 +3280,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3322,7 +3301,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3343,7 +3322,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3364,7 +3343,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3385,7 +3364,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3408,7 +3387,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3430,7 +3409,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3451,7 +3430,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3472,7 +3451,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3493,7 +3472,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3515,7 +3494,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3537,7 +3516,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3560,7 +3539,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3581,7 +3560,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3602,7 +3581,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3623,7 +3602,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3646,7 +3625,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3669,7 +3648,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3691,7 +3670,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3714,7 +3693,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3735,7 +3714,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3758,7 +3737,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3780,7 +3759,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3803,7 +3782,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3824,7 +3803,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3845,7 +3824,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3870,7 +3849,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3895,7 +3874,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3918,7 +3897,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3941,7 +3920,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3962,7 +3941,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3983,7 +3962,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4004,7 +3983,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4025,7 +4004,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4046,7 +4025,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4071,7 +4050,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4095,7 +4074,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4120,7 +4099,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4141,33 +4120,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "file",
         "image",
-        "text"
-      ]
-    },
-    {
-      "id": "deepseek/deepseek-r1-distill-llama-70b",
-      "name": "DeepSeek: R1 Distill Llama 70B",
-      "provider": "deepseek",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.0000008",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-06-11T02:50:49Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
         "text"
       ]
     },
@@ -4185,7 +4143,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4207,7 +4165,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4228,7 +4186,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4249,7 +4207,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4272,7 +4230,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4293,13 +4251,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "audio",
         "file"
+      ]
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek: R1 Distill Llama 70B",
+      "provider": "deepseek",
+      "context_length": 128000,
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.0000008",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-06-11T15:40:08Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
       ]
     },
     {
@@ -4316,7 +4295,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4337,7 +4316,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4359,7 +4338,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4381,7 +4360,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4402,7 +4381,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4423,7 +4402,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4446,7 +4425,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4469,7 +4448,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4491,7 +4470,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4516,7 +4495,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4541,7 +4520,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4566,7 +4545,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4587,7 +4566,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4609,7 +4588,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4630,7 +4609,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4652,7 +4631,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4674,7 +4653,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4695,7 +4674,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4717,7 +4696,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4738,7 +4717,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4759,7 +4738,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4782,7 +4761,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4803,7 +4782,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4824,7 +4803,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4845,7 +4824,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4868,7 +4847,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4891,7 +4870,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4914,7 +4893,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4937,7 +4916,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4958,7 +4937,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4979,7 +4958,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5002,7 +4981,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5025,7 +5004,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5046,7 +5025,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5067,7 +5046,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5088,7 +5067,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5109,7 +5088,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5130,7 +5109,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5151,7 +5130,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5173,7 +5152,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5194,7 +5173,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5215,7 +5194,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5237,7 +5216,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5259,7 +5238,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5281,7 +5260,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5302,7 +5281,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5323,7 +5302,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5345,7 +5324,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5367,7 +5346,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5389,7 +5368,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5412,7 +5391,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5435,7 +5414,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5456,7 +5435,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5479,7 +5458,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5501,7 +5480,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5524,7 +5503,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5546,7 +5525,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5568,7 +5547,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5589,7 +5568,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5612,7 +5591,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5635,7 +5614,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5658,7 +5637,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5681,7 +5660,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5704,7 +5683,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5727,7 +5706,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5748,7 +5727,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5769,7 +5748,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5792,7 +5771,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5815,7 +5794,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5836,7 +5815,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5859,7 +5838,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5881,7 +5860,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5902,7 +5881,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5925,7 +5904,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5947,7 +5926,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5970,7 +5949,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5991,7 +5970,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6012,7 +5991,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6033,7 +6012,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6056,7 +6035,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6079,7 +6058,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6102,7 +6081,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6125,7 +6104,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6148,7 +6127,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6171,7 +6150,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6194,7 +6173,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6216,7 +6195,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6238,7 +6217,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6259,7 +6238,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6280,7 +6259,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6302,7 +6281,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6325,7 +6304,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6347,7 +6326,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6370,7 +6349,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6393,7 +6372,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6416,7 +6395,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6438,7 +6417,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6460,7 +6439,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6481,7 +6460,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6502,7 +6481,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6525,7 +6504,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6548,7 +6527,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6571,7 +6550,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6592,7 +6571,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6614,7 +6593,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6635,7 +6614,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6657,7 +6636,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6680,7 +6659,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6703,7 +6682,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6726,7 +6705,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6747,7 +6726,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6770,7 +6749,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6791,7 +6770,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6812,7 +6791,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6835,7 +6814,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6858,7 +6837,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6881,7 +6860,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6904,7 +6883,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6926,7 +6905,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6947,7 +6926,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6968,7 +6947,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6991,7 +6970,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7013,7 +6992,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7034,7 +7013,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7057,7 +7036,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7078,7 +7057,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7101,7 +7080,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7122,7 +7101,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7145,7 +7124,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7168,7 +7147,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7191,7 +7170,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7214,7 +7193,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7235,7 +7214,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7256,7 +7235,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7277,7 +7256,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7298,7 +7277,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7321,7 +7300,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7342,7 +7321,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7367,7 +7346,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7388,7 +7367,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7409,7 +7388,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-06-11T02:50:49Z",
+      "created_at": "2026-06-11T15:40:08Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
