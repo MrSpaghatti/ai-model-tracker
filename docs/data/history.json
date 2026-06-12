@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-11T15:40:08Z",
+  "generated_at": "2026-06-12T02:47:33Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -45967,7 +45967,7 @@
     {
       "model_id": "qwen/qwen2.5-vl-72b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-12T02:47:33Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.00000075
     },
@@ -47423,7 +47423,7 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-05-30T02:27:34Z",
-      "to_date": null,
+      "to_date": "2026-06-12T02:47:33Z",
       "prompt_price": 9.83e-8,
       "completion_price": 0.0000001966
     },
@@ -48158,14 +48158,14 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-06-08T15:34:24Z",
-      "to_date": null,
+      "to_date": "2026-06-12T02:47:33Z",
       "prompt_price": 0.00000068,
       "completion_price": 0.00000341
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-06-08T15:34:24Z",
-      "to_date": null,
+      "to_date": "2026-06-12T02:47:33Z",
       "prompt_price": 0.00000068,
       "completion_price": 0.00000341
     },
@@ -48242,7 +48242,7 @@
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-06-09T14:31:48Z",
-      "to_date": null,
+      "to_date": "2026-06-12T02:47:33Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000108
     },
@@ -48403,27 +48403,90 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-11T15:40:08Z",
+      "to_date": "2026-06-12T02:47:33Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": "2026-06-12T02:47:33Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": "2026-06-12T02:47:33Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-11T15:40:08Z",
+      "to_date": "2026-06-12T02:47:33Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": null,
+      "prompt_price": 9.8e-8,
+      "completion_price": 0.000000196
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": null,
+      "prompt_price": 0.0000008,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": null,
+      "prompt_price": 0.00000067,
+      "completion_price": 0.00000339
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": null,
+      "prompt_price": 0.00000067,
+      "completion_price": 0.00000339
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-12T02:47:33Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-11T15:40:08Z",
+      "from_date": "2026-06-12T02:47:33Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-11T15:40:08Z",
+      "from_date": "2026-06-12T02:47:33Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-11T15:40:08Z",
+      "from_date": "2026-06-12T02:47:33Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
