@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-12T02:47:33Z",
+  "generated_at": "2026-06-12T14:40:13Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -46681,7 +46681,7 @@
     {
       "model_id": "meta-llama/llama-guard-3-8b",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-12T14:40:13Z",
       "prompt_price": 0.000000484,
       "completion_price": 3e-8
     },
@@ -47997,7 +47997,7 @@
     {
       "model_id": "qwen/qwen3.6-27b",
       "from_date": "2026-06-07T02:47:31Z",
-      "to_date": null,
+      "to_date": "2026-06-12T14:40:13Z",
       "prompt_price": 0.000000289,
       "completion_price": 0.0000024
     },
@@ -48452,41 +48452,97 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-06-12T02:47:33Z",
-      "to_date": null,
+      "to_date": "2026-06-12T14:40:13Z",
       "prompt_price": 0.00000067,
       "completion_price": 0.00000339
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-06-12T02:47:33Z",
-      "to_date": null,
+      "to_date": "2026-06-12T14:40:13Z",
       "prompt_price": 0.00000067,
       "completion_price": 0.00000339
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-12T02:47:33Z",
+      "to_date": "2026-06-12T14:40:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": "2026-06-12T14:40:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": "2026-06-12T14:40:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-12T02:47:33Z",
+      "to_date": "2026-06-12T14:40:13Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "from_date": "2026-06-12T14:40:13Z",
+      "to_date": null,
+      "prompt_price": 0.0000002885,
+      "completion_price": 0.00000317
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-06-12T14:40:13Z",
+      "to_date": null,
+      "prompt_price": 0.00000068,
+      "completion_price": 0.00000341
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-06-12T14:40:13Z",
+      "to_date": null,
+      "prompt_price": 0.00000068,
+      "completion_price": 0.00000341
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-06-12T14:40:13Z",
+      "to_date": null,
+      "prompt_price": 0.00000095,
+      "completion_price": 0.000004
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-12T14:40:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-12T02:47:33Z",
+      "from_date": "2026-06-12T14:40:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-12T02:47:33Z",
+      "from_date": "2026-06-12T14:40:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-12T02:47:33Z",
+      "from_date": "2026-06-12T14:40:13Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
