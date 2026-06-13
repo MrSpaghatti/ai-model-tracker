@@ -123,6 +123,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4o-mini-search-preview | OpenAI: GPT-4o-mini Search Preview | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
 | upstage/solar-pro-3 | Upstage: Solar Pro 3 | 128,000 | $0.1500 | $0.6000 | - | ⚠️ | 3,413,333,333 |
 | kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 256,000 | $0.3000 | $1.2000 | - | ⚠️ | 3,413,333,333 |
+| deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2000 | $0.7700 | - | ⚠️ | 3,378,144,330 |
 | minimax/minimax-m2.1 | MiniMax: MiniMax M2.1 | 204,800 | $0.2900 | $0.9500 | - | ⚠️ | 3,303,225,806 |
 | meta-llama/llama-3.1-70b-instruct | Meta: Llama 3.1 70B Instruct | 131,072 | $0.4000 | $0.4000 | - | ⚠️ | 3,276,800,000 |
 | nvidia/llama-3.3-nemotron-super-49b-v1.5 | NVIDIA: Llama 3.3 Nemotron Super 49B V1.5 | 131,072 | $0.4000 | $0.4000 | - | ⚠️ | 3,276,800,000 |
@@ -133,7 +134,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | writer/palmyra-x5 | Writer: Palmyra X5 | 1,040,000 | $0.6000 | $6.0000 | - | ✅ | 3,151,515,152 |
 | qwen/qwen3.5-27b | Qwen: Qwen3.5-27B | 262,144 | $0.1950 | $1.5600 | - | ⚠️ | 2,987,396,011 |
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3510 | $0.5550 | - | ⚠️ | 2,825,607,064 |
-| deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 131,072 | $0.2000 | $0.7700 | - | ⚠️ | 2,702,515,464 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.1250 | $0.8500 | - | ⚠️ | 2,688,656,410 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | ⚠️ | 2,685,901,639 |
 | anthropic/claude-3-haiku | Anthropic: Claude 3 Haiku | 200,000 | $0.2500 | $1.2500 | - | ✅ | 2,666,666,667 |
@@ -143,11 +143,11 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | relace/relace-apply-3 | Relace: Relace Apply 3 | 256,000 | $0.8500 | $1.2500 | - | ⚠️ | 2,438,095,238 |
 | bytedance-seed/seed-1.6 | ByteDance Seed: Seed 1.6 | 262,144 | $0.2500 | $2.0000 | - | ⚠️ | 2,330,168,889 |
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | ⚠️ | 2,330,168,889 |
-| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.4000 | $1.9000 | - | ⚠️ | 2,279,513,043 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | ⚠️ | 2,240,547,009 |
 | essentialai/rnj-1-instruct | EssentialAI: Rnj 1 Instruct | 32,768 | $0.1500 | $0.1500 | - | ⚠️ | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | ⚠️ | 2,184,533,333 |
 | mistralai/devstral-2512 | Mistral: Devstral 2 2512 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
+| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.3750 | $2.0250 | - | ⚠️ | 2,184,533,333 |
 | openai/gpt-4.1 | OpenAI: GPT-4.1 | 1,047,576 | $2.0000 | $8.0000 | - | ⚠️ | 2,095,152,000 |
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | ⚠️ | 2,016,492,308 |
 | prime-intellect/intellect-3 | Prime Intellect: INTELLECT-3 | 131,072 | $0.2000 | $1.1000 | - | ⚠️ | 2,016,492,308 |
