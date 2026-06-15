@@ -6,7 +6,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 10,000,000 | $0.1000 | $0.3000 | - | ⚠️ | 500,000,000,000 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | - | ⚠️ | 131,072,000,000 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0900 | $0.1800 | - | ⚠️ | 77,672,296,296 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0980 | $0.1960 | - | ⚠️ | 71,331,700,680 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
@@ -313,7 +313,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4 | OpenAI: GPT-4 | 8,191 | $30.0000 | $60.0000 | - | ✅ | 1,820,222 |
 | openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
 | openrouter/bodybuilder | Body Builder (beta) | 128,000 | N/A | N/A | - | ⚠️ | N/A |
-| openrouter/fusion | OpenRouter: Fusion | 128,000 | N/A | N/A | - | ⚠️ | N/A |
+| openrouter/fusion | OpenRouter: Fusion | 1,000,000 | N/A | N/A | - | ⚠️ | N/A |
 | openrouter/pareto-code | Pareto Code Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
 
 > **Moderated**: ✅ means the top provider reports content moderation, which usually lowers the chance that raw prompts/outputs are used for training workflows. ⚠️ means the provider does not report moderation here, so treat the model as higher-risk for sensitive data.
