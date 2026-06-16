@@ -40,7 +40,7 @@
 | openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | ⚠️ | N/A |
 | openrouter/pareto-code | Pareto Code Router | 2,000,000 | N/A | N/A | ⚠️ | N/A |
 | x-ai/grok-4.20 | xAI: Grok 4.20 | 2,000,000 | $1.2500 | $2.5000 | ⚠️ | 10,666,666,667 |
-| x-ai/grok-4.20-multi-agent | xAI: Grok 4.20 Multi-Agent | 2,000,000 | $2.0000 | $6.0000 | ⚠️ | 5,000,000,000 |
+| x-ai/grok-4.20-multi-agent | xAI: Grok 4.20 Multi-Agent | 2,000,000 | $1.2500 | $2.5000 | ⚠️ | 10,666,666,667 |
 
 ## Top 5 Cheapest Paid Models
 
