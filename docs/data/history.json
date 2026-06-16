@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-16T02:57:31Z",
+  "generated_at": "2026-06-16T16:28:00Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -46002,7 +46002,7 @@
     {
       "model_id": "deepseek/deepseek-r1-distill-qwen-32b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-16T16:28:00Z",
       "prompt_price": 0.00000029,
       "completion_price": 0.00000029
     },
@@ -47332,7 +47332,7 @@
     {
       "model_id": "z-ai/glm-4.5-air",
       "from_date": "2026-05-28T15:34:10Z",
-      "to_date": null,
+      "to_date": "2026-06-16T16:28:00Z",
       "prompt_price": 0.000000125,
       "completion_price": 0.00000085
     },
@@ -47661,7 +47661,7 @@
     {
       "model_id": "tencent/hy3-preview",
       "from_date": "2026-06-02T02:49:50Z",
-      "to_date": null,
+      "to_date": "2026-06-16T16:28:00Z",
       "prompt_price": 6.3e-8,
       "completion_price": 0.00000021
     },
@@ -48760,27 +48760,69 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-16T02:57:31Z",
+      "to_date": "2026-06-16T16:28:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-16T02:57:31Z",
+      "to_date": "2026-06-16T16:28:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-16T02:57:31Z",
+      "to_date": "2026-06-16T16:28:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-16T02:57:31Z",
+      "to_date": "2026-06-16T16:28:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "from_date": "2026-06-16T16:28:00Z",
+      "to_date": null,
+      "prompt_price": 6.6e-8,
+      "completion_price": 0.00000026
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "from_date": "2026-06-16T16:28:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000013,
+      "completion_price": 0.00000085
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-16T16:28:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-16T02:57:31Z",
+      "from_date": "2026-06-16T16:28:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-16T02:57:31Z",
+      "from_date": "2026-06-16T16:28:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-16T02:57:31Z",
+      "from_date": "2026-06-16T16:28:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
