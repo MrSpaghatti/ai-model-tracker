@@ -6,7 +6,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 10,000,000 | $0.1000 | $0.3000 | - | ⚠️ | 500,000,000,000 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | - | ⚠️ | 131,072,000,000 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0980 | $0.1960 | - | ⚠️ | 71,331,700,680 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0900 | $0.1800 | - | ⚠️ | 77,672,296,296 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
@@ -78,12 +78,12 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
+| nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.2000 | - | ⚠️ | 7,407,407,407 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-oss-safeguard-20b | OpenAI: gpt-oss-safeguard-20b | 131,072 | $0.0750 | $0.3000 | - | ⚠️ | 6,990,506,667 |
 | mistralai/mistral-small-2603 | Mistral: Mistral Small 4 | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
 | meta-llama/llama-3.2-3b-instruct | Meta: Llama 3.2 3B Instruct | 131,072 | $0.0509 | $0.3350 | - | ⚠️ | 6,793,055,196 |
-| nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.5000 | - | ⚠️ | 6,666,666,667 |
 | meta-llama/llama-3.3-70b-instruct | Meta: Llama 3.3 70B Instruct | 131,072 | $0.1000 | $0.3200 | - | ⚠️ | 6,241,523,810 |
 | microsoft/phi-4-mini-instruct | Microsoft: Phi 4 Mini Instruct | 131,072 | $0.0800 | $0.3500 | - | ⚠️ | 6,096,372,093 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
@@ -112,6 +112,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | stepfun/step-3.7-flash | StepFun: Step 3.7 Flash | 256,000 | $0.2000 | $1.1500 | - | ⚠️ | 3,792,592,593 |
 | tencent/hunyuan-a13b-instruct | Tencent: Hunyuan A13B Instruct | 131,072 | $0.1400 | $0.5700 | - | ⚠️ | 3,692,169,014 |
 | google/gemma-3n-e4b-it | Google: Gemma 3n 4B | 32,768 | $0.0600 | $0.1200 | - | ⚠️ | 3,640,888,889 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $1.4000 | $4.4000 | - | ⚠️ | 3,615,779,310 |
 | openai/gpt-5-mini | OpenAI: GPT-5 Mini | 400,000 | $0.2500 | $2.0000 | - | ✅ | 3,555,555,556 |
 | openai/gpt-5.1-codex-mini | OpenAI: GPT-5.1-Codex-Mini | 400,000 | $0.2500 | $2.0000 | - | ✅ | 3,555,555,556 |
 | qwen/qwen3-vl-8b-thinking | Qwen: Qwen3 VL 8B Thinking | 256,000 | $0.1170 | $1.3650 | - | ⚠️ | 3,454,790,823 |
@@ -192,7 +193,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
 | aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
-| moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7500 | $3.5000 | - | ⚠️ | 1,233,618,824 |
+| moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7400 | $3.5000 | - | ⚠️ | 1,236,528,302 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
 | qwen/qwen3-235b-a22b | Qwen: Qwen3 235B A22B | 131,072 | $0.4550 | $1.8200 | - | ⚠️ | 1,152,281,319 |
 | qwen/qwen3-max | Qwen: Qwen3 Max | 262,144 | $0.7800 | $3.9000 | - | ⚠️ | 1,120,273,504 |
