@@ -7,10 +7,10 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 1,048,576 | $0.2200 | $1.8000 | ⚠️ | 10,381,940,594 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | ⚠️ | 9,411,764,706 |
-| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | ⚠️ | 5,761,406,593 |
 
 ## Top 5 Vision Models
 
@@ -19,7 +19,7 @@
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ✅ | ∞ |
 | nex-agi/nex-n2-pro:free | Nex AGI: Nex-N2-Pro (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models

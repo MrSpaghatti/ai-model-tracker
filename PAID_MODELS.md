@@ -48,7 +48,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0500 | $0.1500 | - | ⚠️ | 13,107,200,000 |
 | mistralai/ministral-3b-2512 | Mistral: Ministral 3 3B 2512 | 131,072 | $0.1000 | $0.1000 | - | ⚠️ | 13,107,200,000 |
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | ⚠️ | 13,107,200,000 |
-| xiaomi/mimo-v2-flash | Xiaomi: MiMo-V2-Flash | 262,144 | $0.1000 | $0.3000 | - | ⚠️ | 13,107,200,000 |
 | qwen/qwen3.7-plus | Qwen: Qwen3.7 Plus | 1,000,000 | $0.3200 | $1.2800 | - | ⚠️ | 12,500,000,000 |
 | google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
