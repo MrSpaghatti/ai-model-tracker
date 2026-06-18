@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-18T02:49:35Z",
+  "generated_at": "2026-06-18T14:52:18Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -48389,7 +48389,7 @@
     {
       "model_id": "qwen/qwen3.6-35b-a3b",
       "from_date": "2026-06-11T15:40:08Z",
-      "to_date": null,
+      "to_date": "2026-06-18T14:52:18Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.000001
     },
@@ -48921,27 +48921,90 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-18T02:49:35Z",
+      "to_date": "2026-06-18T14:52:18Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-18T02:49:35Z",
+      "to_date": "2026-06-18T14:52:18Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-18T02:49:35Z",
+      "to_date": "2026-06-18T14:52:18Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-18T02:49:35Z",
+      "to_date": "2026-06-18T14:52:18Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "poolside/laguna-xs.2",
+      "from_date": "2026-06-18T14:52:18Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "poolside/laguna-m.1",
+      "from_date": "2026-06-18T14:52:18Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000004
+    },
+    {
+      "model_id": "qwen/qwen3.6-35b-a3b",
+      "from_date": "2026-06-18T14:52:18Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-image",
+      "from_date": "2026-06-18T14:52:18Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "google/gemini-3-pro-image",
+      "from_date": "2026-06-18T14:52:18Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000012
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-18T14:52:18Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-18T02:49:35Z",
+      "from_date": "2026-06-18T14:52:18Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-18T02:49:35Z",
+      "from_date": "2026-06-18T14:52:18Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-18T02:49:35Z",
+      "from_date": "2026-06-18T14:52:18Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

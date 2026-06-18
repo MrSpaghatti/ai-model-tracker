@@ -30,6 +30,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | - | ⚠️ | 17,476,266,667 |
 | ibm-granite/granite-4.1-8b | IBM: Granite 4.1 8B | 131,072 | $0.0500 | $0.1000 | - | ⚠️ | 17,476,266,667 |
 | mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | - | ⚠️ | 17,476,266,667 |
+| poolside/laguna-xs.2 | Poolside: Laguna XS.2 | 262,144 | $0.1000 | $0.2000 | - | ⚠️ | 17,476,266,667 |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | - | ⚠️ | 17,094,017,094 |
 | liquid/lfm-2-24b-a2b | LiquidAI: LFM2-24B-A2B | 128,000 | $0.0300 | $0.1200 | - | ⚠️ | 17,066,666,667 |
 | tencent/hy3-preview | Tencent: Hy3 preview | 262,144 | $0.0660 | $0.2600 | - | ⚠️ | 16,082,453,988 |
@@ -70,6 +71,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-vl-8b-instruct | Qwen: Qwen3 VL 8B Instruct | 256,000 | $0.0800 | $0.5000 | - | ⚠️ | 8,827,586,207 |
 | z-ai/glm-4.7-flash | Z.ai: GLM 4.7 Flash | 202,752 | $0.0600 | $0.4000 | - | ⚠️ | 8,815,304,348 |
 | qwen/qwen3.6-plus | Qwen: Qwen3.6 Plus | 1,000,000 | $0.3250 | $1.9500 | - | ⚠️ | 8,791,208,791 |
+| poolside/laguna-m.1 | Poolside: Laguna M.1 | 262,144 | $0.2000 | $0.4000 | - | ⚠️ | 8,738,133,333 |
 | bytedance/ui-tars-1.5-7b | ByteDance: UI-TARS 7B  | 128,000 | $0.1000 | $0.2000 | - | ⚠️ | 8,533,333,333 |
 | qwen/qwen3-vl-30b-a3b-instruct | Qwen: Qwen3 VL 30B A3B Instruct | 262,144 | $0.1300 | $0.5200 | - | ⚠️ | 8,065,969,231 |
 | qwen/qwen3-14b | Qwen: Qwen3 14B | 131,702 | $0.1000 | $0.2400 | - | ⚠️ | 7,747,176,471 |
@@ -99,8 +101,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-vl-235b-a22b-instruct | Qwen: Qwen3 VL 235B A22B Instruct | 262,144 | $0.2000 | $0.8800 | - | ⚠️ | 4,854,518,519 |
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
+| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
 | deepseek/deepseek-v3.2 | DeepSeek: DeepSeek V3.2 | 131,072 | $0.2288 | $0.3432 | - | ⚠️ | 4,582,937,063 |
-| qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1500 | $1.0000 | - | ⚠️ | 4,559,026,087 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | - | ⚠️ | 4,266,666,667 |
@@ -219,6 +221,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/mistral-saba | Mistral: Saba | 32,768 | $0.2000 | $0.6000 | - | ⚠️ | 819,200,000 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 32,768 | $0.4000 | $0.4000 | - | ⚠️ | 819,200,000 |
 | morph/morph-v3-fast | Morph: Morph V3 Fast | 81,920 | $0.8000 | $1.2000 | - | ⚠️ | 819,200,000 |
+| google/gemini-3.1-flash-image | Google: Nano Banana 2 (Gemini 3.1 Flash Image) | 131,072 | $0.5000 | $3.0000 | - | ⚠️ | 748,982,857 |
 | google/gemini-3.1-flash-image-preview | Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview) | 131,072 | $0.5000 | $3.0000 | - | ⚠️ | 748,982,857 |
 | openai/o3-mini | OpenAI: o3 Mini | 200,000 | $1.1000 | $4.4000 | - | ✅ | 727,272,727 |
 | openai/o3-mini-high | OpenAI: o3 Mini High | 200,000 | $1.1000 | $4.4000 | - | ✅ | 727,272,727 |
@@ -290,6 +293,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | anthropic/claude-opus-4.7-fast | Anthropic: Claude Opus 4.7 (Fast) | 1,000,000 | $30.0000 | $150.0000 | - | ✅ | 111,111,111 |
 | openai/gpt-5.4-pro | OpenAI: GPT-5.4 Pro | 1,050,000 | $30.0000 | $180.0000 | - | ✅ | 100,000,000 |
 | openai/gpt-5.5-pro | OpenAI: GPT-5.5 Pro | 1,050,000 | $30.0000 | $180.0000 | - | ✅ | 100,000,000 |
+| google/gemini-3-pro-image | Google: Nano Banana Pro (Gemini 3 Pro Image) | 65,536 | $2.0000 | $12.0000 | - | ⚠️ | 93,622,857 |
 | google/gemini-3-pro-image-preview | Google: Nano Banana Pro (Gemini 3 Pro Image Preview) | 65,536 | $2.0000 | $12.0000 | - | ⚠️ | 93,622,857 |
 | mancer/weaver | Mancer: Weaver (alpha) | 8,000 | $0.7500 | $1.0000 | - | ⚠️ | 91,428,571 |
 | anthracite-org/magnum-v4-72b | Magnum v4 72B | 32,768 | $3.0000 | $5.0000 | - | ⚠️ | 81,920,000 |
