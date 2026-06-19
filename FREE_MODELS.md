@@ -11,7 +11,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-ultra-550b-a55b:free | NVIDIA: Nemotron 3 Ultra (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | nex-agi/nex-n2-pro:free | Nex AGI: Nex-N2-Pro (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
