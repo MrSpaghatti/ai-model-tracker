@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-20T02:39:02Z",
+  "generated_at": "2026-06-20T13:44:11Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44210,7 +44210,7 @@
     {
       "model_id": "arcee-ai/trinity-large-thinking",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-20T13:44:11Z",
       "prompt_price": 0.00000022,
       "completion_price": 0.00000085
     },
@@ -48788,7 +48788,7 @@
     {
       "model_id": "tencent/hy3-preview",
       "from_date": "2026-06-16T16:28:00Z",
-      "to_date": null,
+      "to_date": "2026-06-20T13:44:11Z",
       "prompt_price": 6.6e-8,
       "completion_price": 0.00000026
     },
@@ -49019,14 +49019,14 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-06-19T03:34:49Z",
-      "to_date": null,
+      "to_date": "2026-06-20T13:44:11Z",
       "prompt_price": 0.00000067,
       "completion_price": 0.0000035
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-06-19T03:34:49Z",
-      "to_date": null,
+      "to_date": "2026-06-20T13:44:11Z",
       "prompt_price": 0.00000067,
       "completion_price": 0.0000035
     },
@@ -49096,27 +49096,83 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-20T02:39:02Z",
+      "to_date": "2026-06-20T13:44:11Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-20T02:39:02Z",
+      "to_date": "2026-06-20T13:44:11Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-20T02:39:02Z",
+      "to_date": "2026-06-20T13:44:11Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-20T02:39:02Z",
+      "to_date": "2026-06-20T13:44:11Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "from_date": "2026-06-20T13:44:11Z",
+      "to_date": null,
+      "prompt_price": 6.3e-8,
+      "completion_price": 0.00000021
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-thinking",
+      "from_date": "2026-06-20T13:44:11Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-06-20T13:44:11Z",
+      "to_date": null,
+      "prompt_price": 0.00000066,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-06-20T13:44:11Z",
+      "to_date": null,
+      "prompt_price": 0.00000066,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-20T13:44:11Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-20T02:39:02Z",
+      "from_date": "2026-06-20T13:44:11Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-20T02:39:02Z",
+      "from_date": "2026-06-20T13:44:11Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-20T02:39:02Z",
+      "from_date": "2026-06-20T13:44:11Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
