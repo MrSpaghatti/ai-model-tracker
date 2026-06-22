@@ -107,8 +107,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | - | ⚠️ | 4,266,666,667 |
 | qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 131,072 | $0.1200 | $0.5000 | - | ⚠️ | 4,228,129,032 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $1.0000 | $4.0000 | - | ⚠️ | 4,194,304,000 |
 | qwen/qwen3.7-max | Qwen: Qwen3.7 Max | 1,000,000 | $1.2500 | $3.7500 | - | ⚠️ | 4,000,000,000 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $1.2000 | $4.1000 | - | ⚠️ | 3,956,890,566 |
 | minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1500 | $0.9000 | - | ⚠️ | 3,900,952,381 |
 | meta-llama/llama-3.2-11b-vision-instruct | Meta: Llama 3.2 11B Vision Instruct | 131,072 | $0.3450 | $0.3450 | - | ⚠️ | 3,799,188,406 |
 | stepfun/step-3.7-flash | StepFun: Step 3.7 Flash | 256,000 | $0.2000 | $1.1500 | - | ⚠️ | 3,792,592,593 |
@@ -165,6 +165,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | - | ⚠️ | 1,820,444,444 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 256,000 | $0.3850 | $2.4500 | - | ⚠️ | 1,805,996,473 |
 | openai/gpt-5-image-mini | OpenAI: GPT-5 Image Mini | 400,000 | $2.5000 | $2.0000 | - | ✅ | 1,777,777,778 |
+| nex-agi/nex-n2-pro | Nex AGI: Nex-N2-Pro | 262,144 | $0.5000 | $2.5000 | - | ⚠️ | 1,747,626,667 |
 | x-ai/grok-build-0.1 | xAI: Grok Build 0.1 | 256,000 | $1.0000 | $2.0000 | - | ⚠️ | 1,706,666,667 |
 | moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
@@ -217,7 +218,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | moonshotai/kimi-k2 | MoonshotAI: Kimi K2 0711 | 131,072 | $0.5700 | $2.3000 | - | ⚠️ | 913,393,728 |
 | minimax/minimax-m2-her | MiniMax: MiniMax M2-her | 65,536 | $0.3000 | $1.2000 | - | ⚠️ | 873,813,333 |
 | openai/gpt-audio-mini | OpenAI: GPT Audio Mini | 128,000 | $0.6000 | $2.4000 | - | ✅ | 853,333,333 |
-| anthropic/claude-3.5-haiku | Anthropic: Claude 3.5 Haiku | 200,000 | $0.8000 | $4.0000 | - | ✅ | 833,333,333 |
 | mistralai/mistral-saba | Mistral: Saba | 32,768 | $0.2000 | $0.6000 | - | ⚠️ | 819,200,000 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 32,768 | $0.4000 | $0.4000 | - | ⚠️ | 819,200,000 |
 | morph/morph-v3-fast | Morph: Morph V3 Fast | 81,920 | $0.8000 | $1.2000 | - | ⚠️ | 819,200,000 |
