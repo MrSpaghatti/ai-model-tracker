@@ -94,6 +94,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ⚠️ | 5,517,241,379 |
 | qwen/qwen3-30b-a3b-thinking-2507 | Qwen: Qwen3 30B A3B Thinking 2507 | 131,072 | $0.0800 | $0.4000 | - | ⚠️ | 5,461,333,333 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9800 | $3.0800 | - | ⚠️ | 5,165,399,015 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |
 | mistralai/mistral-small-24b-instruct-2501 | Mistral: Mistral Small 3 | 32,768 | $0.0500 | $0.0800 | - | ⚠️ | 5,041,230,769 |
 | arcee-ai/trinity-large-thinking | Arcee AI: Trinity Large Thinking | 262,144 | $0.2500 | $0.8000 | - | ⚠️ | 4,993,219,048 |
@@ -107,7 +108,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | - | ⚠️ | 4,266,666,667 |
 | qwen/qwen3-30b-a3b | Qwen: Qwen3 30B A3B | 131,072 | $0.1200 | $0.5000 | - | ⚠️ | 4,228,129,032 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $1.0000 | $4.0000 | - | ⚠️ | 4,194,304,000 |
 | qwen/qwen3.7-max | Qwen: Qwen3.7 Max | 1,000,000 | $1.2500 | $3.7500 | - | ⚠️ | 4,000,000,000 |
 | minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1500 | $0.9000 | - | ⚠️ | 3,900,952,381 |
 | meta-llama/llama-3.2-11b-vision-instruct | Meta: Llama 3.2 11B Vision Instruct | 131,072 | $0.3450 | $0.3450 | - | ⚠️ | 3,799,188,406 |
@@ -190,10 +190,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | arcee-ai/virtuoso-large | Arcee AI: Virtuoso Large | 131,072 | $0.7500 | $1.2000 | - | ⚠️ | 1,344,328,205 |
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | nousresearch/hermes-3-llama-3.1-405b | Nous: Hermes 3 405B Instruct | 131,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,310,720,000 |
+| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
+| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
-| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6600 | $3.5000 | - | ⚠️ | 1,260,307,692 |
-| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.5000 | - | ⚠️ | 1,260,307,692 |
 | aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
