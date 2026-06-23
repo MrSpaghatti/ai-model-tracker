@@ -19,7 +19,7 @@
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ✅ | ∞ |
+| google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
@@ -71,7 +71,7 @@ _No matching models found._
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 256,000 | $0.1000 | $0.1500 | ⚠️ | 20,480,000,000 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 | ibm-granite/granite-4.1-8b | IBM: Granite 4.1 8B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
@@ -81,7 +81,7 @@ _No matching models found._
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 256,000 | $0.1000 | $0.1500 | ⚠️ | 20,480,000,000 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 | ibm-granite/granite-4.1-8b | IBM: Granite 4.1 8B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
@@ -92,7 +92,7 @@ _No matching models found._
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 256,000 | $0.1000 | $0.1500 | ⚠️ | 20,480,000,000 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
@@ -102,7 +102,7 @@ _No matching models found._
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 256,000 | $0.1000 | $0.1500 | ⚠️ | 20,480,000,000 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
@@ -112,7 +112,7 @@ _No matching models found._
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 256,000 | $0.1000 | $0.1500 | ⚠️ | 20,480,000,000 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
