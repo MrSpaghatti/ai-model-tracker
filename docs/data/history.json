@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-23T14:32:08Z",
+  "generated_at": "2026-06-24T02:33:47Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44714,7 +44714,7 @@
     {
       "model_id": "essentialai/rnj-1-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.00000015
     },
@@ -46037,7 +46037,7 @@
     {
       "model_id": "microsoft/phi-4",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 6.5e-8,
       "completion_price": 0.00000014
     },
@@ -46198,7 +46198,7 @@
     {
       "model_id": "thedrummer/rocinante-12b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000017,
       "completion_price": 0.00000043
     },
@@ -47213,7 +47213,7 @@
     {
       "model_id": "xiaomi/mimo-v2.5",
       "from_date": "2026-05-27T02:41:53Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.00000028
     },
@@ -48438,7 +48438,7 @@
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-06-12T02:47:33Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.000001
     },
@@ -49278,7 +49278,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-06-22T16:41:08Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000098,
       "completion_price": 0.00000308
     },
@@ -49369,34 +49369,104 @@
     {
       "model_id": "moonshotai/kimi-k2.7-code",
       "from_date": "2026-06-23T14:32:08Z",
-      "to_date": null,
+      "to_date": "2026-06-24T02:33:47Z",
       "prompt_price": 0.00000068,
       "completion_price": 0.00000341
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-23T14:32:08Z",
+      "to_date": "2026-06-24T02:33:47Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-23T14:32:08Z",
+      "to_date": "2026-06-24T02:33:47Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-23T14:32:08Z",
+      "to_date": "2026-06-24T02:33:47Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-23T14:32:08Z",
+      "to_date": "2026-06-24T02:33:47Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 0.000000105,
+      "completion_price": 0.00000028
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 0.00000095,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 0.00000024,
+      "completion_price": 0.00000096
+    },
+    {
+      "model_id": "microsoft/phi-4",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 7e-8,
+      "completion_price": 0.00000014
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 0.00000074,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "thedrummer/rocinante-12b",
+      "from_date": "2026-06-24T02:33:47Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-24T02:33:47Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-23T14:32:08Z",
+      "from_date": "2026-06-24T02:33:47Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-23T14:32:08Z",
+      "from_date": "2026-06-24T02:33:47Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-23T14:32:08Z",
+      "from_date": "2026-06-24T02:33:47Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
