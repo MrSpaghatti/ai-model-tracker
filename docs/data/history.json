@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-25T02:35:17Z",
+  "generated_at": "2026-06-25T14:08:29Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44063,7 +44063,7 @@
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.000000435,
       "completion_price": 0.00000087
     },
@@ -44245,7 +44245,7 @@
     {
       "model_id": "kwaipilot/kat-coder-pro-v2",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -45561,7 +45561,7 @@
     {
       "model_id": "deepseek/deepseek-r1-0528",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.00000215
     },
@@ -46674,7 +46674,7 @@
     {
       "model_id": "qwen/qwen3-coder-next",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000011,
       "completion_price": 0.0000008
     },
@@ -46737,7 +46737,7 @@
     {
       "model_id": "deepseek/deepseek-v3.1-terminus",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000095
     },
@@ -46772,7 +46772,7 @@
     {
       "model_id": "z-ai/glm-4.7",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.00000175
     },
@@ -46968,7 +46968,7 @@
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-05-22T02:38:54Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000098,
       "completion_price": 0.00000308
     },
@@ -47612,7 +47612,7 @@
     {
       "model_id": "deepseek/deepseek-v3.2",
       "from_date": "2026-06-01T17:24:51Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000002288,
       "completion_price": 0.0000003432
     },
@@ -47626,7 +47626,7 @@
     {
       "model_id": "deepseek/deepseek-chat",
       "from_date": "2026-06-01T17:24:51Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000002002,
       "completion_price": 0.0000008001
     },
@@ -47752,7 +47752,7 @@
     {
       "model_id": "z-ai/glm-5",
       "from_date": "2026-06-03T16:22:51Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.0000006,
       "completion_price": 0.00000192
     },
@@ -47829,7 +47829,7 @@
     {
       "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
       "from_date": "2026-06-04T14:40:53Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 4.815e-8,
       "completion_price": 0.00000019305
     },
@@ -48235,7 +48235,7 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-06-09T14:31:48Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000009
     },
@@ -48550,7 +48550,7 @@
     {
       "model_id": "moonshotai/kimi-k2.5",
       "from_date": "2026-06-13T02:40:03Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.000000375,
       "completion_price": 0.000002025
     },
@@ -48753,7 +48753,7 @@
     {
       "model_id": "qwen/qwen3.5-397b-a17b",
       "from_date": "2026-06-16T02:57:31Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.000000385,
       "completion_price": 0.00000245
     },
@@ -49285,14 +49285,14 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-06-22T16:41:08Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000066,
       "completion_price": 0.00000341
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-06-22T16:41:08Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000066,
       "completion_price": 0.00000341
     },
@@ -49411,7 +49411,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-06-24T02:33:47Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 0.00000095,
       "completion_price": 0.000003
     },
@@ -49509,34 +49509,188 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-06-25T02:35:17Z",
-      "to_date": null,
+      "to_date": "2026-06-25T14:08:29Z",
       "prompt_price": 8.9e-8,
       "completion_price": 0.000000224
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-25T02:35:17Z",
+      "to_date": "2026-06-25T14:08:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-25T02:35:17Z",
+      "to_date": "2026-06-25T14:08:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-25T02:35:17Z",
+      "to_date": "2026-06-25T14:08:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-25T02:35:17Z",
+      "to_date": "2026-06-25T14:08:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-r1-0528",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.1-terminus",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.2",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "kwaipilot/kat-coder-pro-v2",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.5",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3-coder-next",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-4.7",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-06-25T14:08:29Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-06-25T14:08:29Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-25T02:35:17Z",
+      "from_date": "2026-06-25T14:08:29Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-25T02:35:17Z",
+      "from_date": "2026-06-25T14:08:29Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-25T02:35:17Z",
+      "from_date": "2026-06-25T14:08:29Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
