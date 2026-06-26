@@ -7,10 +7,10 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
-| kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
+| qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 1,048,576 | $0.2200 | $1.8000 | ⚠️ | 10,381,940,594 |
+| qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | ⚠️ | 9,411,764,706 |
 
 ## Top 5 Vision Models
 
@@ -20,7 +20,7 @@
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | ✅ | ∞ |
-| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
 
@@ -28,9 +28,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 10,000,000 | $0.1000 | $0.3000 | ⚠️ | 500,000,000,000 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0900 | $0.1800 | ⚠️ | 77,672,296,296 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
 | xiaomi/mimo-v2.5 | Xiaomi: MiMo-V2.5 | 1,048,576 | $0.1050 | $0.2800 | ⚠️ | 54,471,480,519 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | ⚠️ | 52,428,800,000 |
 
 ## Top 5 Largest Context Windows
 
