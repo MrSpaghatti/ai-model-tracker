@@ -163,6 +163,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-2.5-pro-preview-05-06 | Google: Gemini 2.5 Pro Preview 05-06 | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | - | ⚠️ | 1,820,444,444 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 256,000 | $0.3850 | $2.4500 | - | ⚠️ | 1,805,996,473 |
+| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2885 | $2.6500 | - | ⚠️ | 1,784,202,825 |
 | openai/gpt-5-image-mini | OpenAI: GPT-5 Image Mini | 400,000 | $2.5000 | $2.0000 | - | ✅ | 1,777,777,778 |
 | x-ai/grok-build-0.1 | xAI: Grok Build 0.1 | 256,000 | $1.0000 | $2.0000 | - | ⚠️ | 1,706,666,667 |
 | moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
@@ -178,7 +179,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | sao10k/l3.1-euryale-70b | Sao10K: Llama 3.1 Euryale 70B v2.2 | 131,072 | $0.8500 | $0.8500 | - | ⚠️ | 1,542,023,529 |
 | openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
-| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2885 | $3.1700 | - | ⚠️ | 1,515,940,437 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | ✅ | 1,500,000,000 |
 | google/gemini-3.1-pro-preview-customtools | Google: Gemini 3.1 Pro Preview Custom Tools | 1,048,756 | $2.0000 | $12.0000 | - | ⚠️ | 1,498,222,857 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
