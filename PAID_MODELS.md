@@ -45,11 +45,11 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | minimax/minimax-m3 | MiniMax: MiniMax M3 | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | ✅ | 13,653,333,333 |
 | arcee-ai/trinity-mini | Arcee AI: Trinity Mini | 131,072 | $0.0450 | $0.1500 | - | ⚠️ | 13,443,282,051 |
-| stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.0900 | $0.3000 | - | ⚠️ | 13,443,282,051 |
 | google/gemma-4-26b-a4b-it | Google: Gemma 4 26B A4B  | 262,144 | $0.0600 | $0.3300 | - | ⚠️ | 13,443,282,051 |
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0500 | $0.1500 | - | ⚠️ | 13,107,200,000 |
 | mistralai/ministral-3b-2512 | Mistral: Ministral 3 3B 2512 | 131,072 | $0.1000 | $0.1000 | - | ⚠️ | 13,107,200,000 |
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | ⚠️ | 13,107,200,000 |
+| stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.1000 | $0.3000 | - | ⚠️ | 13,107,200,000 |
 | qwen/qwen3.7-plus | Qwen: Qwen3.7 Plus | 1,000,000 | $0.3200 | $1.2800 | - | ⚠️ | 12,500,000,000 |
 | google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
@@ -184,11 +184,11 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
 | ~google/gemini-pro-latest | Google Gemini Pro Latest | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
 | qwen/qwen2.5-vl-72b-instruct | Qwen: Qwen2.5 VL 72B Instruct | 131,072 | $0.8000 | $1.0000 | - | ⚠️ | 1,456,355,556 |
+| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.5500 | $3.2000 | - | ⚠️ | 1,398,101,333 |
+| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.5500 | $3.2000 | - | ⚠️ | 1,398,101,333 |
 | arcee-ai/virtuoso-large | Arcee AI: Virtuoso Large | 131,072 | $0.7500 | $1.2000 | - | ⚠️ | 1,344,328,205 |
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | nousresearch/hermes-3-llama-3.1-405b | Nous: Hermes 3 405B Instruct | 131,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,310,720,000 |
-| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
-| ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
 | aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
@@ -288,7 +288,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4o-2024-05-13 | OpenAI: GPT-4o (2024-05-13) | 128,000 | $5.0000 | $15.0000 | - | ⚠️ | 128,000,000 |
 | google/gemma-2-27b-it | Google: Gemma 2 27B | 8,192 | $0.6500 | $0.6500 | - | ⚠️ | 126,030,769 |
 | undi95/remm-slerp-l2-13b | ReMM SLERP 13B | 6,144 | $0.4500 | $0.6500 | - | ⚠️ | 111,709,091 |
-| anthropic/claude-opus-4.6-fast | Anthropic: Claude Opus 4.6 (Fast) | 1,000,000 | $30.0000 | $150.0000 | - | ✅ | 111,111,111 |
 | anthropic/claude-opus-4.7-fast | Anthropic: Claude Opus 4.7 (Fast) | 1,000,000 | $30.0000 | $150.0000 | - | ✅ | 111,111,111 |
 | openai/gpt-5.4-pro | OpenAI: GPT-5.4 Pro | 1,050,000 | $30.0000 | $180.0000 | - | ✅ | 100,000,000 |
 | openai/gpt-5.5-pro | OpenAI: GPT-5.5 Pro | 1,050,000 | $30.0000 | $180.0000 | - | ✅ | 100,000,000 |
