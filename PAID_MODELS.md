@@ -153,7 +153,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | ⚠️ | 2,016,492,308 |
 | google/gemini-3.5-flash | Google: Gemini 3.5 Flash | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
 | ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
-| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2596 | $2.3850 | - | ⚠️ | 1,982,485,064 |
+| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2850 | $2.4000 | - | ⚠️ | 1,952,655,493 |
 | z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | ⚠️ | 1,886,065,116 |
 | nousresearch/hermes-3-llama-3.1-70b | Nous: Hermes 3 70B Instruct | 131,072 | $0.7000 | $0.7000 | - | ⚠️ | 1,872,457,143 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | ⚠️ | 1,872,457,143 |
