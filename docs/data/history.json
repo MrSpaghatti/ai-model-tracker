@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-06-30T14:01:20Z",
+  "generated_at": "2026-07-01T02:44:28Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44000,7 +44000,7 @@
     {
       "model_id": "~anthropic/claude-sonnet-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-01T02:44:28Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -46667,7 +46667,7 @@
     {
       "model_id": "microsoft/phi-4-mini-instruct",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-07-01T02:44:28Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000035
     },
@@ -47507,7 +47507,7 @@
     {
       "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "from_date": "2026-05-31T02:43:51Z",
-      "to_date": null,
+      "to_date": "2026-07-01T02:44:28Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000001
     },
@@ -49698,7 +49698,7 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-07-01T02:44:28Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000018
     },
@@ -50104,7 +50104,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-06-30T02:38:14Z",
-      "to_date": null,
+      "to_date": "2026-07-01T02:44:28Z",
       "prompt_price": 0.00000094,
       "completion_price": 0.000003
     },
@@ -50153,27 +50153,97 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-06-30T14:01:20Z",
+      "to_date": "2026-07-01T02:44:28Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-06-30T14:01:20Z",
+      "to_date": "2026-07-01T02:44:28Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-06-30T14:01:20Z",
+      "to_date": "2026-07-01T02:44:28Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-06-30T14:01:20Z",
+      "to_date": "2026-07-01T02:44:28Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 9.8e-8,
+      "completion_price": 0.000000196
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 0.00000093,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 0.0000001495,
+      "completion_price": 0.000001495
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "~anthropic/claude-sonnet-latest",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite-image",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.0000015
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-01T02:44:28Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-06-30T14:01:20Z",
+      "from_date": "2026-07-01T02:44:28Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-06-30T14:01:20Z",
+      "from_date": "2026-07-01T02:44:28Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-06-30T14:01:20Z",
+      "from_date": "2026-07-01T02:44:28Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
