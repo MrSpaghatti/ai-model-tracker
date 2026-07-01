@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-01T02:44:28Z",
+  "generated_at": "2026-07-01T14:14:22Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44623,7 +44623,7 @@
     {
       "model_id": "minimax/minimax-m2.1",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-01T14:14:22Z",
       "prompt_price": 0.00000029,
       "completion_price": 0.00000095
     },
@@ -44910,7 +44910,7 @@
     {
       "model_id": "minimax/minimax-m2",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-01T14:14:22Z",
       "prompt_price": 0.000000255,
       "completion_price": 0.000001
     },
@@ -45183,7 +45183,7 @@
     {
       "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-01T14:14:22Z",
       "prompt_price": 8e-8,
       "completion_price": 0.0000004
     },
@@ -45652,7 +45652,7 @@
     {
       "model_id": "qwen/qwen3-8b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-01T14:14:22Z",
       "prompt_price": 5e-8,
       "completion_price": 0.0000004
     },
@@ -50223,27 +50223,83 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-01T02:44:28Z",
+      "to_date": "2026-07-01T14:14:22Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": "2026-07-01T14:14:22Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": "2026-07-01T14:14:22Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-01T02:44:28Z",
+      "to_date": "2026-07-01T14:14:22Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "qwen/qwen3-8b",
+      "from_date": "2026-07-01T14:14:22Z",
+      "to_date": null,
+      "prompt_price": 0.000000117,
+      "completion_price": 0.000000455
+    },
+    {
+      "model_id": "minimax/minimax-m2",
+      "from_date": "2026-07-01T14:14:22Z",
+      "to_date": null,
+      "prompt_price": 0.000000255,
+      "completion_price": 0.00000102
+    },
+    {
+      "model_id": "minimax/minimax-m2.1",
+      "from_date": "2026-07-01T14:14:22Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
+      "from_date": "2026-07-01T14:14:22Z",
+      "to_date": null,
+      "prompt_price": 0.00000013,
+      "completion_price": 0.00000156
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-01T14:14:22Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-01T02:44:28Z",
+      "from_date": "2026-07-01T14:14:22Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-01T02:44:28Z",
+      "from_date": "2026-07-01T14:14:22Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-01T02:44:28Z",
+      "from_date": "2026-07-01T14:14:22Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
