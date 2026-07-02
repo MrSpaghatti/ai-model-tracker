@@ -6,7 +6,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 10,000,000 | $0.1000 | $0.3000 | - | ⚠️ | 500,000,000,000 |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | - | ⚠️ | 131,072,000,000 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0980 | $0.1960 | - | ⚠️ | 71,331,700,680 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0900 | $0.1800 | - | ⚠️ | 77,672,296,296 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | xiaomi/mimo-v2.5 | Xiaomi: MiMo-V2.5 | 1,048,576 | $0.1050 | $0.2800 | - | ⚠️ | 54,471,480,519 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0300 | - | ⚠️ | 52,428,800,000 |
@@ -123,7 +123,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-4o-mini-search-preview | OpenAI: GPT-4o-mini Search Preview | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
 | upstage/solar-pro-3 | Upstage: Solar Pro 3 | 128,000 | $0.1500 | $0.6000 | - | ⚠️ | 3,413,333,333 |
 | kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 256,000 | $0.3000 | $1.2000 | - | ⚠️ | 3,413,333,333 |
-| deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2000 | $0.7700 | - | ⚠️ | 3,378,144,330 |
 | meta-llama/llama-3.1-70b-instruct | Meta: Llama 3.1 70B Instruct | 131,072 | $0.4000 | $0.4000 | - | ⚠️ | 3,276,800,000 |
 | nvidia/llama-3.3-nemotron-super-49b-v1.5 | NVIDIA: Llama 3.3 Nemotron Super 49B V1.5 | 131,072 | $0.4000 | $0.4000 | - | ⚠️ | 3,276,800,000 |
 | thedrummer/cydonia-24b-v4.1 | TheDrummer: Cydonia 24B V4.1 | 131,072 | $0.3000 | $0.5000 | - | ⚠️ | 3,276,800,000 |
@@ -132,6 +131,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-235b-a22b-thinking-2507 | Qwen: Qwen3 235B A22B Thinking 2507 | 262,144 | $0.1495 | $1.4950 | - | ⚠️ | 3,188,130,131 |
 | writer/palmyra-x5 | Writer: Palmyra X5 | 1,040,000 | $0.6000 | $6.0000 | - | ✅ | 3,151,515,152 |
 | qwen/qwen3.5-27b | Qwen: Qwen3.5-27B | 262,144 | $0.1950 | $1.5600 | - | ⚠️ | 2,987,396,011 |
+| deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2400 | $0.9000 | - | ⚠️ | 2,874,385,965 |
 | mistralai/mistral-small-3.1-24b-instruct | Mistral: Mistral Small 3.1 24B | 128,000 | $0.3510 | $0.5550 | - | ⚠️ | 2,825,607,064 |
 | minimax/minimax-m2.1 | MiniMax: MiniMax M2.1 | 204,800 | $0.3000 | $1.2000 | - | ⚠️ | 2,730,666,667 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $0.9500 | - | ⚠️ | 2,685,901,639 |
@@ -259,9 +259,9 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/o4-mini-deep-research | OpenAI: o4 Mini Deep Research | 200,000 | $2.0000 | $8.0000 | - | ✅ | 400,000,000 |
 | openai/gpt-5-image | OpenAI: GPT-5 Image | 400,000 | $10.0000 | $10.0000 | - | ✅ | 400,000,000 |
 | perceptron/perceptron-mk1 | Perceptron: Perceptron Mk1 | 32,768 | $0.1500 | $1.5000 | - | ⚠️ | 397,187,879 |
-| anthropic/claude-fable-5 | Anthropic: Claude Fable 5 | 1,000,000 | $10.0000 | $50.0000 | - | ✅ | 333,333,333 |
+| anthropic/claude-fable-5 | Anthropic: Claude Fable 5 | 1,000,000 | $10.0000 | $50.0000 | - | ⚠️ | 333,333,333 |
 | anthropic/claude-opus-4.8-fast | Anthropic: Claude Opus 4.8 (Fast) | 1,000,000 | $10.0000 | $50.0000 | - | ✅ | 333,333,333 |
-| ~anthropic/claude-fable-latest | Anthropic: Claude Fable Latest | 1,000,000 | $10.0000 | $50.0000 | - | ✅ | 333,333,333 |
+| ~anthropic/claude-fable-latest | Anthropic: Claude Fable Latest | 1,000,000 | $10.0000 | $50.0000 | - | ⚠️ | 333,333,333 |
 | mistralai/mistral-large-2407 | Mistral Large 2407 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/mistral-large | Mistral Large | 128,000 | $2.0000 | $6.0000 | - | ⚠️ | 320,000,000 |
 | aion-labs/aion-rp-llama-3.1-8b | AionLabs: Aion-RP 1.0 (8B) | 32,768 | $0.8000 | $1.6000 | - | ⚠️ | 273,066,667 |
