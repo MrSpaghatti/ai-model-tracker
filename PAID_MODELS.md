@@ -80,12 +80,12 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
 | nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.2000 | - | ⚠️ | 7,407,407,407 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.6860 | $2.1560 | - | ⚠️ | 7,379,141,450 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-oss-safeguard-20b | OpenAI: gpt-oss-safeguard-20b | 131,072 | $0.0750 | $0.3000 | - | ⚠️ | 6,990,506,667 |
 | mistralai/mistral-small-2603 | Mistral: Mistral Small 4 | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
 | minimax/minimax-m2.5 | MiniMax: MiniMax M2.5 | 204,800 | $0.1200 | $0.4800 | - | ⚠️ | 6,826,666,667 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.7420 | $2.3320 | - | ⚠️ | 6,822,225,114 |
 | meta-llama/llama-3.2-3b-instruct | Meta: Llama 3.2 3B Instruct | 131,072 | $0.0509 | $0.3350 | - | ⚠️ | 6,793,055,196 |
 | meta-llama/llama-3.3-70b-instruct | Meta: Llama 3.3 70B Instruct | 131,072 | $0.1000 | $0.3200 | - | ⚠️ | 6,241,523,810 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
