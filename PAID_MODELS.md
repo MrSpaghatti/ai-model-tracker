@@ -80,7 +80,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
 | nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.2000 | - | ⚠️ | 7,407,407,407 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.6860 | $2.1560 | - | ⚠️ | 7,379,141,450 |
+| tencent/hy3 | Tencent: Hy3 | 262,144 | $0.1400 | $0.5800 | - | ⚠️ | 7,281,777,778 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-oss-safeguard-20b | OpenAI: gpt-oss-safeguard-20b | 131,072 | $0.0750 | $0.3000 | - | ⚠️ | 6,990,506,667 |
@@ -91,6 +91,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9086 | $2.8556 | - | ⚠️ | 5,571,308,645 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ⚠️ | 5,517,241,379 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |

@@ -15,6 +15,7 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | poolside/laguna-xs-2.1:free | Poolside: Laguna XS 2.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-xs.2:free | Poolside: Laguna XS.2 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | qwen/qwen3-next-80b-a3b-instruct:free | Qwen: Qwen3 Next 80B A3B Instruct (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| tencent/hy3:free | Tencent: Hy3 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | nvidia/nemotron-3-nano-30b-a3b:free | NVIDIA: Nemotron 3 Nano 30B A3B (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
