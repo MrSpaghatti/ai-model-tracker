@@ -81,7 +81,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
 | nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.2000 | - | ⚠️ | 7,407,407,407 |
-| tencent/hy3 | Tencent: Hy3 | 262,144 | $0.1400 | $0.5800 | - | ⚠️ | 7,281,777,778 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-oss-safeguard-20b | OpenAI: gpt-oss-safeguard-20b | 131,072 | $0.0750 | $0.3000 | - | ⚠️ | 6,990,506,667 |
@@ -92,9 +91,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9086 | $2.8556 | - | ⚠️ | 5,571,308,645 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9000 | $2.8600 | - | ⚠️ | 5,577,531,915 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ⚠️ | 5,517,241,379 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
+| tencent/hy3 | Tencent: Hy3 | 262,144 | $0.2000 | $0.8000 | - | ⚠️ | 5,242,880,000 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |
 | mistralai/mistral-small-24b-instruct-2501 | Mistral: Mistral Small 3 | 32,768 | $0.0500 | $0.0800 | - | ⚠️ | 5,041,230,769 |
 | arcee-ai/trinity-large-thinking | Arcee AI: Trinity Large Thinking | 262,144 | $0.2500 | $0.8000 | - | ⚠️ | 4,993,219,048 |
@@ -195,7 +195,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
-| aion-labs/aion-1.0-mini | AionLabs: Aion-1.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
 | moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7400 | $3.5000 | - | ⚠️ | 1,236,528,302 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
@@ -277,7 +276,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5.1-chat | OpenAI: GPT-5.1 Chat | 128,000 | $1.2500 | $10.0000 | - | ⚠️ | 227,555,556 |
 | perplexity/sonar-pro | Perplexity: Sonar Pro | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
 | perplexity/sonar-pro-search | Perplexity: Sonar Pro Search | 200,000 | $3.0000 | $15.0000 | - | ⚠️ | 222,222,222 |
-| aion-labs/aion-1.0 | AionLabs: Aion-1.0 | 131,072 | $4.0000 | $8.0000 | - | ⚠️ | 218,453,333 |
 | cohere/command-r-plus-08-2024 | Cohere: Command R+ (08-2024) | 128,000 | $2.5000 | $10.0000 | - | ✅ | 204,800,000 |
 | openai/gpt-4o | OpenAI: GPT-4o | 128,000 | $2.5000 | $10.0000 | - | ⚠️ | 204,800,000 |
 | openai/gpt-4o-2024-08-06 | OpenAI: GPT-4o (2024-08-06) | 128,000 | $2.5000 | $10.0000 | - | ⚠️ | 204,800,000 |
