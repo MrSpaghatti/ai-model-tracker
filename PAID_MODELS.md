@@ -91,8 +91,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9000 | $2.8600 | - | ⚠️ | 5,577,531,915 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ⚠️ | 5,517,241,379 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9300 | $3.0000 | - | ⚠️ | 5,336,264,631 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
 | tencent/hy3 | Tencent: Hy3 | 262,144 | $0.2000 | $0.8000 | - | ⚠️ | 5,242,880,000 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |
@@ -166,6 +166,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | - | ⚠️ | 1,820,444,444 |
 | qwen/qwen3.5-397b-a17b | Qwen: Qwen3.5 397B A17B | 256,000 | $0.3850 | $2.4500 | - | ⚠️ | 1,805,996,473 |
 | openai/gpt-5-image-mini | OpenAI: GPT-5 Image Mini | 400,000 | $2.5000 | $2.0000 | - | ✅ | 1,777,777,778 |
+| thedrummer/rocinante-12b | TheDrummer: Rocinante 12B | 65,536 | $0.2500 | $0.5000 | - | ⚠️ | 1,747,626,667 |
 | x-ai/grok-build-0.1 | xAI: Grok Build 0.1 | 256,000 | $1.0000 | $2.0000 | - | ⚠️ | 1,706,666,667 |
 | moonshotai/kimi-k2-0905 | MoonshotAI: Kimi K2 0905 | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
 | moonshotai/kimi-k2-thinking | MoonshotAI: Kimi K2 Thinking | 262,144 | $0.6000 | $2.5000 | - | ⚠️ | 1,691,251,613 |
@@ -195,6 +196,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
+| aion-labs/aion-3.0-mini | AionLabs: Aion-3.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
 | moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7400 | $3.5000 | - | ⚠️ | 1,236,528,302 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
@@ -215,7 +217,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | z-ai/glm-4.5 | Z.ai: GLM 4.5 | 131,072 | $0.6000 | $2.2000 | - | ⚠️ | 936,228,571 |
 | qwen/qwen3-vl-235b-a22b-thinking | Qwen: Qwen3 VL 235B A22B Thinking | 131,072 | $0.2600 | $2.6000 | - | ⚠️ | 916,587,413 |
 | moonshotai/kimi-k2 | MoonshotAI: Kimi K2 0711 | 131,072 | $0.5700 | $2.3000 | - | ⚠️ | 913,393,728 |
-| thedrummer/rocinante-12b | TheDrummer: Rocinante 12B | 32,768 | $0.2500 | $0.5000 | - | ⚠️ | 873,813,333 |
 | minimax/minimax-m2-her | MiniMax: MiniMax M2-her | 65,536 | $0.3000 | $1.2000 | - | ⚠️ | 873,813,333 |
 | openai/gpt-audio-mini | OpenAI: GPT Audio Mini | 128,000 | $0.6000 | $2.4000 | - | ✅ | 853,333,333 |
 | mistralai/mistral-saba | Mistral: Saba | 32,768 | $0.2000 | $0.6000 | - | ⚠️ | 819,200,000 |
@@ -266,6 +267,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~anthropic/claude-fable-latest | Anthropic: Claude Fable Latest | 1,000,000 | $10.0000 | $50.0000 | - | ⚠️ | 333,333,333 |
 | mistralai/mistral-large-2407 | Mistral Large 2407 | 131,072 | $2.0000 | $6.0000 | - | ⚠️ | 327,680,000 |
 | mistralai/mistral-large | Mistral Large | 128,000 | $2.0000 | $6.0000 | - | ⚠️ | 320,000,000 |
+| aion-labs/aion-3.0 | AionLabs: Aion-3.0 | 131,072 | $3.0000 | $6.0000 | - | ⚠️ | 291,271,111 |
 | aion-labs/aion-rp-llama-3.1-8b | AionLabs: Aion-RP 1.0 (8B) | 32,768 | $0.8000 | $1.6000 | - | ⚠️ | 273,066,667 |
 | perplexity/sonar-deep-research | Perplexity: Sonar Deep Research | 128,000 | $2.0000 | $8.0000 | - | ⚠️ | 256,000,000 |
 | perplexity/sonar-reasoning-pro | Perplexity: Sonar Reasoning Pro | 128,000 | $2.0000 | $8.0000 | - | ⚠️ | 256,000,000 |
