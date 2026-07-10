@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-09T14:37:13Z",
+  "generated_at": "2026-07-10T02:09:00Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -49432,7 +49432,7 @@
     {
       "model_id": "moonshotai/kimi-k2.7-code",
       "from_date": "2026-06-24T02:33:47Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.00000074,
       "completion_price": 0.0000035
     },
@@ -49719,7 +49719,7 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 3e-8,
       "completion_price": 0.00000015
     },
@@ -49733,7 +49733,7 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.00000012,
       "completion_price": 0.00000048
     },
@@ -49761,7 +49761,7 @@
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.00000018,
       "completion_price": 0.00000072
     },
@@ -50846,14 +50846,14 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-07-08T13:45:32Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.00000065,
       "completion_price": 0.00000341
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-07-08T13:45:32Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.00000065,
       "completion_price": 0.00000341
     },
@@ -50944,34 +50944,160 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-09T14:37:13Z",
-      "to_date": null,
+      "to_date": "2026-07-10T02:09:00Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000022
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-09T14:37:13Z",
+      "to_date": "2026-07-10T02:09:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-09T14:37:13Z",
+      "to_date": "2026-07-10T02:09:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-09T14:37:13Z",
+      "to_date": "2026-07-10T02:09:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-09T14:37:13Z",
+      "to_date": "2026-07-10T02:09:00Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 3.6e-8,
+      "completion_price": 0.00000018
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000054,
+      "completion_price": 0.00000176
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000009
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000024,
+      "completion_price": 0.00000096
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna-pro",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "cognitivecomputations/dolphin-mistral-24b-venice-edition",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000009
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000066,
+      "completion_price": 0.00000341
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000066,
+      "completion_price": 0.00000341
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.00000072,
+      "completion_price": 0.00000349
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra-pro",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.00003
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol-pro",
+      "from_date": "2026-07-10T02:09:00Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.00003
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-10T02:09:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-09T14:37:13Z",
+      "from_date": "2026-07-10T02:09:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-09T14:37:13Z",
+      "from_date": "2026-07-10T02:09:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-09T14:37:13Z",
+      "from_date": "2026-07-10T02:09:00Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
