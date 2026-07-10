@@ -65,7 +65,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.5-plus-20260420 | Qwen: Qwen3.5 Plus 2026-04-20 | 1,000,000 | $0.3000 | $1.8000 | - | ⚠️ | 9,523,809,524 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | - | ⚠️ | 9,411,764,706 |
 | mistralai/mistral-small-3.2-24b-instruct | Mistral: Mistral Small 3.2 24B | 128,000 | $0.0750 | $0.2000 | - | ⚠️ | 9,309,090,909 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.5400 | $1.7600 | - | ⚠️ | 9,118,052,174 |
 | meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 163,840 | $0.1800 | $0.1800 | - | ⚠️ | 9,102,222,222 |
 | qwen/qwen3-vl-8b-instruct | Qwen: Qwen3 VL 8B Instruct | 256,000 | $0.1170 | $0.4550 | - | ⚠️ | 8,951,048,951 |
 | z-ai/glm-4.7-flash | Z.ai: GLM 4.7 Flash | 202,752 | $0.0600 | $0.4000 | - | ⚠️ | 8,815,304,348 |
@@ -81,6 +80,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 1,000,000 | $0.5000 | $2.2000 | - | ⚠️ | 7,407,407,407 |
 | tencent/hy3 | Tencent: Hy3 | 262,144 | $0.1400 | $0.5800 | - | ⚠️ | 7,281,777,778 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.7000 | $2.2000 | - | ⚠️ | 7,231,558,621 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-oss-safeguard-20b | OpenAI: gpt-oss-safeguard-20b | 131,072 | $0.0750 | $0.3000 | - | ⚠️ | 6,990,506,667 |
 | mistralai/mistral-small-2603 | Mistral: Mistral Small 4 | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
@@ -95,11 +95,11 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/mistral-small-24b-instruct-2501 | Mistral: Mistral Small 3 | 32,768 | $0.0500 | $0.0800 | - | ⚠️ | 5,041,230,769 |
 | arcee-ai/trinity-large-thinking | Arcee AI: Trinity Large Thinking | 262,144 | $0.2500 | $0.8000 | - | ⚠️ | 4,993,219,048 |
 | nousresearch/hermes-4-70b | Nous: Hermes 4 70B | 131,072 | $0.1300 | $0.4000 | - | ⚠️ | 4,946,113,208 |
+| deepseek/deepseek-v3.2 | DeepSeek: DeepSeek V3.2 | 131,072 | $0.2145 | $0.3217 | - | ⚠️ | 4,888,466,200 |
 | qwen/qwen3-vl-235b-a22b-instruct | Qwen: Qwen3 VL 235B A22B Instruct | 262,144 | $0.2000 | $0.8800 | - | ⚠️ | 4,854,518,519 |
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
 | qwen/qwen3.6-35b-a3b | Qwen: Qwen3.6 35B A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
-| deepseek/deepseek-v3.2 | DeepSeek: DeepSeek V3.2 | 131,072 | $0.2288 | $0.3432 | - | ⚠️ | 4,582,937,063 |
 | qwen/qwen3-8b | Qwen: Qwen3 8B | 131,072 | $0.1170 | $0.4550 | - | ⚠️ | 4,582,937,063 |
 | qwen/qwen3-next-80b-a3b-instruct | Qwen: Qwen3 Next 80B A3B Instruct | 262,144 | $0.0900 | $1.1000 | - | ⚠️ | 4,405,781,513 |
 | rekaai/reka-flash-3 | Reka Flash 3 | 65,536 | $0.1000 | $0.2000 | - | ⚠️ | 4,369,066,667 |
