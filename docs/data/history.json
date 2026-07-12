@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-12T01:58:22Z",
+  "generated_at": "2026-07-12T13:02:42Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -45743,7 +45743,7 @@
     {
       "model_id": "meta-llama/llama-4-maverick",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-12T13:02:42Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
@@ -46779,7 +46779,7 @@
     {
       "model_id": "z-ai/glm-4.6",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-07-12T13:02:42Z",
       "prompt_price": 0.00000043,
       "completion_price": 0.00000174
     },
@@ -48046,7 +48046,7 @@
     {
       "model_id": "qwen/qwen3-235b-a22b-2507",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-07-12T13:02:42Z",
       "prompt_price": 9e-8,
       "completion_price": 0.0000001
     },
@@ -48445,7 +48445,7 @@
     {
       "model_id": "qwen/qwen2.5-vl-72b-instruct",
       "from_date": "2026-06-12T02:47:33Z",
-      "to_date": null,
+      "to_date": "2026-07-12T13:02:42Z",
       "prompt_price": 0.0000008,
       "completion_price": 0.000001
     },
@@ -51231,7 +51231,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-12T01:58:22Z",
-      "to_date": null,
+      "to_date": "2026-07-12T13:02:42Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000022
     },
@@ -51245,27 +51245,90 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-12T01:58:22Z",
+      "to_date": "2026-07-12T13:02:42Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-12T01:58:22Z",
+      "to_date": "2026-07-12T13:02:42Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-12T01:58:22Z",
+      "to_date": "2026-07-12T13:02:42Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-12T01:58:22Z",
+      "to_date": "2026-07-12T13:02:42Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "meta-llama/llama-4-maverick",
+      "from_date": "2026-07-12T13:02:42Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-12T13:02:42Z",
+      "to_date": null,
+      "prompt_price": 0.00000042,
+      "completion_price": 0.00000132
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "from_date": "2026-07-12T13:02:42Z",
+      "to_date": null,
+      "prompt_price": 9e-8,
+      "completion_price": 0.00000055
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "from_date": "2026-07-12T13:02:42Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.00000075
+    },
+    {
+      "model_id": "z-ai/glm-4.6",
+      "from_date": "2026-07-12T13:02:42Z",
+      "to_date": null,
+      "prompt_price": 0.00000043,
+      "completion_price": 0.00000175
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-12T13:02:42Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-12T01:58:22Z",
+      "from_date": "2026-07-12T13:02:42Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-12T01:58:22Z",
+      "from_date": "2026-07-12T13:02:42Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-12T01:58:22Z",
+      "from_date": "2026-07-12T13:02:42Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
