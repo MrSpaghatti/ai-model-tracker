@@ -26,7 +26,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen-plus-2025-07-28:thinking | Qwen: Qwen Plus 0728 (thinking) | 1,000,000 | $0.2600 | $0.7800 | - | ⚠️ | 19,230,769,231 |
 | tencent/hy3-preview | Tencent: Hy3 preview | 262,144 | $0.0630 | $0.2100 | - | ⚠️ | 19,204,688,645 |
 | qwen/qwen-2.5-7b-instruct | Qwen: Qwen2.5 7B Instruct | 131,072 | $0.0400 | $0.1000 | - | ⚠️ | 18,724,571,429 |
-| openai/gpt-5-nano | OpenAI: GPT-5 Nano | 400,000 | $0.0500 | $0.4000 | - | ⚠️ | 17,777,777,778 |
+| openai/gpt-5-nano | OpenAI: GPT-5 Nano | 400,000 | $0.0500 | $0.4000 | - | ✅ | 17,777,777,778 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | - | ⚠️ | 17,476,266,667 |
 | ibm-granite/granite-4.1-8b | IBM: Granite 4.1 8B | 131,072 | $0.0500 | $0.1000 | - | ⚠️ | 17,476,266,667 |
 | mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | - | ⚠️ | 17,476,266,667 |
@@ -37,6 +37,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | minimax/minimax-01 | MiniMax: MiniMax-01 | 1,000,192 | $0.2000 | $1.1000 | - | ⚠️ | 15,387,569,231 |
 | qwen/qwen3.6-flash | Qwen: Qwen3.6 Flash | 1,000,000 | $0.1875 | $1.1250 | - | ⚠️ | 15,238,095,238 |
 | amazon/nova-micro-v1 | Amazon: Nova Micro 1.0 | 128,000 | $0.0350 | $0.1400 | - | ✅ | 14,628,571,429 |
+| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0300 | $0.1500 | - | ⚠️ | 14,563,555,556 |
 | bytedance-seed/seed-1.6-flash | ByteDance Seed: Seed 1.6 Flash | 262,144 | $0.0750 | $0.3000 | - | ⚠️ | 13,981,013,333 |
 | minimax/minimax-m3 | MiniMax: MiniMax M3 | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | ✅ | 13,653,333,333 |
@@ -46,7 +47,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/ministral-14b-2512 | Mistral: Ministral 3 14B 2512 | 262,144 | $0.2000 | $0.2000 | - | ⚠️ | 13,107,200,000 |
 | stepfun/step-3.5-flash | StepFun: Step 3.5 Flash | 262,144 | $0.1000 | $0.3000 | - | ⚠️ | 13,107,200,000 |
 | qwen/qwen3.7-plus | Qwen: Qwen3.7 Plus | 1,000,000 | $0.3200 | $1.2800 | - | ⚠️ | 12,500,000,000 |
-| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0360 | $0.1800 | - | ⚠️ | 12,136,296,296 |
 | google/gemini-3.1-flash-lite | Google: Gemini 3.1 Flash Lite | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
 | google/gemini-3.1-flash-lite-preview | Google: Gemini 3.1 Flash Lite Preview | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
 | meta-llama/llama-3.2-1b-instruct | Meta: Llama 3.2 1B Instruct | 131,072 | $0.0270 | $0.2010 | - | ⚠️ | 11,497,543,860 |
@@ -154,7 +154,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | allenai/olmo-3-32b-think | AllenAI: Olmo 3 32B Think | 65,536 | $0.1500 | $0.5000 | - | ⚠️ | 2,016,492,308 |
 | google/gemini-3.5-flash | Google: Gemini 3.5 Flash | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
 | ~google/gemini-flash-latest | Google Gemini Flash Latest | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
-| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2850 | $2.4000 | - | ⚠️ | 1,952,655,493 |
+| qwen/qwen3.6-27b | Qwen: Qwen3.6 27B | 262,144 | $0.2890 | $2.4000 | - | ⚠️ | 1,949,750,837 |
 | z-ai/glm-4.7 | Z.ai: GLM 4.7 | 202,752 | $0.4000 | $1.7500 | - | ⚠️ | 1,886,065,116 |
 | nousresearch/hermes-3-llama-3.1-70b | Nous: Hermes 3 70B Instruct | 131,072 | $0.7000 | $0.7000 | - | ⚠️ | 1,872,457,143 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | ⚠️ | 1,872,457,143 |
@@ -236,14 +236,14 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.6-max-preview | Qwen: Qwen3.6 Max Preview | 262,144 | $1.0400 | $6.2400 | - | ⚠️ | 720,175,824 |
 | openai/gpt-5 | OpenAI: GPT-5 | 400,000 | $1.2500 | $10.0000 | - | ⚠️ | 711,111,111 |
 | openai/gpt-5-codex | OpenAI: GPT-5 Codex | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
-| openai/gpt-5.1 | OpenAI: GPT-5.1 | 400,000 | $1.2500 | $10.0000 | - | ⚠️ | 711,111,111 |
+| openai/gpt-5.1 | OpenAI: GPT-5.1 | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
 | openai/gpt-5.1-codex | OpenAI: GPT-5.1-Codex | 400,000 | $1.2500 | $10.0000 | - | ⚠️ | 711,111,111 |
 | openai/gpt-5.1-codex-max | OpenAI: GPT-5.1-Codex-Max | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
 | gryphe/mythomax-l2-13b | MythoMax 13B | 4,096 | $0.0600 | $0.0600 | - | ⚠️ | 682,666,667 |
-| anthropic/claude-haiku-4.5 | Anthropic: Claude Haiku 4.5 | 200,000 | $1.0000 | $5.0000 | - | ✅ | 666,666,667 |
-| ~anthropic/claude-haiku-latest | Anthropic Claude Haiku Latest | 200,000 | $1.0000 | $5.0000 | - | ✅ | 666,666,667 |
-| anthropic/claude-opus-4.6 | Anthropic: Claude Opus 4.6 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
-| anthropic/claude-opus-4.7 | Anthropic: Claude Opus 4.7 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
+| anthropic/claude-haiku-4.5 | Anthropic: Claude Haiku 4.5 | 200,000 | $1.0000 | $5.0000 | - | ⚠️ | 666,666,667 |
+| ~anthropic/claude-haiku-latest | Anthropic Claude Haiku Latest | 200,000 | $1.0000 | $5.0000 | - | ⚠️ | 666,666,667 |
+| anthropic/claude-opus-4.6 | Anthropic: Claude Opus 4.6 | 1,000,000 | $5.0000 | $25.0000 | - | ✅ | 666,666,667 |
+| anthropic/claude-opus-4.7 | Anthropic: Claude Opus 4.7 | 1,000,000 | $5.0000 | $25.0000 | - | ✅ | 666,666,667 |
 | anthropic/claude-opus-4.8 | Anthropic: Claude Opus 4.8 | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | ~anthropic/claude-opus-latest | Anthropic: Claude Opus Latest | 1,000,000 | $5.0000 | $25.0000 | - | ⚠️ | 666,666,667 |
 | nousresearch/hermes-4-405b | Nous: Hermes 4 405B | 131,072 | $1.0000 | $3.0000 | - | ⚠️ | 655,360,000 |
