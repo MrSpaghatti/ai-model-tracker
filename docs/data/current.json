@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-15T01:43:10Z",
+  "generated_at": "2026-07-15T13:18:47Z",
   "models": [
     {
       "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
@@ -16,7 +16,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -37,7 +37,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": true,
       "modalities": [
@@ -58,7 +58,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -81,7 +81,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -104,7 +104,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -126,7 +126,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -148,7 +148,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -169,7 +169,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -190,7 +190,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -211,7 +211,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -232,7 +232,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -256,7 +256,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -277,7 +277,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -298,7 +298,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -320,7 +320,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -343,7 +343,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -364,7 +364,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -385,7 +385,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -407,7 +407,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -428,7 +428,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -449,7 +449,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -470,7 +470,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -491,7 +491,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -512,7 +512,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -534,7 +534,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -547,15 +547,15 @@
       "provider": "deepseek",
       "context_length": 1048576,
       "pricing": {
-        "prompt": "9e-8",
-        "completion": "0.00000018",
+        "prompt": "9.8e-8",
+        "completion": "0.000000196",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -576,7 +576,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -591,7 +591,7 @@
       "provider": "xiaomi",
       "context_length": 1048576,
       "pricing": {
-        "prompt": "0.000000105",
+        "prompt": "0.00000014",
         "completion": "0.00000028",
         "request": "",
         "image": "",
@@ -599,7 +599,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -610,41 +610,20 @@
       ]
     },
     {
-      "id": "meta-llama/llama-3.1-8b-instruct",
-      "name": "Meta: Llama 3.1 8B Instruct",
-      "provider": "meta-llama",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "2e-8",
-        "completion": "3e-8",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
       "id": "mistralai/mistral-nemo",
       "name": "Mistral: Mistral Nemo",
       "provider": "mistralai",
       "context_length": 131072,
       "pricing": {
         "prompt": "2e-8",
-        "completion": "3e-8",
+        "completion": "4e-8",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -665,7 +644,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -687,7 +666,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -712,7 +691,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -727,15 +706,15 @@
       "provider": "nvidia",
       "context_length": 1000000,
       "pricing": {
-        "prompt": "8e-8",
-        "completion": "0.00000045",
+        "prompt": "0.00000021",
+        "completion": "0.000000455",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -756,7 +735,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -777,7 +756,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -798,7 +777,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -821,7 +800,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -843,7 +822,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "meta-llama/llama-3.1-8b-instruct",
+      "name": "Meta: Llama 3.1 8B Instruct",
+      "provider": "meta-llama",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "5e-8",
+        "completion": "8e-8",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -864,7 +864,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -886,7 +886,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -907,7 +907,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -928,7 +928,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -949,7 +949,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -970,7 +970,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -991,7 +991,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1014,7 +1014,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1036,7 +1036,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1057,7 +1057,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1079,7 +1079,49 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "name": "OpenAI: gpt-oss-20b",
+      "provider": "openai",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "3e-8",
+        "completion": "0.00000013",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3-coder",
+      "name": "Qwen: Qwen3 Coder 480B A35B",
+      "provider": "qwen",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.000001",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1100,7 +1142,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1121,28 +1163,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-oss-20b",
-      "name": "OpenAI: gpt-oss-20b",
-      "provider": "openai",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "2.9e-8",
-        "completion": "0.00000014",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1163,7 +1184,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1185,7 +1206,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1208,30 +1229,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-oss-120b",
-      "name": "OpenAI: gpt-oss-120b",
-      "provider": "openai",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "3e-8",
-        "completion": "0.00000015",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
       "modalities": [
         "text"
       ]
@@ -1250,7 +1250,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1273,7 +1273,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1296,34 +1296,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "google/gemma-4-26b-a4b-it",
-      "name": "Google: Gemma 4 26B A4B ",
-      "provider": "google",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "6e-8",
-        "completion": "0.00000033",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "image",
-        "text",
-        "video"
       ]
     },
     {
@@ -1340,7 +1317,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1362,12 +1339,35 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image"
+      ]
+    },
+    {
+      "id": "google/gemma-4-26b-a4b-it",
+      "name": "Google: Gemma 4 26B A4B ",
+      "provider": "google",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "image",
+        "text",
+        "video"
       ]
     },
     {
@@ -1384,12 +1384,33 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image"
+      ]
+    },
+    {
+      "id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
       ]
     },
     {
@@ -1406,7 +1427,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "name": "OpenAI: gpt-oss-120b",
+      "provider": "openai",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "3.7e-8",
+        "completion": "0.00000017",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1427,7 +1469,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1449,7 +1491,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1474,7 +1516,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1499,34 +1541,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "google/gemma-4-31b-it",
-      "name": "Google: Gemma 4 31B",
-      "provider": "google",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000035",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "image",
-        "text",
-        "video"
       ]
     },
     {
@@ -1543,56 +1562,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "video"
-      ]
-    },
-    {
-      "id": "google/gemma-3-27b-it",
-      "name": "Google: Gemma 3 27B",
-      "provider": "google",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "8e-8",
-        "completion": "0.00000016",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-30b-a3b-instruct-2507",
-      "name": "Qwen: Qwen3 30B A3B Instruct 2507",
-      "provider": "qwen",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "4.815e-8",
-        "completion": "0.00000019305",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -1609,7 +1585,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1632,7 +1608,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1655,7 +1631,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1678,34 +1654,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "image",
         "text",
         "file"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-coder",
-      "name": "Qwen: Qwen3 Coder 480B A35B",
-      "provider": "qwen",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.0000018",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -1722,7 +1677,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1744,7 +1699,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1767,32 +1722,10 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "mistralai/mistral-small-3.2-24b-instruct",
-      "name": "Mistral: Mistral Small 3.2 24B",
-      "provider": "mistralai",
-      "context_length": 128000,
-      "pricing": {
-        "prompt": "7.5e-8",
-        "completion": "0.0000002",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "image",
         "text"
       ]
     },
@@ -1810,7 +1743,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1832,32 +1765,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "image",
-        "text"
-      ]
-    },
-    {
-      "id": "z-ai/glm-4.7-flash",
-      "name": "Z.ai: GLM 4.7 Flash",
-      "provider": "z-ai",
-      "context_length": 202752,
-      "pricing": {
-        "prompt": "6e-8",
-        "completion": "0.0000004",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
         "text"
       ]
     },
@@ -1875,7 +1787,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1898,7 +1810,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "z-ai/glm-4.7-flash",
+      "name": "Z.ai: GLM 4.7 Flash",
+      "provider": "z-ai",
+      "context_length": 200000,
+      "pricing": {
+        "prompt": "6.05e-8",
+        "completion": "0.0000004",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1919,7 +1852,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1941,7 +1874,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1962,7 +1895,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1984,28 +1917,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "minimax/minimax-m1",
-      "name": "MiniMax: MiniMax M1",
-      "provider": "minimax",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000022",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2026,7 +1938,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2047,7 +1959,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2068,7 +1980,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2077,48 +1989,6 @@
         "text",
         "audio",
         "video"
-      ]
-    },
-    {
-      "id": "nvidia/nemotron-3-ultra-550b-a55b",
-      "name": "NVIDIA: Nemotron 3 Ultra",
-      "provider": "nvidia",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000022",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "tencent/hy3",
-      "name": "Tencent: Hy3",
-      "provider": "tencent",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000058",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -2135,7 +2005,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "minimax/minimax-m1",
+      "name": "MiniMax: MiniMax M1",
+      "provider": "minimax",
+      "context_length": 1000000,
+      "pricing": {
+        "prompt": "0.00000055",
+        "completion": "0.0000022",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2156,7 +2047,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -2180,7 +2071,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2201,7 +2092,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2223,7 +2114,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2244,7 +2135,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2252,23 +2143,47 @@
       ]
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct",
-      "name": "Meta: Llama 3.3 70B Instruct",
-      "provider": "meta-llama",
-      "context_length": 131072,
+      "id": "google/gemma-4-31b-it",
+      "name": "Google: Gemma 4 31B",
+      "provider": "google",
+      "context_length": 262144,
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000032",
+        "prompt": "0.00000022",
+        "completion": "0.00000055",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
+        "image",
+        "text",
+        "video"
+      ]
+    },
+    {
+      "id": "mistralai/mistral-small-3.2-24b-instruct",
+      "name": "Mistral: Mistral Small 3.2 24B",
+      "provider": "mistralai",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000003",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "image",
         "text"
       ]
     },
@@ -2286,7 +2201,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2311,28 +2226,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-coder-next",
-      "name": "Qwen: Qwen3 Coder Next",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000011",
-        "completion": "0.0000008",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2345,15 +2239,36 @@
       "provider": "z-ai",
       "context_length": 1048576,
       "pricing": {
-        "prompt": "0.0000009072",
-        "completion": "0.0000028512",
+        "prompt": "0.0000008694",
+        "completion": "0.0000027324",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3-coder-next",
+      "name": "Qwen: Qwen3 Coder Next",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000012",
+        "completion": "0.0000008",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2374,9 +2289,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "file",
         "image",
@@ -2397,13 +2312,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "file"
+      ]
+    },
+    {
+      "id": "tencent/hy3",
+      "name": "Tencent: Hy3",
+      "provider": "tencent",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000008",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
       ]
     },
     {
@@ -2420,7 +2356,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2441,7 +2377,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2462,7 +2398,50 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "google/gemma-3-27b-it",
+      "name": "Google: Gemma 3 27B",
+      "provider": "google",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "8e-8",
+        "completion": "0.00000045",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "meta-llama/llama-3.3-70b-instruct",
+      "name": "Meta: Llama 3.3 70B Instruct",
+      "provider": "meta-llama",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000013",
+        "completion": "0.0000004",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2483,7 +2462,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2494,43 +2473,21 @@
       "id": "deepseek/deepseek-v3.2",
       "name": "DeepSeek: DeepSeek V3.2",
       "provider": "deepseek",
-      "context_length": 131072,
+      "context_length": 163840,
       "pricing": {
-        "prompt": "0.0000002145",
-        "completion": "0.00000032175",
+        "prompt": "0.000000269",
+        "completion": "0.0000004",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-vl-235b-a22b-instruct",
-      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.0000002",
-        "completion": "0.00000088",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image"
       ]
     },
     {
@@ -2547,7 +2504,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "name": "NVIDIA: Nemotron 3 Ultra",
+      "provider": "nvidia",
+      "context_length": 1000000,
+      "pricing": {
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2568,7 +2546,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2591,7 +2569,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2614,28 +2592,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-next-80b-a3b-instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "9e-8",
-        "completion": "0.0000011",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2656,7 +2613,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3-next-80b-a3b-instruct",
+      "name": "Qwen: Qwen3 Next 80B A3B Instruct",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000011",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2677,7 +2655,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2699,7 +2677,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2720,7 +2698,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2742,7 +2720,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2763,7 +2741,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2784,7 +2762,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2806,7 +2784,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2829,7 +2807,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2850,7 +2828,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2871,7 +2849,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -2894,7 +2872,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -2916,7 +2894,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2938,28 +2916,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "minimax/minimax-m2.7",
-      "name": "MiniMax: MiniMax M2.7",
-      "provider": "minimax",
-      "context_length": 204800,
-      "pricing": {
-        "prompt": "0.00000024",
-        "completion": "0.00000096",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2980,7 +2937,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3001,9 +2958,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -3024,7 +2981,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3047,7 +3004,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3068,7 +3025,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3089,7 +3046,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3110,7 +3067,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3131,7 +3088,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3152,7 +3109,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3173,7 +3130,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3194,7 +3151,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3215,7 +3172,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3236,7 +3193,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3259,7 +3216,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3282,34 +3239,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "video"
-      ]
-    },
-    {
-      "id": "deepseek/deepseek-chat-v3-0324",
-      "name": "DeepSeek: DeepSeek V3 0324",
-      "provider": "deepseek",
-      "context_length": 163840,
-      "pricing": {
-        "prompt": "0.00000024",
-        "completion": "0.0000009",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -3326,7 +3262,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3348,7 +3284,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3369,7 +3305,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3377,20 +3313,20 @@
       ]
     },
     {
-      "id": "deepseek/deepseek-v3.1-terminus",
-      "name": "DeepSeek: DeepSeek V3.1 Terminus",
-      "provider": "deepseek",
-      "context_length": 163840,
+      "id": "minimax/minimax-m2.7",
+      "name": "MiniMax: MiniMax M2.7",
+      "provider": "minimax",
+      "context_length": 204800,
       "pricing": {
-        "prompt": "0.00000027",
-        "completion": "0.00000095",
+        "prompt": "0.0000003",
+        "completion": "0.0000012",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3411,7 +3347,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3432,31 +3368,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
-      "modalities": [
-        "text",
-        "image"
-      ]
-    },
-    {
-      "id": "qwen/qwen2.5-vl-72b-instruct",
-      "name": "Qwen: Qwen2.5 VL 72B Instruct",
-      "provider": "qwen",
-      "context_length": 131072,
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
       "modalities": [
         "text",
         "image"
@@ -3476,7 +3390,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3499,7 +3413,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3520,7 +3434,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3541,7 +3455,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3-0324",
+      "name": "DeepSeek: DeepSeek V3 0324",
+      "provider": "deepseek",
+      "context_length": 163840,
+      "pricing": {
+        "prompt": "0.00000027",
+        "completion": "0.00000112",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3562,7 +3497,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3585,7 +3520,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3608,7 +3543,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3629,7 +3564,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3652,7 +3587,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3675,34 +3610,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "file"
-      ]
-    },
-    {
-      "id": "moonshotai/kimi-k2.5",
-      "name": "MoonshotAI: Kimi K2.5",
-      "provider": "moonshotai",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.000000375",
-        "completion": "0.000002025",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image"
       ]
     },
     {
@@ -3719,13 +3632,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "image",
         "text",
         "file"
+      ]
+    },
+    {
+      "id": "deepseek/deepseek-v3.1-terminus",
+      "name": "DeepSeek: DeepSeek V3.1 Terminus",
+      "provider": "deepseek",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000027",
+        "completion": "0.000001",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
       ]
     },
     {
@@ -3742,7 +3676,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3763,7 +3697,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3788,7 +3722,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3797,29 +3731,6 @@
         "video",
         "file",
         "audio"
-      ]
-    },
-    {
-      "id": "qwen/qwen3.6-27b",
-      "name": "Qwen: Qwen3.6 27B",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.000000289",
-        "completion": "0.0000024",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video"
       ]
     },
     {
@@ -3836,7 +3747,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3857,7 +3768,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3878,7 +3789,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3899,7 +3810,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3920,7 +3831,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3945,7 +3856,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3969,7 +3880,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3978,27 +3889,6 @@
         "file",
         "audio",
         "video"
-      ]
-    },
-    {
-      "id": "z-ai/glm-4.6",
-      "name": "Z.ai: GLM 4.6",
-      "provider": "z-ai",
-      "context_length": 200000,
-      "pricing": {
-        "prompt": "0.00000043",
-        "completion": "0.00000175",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
       ]
     },
     {
@@ -4015,34 +3905,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "qwen/qwen3.5-397b-a17b",
-      "name": "Qwen: Qwen3.5 397B A17B",
-      "provider": "qwen",
-      "context_length": 256000,
-      "pricing": {
-        "prompt": "0.000000385",
-        "completion": "0.00000245",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-15T01:43:10Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video"
       ]
     },
     {
@@ -4059,7 +3926,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4082,7 +3949,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4103,7 +3970,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4126,7 +3993,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4147,7 +4014,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4168,9 +4035,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -4191,13 +4058,36 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "file"
+      ]
+    },
+    {
+      "id": "qwen/qwen3.6-27b",
+      "name": "Qwen: Qwen3.6 27B",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000045",
+        "completion": "0.0000027",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image",
+        "video"
       ]
     },
     {
@@ -4214,7 +4104,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4224,20 +4114,20 @@
       ]
     },
     {
-      "id": "z-ai/glm-5",
-      "name": "Z.ai: GLM 5",
+      "id": "z-ai/glm-4.6",
+      "name": "Z.ai: GLM 4.6",
       "provider": "z-ai",
       "context_length": 202752,
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.00000192",
+        "prompt": "0.0000005",
+        "completion": "0.000002",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4258,7 +4148,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4281,7 +4171,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4302,7 +4192,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4324,7 +4214,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4345,7 +4235,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4366,7 +4256,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4388,7 +4278,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4409,11 +4299,33 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "moonshotai/kimi-k2.5",
+      "name": "MoonshotAI: Kimi K2.5",
+      "provider": "moonshotai",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000057",
+        "completion": "0.00000285",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
       ]
     },
     {
@@ -4430,7 +4342,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4453,13 +4365,36 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "file",
         "image",
         "text"
+      ]
+    },
+    {
+      "id": "qwen/qwen3.5-397b-a17b",
+      "name": "Qwen: Qwen3.5 397B A17B",
+      "provider": "qwen",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.00000045",
+        "completion": "0.000003",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image",
+        "video"
       ]
     },
     {
@@ -4476,7 +4411,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4498,7 +4433,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4523,7 +4458,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4548,7 +4483,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4557,6 +4492,28 @@
         "image",
         "text",
         "video"
+      ]
+    },
+    {
+      "id": "qwen/qwen2.5-vl-72b-instruct",
+      "name": "Qwen: Qwen2.5 VL 72B Instruct",
+      "provider": "qwen",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.0000008",
+        "completion": "0.000001",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
       ]
     },
     {
@@ -4573,7 +4530,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4594,7 +4551,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4615,7 +4572,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4637,7 +4594,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4658,7 +4615,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4680,7 +4637,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4702,7 +4659,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4723,7 +4680,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4745,7 +4702,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4768,7 +4725,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4791,7 +4748,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4812,7 +4769,29 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
+      ]
+    },
+    {
+      "id": "qwen/qwen3-vl-235b-a22b-instruct",
+      "name": "Qwen: Qwen3 VL 235B A22B Instruct",
+      "provider": "qwen",
+      "context_length": 131072,
+      "pricing": {
+        "prompt": "0.00000021",
+        "completion": "0.0000019",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4834,7 +4813,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4855,7 +4834,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4878,9 +4857,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "file",
         "image",
@@ -4901,7 +4880,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4924,7 +4903,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4945,7 +4924,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4966,7 +4945,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4987,9 +4966,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "image",
         "text",
@@ -5010,7 +4989,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5033,7 +5012,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5056,7 +5035,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5077,7 +5056,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5100,7 +5079,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5123,7 +5102,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5144,7 +5123,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5165,7 +5144,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5186,7 +5165,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5194,20 +5173,20 @@
       ]
     },
     {
-      "id": "z-ai/glm-5-turbo",
-      "name": "Z.ai: GLM 5 Turbo",
+      "id": "z-ai/glm-5",
+      "name": "Z.ai: GLM 5",
       "provider": "z-ai",
-      "context_length": 262144,
+      "context_length": 202752,
       "pricing": {
-        "prompt": "0.0000012",
-        "completion": "0.000004",
+        "prompt": "0.00000095",
+        "completion": "0.00000315",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5228,7 +5207,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5249,7 +5228,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5271,7 +5250,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5292,7 +5271,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5313,7 +5292,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5335,7 +5314,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5357,7 +5336,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5378,7 +5357,28 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text"
+      ]
+    },
+    {
+      "id": "z-ai/glm-5-turbo",
+      "name": "Z.ai: GLM 5 Turbo",
+      "provider": "z-ai",
+      "context_length": 202752,
+      "pricing": {
+        "prompt": "0.0000012",
+        "completion": "0.000004",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5399,7 +5399,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5422,7 +5422,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5444,7 +5444,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5466,7 +5466,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5488,7 +5488,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5510,7 +5510,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5532,7 +5532,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5555,7 +5555,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5578,7 +5578,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5599,9 +5599,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -5622,7 +5622,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5644,7 +5644,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5667,9 +5667,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image"
@@ -5689,7 +5689,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5711,7 +5711,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5732,9 +5732,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -5755,7 +5755,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5778,7 +5778,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5801,7 +5801,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5824,9 +5824,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -5847,7 +5847,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5870,7 +5870,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5891,7 +5891,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5914,7 +5914,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5937,9 +5937,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "file",
         "image",
@@ -5960,7 +5960,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5983,7 +5983,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6006,7 +6006,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6028,7 +6028,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6050,7 +6050,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6071,7 +6071,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6094,7 +6094,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6116,7 +6116,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6139,7 +6139,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6160,7 +6160,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6181,7 +6181,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6202,7 +6202,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6225,7 +6225,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6248,7 +6248,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6271,7 +6271,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6294,9 +6294,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -6317,7 +6317,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6340,7 +6340,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6363,7 +6363,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6385,7 +6385,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6407,7 +6407,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6428,7 +6428,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6449,7 +6449,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6470,7 +6470,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6492,7 +6492,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6515,7 +6515,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6537,7 +6537,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6560,7 +6560,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6583,9 +6583,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "file",
         "image",
@@ -6606,7 +6606,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6628,7 +6628,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6650,7 +6650,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6671,9 +6671,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -6694,9 +6694,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -6717,7 +6717,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6740,7 +6740,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6761,7 +6761,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6783,7 +6783,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6804,7 +6804,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6826,7 +6826,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6849,9 +6849,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": false,
+      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -6872,7 +6872,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6895,7 +6895,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6918,7 +6918,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6939,7 +6939,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6960,7 +6960,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6983,9 +6983,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": true,
+      "is_moderated": false,
       "modalities": [
         "text",
         "image",
@@ -7006,7 +7006,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7029,7 +7029,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7051,7 +7051,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7073,7 +7073,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7094,7 +7094,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7115,7 +7115,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7138,7 +7138,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7160,7 +7160,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7181,7 +7181,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7204,7 +7204,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7227,9 +7227,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": true,
+      "is_moderated": false,
       "modalities": [
         "text"
       ]
@@ -7248,7 +7248,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7271,7 +7271,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7294,7 +7294,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7317,7 +7317,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7340,7 +7340,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7361,7 +7361,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7382,7 +7382,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7403,7 +7403,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7424,7 +7424,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7447,9 +7447,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
-      "is_moderated": true,
+      "is_moderated": false,
       "modalities": [
         "text"
       ]
@@ -7468,7 +7468,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7493,7 +7493,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7514,7 +7514,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7535,7 +7535,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-15T01:43:10Z",
+      "created_at": "2026-07-15T13:18:47Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
