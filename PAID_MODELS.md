@@ -68,10 +68,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | bytedance/ui-tars-1.5-7b | ByteDance: UI-TARS 7B  | 128,000 | $0.1000 | $0.2000 | - | ⚠️ | 8,533,333,333 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0900 | $0.5500 | - | ⚠️ | 8,192,000,000 |
 | qwen/qwen3-vl-30b-a3b-instruct | Qwen: Qwen3 VL 30B A3B Instruct | 262,144 | $0.1300 | $0.5200 | - | ⚠️ | 8,065,969,231 |
+| qwen/qwen3-14b | Qwen: Qwen3 14B | 131,702 | $0.1000 | $0.2400 | - | ⚠️ | 7,747,176,471 |
 | inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
-| qwen/qwen3-14b | Qwen: Qwen3 14B | 131,702 | $0.1200 | $0.2400 | - | ⚠️ | 7,316,777,778 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | minimax/minimax-m1 | MiniMax: MiniMax M1 | 1,000,000 | $0.5500 | $2.2000 | - | ⚠️ | 7,272,727,273 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
@@ -85,8 +85,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ✅ | 5,517,241,379 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9464 | $2.9744 | - | ⚠️ | 5,348,785,962 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9646 | $3.0316 | - | ⚠️ | 5,247,865,472 |
 | tencent/hy3 | Tencent: Hy3 | 262,144 | $0.2000 | $0.8000 | - | ⚠️ | 5,242,880,000 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |
 | mistralai/mistral-small-24b-instruct-2501 | Mistral: Mistral Small 3 | 32,768 | $0.0500 | $0.0800 | - | ⚠️ | 5,041,230,769 |
@@ -191,7 +191,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | arcee-ai/virtuoso-large | Arcee AI: Virtuoso Large | 131,072 | $0.7500 | $1.2000 | - | ⚠️ | 1,344,328,205 |
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | nousresearch/hermes-3-llama-3.1-405b | Nous: Hermes 3 405B Instruct | 131,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,310,720,000 |
-| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | ~moonshotai/kimi-latest | MoonshotAI Kimi Latest | 262,144 | $0.6600 | $3.4100 | - | ⚠️ | 1,288,176,904 |
 | relace/relace-search | Relace: Relace Search | 256,000 | $1.0000 | $3.0000 | - | ⚠️ | 1,280,000,000 |
 | perplexity/sonar | Perplexity: Sonar | 127,072 | $1.0000 | $1.0000 | - | ⚠️ | 1,270,720,000 |
@@ -213,6 +212,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | aion-labs/aion-2.0 | AionLabs: Aion-2.0 | 131,072 | $0.8000 | $1.6000 | - | ⚠️ | 1,092,266,667 |
 | mistralai/mistral-medium-3 | Mistral: Mistral Medium 3 | 131,072 | $0.4000 | $2.0000 | - | ⚠️ | 1,092,266,667 |
 | mistralai/mistral-medium-3.1 | Mistral: Mistral Medium 3.1 | 131,072 | $0.4000 | $2.0000 | - | ⚠️ | 1,092,266,667 |
+| moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.9500 | $4.0000 | - | ⚠️ | 1,059,167,677 |
 | microsoft/wizardlm-2-8x22b | WizardLM-2 8x22B | 65,536 | $0.6200 | $0.6200 | - | ⚠️ | 1,057,032,258 |
 | deepcogito/cogito-v2.1-671b | Deep Cogito: Cogito v2.1 671B | 128,000 | $1.2500 | $1.2500 | - | ⚠️ | 1,024,000,000 |
 | deepseek/deepseek-r1 | DeepSeek: R1 | 163,840 | $0.7000 | $2.5000 | - | ⚠️ | 1,024,000,000 |
@@ -293,7 +293,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5.2-chat | OpenAI: GPT-5.2 Chat | 128,000 | $1.7500 | $14.0000 | - | ✅ | 162,539,683 |
 | openai/gpt-5.3-chat | OpenAI: GPT-5.3 Chat | 128,000 | $1.7500 | $14.0000 | - | ✅ | 162,539,683 |
 | anthropic/claude-opus-4.5 | Anthropic: Claude Opus 4.5 | 200,000 | $5.0000 | $25.0000 | - | ✅ | 133,333,333 |
-| openai/gpt-4o-2024-05-13 | OpenAI: GPT-4o (2024-05-13) | 128,000 | $5.0000 | $15.0000 | - | ⚠️ | 128,000,000 |
+| openai/gpt-4o-2024-05-13 | OpenAI: GPT-4o (2024-05-13) | 128,000 | $5.0000 | $15.0000 | - | ✅ | 128,000,000 |
 | google/gemma-2-27b-it | Google: Gemma 2 27B | 8,192 | $0.6500 | $0.6500 | - | ⚠️ | 126,030,769 |
 | undi95/remm-slerp-l2-13b | ReMM SLERP 13B | 6,144 | $0.4500 | $0.6500 | - | ⚠️ | 111,709,091 |
 | anthropic/claude-opus-4.7-fast | Anthropic: Claude Opus 4.7 (Fast) | 1,000,000 | $30.0000 | $150.0000 | - | ✅ | 111,111,111 |
