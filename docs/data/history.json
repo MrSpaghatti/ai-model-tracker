@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-16T13:25:20Z",
+  "generated_at": "2026-07-17T01:57:08Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -50720,7 +50720,7 @@
     {
       "model_id": "meta-llama/llama-3.2-3b-instruct",
       "from_date": "2026-07-07T02:23:19Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 5e-8,
       "completion_price": 0.00000033
     },
@@ -51035,7 +51035,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-07-10T02:09:00Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 0.00000066,
       "completion_price": 0.00000341
     },
@@ -51385,7 +51385,7 @@
     {
       "model_id": "moonshotai/kimi-k2.7-code",
       "from_date": "2026-07-13T14:12:58Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 0.000000719,
       "completion_price": 0.00000349
     },
@@ -51574,7 +51574,7 @@
     {
       "model_id": "mistralai/mistral-nemo",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 2e-8,
       "completion_price": 4e-8
     },
@@ -51679,7 +51679,7 @@
     {
       "model_id": "google/gemma-3-27b-it",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000045
     },
@@ -51714,7 +51714,7 @@
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -51756,7 +51756,7 @@
     {
       "model_id": "qwen/qwen3.5-397b-a17b",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 0.00000045,
       "completion_price": 0.000003
     },
@@ -51882,7 +51882,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-16T13:25:20Z",
-      "to_date": null,
+      "to_date": "2026-07-17T01:57:08Z",
       "prompt_price": 0.0000009464,
       "completion_price": 0.0000029744
     },
@@ -51896,27 +51896,125 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-16T13:25:20Z",
+      "to_date": "2026-07-17T01:57:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-16T13:25:20Z",
+      "to_date": "2026-07-17T01:57:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-16T13:25:20Z",
+      "to_date": "2026-07-17T01:57:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-16T13:25:20Z",
+      "to_date": "2026-07-17T01:57:08Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 1.9e-8,
+      "completion_price": 3e-8
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 5.09e-8,
+      "completion_price": 0.000000335
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.0000008974,
+      "completion_price": 0.0000028204
+    },
+    {
+      "model_id": "meta/muse-spark-1.1",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000125,
+      "completion_price": 0.00000425
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000039,
+      "completion_price": 0.00000234
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "moonshotai/kimi-k3",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.000003,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-07-17T01:57:08Z",
+      "to_date": null,
+      "prompt_price": 0.000003,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-17T01:57:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-16T13:25:20Z",
+      "from_date": "2026-07-17T01:57:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-16T13:25:20Z",
+      "from_date": "2026-07-17T01:57:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-16T13:25:20Z",
+      "from_date": "2026-07-17T01:57:08Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

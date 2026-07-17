@@ -30,7 +30,7 @@
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0980 | $0.1960 | ⚠️ | 71,331,700,680 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
-| xiaomi/mimo-v2.5 | Xiaomi: MiMo-V2.5 | 1,048,576 | $0.1400 | $0.2800 | ⚠️ | 49,932,190,476 |
+| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0190 | $0.0300 | ⚠️ | 53,498,775,510 |
 
 ## Top 5 Largest Context Windows
 
@@ -47,7 +47,7 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
-| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
+| mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0190 | $0.0300 | ⚠️ | 53,498,775,510 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | ⚠️ | 1,820,444,444 |
 | gryphe/mythomax-l2-13b | MythoMax 13B | 4,096 | $0.0600 | $0.0600 | ⚠️ | 682,666,667 |
 | nex-agi/nex-n2-mini | Nex AGI: Nex-N2-Mini | 262,144 | $0.0250 | $0.1000 | ⚠️ | 41,943,040,000 |
