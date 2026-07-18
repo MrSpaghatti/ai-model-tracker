@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-17T13:10:17Z",
+  "generated_at": "2026-07-18T01:46:59Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -44392,7 +44392,7 @@
     {
       "model_id": "qwen/qwen3.5-27b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.000000195,
       "completion_price": 0.00000156
     },
@@ -46478,7 +46478,7 @@
     {
       "model_id": "mancer/weaver",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.00000075,
       "completion_price": 0.000001
     },
@@ -48074,21 +48074,21 @@
     {
       "model_id": "qwen/qwen3-30b-a3b",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.00000012,
       "completion_price": 0.0000005
     },
     {
       "model_id": "meta-llama/llama-3.2-11b-vision-instruct",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.000000345,
       "completion_price": 0.000000345
     },
     {
       "model_id": "nvidia/llama-3.3-nemotron-super-49b-v1.5",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.0000004
     },
@@ -51875,7 +51875,7 @@
     {
       "model_id": "qwen/qwen3-14b",
       "from_date": "2026-07-16T13:25:20Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.00000024
     },
@@ -51973,7 +51973,7 @@
     {
       "model_id": "moonshotai/kimi-k2.7-code",
       "from_date": "2026-07-17T01:57:08Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.00000075,
       "completion_price": 0.0000035
     },
@@ -52022,7 +52022,7 @@
     {
       "model_id": "mistralai/mistral-nemo",
       "from_date": "2026-07-17T13:10:17Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 2e-8,
       "completion_price": 4e-8
     },
@@ -52036,34 +52036,125 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-17T13:10:17Z",
-      "to_date": null,
+      "to_date": "2026-07-18T01:46:59Z",
       "prompt_price": 0.0000009324,
       "completion_price": 0.0000029304
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-17T13:10:17Z",
+      "to_date": "2026-07-18T01:46:59Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-17T13:10:17Z",
+      "to_date": "2026-07-18T01:46:59Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-17T13:10:17Z",
+      "to_date": "2026-07-18T01:46:59Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-17T13:10:17Z",
+      "to_date": "2026-07-18T01:46:59Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 1.9e-8,
+      "completion_price": 3e-8
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.00000042,
+      "completion_price": 0.00000132
+    },
+    {
+      "model_id": "qwen/qwen3-14b",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.00000012,
+      "completion_price": 0.00000024
+    },
+    {
+      "model_id": "thinkingmachines/inkling",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.00000405
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.00000013,
+      "completion_price": 0.00000052
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.00000026,
+      "completion_price": 0.0000026
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.0000044
+    },
+    {
+      "model_id": "mancer/weaver",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.00000075
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-18T01:46:59Z",
+      "to_date": null,
+      "prompt_price": "nan",
+      "completion_price": "nan"
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-07-18T01:46:59Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-17T13:10:17Z",
+      "from_date": "2026-07-18T01:46:59Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-17T13:10:17Z",
+      "from_date": "2026-07-18T01:46:59Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-17T13:10:17Z",
+      "from_date": "2026-07-18T01:46:59Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
