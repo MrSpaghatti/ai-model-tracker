@@ -6,11 +6,11 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| qwen/qwen3-coder:free | Qwen: Qwen3 Coder 480B A35B (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 1,048,576 | $0.3000 | $1.0000 | ⚠️ | 16,131,938,462 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 160,000 | $0.0700 | $0.2700 | ⚠️ | 9,411,764,706 |
+| kwaipilot/kat-coder-air-v2.5 | Kwaipilot: KAT-Coder-Air V2.5 | 256,000 | $0.1500 | $0.6000 | ⚠️ | 6,826,666,667 |
 
 ## Top 5 Vision Models
 
