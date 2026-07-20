@@ -88,7 +88,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5.4-nano | OpenAI: GPT-5.4 Nano | 400,000 | $0.2000 | $1.2500 | - | ✅ | 5,517,241,379 |
 | x-ai/grok-4.3 | xAI: Grok 4.3 | 1,000,000 | $1.2500 | $2.5000 | - | ⚠️ | 5,333,333,333 |
 | tencent/hy3 | Tencent: Hy3 | 262,144 | $0.2000 | $0.8000 | - | ⚠️ | 5,242,880,000 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9786 | $3.0756 | - | ⚠️ | 5,172,788,713 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.9688 | $3.0448 | - | ⚠️ | 5,225,114,610 |
 | qwen/qwen3-coder-plus | Qwen: Qwen3 Coder Plus | 1,000,000 | $0.6500 | $3.2500 | - | ⚠️ | 5,128,205,128 |
 | mistralai/mistral-small-24b-instruct-2501 | Mistral: Mistral Small 3 | 32,768 | $0.0500 | $0.0800 | - | ⚠️ | 5,041,230,769 |
 | arcee-ai/trinity-large-thinking | Arcee AI: Trinity Large Thinking | 262,144 | $0.2500 | $0.8000 | - | ⚠️ | 4,993,219,048 |
