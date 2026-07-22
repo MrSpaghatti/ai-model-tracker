@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-21T13:21:01Z",
+  "generated_at": "2026-07-22T01:54:12Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -46765,7 +46765,7 @@
     {
       "model_id": "~google/gemini-flash-latest",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-07-22T01:54:12Z",
       "prompt_price": 0.0000015,
       "completion_price": 0.000009
     },
@@ -52470,7 +52470,7 @@
     {
       "model_id": "qwen/qwen3-next-80b-a3b-instruct",
       "from_date": "2026-07-21T01:55:15Z",
-      "to_date": null,
+      "to_date": "2026-07-22T01:54:12Z",
       "prompt_price": 9.75e-8,
       "completion_price": 0.00000078
     },
@@ -52540,41 +52540,125 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-21T13:21:01Z",
-      "to_date": null,
+      "to_date": "2026-07-22T01:54:12Z",
       "prompt_price": 0.000000833,
       "completion_price": 0.000002618
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-21T13:21:01Z",
+      "to_date": "2026-07-22T01:54:12Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-07-21T13:21:01Z",
+      "to_date": "2026-07-22T01:54:12Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-21T13:21:01Z",
+      "to_date": "2026-07-22T01:54:12Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-21T13:21:01Z",
+      "to_date": "2026-07-22T01:54:12Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-21T13:21:01Z",
+      "to_date": "2026-07-22T01:54:12Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "poolside/laguna-s-2.1:free",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "poolside/laguna-s-2.1",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "google/gemini-3.5-flash-lite",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000008246,
+      "completion_price": 0.0000025916
+    },
+    {
+      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000011
+    },
+    {
+      "model_id": "google/gemini-3.6-flash",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "~google/gemini-flash-latest",
+      "from_date": "2026-07-22T01:54:12Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-22T01:54:12Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-07-21T13:21:01Z",
+      "from_date": "2026-07-22T01:54:12Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-21T13:21:01Z",
+      "from_date": "2026-07-22T01:54:12Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-21T13:21:01Z",
+      "from_date": "2026-07-22T01:54:12Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-21T13:21:01Z",
+      "from_date": "2026-07-22T01:54:12Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
