@@ -81,7 +81,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3-vl-30b-a3b-instruct | Qwen: Qwen3 VL 30B A3B Instruct | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
 | meta-llama/llama-3.2-3b-instruct | Meta: Llama 3.2 3B Instruct | 131,072 | $0.0500 | $0.3300 | - | ⚠️ | 6,898,526,316 |
 | kwaipilot/kat-coder-air-v2.5 | Kwaipilot: KAT-Coder-Air V2.5 | 256,000 | $0.1500 | $0.6000 | - | ⚠️ | 6,826,666,667 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.7644 | $2.4024 | - | ⚠️ | 6,622,306,429 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.7840 | $2.4640 | - | ⚠️ | 6,456,748,768 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-next-80b-a3b-thinking | Qwen: Qwen3 Next 80B A3B Thinking | 262,144 | $0.0975 | $0.7800 | - | ⚠️ | 5,974,792,023 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1100 | $0.8000 | - | ⚠️ | 5,761,406,593 |
@@ -323,7 +323,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | inflection/inflection-3-pi | Inflection: Inflection 3 Pi | 8,000 | $2.5000 | $10.0000 | - | ⚠️ | 12,800,000 |
 | inflection/inflection-3-productivity | Inflection: Inflection 3 Productivity | 8,000 | $2.5000 | $10.0000 | - | ⚠️ | 12,800,000 |
 | openai/o1-pro | OpenAI: o1-pro | 200,000 | $150.0000 | $600.0000 | - | ✅ | 5,333,333 |
-| openai/gpt-4 | OpenAI: GPT-4 | 8,191 | $30.0000 | $60.0000 | - | ✅ | 1,820,222 |
+| openai/gpt-4 | OpenAI: GPT-4 | 8,191 | $30.0000 | $60.0000 | - | ⚠️ | 1,820,222 |
 | openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
 | openrouter/auto-beta | Auto Router (Beta) | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
 | openrouter/bodybuilder | Body Builder (beta) | 128,000 | N/A | N/A | - | ⚠️ | N/A |
