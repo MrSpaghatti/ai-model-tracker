@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-25T01:56:35Z",
+  "generated_at": "2026-07-25T13:06:03Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -49131,7 +49131,7 @@
     {
       "model_id": "arcee-ai/trinity-large-thinking",
       "from_date": "2026-06-20T13:44:11Z",
-      "to_date": null,
+      "to_date": "2026-07-25T13:06:03Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.0000008
     },
@@ -52246,7 +52246,7 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-07-19T01:55:50Z",
-      "to_date": null,
+      "to_date": "2026-07-25T13:06:03Z",
       "prompt_price": 0.000000684,
       "completion_price": 0.00000342
     },
@@ -53065,7 +53065,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-25T01:56:35Z",
-      "to_date": null,
+      "to_date": "2026-07-25T13:06:03Z",
       "prompt_price": 0.000000819,
       "completion_price": 0.000002574
     },
@@ -53114,34 +53114,90 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-25T01:56:35Z",
+      "to_date": "2026-07-25T13:06:03Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-07-25T01:56:35Z",
+      "to_date": "2026-07-25T13:06:03Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-25T01:56:35Z",
+      "to_date": "2026-07-25T13:06:03Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-25T01:56:35Z",
+      "to_date": "2026-07-25T13:06:03Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-25T01:56:35Z",
+      "to_date": "2026-07-25T13:06:03Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-25T13:06:03Z",
+      "to_date": null,
+      "prompt_price": 0.0000007196,
+      "completion_price": 0.0000022616
+    },
+    {
+      "model_id": "arcee-ai/trinity-large-thinking",
+      "from_date": "2026-07-25T13:06:03Z",
+      "to_date": null,
+      "prompt_price": 0.00000022,
+      "completion_price": 0.00000085
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-07-25T13:06:03Z",
+      "to_date": null,
+      "prompt_price": 0.000000646,
+      "completion_price": 0.00000272
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-25T13:06:03Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-07-25T01:56:35Z",
+      "from_date": "2026-07-25T13:06:03Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-25T01:56:35Z",
+      "from_date": "2026-07-25T13:06:03Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-25T01:56:35Z",
+      "from_date": "2026-07-25T13:06:03Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-25T01:56:35Z",
+      "from_date": "2026-07-25T13:06:03Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
