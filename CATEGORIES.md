@@ -27,10 +27,10 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
-| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash | 1,048,576 | $0.0938 | $0.1876 | ⚠️ | 74,525,657,427 |
 | poolside/laguna-s-2.1 | Poolside: Laguna S 2.1 | 1,048,576 | $0.1000 | $0.2000 | ⚠️ | 69,905,066,667 |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 1,310,720 | $0.1000 | $0.3000 | ⚠️ | 65,536,000,000 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
+| meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 1,048,576 | $0.1800 | $0.1800 | ⚠️ | 58,254,222,222 |
 
 ## Top 5 Largest Context Windows
 
@@ -91,28 +91,28 @@ _No matching models found._
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 1,048,576 | $0.1800 | $0.1800 | ⚠️ | 58,254,222,222 |
+| qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0481 | $0.1930 | ⚠️ | 21,736,650,083 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
 ## Top 5 Models for ~32 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 1,048,576 | $0.1800 | $0.1800 | ⚠️ | 58,254,222,222 |
+| qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0481 | $0.1930 | ⚠️ | 21,736,650,083 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
 ## Top 5 Models for ~48 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 1,048,576 | $0.1800 | $0.1800 | ⚠️ | 58,254,222,222 |
+| qwen/qwen3-30b-a3b-instruct-2507 | Qwen: Qwen3 30B A3B Instruct 2507 | 262,144 | $0.0481 | $0.1930 | ⚠️ | 21,736,650,083 |
 | nvidia/nemotron-3-nano-30b-a3b | NVIDIA: Nemotron 3 Nano 30B A3B | 262,144 | $0.0500 | $0.2000 | ⚠️ | 20,971,520,000 |
 | qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1000 | $0.1500 | ⚠️ | 20,971,520,000 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 
