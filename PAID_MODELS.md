@@ -69,7 +69,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | bytedance/ui-tars-1.5-7b | ByteDance: UI-TARS 7B  | 128,000 | $0.1000 | $0.2000 | - | ⚠️ | 8,533,333,333 |
 | qwen/qwen3-235b-a22b-2507 | Qwen: Qwen3 235B A22B Instruct 2507 | 262,144 | $0.0900 | $0.5500 | - | ⚠️ | 8,192,000,000 |
 | tencent/hy3 | Tencent: Hy3 | 262,144 | $0.1320 | $0.5280 | - | ⚠️ | 7,943,757,576 |
-| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.6734 | $2.1164 | - | ⚠️ | 7,517,212,703 |
+| z-ai/glm-5.2 | Z.ai: GLM 5.2 | 1,048,576 | $0.6692 | $2.1032 | - | ⚠️ | 7,564,391,863 |
 | inclusionai/ling-2.6-1t | inclusionAI: Ling-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | inclusionai/ring-2.6-1t | inclusionAI: Ring-2.6-1T | 262,144 | $0.0750 | $0.6250 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
@@ -113,7 +113,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | tencent/hunyuan-a13b-instruct | Tencent: Hunyuan A13B Instruct | 131,072 | $0.1400 | $0.5700 | - | ⚠️ | 3,692,169,014 |
 | google/gemma-3n-e4b-it | Google: Gemma 3n 4B | 32,768 | $0.0600 | $0.1200 | - | ⚠️ | 3,640,888,889 |
 | openai/gpt-5-mini | OpenAI: GPT-5 Mini | 400,000 | $0.2500 | $2.0000 | - | ✅ | 3,555,555,556 |
-| openai/gpt-5.1-codex-mini | OpenAI: GPT-5.1-Codex-Mini | 400,000 | $0.2500 | $2.0000 | - | ✅ | 3,555,555,556 |
+| openai/gpt-5.1-codex-mini | OpenAI: GPT-5.1-Codex-Mini | 400,000 | $0.2500 | $2.0000 | - | ⚠️ | 3,555,555,556 |
 | kwaipilot/kat-coder-pro-v2 | Kwaipilot: KAT-Coder-Pro V2 | 262,144 | $0.3000 | $1.2000 | - | ⚠️ | 3,495,253,333 |
 | cohere/command-r-08-2024 | Cohere: Command R (08-2024) | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
 | openai/gpt-4o-mini | OpenAI: GPT-4o-mini | 128,000 | $0.1500 | $0.6000 | - | ✅ | 3,413,333,333 |
@@ -181,7 +181,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | moonshotai/kimi-k2.6 | MoonshotAI: Kimi K2.6 | 262,144 | $0.6460 | $2.7200 | - | ⚠️ | 1,557,599,525 |
 | sao10k/l3.1-euryale-70b | Sao10K: Llama 3.1 Euryale 70B v2.2 | 131,072 | $0.8500 | $0.8500 | - | ⚠️ | 1,542,023,529 |
 | moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.5700 | $2.8500 | - | ⚠️ | 1,533,005,848 |
-| openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
+| openai/gpt-5.4-mini | OpenAI: GPT-5.4 Mini | 400,000 | $0.7500 | $4.5000 | - | ⚠️ | 1,523,809,524 |
 | ~openai/gpt-mini-latest | OpenAI GPT Mini Latest | 400,000 | $0.7500 | $4.5000 | - | ✅ | 1,523,809,524 |
 | amazon/nova-pro-v1 | Amazon: Nova Pro 1.0 | 300,000 | $0.8000 | $3.2000 | - | ✅ | 1,500,000,000 |
 | google/gemini-3.1-pro-preview | Google: Gemini 3.1 Pro Preview | 1,048,576 | $2.0000 | $12.0000 | - | ⚠️ | 1,497,965,714 |
@@ -199,8 +199,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | x-ai/grok-4.5 | xAI: Grok 4.5 | 500,000 | $2.0000 | $6.0000 | - | ⚠️ | 1,250,000,000 |
 | ~x-ai/grok-latest | xAI: Grok Latest | 500,000 | $2.0000 | $6.0000 | - | ⚠️ | 1,250,000,000 |
 | aion-labs/aion-3.0-mini | AionLabs: Aion-3.0-Mini | 131,072 | $0.7000 | $1.4000 | - | ⚠️ | 1,248,304,762 |
+| moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7300 | $3.5000 | - | ⚠️ | 1,239,451,537 |
 | deepseek/deepseek-r1-0528 | DeepSeek: R1 0528 | 163,840 | $0.5000 | $2.1500 | - | ⚠️ | 1,236,528,302 |
-| moonshotai/kimi-k2.7-code | MoonshotAI: Kimi K2.7 Code | 262,144 | $0.7500 | $3.5000 | - | ⚠️ | 1,233,618,824 |
 | openai/gpt-5.4 | OpenAI: GPT-5.4 | 1,050,000 | $2.5000 | $15.0000 | - | ⚠️ | 1,200,000,000 |
 | openai/gpt-5.6-terra | OpenAI: GPT-5.6 Terra | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
 | openai/gpt-5.6-terra-pro | OpenAI: GPT-5.6 Terra Pro | 1,050,000 | $2.5000 | $15.0000 | - | ✅ | 1,200,000,000 |
@@ -243,8 +243,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5 | OpenAI: GPT-5 | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
 | openai/gpt-5-codex | OpenAI: GPT-5 Codex | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
 | openai/gpt-5.1 | OpenAI: GPT-5.1 | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
-| openai/gpt-5.1-codex | OpenAI: GPT-5.1-Codex | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
-| openai/gpt-5.1-codex-max | OpenAI: GPT-5.1-Codex-Max | 400,000 | $1.2500 | $10.0000 | - | ✅ | 711,111,111 |
+| openai/gpt-5.1-codex | OpenAI: GPT-5.1-Codex | 400,000 | $1.2500 | $10.0000 | - | ⚠️ | 711,111,111 |
+| openai/gpt-5.1-codex-max | OpenAI: GPT-5.1-Codex-Max | 400,000 | $1.2500 | $10.0000 | - | ⚠️ | 711,111,111 |
 | anthropic/claude-haiku-4.5 | Anthropic: Claude Haiku 4.5 | 200,000 | $1.0000 | $5.0000 | - | ✅ | 666,666,667 |
 | ~anthropic/claude-haiku-latest | Anthropic Claude Haiku Latest | 200,000 | $1.0000 | $5.0000 | - | ⚠️ | 666,666,667 |
 | anthropic/claude-opus-4.6 | Anthropic: Claude Opus 4.6 | 1,000,000 | $5.0000 | $25.0000 | - | ✅ | 666,666,667 |
@@ -262,7 +262,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | z-ai/glm-4.5v | Z.ai: GLM 4.5V | 65,536 | $0.6000 | $1.8000 | - | ⚠️ | 546,133,333 |
 | ai21/jamba-large-1.7 | AI21: Jamba Large 1.7 | 256,000 | $2.0000 | $8.0000 | - | ⚠️ | 512,000,000 |
 | openai/gpt-5.2 | OpenAI: GPT-5.2 | 400,000 | $1.7500 | $14.0000 | - | ✅ | 507,936,508 |
-| openai/gpt-5.2-codex | OpenAI: GPT-5.2-Codex | 400,000 | $1.7500 | $14.0000 | - | ✅ | 507,936,508 |
+| openai/gpt-5.2-codex | OpenAI: GPT-5.2-Codex | 400,000 | $1.7500 | $14.0000 | - | ⚠️ | 507,936,508 |
 | openai/gpt-5.3-codex | OpenAI: GPT-5.3-Codex | 400,000 | $1.7500 | $14.0000 | - | ✅ | 507,936,508 |
 | thedrummer/skyfall-36b-v2 | TheDrummer: Skyfall 36B V2 | 32,768 | $0.5500 | $0.8000 | - | ⚠️ | 485,451,852 |
 | cohere/command-a | Cohere: Command A | 256,000 | $2.5000 | $10.0000 | - | ✅ | 409,600,000 |
@@ -322,8 +322,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/o3-pro | OpenAI: o3 Pro | 200,000 | $20.0000 | $80.0000 | - | ✅ | 40,000,000 |
 | openai/gpt-3.5-turbo-0613 | OpenAI: GPT-3.5 Turbo (older v0613) | 4,095 | $1.0000 | $2.0000 | - | ⚠️ | 27,300,000 |
 | openai/gpt-3.5-turbo-instruct | OpenAI: GPT-3.5 Turbo Instruct | 4,095 | $1.5000 | $2.0000 | - | ✅ | 23,400,000 |
-| inflection/inflection-3-pi | Inflection: Inflection 3 Pi | 8,000 | $2.5000 | $10.0000 | - | ⚠️ | 12,800,000 |
-| inflection/inflection-3-productivity | Inflection: Inflection 3 Productivity | 8,000 | $2.5000 | $10.0000 | - | ⚠️ | 12,800,000 |
 | openai/o1-pro | OpenAI: o1-pro | 200,000 | $150.0000 | $600.0000 | - | ✅ | 5,333,333 |
 | openai/gpt-4 | OpenAI: GPT-4 | 8,191 | $30.0000 | $60.0000 | - | ⚠️ | 1,820,222 |
 | openrouter/auto | Auto Router | 2,000,000 | N/A | N/A | - | ⚠️ | N/A |
