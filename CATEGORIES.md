@@ -27,10 +27,10 @@
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
+| qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | ⚠️ | 125,000,000,000 |
 | poolside/laguna-s-2.1 | Poolside: Laguna S 2.1 | 1,048,576 | $0.1000 | $0.2000 | ⚠️ | 69,905,066,667 |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 1,310,720 | $0.1000 | $0.3000 | ⚠️ | 65,536,000,000 |
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
-| meta-llama/llama-guard-4-12b | Meta: Llama Guard 4 12B | 1,048,576 | $0.1800 | $0.1800 | ⚠️ | 58,254,222,222 |
 
 ## Top 5 Largest Context Windows
 
