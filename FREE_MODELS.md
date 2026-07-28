@@ -11,7 +11,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | inclusionai/ling-3.0-flash:free | Ling-3.0-flash (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-super-120b-a12b:free | NVIDIA: Nemotron 3 Super (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| poolside/laguna-m.1:free | Poolside: Laguna M.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-s-2.1:free | Poolside: Laguna S 2.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | poolside/laguna-xs-2.1:free | Poolside: Laguna XS 2.1 (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | - | ✅ | ∞ |
