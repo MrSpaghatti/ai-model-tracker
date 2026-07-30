@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-30T01:45:09Z",
+  "generated_at": "2026-07-30T13:41:09Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -49782,7 +49782,7 @@
     {
       "model_id": "deepseek/deepseek-chat",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-07-30T13:41:09Z",
       "prompt_price": 0.0000002002,
       "completion_price": 0.0000008001
     },
@@ -51987,7 +51987,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-07-17T01:57:08Z",
-      "to_date": null,
+      "to_date": "2026-07-30T13:41:09Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -53555,7 +53555,7 @@
     {
       "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
       "from_date": "2026-07-28T13:45:22Z",
-      "to_date": null,
+      "to_date": "2026-07-30T13:41:09Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.0000022
     },
@@ -54003,7 +54003,7 @@
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-07-30T01:45:09Z",
-      "to_date": null,
+      "to_date": "2026-07-30T13:41:09Z",
       "prompt_price": 0.0000006776,
       "completion_price": 0.0000021296
     },
@@ -54017,34 +54017,97 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-07-30T01:45:09Z",
+      "to_date": "2026-07-30T13:41:09Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-07-30T01:45:09Z",
+      "to_date": "2026-07-30T13:41:09Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-07-30T01:45:09Z",
+      "to_date": "2026-07-30T13:41:09Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-07-30T01:45:09Z",
+      "to_date": "2026-07-30T13:41:09Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-07-30T01:45:09Z",
+      "to_date": "2026-07-30T13:41:09Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-07-30T13:41:09Z",
+      "to_date": null,
+      "prompt_price": 0.0000006139,
+      "completion_price": 0.0000019294
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
+      "from_date": "2026-07-30T13:41:09Z",
+      "to_date": null,
+      "prompt_price": 0.0000002574,
+      "completion_price": 0.0000010287
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "from_date": "2026-07-30T13:41:09Z",
+      "to_date": null,
+      "prompt_price": 0.0000006,
+      "completion_price": 0.0000036
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-07-30T13:41:09Z",
+      "to_date": null,
+      "prompt_price": 0.0000029,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-07-30T13:41:09Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-07-30T01:45:09Z",
+      "from_date": "2026-07-30T13:41:09Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-07-30T01:45:09Z",
+      "from_date": "2026-07-30T13:41:09Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-07-30T01:45:09Z",
+      "from_date": "2026-07-30T13:41:09Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-07-30T01:45:09Z",
+      "from_date": "2026-07-30T13:41:09Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
