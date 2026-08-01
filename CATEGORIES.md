@@ -8,7 +8,7 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
-| qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.0700 | $0.2700 | ⚠️ | 15,420,235,294 |
+| qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.0700 | $0.2800 | ⚠️ | 14,979,657,143 |
 | kwaipilot/kat-coder-air-v2.5 | Kwaipilot: KAT-Coder-Air V2.5 | 256,000 | $0.1500 | $0.6000 | ⚠️ | 6,826,666,667 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | ⚠️ | 5,698,782,609 |
 
@@ -28,9 +28,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | ⚠️ | 125,000,000,000 |
-| google/gemini-2.5-flash-lite:batch | Google: Gemini 2.5 Flash Lite (batch) | 1,048,576 | $0.0500 | $0.2000 | ⚠️ | 83,886,080,000 |
 | poolside/laguna-s-2.1 | Poolside: Laguna S 2.1 | 1,048,576 | $0.0900 | $0.1800 | ⚠️ | 77,672,296,296 |
 | meta-llama/llama-4-scout | Meta: Llama 4 Scout | 1,310,720 | $0.1000 | $0.3000 | ⚠️ | 65,536,000,000 |
+| qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | ⚠️ | 61,538,461,538 |
 
 ## Top 5 Largest Context Windows
 
@@ -63,8 +63,8 @@ _No matching models found._
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| google/gemini-2.5-flash-lite:batch | Google: Gemini 2.5 Flash Lite (batch) | 1,048,576 | $0.0500 | $0.2000 | ⚠️ | 83,886,080,000 |
 | xiaomi/mimo-v2.5 | Xiaomi: MiMo-V2.5 | 1,050,000 | $0.1400 | $0.2800 | ⚠️ | 50,000,000,000 |
+| google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | ⚠️ | 41,943,040,000 |
 
 ## Top 5 Models for ~8 GB VRAM
 

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-07-31T13:45:20Z",
+  "generated_at": "2026-08-01T02:03:49Z",
   "models": [
     {
       "id": "cohere/north-mini-code:free",
@@ -16,7 +16,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": true,
       "modalities": [
@@ -37,7 +37,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -60,7 +60,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -83,7 +83,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -105,7 +105,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -127,7 +127,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -148,7 +148,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -169,7 +169,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -193,7 +193,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -214,7 +214,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -235,7 +235,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -257,7 +257,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -280,7 +280,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -301,7 +301,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -322,7 +322,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -344,7 +344,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -365,7 +365,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": true,
       "is_moderated": false,
       "modalities": [
@@ -386,7 +386,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -407,37 +407,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
-        "video"
-      ]
-    },
-    {
-      "id": "google/gemini-2.5-flash-lite:batch",
-      "name": "Google: Gemini 2.5 Flash Lite (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "5e-8",
-        "completion": "0.0000002",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "file",
-        "audio",
         "video"
       ]
     },
@@ -455,7 +430,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -476,7 +451,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -498,7 +473,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -521,7 +496,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -543,7 +518,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -564,7 +539,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -588,7 +563,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -609,7 +584,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -630,7 +605,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -652,7 +627,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -677,7 +652,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -700,34 +675,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-5-nano:batch",
-      "name": "OpenAI: GPT-5 Nano (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "2.5e-8",
-        "completion": "0.0000002",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -744,7 +696,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -767,7 +719,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -790,7 +742,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -811,36 +763,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "google/gemini-3.1-flash-lite:batch",
-      "name": "Google: Gemini 3.1 Flash Lite (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.000000125",
-        "completion": "0.00000075",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
       ]
     },
     {
@@ -857,7 +784,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -878,7 +805,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -899,7 +826,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -922,7 +849,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -944,7 +871,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -965,7 +892,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -986,7 +913,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1008,7 +935,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1029,7 +956,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1050,7 +977,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1071,7 +998,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1093,7 +1020,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1116,7 +1043,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1138,7 +1065,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1159,7 +1086,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1181,7 +1108,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1202,7 +1129,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1223,7 +1150,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1244,28 +1171,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "qwen/qwen3-coder-30b-a3b-instruct",
-      "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-      "provider": "qwen",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "7e-8",
-        "completion": "0.00000027",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1286,7 +1192,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1308,7 +1214,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1318,53 +1224,24 @@
       ]
     },
     {
-      "id": "google/gemini-2.5-flash:batch",
-      "name": "Google: Gemini 2.5 Flash (batch)",
-      "provider": "google",
-      "context_length": 1048576,
+      "id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
+      "provider": "qwen",
+      "context_length": 262144,
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000125",
+        "prompt": "7e-8",
+        "completion": "0.00000028",
         "request": "",
         "image": "",
         "audio": "",
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
-        "file",
-        "image",
-        "text",
-        "audio",
-        "video"
-      ]
-    },
-    {
-      "id": "google/gemini-3.5-flash-lite:batch",
-      "name": "Google: Gemini 3.5 Flash Lite (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.00000125",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
+        "text"
       ]
     },
     {
@@ -1381,7 +1258,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1402,7 +1279,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1423,35 +1300,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "image",
         "text",
-        "video"
-      ]
-    },
-    {
-      "id": "minimax/minimax-m3:batch",
-      "name": "MiniMax: MiniMax M3 (batch)",
-      "provider": "minimax",
-      "context_length": 524288,
-      "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
         "video"
       ]
     },
@@ -1469,7 +1323,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1492,7 +1346,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1513,7 +1367,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1535,7 +1389,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1557,7 +1411,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1579,7 +1433,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1600,7 +1454,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1623,7 +1477,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1644,7 +1498,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1665,37 +1519,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image"
-      ]
-    },
-    {
-      "id": "google/gemini-3-flash-preview:batch",
-      "name": "Google: Gemini 3 Flash Preview (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.0000015",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "file",
-        "audio",
-        "video"
       ]
     },
     {
@@ -1712,7 +1541,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1737,7 +1566,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1762,36 +1591,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "image",
         "text",
         "video"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.4-nano:batch",
-      "name": "OpenAI: GPT-5.4 Nano (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.000000625",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "file",
-        "image",
-        "text"
       ]
     },
     {
@@ -1808,7 +1614,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1831,7 +1637,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1854,7 +1660,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1877,7 +1683,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1900,7 +1706,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -1923,7 +1729,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1945,7 +1751,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1968,7 +1774,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -1990,7 +1796,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2011,7 +1817,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2034,7 +1840,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2056,7 +1862,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2077,7 +1883,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2099,7 +1905,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2120,7 +1926,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2141,7 +1947,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2162,7 +1968,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2187,7 +1993,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2212,7 +2018,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2233,7 +2039,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2254,36 +2060,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "text",
         "image",
         "video",
-        "file"
-      ]
-    },
-    {
-      "id": "openai/gpt-5-mini:batch",
-      "name": "OpenAI: GPT-5 Mini (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.000000125",
-        "completion": "0.000001",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
         "file"
       ]
     },
@@ -2301,7 +2084,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2322,7 +2105,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2344,7 +2127,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2365,11 +2148,34 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "thinkingmachines/inkling-small",
+      "name": "Thinking Machines: Inkling Small",
+      "provider": "thinkingmachines",
+      "context_length": 524288,
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.0000012",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-08-01T02:03:49Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image",
+        "audio"
       ]
     },
     {
@@ -2386,7 +2192,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2411,7 +2217,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2432,7 +2238,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -2455,7 +2261,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2478,7 +2284,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2499,7 +2305,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2520,7 +2326,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2541,7 +2347,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2563,7 +2369,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2584,7 +2390,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2605,7 +2411,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2626,7 +2432,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2647,36 +2453,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "google/gemini-3.6-flash:batch",
-      "name": "Google: Gemini 3.6 Flash (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.00000375",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
       ]
     },
     {
@@ -2693,7 +2474,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2716,7 +2497,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2739,7 +2520,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2760,7 +2541,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2781,7 +2562,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2802,7 +2583,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2823,7 +2604,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2845,7 +2626,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2866,7 +2647,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2888,7 +2669,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2911,36 +2692,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "google/gemini-3.5-flash:batch",
-      "name": "Google: Gemini 3.5 Flash (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.0000045",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "video",
-        "file",
-        "audio"
       ]
     },
     {
@@ -2957,7 +2713,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2978,7 +2734,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -2999,7 +2755,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3022,7 +2778,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3031,31 +2787,6 @@
         "video",
         "file",
         "audio"
-      ]
-    },
-    {
-      "id": "google/gemini-2.5-pro:batch",
-      "name": "Google: Gemini 2.5 Pro (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000005",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "file",
-        "audio",
-        "video"
       ]
     },
     {
@@ -3072,7 +2803,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3093,7 +2824,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3114,7 +2845,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3137,7 +2868,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3159,7 +2890,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3180,7 +2911,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3201,7 +2932,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3224,7 +2955,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3247,7 +2978,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3268,34 +2999,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "anthropic/claude-sonnet-5:batch",
-      "name": "Anthropic: Claude Sonnet 5 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000005",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -3312,7 +3020,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3333,7 +3041,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3354,7 +3062,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3375,7 +3083,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3396,33 +3104,10 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.4-mini:batch",
-      "name": "OpenAI: GPT-5.4 Mini (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.000000375",
-        "completion": "0.00000225",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "file",
-        "image",
         "text"
       ]
     },
@@ -3440,7 +3125,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3463,38 +3148,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "file",
         "image",
         "text"
-      ]
-    },
-    {
-      "id": "google/gemini-3.1-pro-preview:batch",
-      "name": "Google: Gemini 3.1 Pro Preview (batch)",
-      "provider": "google",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000006",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "audio",
-        "file",
-        "image",
-        "text",
-        "video"
       ]
     },
     {
@@ -3511,7 +3171,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3534,7 +3194,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3556,7 +3216,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3577,7 +3237,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3598,7 +3258,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3619,7 +3279,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -3641,7 +3301,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3664,7 +3324,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3685,7 +3345,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3706,7 +3366,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3727,7 +3387,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3749,7 +3409,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3770,34 +3430,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.4:batch",
-      "name": "OpenAI: GPT-5.4 (batch)",
-      "provider": "openai",
-      "context_length": 1050000,
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000075",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -3814,7 +3451,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3835,7 +3472,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3858,7 +3495,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3881,7 +3518,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3906,7 +3543,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3931,7 +3568,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3952,7 +3589,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3973,7 +3610,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -3996,36 +3633,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "video"
-      ]
-    },
-    {
-      "id": "anthropic/claude-sonnet-4.5:batch",
-      "name": "Anthropic: Claude Sonnet 4.5 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -4042,7 +3656,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4063,7 +3677,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4086,7 +3700,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4109,7 +3723,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4130,7 +3744,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4151,7 +3765,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4173,7 +3787,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4198,7 +3812,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4221,7 +3835,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4242,7 +3856,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4263,7 +3877,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4284,7 +3898,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4305,7 +3919,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4330,7 +3944,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4354,7 +3968,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4379,7 +3993,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4400,7 +4014,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4423,7 +4037,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4444,7 +4058,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4467,7 +4081,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4488,7 +4102,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4509,7 +4123,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4532,7 +4146,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4555,7 +4169,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4578,7 +4192,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4599,7 +4213,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4622,7 +4236,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4643,7 +4257,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4664,7 +4278,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4686,7 +4300,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4709,7 +4323,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4732,7 +4346,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -4754,7 +4368,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4779,7 +4393,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4804,7 +4418,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4829,7 +4443,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4851,58 +4465,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.1:batch",
-      "name": "OpenAI: GPT-5.1 (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000005",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "image",
-        "text",
-        "file"
-      ]
-    },
-    {
-      "id": "openai/gpt-5:batch",
-      "name": "OpenAI: GPT-5 (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000005",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -4919,7 +4487,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4940,7 +4508,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -4961,34 +4529,11 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
-      ]
-    },
-    {
-      "id": "anthropic/claude-haiku-4.5:batch",
-      "name": "Anthropic: Claude Haiku 4.5 (batch)",
-      "provider": "anthropic",
-      "context_length": 200000,
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000025",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -5005,81 +4550,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "text",
         "image"
-      ]
-    },
-    {
-      "id": "anthropic/claude-opus-4.6:batch",
-      "name": "Anthropic: Claude Opus 4.6 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
-      ]
-    },
-    {
-      "id": "anthropic/claude-opus-4.7:batch",
-      "name": "Anthropic: Claude Opus 4.7 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
-      ]
-    },
-    {
-      "id": "anthropic/claude-opus-4.8:batch",
-      "name": "Anthropic: Claude Opus 4.8 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "text",
-        "image",
-        "file"
       ]
     },
     {
@@ -5096,11 +4572,33 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text"
+      ]
+    },
+    {
+      "id": "moonshotai/kimi-k2.6",
+      "name": "MoonshotAI: Kimi K2.6",
+      "provider": "moonshotai",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0.0000006",
+        "completion": "0.00000341",
+        "request": "",
+        "image": "",
+        "audio": "",
+        "web_search": "",
+        "internal_reasoning": ""
+      },
+      "created_at": "2026-08-01T02:03:49Z",
+      "is_free": false,
+      "is_moderated": false,
+      "modalities": [
+        "text",
+        "image"
       ]
     },
     {
@@ -5117,7 +4615,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5138,7 +4636,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5160,7 +4658,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5183,7 +4681,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5206,7 +4704,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5227,7 +4725,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5249,7 +4747,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5271,7 +4769,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5292,36 +4790,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "file"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.5:batch",
-      "name": "OpenAI: GPT-5.5 (batch)",
-      "provider": "openai",
-      "context_length": 1050000,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "file",
-        "image",
-        "text"
       ]
     },
     {
@@ -5338,7 +4813,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5359,7 +4834,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5381,7 +4856,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5402,7 +4877,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5424,7 +4899,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5445,7 +4920,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5466,7 +4941,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5489,7 +4964,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5512,7 +4987,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5535,7 +5010,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5556,7 +5031,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5579,35 +5054,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "text",
         "image",
         "file"
-      ]
-    },
-    {
-      "id": "moonshotai/kimi-k2.6",
-      "name": "MoonshotAI: Kimi K2.6",
-      "provider": "moonshotai",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "text",
-        "image"
       ]
     },
     {
@@ -5624,7 +5077,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5645,7 +5098,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5666,7 +5119,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5687,33 +5140,10 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.2:batch",
-      "name": "OpenAI: GPT-5.2 (batch)",
-      "provider": "openai",
-      "context_length": 400000,
-      "pricing": {
-        "prompt": "0.000000875",
-        "completion": "0.000007",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "file",
-        "image",
         "text"
       ]
     },
@@ -5731,7 +5161,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5752,7 +5182,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5773,7 +5203,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5794,7 +5224,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5815,7 +5245,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -5837,7 +5267,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5859,7 +5289,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5880,7 +5310,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5901,7 +5331,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5924,7 +5354,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5946,7 +5376,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5968,7 +5398,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -5989,7 +5419,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6011,7 +5441,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6033,7 +5463,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6056,7 +5486,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6079,7 +5509,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6102,7 +5532,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6125,7 +5555,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6147,7 +5577,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6169,7 +5599,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6192,32 +5622,9 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
-      "modalities": [
-        "text",
-        "image",
-        "file"
-      ]
-    },
-    {
-      "id": "anthropic/claude-fable-5:batch",
-      "name": "Anthropic: Claude Fable 5 (batch)",
-      "provider": "anthropic",
-      "context_length": 1000000,
-      "pricing": {
-        "prompt": "0.000005",
-        "completion": "0.000025",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
       "modalities": [
         "text",
         "image",
@@ -6238,7 +5645,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6261,7 +5668,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6284,7 +5691,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6307,7 +5714,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6330,7 +5737,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6353,7 +5760,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6374,7 +5781,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6395,7 +5802,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6418,7 +5825,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6441,7 +5848,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6464,7 +5871,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6487,7 +5894,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6509,7 +5916,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6532,7 +5939,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6554,7 +5961,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6576,7 +5983,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6597,7 +6004,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6620,7 +6027,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6642,7 +6049,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6665,7 +6072,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6686,7 +6093,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6707,7 +6114,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6730,7 +6137,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6753,7 +6160,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6776,7 +6183,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6797,7 +6204,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6819,7 +6226,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6842,7 +6249,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6865,7 +6272,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6888,7 +6295,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -6911,7 +6318,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6933,7 +6340,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6955,7 +6362,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -6976,33 +6383,10 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
-        "text"
-      ]
-    },
-    {
-      "id": "anthropic/claude-opus-4.5:batch",
-      "name": "Anthropic: Claude Opus 4.5 (batch)",
-      "provider": "anthropic",
-      "context_length": 200000,
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.0000125",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "file",
-        "image",
         "text"
       ]
     },
@@ -7020,7 +6404,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7041,7 +6425,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7063,7 +6447,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7086,7 +6470,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7108,36 +6492,13 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
         "text",
         "image",
         "file"
-      ]
-    },
-    {
-      "id": "openai/gpt-5.1-chat",
-      "name": "OpenAI: GPT-5.1 Chat",
-      "provider": "openai",
-      "context_length": 128000,
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": false,
-      "modalities": [
-        "file",
-        "image",
-        "text"
       ]
     },
     {
@@ -7154,7 +6515,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7176,7 +6537,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7198,7 +6559,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7219,7 +6580,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7242,7 +6603,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7265,7 +6626,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7288,7 +6649,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7310,7 +6671,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7332,7 +6693,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7353,7 +6714,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7375,7 +6736,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7398,7 +6759,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7421,7 +6782,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7444,7 +6805,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7465,7 +6826,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7488,7 +6849,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7509,7 +6870,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7530,7 +6891,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7553,7 +6914,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7574,7 +6935,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7597,7 +6958,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7620,35 +6981,12 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
         "image",
         "text"
-      ]
-    },
-    {
-      "id": "anthropic/claude-opus-4.1:batch",
-      "name": "Anthropic: Claude Opus 4.1 (batch)",
-      "provider": "anthropic",
-      "context_length": 200000,
-      "pricing": {
-        "prompt": "0.0000075",
-        "completion": "0.0000375",
-        "request": "",
-        "image": "",
-        "audio": "",
-        "web_search": "",
-        "internal_reasoning": ""
-      },
-      "created_at": "2026-07-31T13:45:20Z",
-      "is_free": false,
-      "is_moderated": true,
-      "modalities": [
-        "image",
-        "text",
-        "file"
       ]
     },
     {
@@ -7665,7 +7003,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7687,7 +7025,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7708,7 +7046,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7731,7 +7069,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7754,7 +7092,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7775,7 +7113,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7798,7 +7136,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7821,7 +7159,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7844,7 +7182,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7865,7 +7203,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7888,7 +7226,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7909,7 +7247,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7930,7 +7268,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": true,
       "modalities": [
@@ -7953,7 +7291,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7974,7 +7312,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -7999,7 +7337,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -8024,7 +7362,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -8045,7 +7383,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
@@ -8066,7 +7404,7 @@
         "web_search": "",
         "internal_reasoning": ""
       },
-      "created_at": "2026-07-31T13:45:20Z",
+      "created_at": "2026-08-01T02:03:49Z",
       "is_free": false,
       "is_moderated": false,
       "modalities": [
