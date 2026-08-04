@@ -8,7 +8,7 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
-| qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.0700 | $0.2800 | ⚠️ | 14,979,657,143 |
+| qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.0700 | $0.2700 | ⚠️ | 15,420,235,294 |
 | kwaipilot/kat-coder-air-v2.5 | Kwaipilot: KAT-Coder-Air V2.5 | 256,000 | $0.1500 | $0.6000 | ⚠️ | 6,826,666,667 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | ⚠️ | 5,698,782,609 |
 
@@ -49,8 +49,8 @@
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0190 | $0.0300 | ⚠️ | 53,498,775,510 |
 | sao10k/l3-lunaris-8b | Sao10K: Llama 3 8B Lunaris | 8,192 | $0.0400 | $0.0500 | ⚠️ | 1,820,444,444 |
-| gryphe/mythomax-l2-13b | MythoMax 13B | 8,192 | $0.0600 | $0.0600 | ⚠️ | 1,365,333,333 |
 | nex-agi/nex-n2-mini | Nex AGI: Nex-N2-Mini | 262,144 | $0.0250 | $0.1000 | ⚠️ | 41,943,040,000 |
+| ibm-granite/granite-4.0-h-micro | IBM: Granite 4.0 Micro | 131,000 | $0.0170 | $0.1120 | ⚠️ | 20,310,077,519 |
 
 ## Top 5 Models for Encoding
 
