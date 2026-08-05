@@ -256,10 +256,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | openai/gpt-5.6-sol | OpenAI: GPT-5.6 Sol | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
 | openai/gpt-5.6-sol-pro | OpenAI: GPT-5.6 Sol Pro | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
 | ~openai/gpt-latest | OpenAI GPT Latest | 1,050,000 | $5.0000 | $30.0000 | - | ✅ | 600,000,000 |
+| qwen/qwen3-vl-235b-a22b-thinking | Qwen: Qwen3 VL 235B A22B Thinking | 131,072 | $0.4000 | $4.0000 | - | ⚠️ | 595,781,818 |
 | mistralai/mistral-medium-3-5 | Mistral: Mistral Medium 3.5 | 262,144 | $1.5000 | $7.5000 | - | ⚠️ | 582,542,222 |
 | sakana/fugu-ultra | Sakana: Fugu Ultra | 1,000,000 | $5.0000 | $30.0000 | - | ⚠️ | 571,428,571 |
 | z-ai/glm-4.5v | Z.ai: GLM 4.5V | 65,536 | $0.6000 | $1.8000 | - | ⚠️ | 546,133,333 |
-| qwen/qwen3-vl-235b-a22b-thinking | Qwen: Qwen3 VL 235B A22B Thinking | 131,072 | $0.9800 | $3.9500 | - | ⚠️ | 531,732,252 |
 | ai21/jamba-large-1.7 | AI21: Jamba Large 1.7 | 256,000 | $2.0000 | $8.0000 | - | ⚠️ | 512,000,000 |
 | openai/gpt-5.2 | OpenAI: GPT-5.2 | 400,000 | $1.7500 | $14.0000 | - | ✅ | 507,936,508 |
 | openai/gpt-5.2-codex | OpenAI: GPT-5.2-Codex | 400,000 | $1.7500 | $14.0000 | - | ⚠️ | 507,936,508 |
