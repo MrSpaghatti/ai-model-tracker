@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-04T13:52:18Z",
+  "generated_at": "2026-08-05T01:49:38Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -52988,7 +52988,7 @@
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-07-24T13:21:26Z",
-      "to_date": null,
+      "to_date": "2026-08-05T01:49:38Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.000001
     },
@@ -54213,7 +54213,7 @@
     {
       "model_id": "mistralai/mistral-small-3.2-24b-instruct",
       "from_date": "2026-07-31T13:45:21Z",
-      "to_date": null,
+      "to_date": "2026-08-05T01:49:38Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000002
     },
@@ -54717,34 +54717,83 @@
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-08-04T13:52:18Z",
+      "to_date": "2026-08-05T01:49:38Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-08-04T13:52:18Z",
+      "to_date": "2026-08-05T01:49:38Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-08-04T13:52:18Z",
+      "to_date": "2026-08-05T01:49:38Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-08-04T13:52:18Z",
+      "to_date": "2026-08-05T01:49:38Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-08-04T13:52:18Z",
+      "to_date": "2026-08-05T01:49:38Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "from_date": "2026-08-05T01:49:38Z",
+      "to_date": null,
+      "prompt_price": 9.375e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-08-05T01:49:38Z",
+      "to_date": null,
+      "prompt_price": 0.00000027,
+      "completion_price": 0.00000108
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-08-05T01:49:38Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-08-04T13:52:18Z",
+      "from_date": "2026-08-05T01:49:38Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-08-04T13:52:18Z",
+      "from_date": "2026-08-05T01:49:38Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-08-04T13:52:18Z",
+      "from_date": "2026-08-05T01:49:38Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-08-04T13:52:18Z",
+      "from_date": "2026-08-05T01:49:38Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
