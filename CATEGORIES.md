@@ -28,9 +28,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | inclusionai/ling-2.6-flash | inclusionAI: Ling-2.6-flash | 262,144 | $0.0100 | $0.0300 | ⚠️ | 131,072,000,000 |
 | qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | ⚠️ | 125,000,000,000 |
+| deepseek/deepseek-v4-flash | DeepSeek: DeepSeek V4 Flash 0423 | 1,048,576 | $0.0882 | $0.1764 | ⚠️ | 79,257,445,200 |
 | deepseek/deepseek-v4-flash-0731 | DeepSeek: DeepSeek V4 Flash 0731 | 1,048,576 | $0.0900 | $0.1800 | ⚠️ | 77,672,296,296 |
 | poolside/laguna-s-2.1 | Poolside: Laguna S 2.1 | 1,048,576 | $0.0900 | $0.1800 | ⚠️ | 77,672,296,296 |
-| ~deepseek/deepseek-v4-flash-latest | DeepSeek V4 Flash Latest | 1,048,576 | $0.0900 | $0.1800 | ⚠️ | 77,672,296,296 |
 
 ## Top 5 Largest Context Windows
 
