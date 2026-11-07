@@ -115,7 +115,8 @@
             var isDark = document.documentElement.dataset.theme !== 'light';
             var opts = {
                 title: 'Price History',
-                // No width: uPlot sizes to the parent (see app.js note).
+                // See app.js: the old `|| 800` fallback never fired.
+                width: Math.max(300, (el.clientWidth || 800) - 32),
                 height: 200,
                 scales: { y: { distr: 3 } },
                 series: [{}, { label: 'Prompt', stroke: '#58a6ff' }, { label: 'Completion', stroke: '#3fb950' }]

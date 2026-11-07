@@ -158,10 +158,10 @@
 
             var opts = {
                 title: 'Price History ($/M tokens)',
-                // No width: uPlot sizes to the parent. The old
-                // Math.max(300, el.clientWidth - 32 || 800) collapsed to 300
-                // whenever clientWidth was 0 (the -32 is truthy, so the 800
-                // fallback never fired) and left a 300px canvas in a 1200px box.
+                // The old Math.max(300, el.clientWidth - 32 || 800) collapsed to
+                // 300 whenever clientWidth was 0: -32 is truthy, so the 800
+                // fallback never fired and the plot stayed 300px wide.
+                width: Math.max(300, (el.clientWidth || 800) - 32),
                 height: 300,
                 scales: { y: { distr: 3 } },
                 axes: [

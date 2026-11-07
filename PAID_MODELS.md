@@ -49,8 +49,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.8-omni-flash | Qwen: Qwen3.8 Omni Flash | 1,000,000 | $0.1500 | $0.4700 | - | ⚠️ | 32,258,064,516 |
 | openai/gpt-5.6-luna-pro:batch | OpenAI: GPT-5.6 Luna Pro (batch) | 1,050,000 | $0.1000 | $0.6000 | - | ✅ | 30,000,000,000 |
 | openai/gpt-5.6-luna:batch | OpenAI: GPT-5.6 Luna (batch) | 1,050,000 | $0.1000 | $0.6000 | - | ✅ | 30,000,000,000 |
+| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0200 | $0.0730 | - | ⚠️ | 28,187,526,882 |
 | deepseek/deepseek-v4.1-flash-1017 | DeepSeek: DeepSeek V4.1 Flash 1017 | 1,048,576 | $0.1500 | $0.6000 | - | ⚠️ | 27,962,026,667 |
-| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0200 | $0.0740 | - | ⚠️ | 27,887,659,574 |
 | inception/mercury-2.5 | Inception: Mercury 2.5 | 260,000 | $0.0400 | $0.1500 | - | ⚠️ | 27,368,421,053 |
 | ricursiveai/ripple-65b-preview | Ricursive: Ripple 65B Preview | 1,048,576 | $0.2000 | $0.6000 | - | ⚠️ | 26,214,400,000 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | - | ⚠️ | 25,600,000,000 |
