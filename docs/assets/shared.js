@@ -316,6 +316,12 @@
 
         if (!modelEntries.length) return placeholder('No price history for this model');
         if (modelEntries.length < 2) return placeholder('Only one data point — history will accumulate over time');
+        // A log axis cannot represent $0; a fully free model would draw a flat
+        // line pinned to the axis floor. Say it in words instead.
+        var anyPaid = modelEntries.some(function(e) {
+            return Number(e.prompt_price) > 0 || Number(e.completion_price) > 0;
+        });
+        if (!anyPaid) return placeholder('This model is free — prompt and completion are $0/M.');
         if (!window.uPlot) return placeholder('Chart library failed to load');
 
         var timestamps = modelEntries.map(function(e) { return new Date(e.from_date).getTime() / 1000; });
@@ -348,13 +354,38 @@
             // `Math.max(300, w - 32 || 800)` collapsed to 300 because -32 is truthy.
             width: Math.max(300, (el.clientWidth || 800) - 32),
             height: height,
-            scales: { y: { distr: 3 } },
+            scales: { y: { distr: 3, log: 10 } },
             axes: [
                 {},
                 {
+                    size: 76,
                     stroke: isDark ? '#e6edf3' : '#1f2328',
                     grid: { stroke: isDark ? '#30363d' : '#d0d7de' },
-                    values: function(_u, vals) { return vals.map(function(v) { return '$' + Number(v).toFixed(4); }); }
+                    // Decade ticks only. uPlot's default log splits add 8 minor
+                    // ticks per decade, which smears into an unreadable stack
+                    // when prices span 8 orders of magnitude.
+                    splits: function(_u, _ai, min, max) {
+                        var out = [];
+                        var v = Math.pow(10, Math.floor(Math.log(min) / Math.LN10));
+                        for (var i = 0; i < 24 && v <= max * 1.0001; i++) {
+                            if (v >= min * 0.9999) out.push(v);
+                            v *= 10;
+                        }
+                        return out.length ? out : [min, max];
+                    },
+                    values: function(_u, vals) {
+                        return vals.map(function(raw) {
+                            var n = Number(raw);
+                            if (!isFinite(n)) return '';
+                            if (n === 0) return '$0';
+                            var a = Math.abs(n);
+                            if (a >= 0.0001) {
+                                var d = a >= 1 ? 2 : a >= 0.01 ? 3 : 5;
+                                return '$' + n.toFixed(d);
+                            }
+                            return '$' + n.toExponential(1);
+                        });
+                    }
                 }
             ],
             series: [
