@@ -57,6 +57,34 @@
         }
     }
 
+    // Data freshness is a trust signal, not decoration: the site served
+    // three-month-old prices with no indication at all while the refresh was
+    // silently failing. Stamp the age on every page and shout when it is old.
+    var STALE_HOURS = 36;
+
+    function applyFreshness(iso) {
+        if (!iso) return;
+        var el = document.getElementById('last-updated');
+        if (el) {
+            el.textContent = formatTimestamp(iso);
+            el.setAttribute('title', iso);
+        }
+        var ageHours = (Date.now() - new Date(iso).getTime()) / 3600000;
+        if (!isFinite(ageHours) || ageHours < STALE_HOURS) return;
+        var main = document.querySelector('main');
+        if (!main || document.getElementById('stale-banner')) return;
+        var days = Math.floor(ageHours / 24);
+        var age = days >= 1
+            ? days + (days === 1 ? ' day' : ' days')
+            : Math.max(1, Math.floor(ageHours)) + ' hours';
+        var banner = document.createElement('div');
+        banner.id = 'stale-banner';
+        banner.className = 'stale-banner';
+        banner.innerHTML = '<strong>Stale data.</strong> Last successful refresh ' +
+            escHtml(formatTimestamp(iso)) + ' (' + age + ' ago) \u2014 prices below may no longer be current.';
+        main.insertBefore(banner, main.firstChild);
+    }
+
     // ============ Model Computation Functions ============
 
     function computeContextPerCent(model) {
@@ -324,11 +352,50 @@
         if (!anyPaid) return placeholder('This model is free — prompt and completion are $0/M.');
         if (!window.uPlot) return placeholder('Chart library failed to load');
 
-        var timestamps = modelEntries.map(function(e) { return new Date(e.from_date).getTime() / 1000; });
+        var timestamps = [];
         // Prices are stored per token; the chart reads better per million.
-        var promptPrices = modelEntries.map(function(e) { return Number(e.prompt_price) * 1e6; });
-        var completionPrices = modelEntries.map(function(e) { return Number(e.completion_price) * 1e6; });
+        var promptPrices = [];
+        var completionPrices = [];
+
+        // Prices are step functions, not ramps: a recorded price holds until the
+        // next recorded change. Joining points with a straight line draws a fake
+        // gradual slope between distant ones — z-ai/glm-5.2 went $0.76 -> $0.006/M,
+        // which as a diagonal reads as months of drift instead of one cliff.
+        // Emitting each segment's end point again at the OLD value makes that
+        // hold-then-jump shape out of the plain linear path (uPlot's own
+        // paths.stepped renders no path at all in this setup).
+        for (var i = 0; i < modelEntries.length; i++) {
+            var e = modelEntries[i];
+            var t = new Date(e.from_date).getTime() / 1000;
+            var pp = Number(e.prompt_price) * 1e6;
+            var cp = Number(e.completion_price) * 1e6;
+            timestamps.push(t);
+            promptPrices.push(pp);
+            completionPrices.push(cp);
+            var next = modelEntries[i + 1];
+            if (next) {
+                var nt = new Date(next.from_date).getTime() / 1000;
+                if (nt > t) {
+                    // Hold this price flat up to the moment the next one starts.
+                    timestamps.push(nt);
+                    promptPrices.push(pp);
+                    completionPrices.push(cp);
+                }
+            }
+        }
         var height = opts.height || 300;
+
+        // Declared before `series` below: `var` hoists but does not initialise, so
+        // building the series first would give stroke: undefined and draw nothing.
+        var isDark = document.documentElement.dataset.theme !== 'light';
+        var promptColor = '#58a6ff';
+        var completionColor = '#3fb950';
+
+        var series = [
+            {},
+            { label: 'Prompt', stroke: promptColor, width: 2 },
+            { label: 'Completion', stroke: completionColor, width: 2 }
+        ];
 
         el.innerHTML = '<div class="chart-header"><span>' + escHtml(st.selectedModel) +
             '</span><button id="close-chart" aria-label="Close chart">×</button></div>' +
@@ -344,9 +411,6 @@
         }
 
         var chartEl = document.getElementById('chart');
-        var isDark = document.documentElement.dataset.theme !== 'light';
-        var promptColor = '#58a6ff';
-        var completionColor = '#3fb950';
 
         var u = new window.uPlot({
             title: opts.title || 'Price History ($/M tokens)',
@@ -388,11 +452,7 @@
                     }
                 }
             ],
-            series: [
-                {},
-                { label: 'Prompt', stroke: promptColor, width: 2 },
-                { label: 'Completion', stroke: completionColor, width: 2 }
-            ],
+            series: series,
             legend: { show: true }
         }, [timestamps, promptPrices, completionPrices], chartEl);
 
@@ -452,6 +512,8 @@
             try { history = await historyRes.json(); }
             catch (_e) {}
         }
+
+        applyFreshness(current.generated_at);
 
         return {
             models: models,
@@ -520,6 +582,7 @@
         
         // Data
         loadData: loadData,
+        applyFreshness: applyFreshness,
 
         // Chart
         renderChart: renderChart,

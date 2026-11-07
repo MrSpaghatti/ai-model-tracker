@@ -390,6 +390,23 @@ main {
   text-align: center;
 }
 
+/* Stale-data banner: injected by AIMT.applyFreshness when the newest data is
+   old enough that the refresh job has probably stopped. */
+.stale-banner {
+  background-color: var(--error-bg);
+  border: 1px solid var(--accent-red);
+  border-left-width: 4px;
+  color: var(--fg);
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.stale-banner strong {
+  color: var(--accent-red);
+}
+
 /* Footer */
 footer {
   text-align: center;

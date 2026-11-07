@@ -165,6 +165,7 @@
             if (res.ok) {
                 var data = await res.json();
                 localModels = data.models || [];
+                AIMT.applyFreshness(data.generated_at);
                 renderTable(localModels);
                 calculateVRAM();
             }

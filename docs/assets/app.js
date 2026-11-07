@@ -207,8 +207,6 @@
             var data = await AIMT.loadData('./data/');
             models = data.models;
             history = data.history;
-            var lastEl = document.getElementById('last-updated');
-            if (lastEl) lastEl.textContent = AIMT.formatTimestamp(data.generatedAt);
             populateProviderDropdown();
         } catch (e) {
             showFatalError(e.message);
