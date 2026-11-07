@@ -1,6 +1,6 @@
 # AI Model Price & Context Tracker
 
-> Automatically updated every 12 hours (local cron on raven, pushing to `master`).
+> Automatically updated every 12 hours by a local cron on raven.
 
 ## 📊 Pages
 

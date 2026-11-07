@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T19:06:46Z",
+  "generated_at": "2026-11-07T19:07:37Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -56901,7 +56901,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-07T18:54:49Z",
-      "to_date": null,
+      "to_date": "2026-11-07T19:07:37Z",
       "prompt_price": 0.0000001558,
       "completion_price": 0.0000105478
     },
@@ -57209,55 +57209,118 @@
     {
       "model_id": "nvidia/switchyard",
       "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T19:06:46Z",
+      "to_date": "2026-11-07T19:07:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-07T19:07:37Z",
+      "to_date": null,
+      "prompt_price": 0.0000001653,
+      "completion_price": 0.0000105478
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-code",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "typesafe/jev-router",
-      "from_date": "2026-11-07T19:06:46Z",
+      "from_date": "2026-11-07T19:07:37Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
