@@ -2,6 +2,7 @@
     'use strict';
 
     var models = [];
+    var history = null;
     var state = {
         provider: null,
         search: '',
@@ -113,9 +114,21 @@
         sel.value = current;
     }
 
+    // Rows set state.selectedModel; without this the click was a silent no-op.
+    window.__renderChart = function(hist, st) {
+        AIMT.renderChart(hist, st, {
+            height: 300,
+            title: 'Price History ($/M tokens)',
+            onClose: function() { render(); }
+        });
+    };
+
     function render() {
         if (typeof window.__renderTable === 'function') {
             try { window.__renderTable(models, state); } catch (e) { console.error(e); }
+        }
+        if (typeof window.__renderChart === 'function') {
+            try { window.__renderChart(history, state); } catch (e) { console.error(e); }
         }
         if (typeof window.__renderTheme === 'function') {
             try { window.__renderTheme(state); } catch (e) { console.error(e); }
@@ -162,6 +175,7 @@
         try {
             var data = await AIMT.loadData('./data/');
             models = data.models;
+            history = data.history;
             populateProviderDropdown();
         } catch (e) {
             showFatalError(e.message);

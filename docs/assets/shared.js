@@ -287,6 +287,99 @@
         }
     }
 
+    // ============ Price-history chart (shared by all pages) ============
+
+    // #chart-container is display:none in style.css and only becomes visible
+    // with the .active class, so every path through here has to set it.
+    // opts: { height, title, onClose }
+    function renderChart(hist, st, opts) {
+        opts = opts || {};
+        var el = document.getElementById(opts.containerId || 'chart-container');
+        if (!el) return;
+
+        if (!st.selectedModel) {
+            el.classList.remove('active');
+            el.innerHTML = '';
+            return;
+        }
+        el.classList.add('active');
+
+        function placeholder(msg) {
+            el.innerHTML = '<div class="chart-placeholder">' + msg + '</div>';
+        }
+
+        if (!hist || !hist.entries || !hist.entries.length) return placeholder('No price history available');
+
+        var modelEntries = hist.entries
+            .filter(function(e) { return e.model_id === st.selectedModel; })
+            .sort(function(a, b) { return a.from_date.localeCompare(b.from_date); });
+
+        if (!modelEntries.length) return placeholder('No price history for this model');
+        if (modelEntries.length < 2) return placeholder('Only one data point — history will accumulate over time');
+        if (!window.uPlot) return placeholder('Chart library failed to load');
+
+        var timestamps = modelEntries.map(function(e) { return new Date(e.from_date).getTime() / 1000; });
+        // Prices are stored per token; the chart reads better per million.
+        var promptPrices = modelEntries.map(function(e) { return Number(e.prompt_price) * 1e6; });
+        var completionPrices = modelEntries.map(function(e) { return Number(e.completion_price) * 1e6; });
+        var height = opts.height || 300;
+
+        el.innerHTML = '<div class="chart-header"><span>' + escHtml(st.selectedModel) +
+            '</span><button id="close-chart" aria-label="Close chart">×</button></div>' +
+            '<div id="chart"></div><div id="chart-legend"></div>';
+
+        var closeBtn = document.getElementById('close-chart');
+        if (closeBtn) {
+            closeBtn.addEventListener('click', function() {
+                st.selectedModel = null;
+                writeHash(st);
+                if (typeof opts.onClose === 'function') opts.onClose();
+            });
+        }
+
+        var chartEl = document.getElementById('chart');
+        var isDark = document.documentElement.dataset.theme !== 'light';
+        var promptColor = '#58a6ff';
+        var completionColor = '#3fb950';
+
+        var u = new window.uPlot({
+            title: opts.title || 'Price History ($/M tokens)',
+            // Fall back to 800 only when the container has no measurable width;
+            // `Math.max(300, w - 32 || 800)` collapsed to 300 because -32 is truthy.
+            width: Math.max(300, (el.clientWidth || 800) - 32),
+            height: height,
+            scales: { y: { distr: 3 } },
+            axes: [
+                {},
+                {
+                    stroke: isDark ? '#e6edf3' : '#1f2328',
+                    grid: { stroke: isDark ? '#30363d' : '#d0d7de' },
+                    values: function(_u, vals) { return vals.map(function(v) { return '$' + Number(v).toFixed(4); }); }
+                }
+            ],
+            series: [
+                {},
+                { label: 'Prompt', stroke: promptColor, width: 2 },
+                { label: 'Completion', stroke: completionColor, width: 2 }
+            ],
+            legend: { show: true }
+        }, [timestamps, promptPrices, completionPrices], chartEl);
+
+        var resize = function() {
+            if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: height });
+        };
+        window.removeEventListener('resize', resize);
+        window.addEventListener('resize', resize);
+
+        var legend = document.getElementById('chart-legend');
+        if (legend) {
+            var last = modelEntries[modelEntries.length - 1];
+            legend.innerHTML = '<span class="legend-item"><span style="color:' + promptColor + '">●</span> Prompt: ' +
+                formatPrice(last.prompt_price) + '</span> <span class="legend-item"><span style="color:' + completionColor +
+                '">●</span> Completion: ' + formatPrice(last.completion_price) + '</span>';
+        }
+    }
+
     // ============ Data Loading Functions ============
 
     async function loadData(dataPath) {
@@ -396,6 +489,9 @@
         
         // Data
         loadData: loadData,
+
+        // Chart
+        renderChart: renderChart,
         
         // Theme
         initTheme: initTheme,

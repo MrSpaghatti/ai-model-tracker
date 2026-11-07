@@ -106,86 +106,11 @@
     };
 
     window.__renderChart = function(hist, st) {
-        var el = document.getElementById('chart-container');
-        if (!el) return;
-        // #chart-container is display:none until .active is set — nothing else
-        // toggles it, so without this the price-history chart never appears.
-        if (!st.selectedModel) {
-            el.classList.remove('active');
-            el.innerHTML = '';
-            return;
-        }
-        el.classList.add('active');
-        if (!hist || !hist.entries || !hist.entries.length) {
-            el.innerHTML = '<div class="chart-placeholder">No price history available</div>';
-            return;
-        }
-
-        var modelEntries = hist.entries.filter(function(e) { return e.model_id === st.selectedModel; })
-            .sort(function(a, b) { return a.from_date.localeCompare(b.from_date); });
-
-        if (!modelEntries.length) {
-            el.innerHTML = '<div class="chart-placeholder">No price history for this model</div>';
-            return;
-        }
-
-        if (modelEntries.length < 2) {
-            el.innerHTML = '<div class="chart-placeholder">Only one data point — history will accumulate over time</div>';
-            return;
-        }
-
-        var timestamps = modelEntries.map(function(e) { return new Date(e.from_date).getTime() / 1000; });
-        var promptPrices = modelEntries.map(function(e) { return Number(e.prompt_price) * 1e6; });
-        var completionPrices = modelEntries.map(function(e) { return Number(e.completion_price) * 1e6; });
-
-        el.innerHTML = '<div class="chart-header"><span>' + AIMT.escHtml(st.selectedModel) + '</span><button id="close-chart">×</button></div><div id="chart"></div><div id="chart-legend"></div>';
-
-        var closeBtn = document.getElementById('close-chart');
-        if (closeBtn) {
-            closeBtn.addEventListener('click', function() {
-                st.selectedModel = null;
-                AIMT.writeHash(state);
-                render();
-            });
-        }
-
-        if (window.uPlot) {
-            var isDark = document.documentElement.dataset.theme !== 'light';
-            var gridColor = isDark ? '#30363d' : '#d0d7de';
-            var textColor = isDark ? '#e6edf3' : '#1f2328';
-            var promptColor = '#58a6ff';
-            var completionColor = '#3fb950';
-
-            var opts = {
-                title: 'Price History ($/M tokens)',
-                // The old Math.max(300, el.clientWidth - 32 || 800) collapsed to
-                // 300 whenever clientWidth was 0: -32 is truthy, so the 800
-                // fallback never fired and the plot stayed 300px wide.
-                width: Math.max(300, (el.clientWidth || 800) - 32),
-                height: 300,
-                scales: { y: { distr: 3 } },
-                axes: [
-                    {}, { stroke: textColor, grid: { stroke: gridColor }, values: function(u, vals) { return vals.map(function(v) { return '$' + v.toFixed(4); }); } }
-                ],
-                series: [
-                    {},
-                    { label: 'Prompt', stroke: promptColor, width: 2 },
-                    { label: 'Completion', stroke: completionColor, width: 2 }
-                ],
-                legend: { show: true }
-            };
-
-            var chartEl = document.getElementById('chart');
-            var u = new window.uPlot(opts, [timestamps, promptPrices, completionPrices], chartEl);
-            // Keep the plot matched to the container when the window resizes.
-            window.addEventListener('resize', function() {
-                if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: 300 });
-            });
-
-            var legend = document.getElementById('chart-legend');
-            var last = modelEntries[modelEntries.length - 1];
-            legend.innerHTML = '<span class="legend-item"><span style="color:' + promptColor + '">●</span> Prompt: ' + AIMT.formatPrice(last.prompt_price) + '</span> <span class="legend-item"><span style="color:' + completionColor + '">●</span> Completion: ' + AIMT.formatPrice(last.completion_price) + '</span>';
-        }
+        AIMT.renderChart(hist, st, {
+            height: 300,
+            title: 'Price History ($/M tokens)',
+            onClose: function() { render(); }
+        });
     };
 
     function initThemeButton() {

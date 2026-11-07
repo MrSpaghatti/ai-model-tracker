@@ -74,59 +74,11 @@
     };
 
     window.__renderChart = function(hist, st) {
-        var el = document.getElementById('chart-container');
-        if (!el) return;
-        // #chart-container is display:none until .active is set (see style.css).
-        if (!st.selectedModel) {
-            el.classList.remove('active');
-            el.innerHTML = '';
-            return;
-        }
-        el.classList.add('active');
-        if (!hist || !hist.entries || !hist.entries.length) {
-            el.innerHTML = '';
-            return;
-        }
-
-        var modelEntries = hist.entries.filter(function(e) { return e.model_id === st.selectedModel; })
-            .sort(function(a, b) { return a.from_date.localeCompare(b.from_date); });
-
-        if (!modelEntries.length || modelEntries.length < 2) {
-            el.innerHTML = '';
-            return;
-        }
-
-        var timestamps = modelEntries.map(function(e) { return new Date(e.from_date).getTime() / 1000; });
-        var promptPrices = modelEntries.map(function(e) { return Number(e.prompt_price) * 1e6; });
-        var completionPrices = modelEntries.map(function(e) { return Number(e.completion_price) * 1e6; });
-
-        el.innerHTML = '<div class="chart-header"><span>' + AIMT.escHtml(st.selectedModel) + '</span><button id="close-chart">×</button></div><div id="chart"></div>';
-
-        var closeBtn = document.getElementById('close-chart');
-        if (closeBtn) {
-            closeBtn.addEventListener('click', function() {
-                st.selectedModel = null;
-                AIMT.writeHash(state);
-                render();
-            });
-        }
-
-        if (window.uPlot) {
-            var isDark = document.documentElement.dataset.theme !== 'light';
-            var opts = {
-                title: 'Price History',
-                // See app.js: the old `|| 800` fallback never fired.
-                width: Math.max(300, (el.clientWidth || 800) - 32),
-                height: 200,
-                scales: { y: { distr: 3 } },
-                series: [{}, { label: 'Prompt', stroke: '#58a6ff' }, { label: 'Completion', stroke: '#3fb950' }]
-            };
-            var chartEl = document.getElementById('chart');
-            var u = new window.uPlot(opts, [timestamps, promptPrices, completionPrices], chartEl);
-            window.addEventListener('resize', function() {
-                if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: 200 });
-            });
-        }
+        AIMT.renderChart(hist, st, {
+            height: 200,
+            title: 'Price History',
+            onClose: function() { render(); }
+        });
     };
 
     function initThemeButton() {
