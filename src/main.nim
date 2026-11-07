@@ -15,7 +15,7 @@ const
   ReadmeContentPlaceholder = "{{README_CONTENT}}"
   DefaultReadmeTemplate = """# AI Model Price & Context Tracker
 
-> Automatically updated every 12 hours via GitHub Actions.
+> Automatically updated every 12 hours (local cron on raven, pushing to `master`).
 
 ## 📊 Pages
 
