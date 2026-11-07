@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T20:57:43Z",
+  "generated_at": "2026-11-07T21:45:52Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -57328,7 +57328,7 @@
     {
       "model_id": "~z-ai/glm-flash-latest",
       "from_date": "2026-11-07T20:28:52Z",
-      "to_date": null,
+      "to_date": "2026-11-07T21:45:06Z",
       "prompt_price": 3.17e-8,
       "completion_price": 8.3e-8
     },
@@ -57419,21 +57419,21 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-11-07T20:55:31Z",
-      "to_date": null,
+      "to_date": "2026-11-07T21:45:06Z",
       "prompt_price": 2.2e-8,
       "completion_price": 8.3e-8
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-07T20:55:31Z",
-      "to_date": null,
+      "to_date": "2026-11-07T21:45:06Z",
       "prompt_price": 0.000000555756,
       "completion_price": 0.000001111512
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-07T20:55:31Z",
-      "to_date": null,
+      "to_date": "2026-11-07T21:45:06Z",
       "prompt_price": 0.0000001653,
       "completion_price": 0.0000101427
     },
@@ -57496,55 +57496,202 @@
     {
       "model_id": "nvidia/switchyard",
       "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T20:57:43Z",
+      "to_date": "2026-11-07T21:45:06Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": null,
+      "prompt_price": 3.35e-8,
+      "completion_price": 8.3e-8
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 2e-8,
+      "completion_price": 7.5e-8
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": null,
+      "prompt_price": 0.000000535398,
+      "completion_price": 0.000001070796
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": null,
+      "prompt_price": 0.0000001558,
+      "completion_price": 0.0000093388
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T21:45:06Z",
+      "to_date": "2026-11-07T21:45:52Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": null,
+      "prompt_price": 2.1e-8,
+      "completion_price": 7.7e-8
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-code",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "typesafe/jev-router",
-      "from_date": "2026-11-07T20:57:43Z",
+      "from_date": "2026-11-07T21:45:52Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

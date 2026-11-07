@@ -197,6 +197,17 @@ main {
   font-size: 0.85rem;
 }
 
+/* Explains the shaded bands drawn over periods with no collection runs. */
+.chart-note {
+  margin-top: 0.4rem;
+  font-size: 0.78rem;
+  color: var(--fg-muted);
+}
+
+.chart-note:empty {
+  display: none;
+}
+
 .legend-item {
   display: flex;
   align-items: center;

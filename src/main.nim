@@ -187,6 +187,41 @@ proc writeJsonHistoryIncremental(rows: seq[ModelRow]) =
     raise newException(CatchableError,
       "Unable to write " & HistoryJsonPath & ": " & exc.msg)
 
+const HeartbeatJsonPath = "docs/data/heartbeat.json"
+const HeartbeatMaxRuns = 1000
+
+proc writeHeartbeat(modelCount: int) =
+  ## Append this run to the heartbeat log.
+  ##
+  ## history.json records when *prices changed*, which cannot distinguish "the
+  ## price held steady" from "nothing was collecting data" — the Aug-Nov outage
+  ## drew as a flat line. This log records when the generator actually finished,
+  ## so the chart can shade the periods nobody was watching.
+  ##
+  ## Written at the very end of main(), so a run that crashes or is killed
+  ## leaves no record: absence of a heartbeat is the signal.
+  let now = getTime().utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'")
+
+  var runs: seq[JsonNode] = @[]
+  if fileExists(HeartbeatJsonPath):
+    try:
+      let parsed = parseJson(readFile(HeartbeatJsonPath))
+      if parsed.hasKey("runs"):
+        for node in parsed["runs"].elems:
+          runs.add(node)
+    except CatchableError:
+      # A corrupt heartbeat must never block a data refresh; start a new log.
+      stderr.writeLine("Warning: could not read " & HeartbeatJsonPath & "; starting a fresh log.")
+
+  runs.add(%*{"at": now, "models": modelCount})
+  if runs.len > HeartbeatMaxRuns:
+    runs = runs[runs.len - HeartbeatMaxRuns .. ^1]
+
+  try:
+    writeFile(HeartbeatJsonPath, pretty(%*{"version": 1, "runs": runs}))
+  except CatchableError as exc:
+    stderr.writeLine("Warning: could not write " & HeartbeatJsonPath & ": " & exc.msg)
+
 proc writeReadme(content: string) =
   let readmeTemplate = loadReadmeTemplate()
 
@@ -216,6 +251,9 @@ proc main() =
     createDir("docs/data")
     writeFile("docs/data/local-models.json", generateLocalModelsJson())
     writeOutputFile(CategoriesOutputPath, generateCategoryPages(rows), "CATEGORIES.md")
+
+    # Last, so it only records runs that actually completed.
+    writeHeartbeat(rows.len)
 
     stdout.writeLine("Generated README.md, FREE_MODELS.md, PAID_MODELS.md, LOCAL_MODELS.md, CATEGORIES.md, and local-models.json for " & $rows.len & " models.")
   except CatchableError as exc:

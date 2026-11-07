@@ -434,6 +434,41 @@
 
     // ============ Price-history chart (shared by all pages) ============
 
+    // ============ Collection heartbeat ============
+    // history.json records price *changes*, so a flat line means either "the
+    // price held steady" or "nothing was collecting data" — the two are
+    // indistinguishable, and the Aug-Nov outage drew as months of stability.
+    // The generator appends a record to heartbeat.json on every run it finishes,
+    // so a gap between consecutive runs is a period nobody was watching.
+    var HEARTBEAT_GAP_SECONDS = 36 * 3600;   // matches STALE_HOURS
+    var heartbeatRuns = null;                // seconds, sorted; null = not loaded
+    var heartbeatPromise = null;
+
+    function loadHeartbeat() {
+        if (heartbeatPromise) return heartbeatPromise;
+        heartbeatPromise = fetch('data/heartbeat.json', { cache: 'no-cache' })
+            .then(function(r) { return r.ok ? r.json() : null; })
+            .then(function(j) {
+                heartbeatRuns = ((j && j.runs) || [])
+                    .map(function(r) { return new Date(r.at).getTime() / 1000; })
+                    .filter(function(t) { return isFinite(t); })
+                    .sort(function(a, b) { return a - b; });
+                return heartbeatRuns;
+            })
+            .catch(function() { heartbeatRuns = []; return heartbeatRuns; });
+        return heartbeatPromise;
+    }
+
+    function heartbeatGaps() {
+        var out = [];
+        if (!heartbeatRuns || heartbeatRuns.length < 2) return out;
+        for (var i = 1; i < heartbeatRuns.length; i++) {
+            var a = heartbeatRuns[i - 1], b = heartbeatRuns[i];
+            if (b - a > HEARTBEAT_GAP_SECONDS) out.push([a, b]);
+        }
+        return out;
+    }
+
     // #chart-container is display:none in style.css and only becomes visible
     // with the .active class, so every path through here has to set it.
     // opts: { height, title, onClose }
@@ -516,7 +551,7 @@
 
         el.innerHTML = '<div class="chart-header"><span>' + escHtml(st.selectedModel) +
             '</span><button id="close-chart" aria-label="Close chart">×</button></div>' +
-            '<div id="chart"></div><div id="chart-legend"></div>';
+            '<div id="chart"></div><div id="chart-legend"></div><div id="chart-note" class="chart-note"></div>';
 
         var closeBtn = document.getElementById('close-chart');
         if (closeBtn) {
@@ -528,6 +563,28 @@
         }
 
         var chartEl = document.getElementById('chart');
+
+        // Paint the unmonitored stretches behind the price lines. uPlot's draw
+        // hook runs after the grid and before the series, so the bands sit
+        // underneath the data instead of covering it.
+        var drawGaps = function(u) {
+            var gaps = heartbeatGaps();
+            if (!gaps.length) return;
+            var ctx = u.ctx;
+            var bb = u.bbox;
+            ctx.save();
+            ctx.fillStyle = isDark ? 'rgba(248,81,73,0.13)' : 'rgba(207,34,46,0.09)';
+            for (var i = 0; i < gaps.length; i++) {
+                var x0 = u.valToPos(gaps[i][0], 'x', true);
+                var x1 = u.valToPos(gaps[i][1], 'x', true);
+                if (x1 < bb.left || x0 > bb.left + bb.width) continue;
+                x0 = Math.max(x0, bb.left);
+                x1 = Math.min(x1, bb.left + bb.width);
+                if (x1 - x0 < 1) continue;
+                ctx.fillRect(x0, bb.top, x1 - x0, bb.height);
+            }
+            ctx.restore();
+        };
 
         var u = new window.uPlot({
             title: opts.title || 'Price History ($/M tokens)',
@@ -570,8 +627,21 @@
                 }
             ],
             series: series,
-            legend: { show: true }
+            legend: { show: true },
+            hooks: { draw: [drawGaps] }
         }, [timestamps, promptPrices, completionPrices], chartEl);
+
+        // The heartbeat loads separately from the price data, so the first paint
+        // has no bands; redraw once it arrives.
+        loadHeartbeat().then(function() {
+            var gaps = heartbeatGaps();
+            if (!gaps.length) return;
+            u.redraw();
+            var note = document.getElementById('chart-note');
+            if (note) {
+                note.textContent = 'Shaded bands = no data collected (the collector was not running).';
+            }
+        });
 
         var resize = function() {
             if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: height });
