@@ -26,6 +26,113 @@
         };
     }
 
+    // ============ Price-change detection ============
+
+    // History entries record price *changes*, so the price in effect on any past
+    // date is the last entry whose from_date precedes it. Comparing that with
+    // today's price is what makes this a tracker instead of a snapshot.
+    var CHANGE_WINDOW_DAYS = 30;
+    var CHANGE_EPSILON_PCT = 0.5;   // below this it rounds to noise, not a change
+
+    function computePriceChanges(models, entries, windowDays) {
+        windowDays = windowDays || CHANGE_WINDOW_DAYS;
+        var byModel = {};
+        (entries || []).forEach(function(e) {
+            if (!e || !e.model_id) return;
+            (byModel[e.model_id] || (byModel[e.model_id] = [])).push(e);
+        });
+
+        var cutoff = Date.now() / 1000 - windowDays * 86400;
+        var out = {};
+
+        (models || []).forEach(function(m) {
+            var hist = byModel[m.id];
+            if (!hist || !hist.length) return;
+            hist.sort(function(a, b) { return a.from_date.localeCompare(b.from_date); });
+
+            var base = null;
+            for (var i = 0; i < hist.length; i++) {
+                var ts = new Date(hist[i].from_date).getTime() / 1000;
+                if (!isFinite(ts)) continue;
+                if (ts <= cutoff) base = hist[i];
+                else break;
+            }
+
+            var spanDays = windowDays;
+            if (!base) {
+                // Newer than the window: use the oldest entry we have and report
+                // the shorter span rather than pretending the window is full.
+                base = hist[0];
+                var oldest = new Date(base.from_date).getTime();
+                if (!isFinite(oldest)) return;
+                spanDays = Math.round((Date.now() - oldest) / 86400000);
+                if (spanDays < 1) return;
+            }
+
+            var fromP = Number(base.prompt_price) * 1e6;
+            var fromC = Number(base.completion_price) * 1e6;
+            var toP = Number(m.pricing && m.pricing.prompt) * 1e6;
+            var toC = Number(m.pricing && m.pricing.completion) * 1e6;
+            if (!isFinite(fromP) || !isFinite(toP) || !isFinite(fromC) || !isFinite(toC)) return;
+
+            // The date the comparison price was in effect on: the window cutoff,
+            // or the oldest entry when the model is younger than the window.
+            var compareDate = new Date((Date.now() / 1000 - spanDays * 86400) * 1000)
+                .toISOString().slice(0, 10);
+
+            out[m.id] = {
+                // pct is null when the old price was $0 — a ratio from zero does
+                // not exist, so the UI says "was free" instead of inventing one.
+                pct: fromP > 0 ? ((toP - fromP) / fromP) * 100 : null,
+                pctCompletion: fromC > 0 ? ((toC - fromC) / fromC) * 100 : null,
+                from: fromP, to: toP,
+                fromCompletion: fromC, toCompletion: toC,
+                spanDays: spanDays,
+                compareDate: compareDate,
+                fromDate: base.from_date
+            };
+        });
+
+        return out;
+    }
+
+    function formatDelta(chg) {
+        if (!chg) return '<span class="delta delta-none">\u2014</span>';
+        var pct = chg.pct;
+
+        if (pct === null) {
+            if (chg.to > 0) {
+                return '<span class="delta delta-up" title="' + escHtml(changeTitle(chg)) +
+                    '">new</span>';
+            }
+            return '<span class="delta delta-none">\u2014</span>';
+        }
+
+        var detail = changeTitle(chg);
+        if (chg.to === 0 && chg.from > 0) {
+            return '<span class="delta delta-down" title="' + escHtml(detail) + '">now free</span>';
+        }
+        if (Math.abs(pct) < CHANGE_EPSILON_PCT) {
+            return '<span class="delta delta-none" title="' + escHtml(detail) + '">\u2014</span>';
+        }
+
+        var down = pct < 0;
+        return '<span class="delta ' + (down ? 'delta-down' : 'delta-up') + '" title="' +
+            escHtml(detail) + '">' + (down ? '\u25bc ' : '\u25b2 ') +
+            Math.abs(pct).toFixed(Math.abs(pct) < 10 ? 1 : 0) + '%</span>';
+    }
+
+    function changeTitle(chg) {
+        var lines = ['Prompt ' + formatPrice(chg.from / 1e6) + ' \u2192 ' + formatPrice(chg.to / 1e6)];
+        if (chg.fromCompletion !== chg.toCompletion) {
+            lines.push('Completion ' + formatPrice(chg.fromCompletion / 1e6) + ' \u2192 ' +
+                formatPrice(chg.toCompletion / 1e6));
+        }
+        lines.push('vs ' + (chg.compareDate || chg.fromDate.slice(0, 10)) + ' (' +
+            chg.spanDays + (chg.spanDays === 1 ? ' day' : ' days') + ' ago)');
+        return lines.join('\n');
+    }
+
     // ============ Formatting Functions ============
 
     function formatPrice(v) {
@@ -254,6 +361,12 @@
                 case 'created':
                     av = toNumber(a.created) || 0;
                     bv = toNumber(b.created) || 0;
+                    break;
+                case 'delta':
+                    // Ascending puts the biggest price cuts first; models with no
+                    // comparable history sink to the bottom either way.
+                    av = (a.priceChange && a.priceChange.pct !== null) ? a.priceChange.pct : Infinity;
+                    bv = (b.priceChange && b.priceChange.pct !== null) ? b.priceChange.pct : Infinity;
                     break;
                 default: 
                     av = a.contextPerCent; 
@@ -513,6 +626,13 @@
             catch (_e) {}
         }
 
+        // Attach the window change to each model so every page can render it
+        // without re-deriving it from history.
+        var changes = computePriceChanges(models, history.entries);
+        models.forEach(function(m) {
+            m.priceChange = changes[m.id] || null;
+        });
+
         applyFreshness(current.generated_at);
 
         return {
@@ -566,6 +686,10 @@
         computeContextPerCent: computeContextPerCent,
         computeProvider: computeProvider,
         isFreeModel: isFreeModel,
+
+        // Price changes
+        computePriceChanges: computePriceChanges,
+        formatDelta: formatDelta,
         
         // Filtering
         getUniqueProviders: getUniqueProviders,

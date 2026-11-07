@@ -37,6 +37,7 @@
         html += th('context_length', 'Context');
         html += th('prompt_price', 'Prompt$/M');
         html += th('completion_price', 'Completion$/M');
+        html += th('delta', '\u039430d');
         html += th('contextPerCent', 'Ctx/Cent');
         html += '<th>Mod.</th></tr></thead><tbody>';
         rows.forEach(function(m) {
@@ -47,6 +48,7 @@
             html += '<td class="model-context">' + AIMT.formatCtx(m.context_length) + '</td>';
             html += '<td class="model-prompt">' + AIMT.formatPrice(m.pricing && m.pricing.prompt) + '</td>';
             html += '<td class="model-completion">' + AIMT.formatPrice(m.pricing && m.pricing.completion) + '</td>';
+            html += '<td class="model-delta">' + AIMT.formatDelta(m.priceChange) + '</td>';
             html += '<td class="model-cpc">' + AIMT.formatCtxPerCent(m.contextPerCent) + '</td>';
             html += '<td class="model-mod">' + (m.is_moderated ? '✓' : '') + '</td>';
             html += '</tr>';

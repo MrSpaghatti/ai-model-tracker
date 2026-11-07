@@ -310,6 +310,31 @@ main {
   background-color: var(--border);
 }
 
+/* Price-movement badges. The class names say which way the PRICE moved; the
+   colour says whether that is good news for someone buying tokens, so a price
+   drop is green. The arrow glyph carries the direction without relying on
+   colour alone. */
+.delta {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.delta-down {
+  color: var(--accent-green);
+}
+
+.delta-up {
+  color: var(--accent-red);
+}
+
+.delta-none {
+  color: var(--fg-muted);
+}
+
+.model-delta {
+  text-align: right;
+}
+
 .model-table th.sortable::after {
   content: "↕";
   margin-left: 0.5rem;
