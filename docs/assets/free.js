@@ -115,12 +115,16 @@
             var isDark = document.documentElement.dataset.theme !== 'light';
             var opts = {
                 title: 'Price History',
-                width: Math.max(300, el.clientWidth - 32 || 800),
+                // No width: uPlot sizes to the parent (see app.js note).
                 height: 200,
                 scales: { y: { distr: 3 } },
                 series: [{}, { label: 'Prompt', stroke: '#58a6ff' }, { label: 'Completion', stroke: '#3fb950' }]
             };
-            new window.uPlot(opts, [timestamps, promptPrices, completionPrices], document.getElementById('chart'));
+            var chartEl = document.getElementById('chart');
+            var u = new window.uPlot(opts, [timestamps, promptPrices, completionPrices], chartEl);
+            window.addEventListener('resize', function() {
+                if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: 200 });
+            });
         }
     };
 

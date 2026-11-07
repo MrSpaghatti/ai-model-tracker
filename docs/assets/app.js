@@ -158,7 +158,10 @@
 
             var opts = {
                 title: 'Price History ($/M tokens)',
-                width: Math.max(300, el.clientWidth - 32 || 800),
+                // No width: uPlot sizes to the parent. The old
+                // Math.max(300, el.clientWidth - 32 || 800) collapsed to 300
+                // whenever clientWidth was 0 (the -32 is truthy, so the 800
+                // fallback never fired) and left a 300px canvas in a 1200px box.
                 height: 300,
                 scales: { y: { distr: 3 } },
                 axes: [
@@ -172,7 +175,12 @@
                 legend: { show: true }
             };
 
-            new window.uPlot(opts, [timestamps, promptPrices, completionPrices], document.getElementById('chart'));
+            var chartEl = document.getElementById('chart');
+            var u = new window.uPlot(opts, [timestamps, promptPrices, completionPrices], chartEl);
+            // Keep the plot matched to the container when the window resizes.
+            window.addEventListener('resize', function() {
+                if (chartEl && chartEl.clientWidth) u.setSize({ width: chartEl.clientWidth, height: 300 });
+            });
 
             var legend = document.getElementById('chart-legend');
             var last = modelEntries[modelEntries.length - 1];
