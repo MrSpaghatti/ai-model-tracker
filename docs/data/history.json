@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-06T01:50:09Z",
+  "generated_at": "2026-11-07T18:45:35Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -43930,7 +43930,7 @@
     {
       "model_id": "ibm-granite/granite-4.1-8b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 5e-8,
       "completion_price": 0.0000001
     },
@@ -43965,7 +43965,7 @@
     {
       "model_id": "~anthropic/claude-haiku-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000001,
       "completion_price": 0.000005
     },
@@ -43979,7 +43979,7 @@
     {
       "model_id": "~google/gemini-pro-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000002,
       "completion_price": 0.000012
     },
@@ -44007,7 +44007,7 @@
     {
       "model_id": "~openai/gpt-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000005,
       "completion_price": 0.00003
     },
@@ -44119,7 +44119,7 @@
     {
       "model_id": "~anthropic/claude-opus-latest",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000005,
       "completion_price": 0.000025
     },
@@ -44308,7 +44308,7 @@
     {
       "model_id": "nvidia/nemotron-3-super-120b-a12b:free",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -44357,7 +44357,7 @@
     {
       "model_id": "openai/gpt-5.3-chat",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000175,
       "completion_price": 0.000014
     },
@@ -44490,7 +44490,7 @@
     {
       "model_id": "qwen/qwen3-max-thinking",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000078,
       "completion_price": 0.0000039
     },
@@ -44546,7 +44546,7 @@
     {
       "model_id": "minimax/minimax-m2-her",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -44651,14 +44651,14 @@
     {
       "model_id": "nvidia/nemotron-3-nano-30b-a3b:free",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
     {
       "model_id": "nvidia/nemotron-3-nano-30b-a3b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 5e-8,
       "completion_price": 0.0000002
     },
@@ -44805,7 +44805,7 @@
     {
       "model_id": "allenai/olmo-3-32b-think",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000005
     },
@@ -44826,7 +44826,7 @@
     {
       "model_id": "deepcogito/cogito-v2.1-671b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000125,
       "completion_price": 0.00000125
     },
@@ -44896,7 +44896,7 @@
     {
       "model_id": "nvidia/nemotron-nano-12b-v2-vl:free",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -44917,7 +44917,7 @@
     {
       "model_id": "qwen/qwen3-vl-32b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000104,
       "completion_price": 0.000000416
     },
@@ -45078,14 +45078,14 @@
     {
       "model_id": "qwen/qwen3-max",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000078,
       "completion_price": 0.0000039
     },
     {
       "model_id": "qwen/qwen3-coder-plus",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000065,
       "completion_price": 0.00000325
     },
@@ -45155,14 +45155,14 @@
     {
       "model_id": "qwen/qwen-plus-2025-07-28",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000026,
       "completion_price": 0.00000078
     },
     {
       "model_id": "nvidia/nemotron-nano-9b-v2:free",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -45197,7 +45197,7 @@
     {
       "model_id": "nousresearch/hermes-4-70b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000013,
       "completion_price": 0.0000004
     },
@@ -45253,7 +45253,7 @@
     {
       "model_id": "ai21/jamba-large-1.7",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000002,
       "completion_price": 0.000008
     },
@@ -45302,7 +45302,7 @@
     {
       "model_id": "openai/gpt-oss-20b:free",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -45491,7 +45491,7 @@
     {
       "model_id": "baidu/ernie-4.5-vl-424b-a47b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000042,
       "completion_price": 0.00000125
     },
@@ -45568,14 +45568,14 @@
     {
       "model_id": "anthropic/claude-opus-4",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000015,
       "completion_price": 0.000075
     },
     {
       "model_id": "anthropic/claude-sonnet-4",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -45589,7 +45589,7 @@
     {
       "model_id": "google/gemma-3n-e4b-it",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 6e-8,
       "completion_price": 0.00000012
     },
@@ -45603,7 +45603,7 @@
     {
       "model_id": "google/gemini-2.5-pro-preview-05-06",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000125,
       "completion_price": 0.00001
     },
@@ -45624,7 +45624,7 @@
     {
       "model_id": "arcee-ai/virtuoso-large",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000075,
       "completion_price": 0.0000012
     },
@@ -45673,14 +45673,14 @@
     {
       "model_id": "qwen/qwen3-235b-a22b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000455,
       "completion_price": 0.00000182
     },
     {
       "model_id": "openai/o4-mini-high",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000011,
       "completion_price": 0.0000044
     },
@@ -45694,7 +45694,7 @@
     {
       "model_id": "openai/o4-mini",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000011,
       "completion_price": 0.0000044
     },
@@ -45764,7 +45764,7 @@
     {
       "model_id": "openai/o1-pro",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00015,
       "completion_price": 0.0006
     },
@@ -45911,7 +45911,7 @@
     {
       "model_id": "openai/o3-mini-high",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000011,
       "completion_price": 0.0000044
     },
@@ -45988,7 +45988,7 @@
     {
       "model_id": "openai/o3-mini",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000011,
       "completion_price": 0.0000044
     },
@@ -46023,14 +46023,14 @@
     {
       "model_id": "deepseek/deepseek-r1",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000025
     },
     {
       "model_id": "minimax/minimax-01",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000011
     },
@@ -46058,14 +46058,14 @@
     {
       "model_id": "sao10k/l3.3-euryale-70b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000065,
       "completion_price": 0.00000075
     },
     {
       "model_id": "openai/o1",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000015,
       "completion_price": 0.00006
     },
@@ -46163,7 +46163,7 @@
     {
       "model_id": "anthracite-org/magnum-v4-72b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000005
     },
@@ -46275,7 +46275,7 @@
     {
       "model_id": "nousresearch/hermes-3-llama-3.1-405b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000001,
       "completion_price": 0.000001
     },
@@ -46303,7 +46303,7 @@
     {
       "model_id": "meta-llama/llama-3.1-70b-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.0000004
     },
@@ -46387,21 +46387,21 @@
     {
       "model_id": "microsoft/wizardlm-2-8x22b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000062,
       "completion_price": 0.00000062
     },
     {
       "model_id": "openai/gpt-4-turbo",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00001,
       "completion_price": 0.00003
     },
     {
       "model_id": "anthropic/claude-3-haiku",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.00000125
     },
@@ -46415,7 +46415,7 @@
     {
       "model_id": "openai/gpt-4-turbo-preview",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00001,
       "completion_price": 0.00003
     },
@@ -46457,7 +46457,7 @@
     {
       "model_id": "openai/gpt-3.5-turbo-instruct",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000015,
       "completion_price": 0.000002
     },
@@ -46485,7 +46485,7 @@
     {
       "model_id": "undi95/remm-slerp-l2-13b",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000045,
       "completion_price": 0.00000065
     },
@@ -46513,7 +46513,7 @@
     {
       "model_id": "openai/gpt-3.5-turbo",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.0000015
     },
@@ -46548,7 +46548,7 @@
     {
       "model_id": "inclusionai/ling-2.6-flash",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 1e-8,
       "completion_price": 3e-8
     },
@@ -46569,7 +46569,7 @@
     {
       "model_id": "ibm-granite/granite-4.0-h-micro",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 1.7e-8,
       "completion_price": 0.000000112
     },
@@ -46639,7 +46639,7 @@
     {
       "model_id": "inclusionai/ling-2.6-1t",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.000000625
     },
@@ -46856,7 +46856,7 @@
     {
       "model_id": "anthropic/claude-opus-4.7-fast",
       "from_date": "2026-05-21T03:54:05Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00003,
       "completion_price": 0.00015
     },
@@ -47220,7 +47220,7 @@
     {
       "model_id": "xiaomi/mimo-v2.5-pro",
       "from_date": "2026-05-27T02:41:53Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000435,
       "completion_price": 0.00000087
     },
@@ -47374,7 +47374,7 @@
     {
       "model_id": "anthropic/claude-opus-4.8-fast",
       "from_date": "2026-05-29T02:33:24Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00001,
       "completion_price": 0.00005
     },
@@ -47570,7 +47570,7 @@
     {
       "model_id": "upstage/solar-pro-3",
       "from_date": "2026-06-01T02:52:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
@@ -47689,7 +47689,7 @@
     {
       "model_id": "inclusionai/ring-2.6-1t",
       "from_date": "2026-06-02T16:07:21Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.000000625
     },
@@ -47822,7 +47822,7 @@
     {
       "model_id": "nvidia/nemotron-3.5-content-safety:free",
       "from_date": "2026-06-04T14:40:53Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -48053,7 +48053,7 @@
     {
       "model_id": "qwen/qwen3.5-9b",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.00000015
     },
@@ -48095,7 +48095,7 @@
     {
       "model_id": "nousresearch/hermes-3-llama-3.1-70b",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000007
     },
@@ -48396,7 +48396,7 @@
     {
       "model_id": "deepseek/deepseek-r1-distill-llama-70b",
       "from_date": "2026-06-11T15:40:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000008,
       "completion_price": 0.0000008
     },
@@ -48963,7 +48963,7 @@
     {
       "model_id": "qwen/qwen3.6-35b-a3b",
       "from_date": "2026-06-18T14:52:18Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.000001
     },
@@ -49124,7 +49124,7 @@
     {
       "model_id": "tencent/hy3-preview",
       "from_date": "2026-06-20T13:44:11Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 6.3e-8,
       "completion_price": 0.00000021
     },
@@ -49362,7 +49362,7 @@
     {
       "model_id": "nex-agi/nex-n2-pro",
       "from_date": "2026-06-23T14:32:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.000001
     },
@@ -49439,7 +49439,7 @@
     {
       "model_id": "thedrummer/rocinante-12b",
       "from_date": "2026-06-24T02:33:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.0000005
     },
@@ -49712,7 +49712,7 @@
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000435,
       "completion_price": 0.00000087
     },
@@ -49768,7 +49768,7 @@
     {
       "model_id": "kwaipilot/kat-coder-pro-v2",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -49796,7 +49796,7 @@
     {
       "model_id": "z-ai/glm-4.7",
       "from_date": "2026-06-26T02:38:06Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.00000175
     },
@@ -50251,7 +50251,7 @@
     {
       "model_id": "qwen/qwen3-8b",
       "from_date": "2026-07-01T14:14:22Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000117,
       "completion_price": 0.000000455
     },
@@ -50265,7 +50265,7 @@
     {
       "model_id": "minimax/minimax-m2.1",
       "from_date": "2026-07-01T14:14:22Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -50356,7 +50356,7 @@
     {
       "model_id": "qwen/qwen3-vl-8b-instruct",
       "from_date": "2026-07-02T13:42:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000117,
       "completion_price": 0.000000455
     },
@@ -50405,14 +50405,14 @@
     {
       "model_id": "poolside/laguna-xs-2.1:free",
       "from_date": "2026-07-03T02:09:43Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
     {
       "model_id": "poolside/laguna-xs-2.1",
       "from_date": "2026-07-03T02:09:43Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 6e-8,
       "completion_price": 0.00000012
     },
@@ -50713,7 +50713,7 @@
     {
       "model_id": "nex-agi/nex-n2-mini",
       "from_date": "2026-07-07T02:23:19Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 2.5e-8,
       "completion_price": 0.0000001
     },
@@ -51063,14 +51063,14 @@
     {
       "model_id": "openai/gpt-5.6-sol",
       "from_date": "2026-07-10T02:09:00Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000005,
       "completion_price": 0.00003
     },
     {
       "model_id": "openai/gpt-5.6-sol-pro",
       "from_date": "2026-07-10T02:09:00Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000005,
       "completion_price": 0.00003
     },
@@ -51273,7 +51273,7 @@
     {
       "model_id": "meta-llama/llama-4-maverick",
       "from_date": "2026-07-12T13:02:42Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000008
     },
@@ -51469,7 +51469,7 @@
     {
       "model_id": "kwaipilot/kat-coder-air-v2.5",
       "from_date": "2026-07-14T13:14:35Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
@@ -51483,7 +51483,7 @@
     {
       "model_id": "kwaipilot/kat-coder-pro-v2.5",
       "from_date": "2026-07-14T13:14:35Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000074,
       "completion_price": 0.00000296
     },
@@ -51567,7 +51567,7 @@
     {
       "model_id": "xiaomi/mimo-v2.5",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.00000028
     },
@@ -51623,7 +51623,7 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 3.7e-8,
       "completion_price": 0.00000017
     },
@@ -51693,7 +51693,7 @@
     {
       "model_id": "deepseek/deepseek-v3.2",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000269,
       "completion_price": 0.0000004
     },
@@ -51721,7 +51721,7 @@
     {
       "model_id": "deepseek/deepseek-chat-v3-0324",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000112
     },
@@ -51749,7 +51749,7 @@
     {
       "model_id": "moonshotai/kimi-k2.5",
       "from_date": "2026-07-15T13:18:47Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000057,
       "completion_price": 0.00000285
     },
@@ -51966,7 +51966,7 @@
     {
       "model_id": "qwen/qwen3.5-397b-a17b",
       "from_date": "2026-07-17T01:57:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000039,
       "completion_price": 0.00000234
     },
@@ -51980,7 +51980,7 @@
     {
       "model_id": "moonshotai/kimi-k3",
       "from_date": "2026-07-17T01:57:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000003,
       "completion_price": 0.000015
     },
@@ -52071,7 +52071,7 @@
     {
       "model_id": "mistralai/mistral-nemo",
       "from_date": "2026-07-18T01:46:59Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 1.9e-8,
       "completion_price": 3e-8
     },
@@ -52120,7 +52120,7 @@
     {
       "model_id": "mancer/weaver",
       "from_date": "2026-07-18T01:46:59Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.00000075
     },
@@ -52365,7 +52365,7 @@
     {
       "model_id": "z-ai/glm-5",
       "from_date": "2026-07-20T03:27:42Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000095,
       "completion_price": 0.00000255
     },
@@ -52582,7 +52582,7 @@
     {
       "model_id": "poolside/laguna-s-2.1:free",
       "from_date": "2026-07-22T01:54:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -52617,14 +52617,14 @@
     {
       "model_id": "google/gemini-3.6-flash",
       "from_date": "2026-07-22T01:54:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000015,
       "completion_price": 0.0000075
     },
     {
       "model_id": "~google/gemini-flash-latest",
       "from_date": "2026-07-22T01:54:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000015,
       "completion_price": 0.0000075
     },
@@ -52729,7 +52729,7 @@
     {
       "model_id": "z-ai/glm-4.7-flash",
       "from_date": "2026-07-23T02:02:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 6e-8,
       "completion_price": 0.0000004
     },
@@ -52743,7 +52743,7 @@
     {
       "model_id": "meta-llama/llama-3.2-3b-instruct",
       "from_date": "2026-07-23T02:02:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 5e-8,
       "completion_price": 0.00000033
     },
@@ -52771,7 +52771,7 @@
     {
       "model_id": "qwen/qwen3-14b",
       "from_date": "2026-07-23T02:02:08Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002275,
       "completion_price": 0.00000091
     },
@@ -52862,7 +52862,7 @@
     {
       "model_id": "inclusionai/ling-3.0-flash:free",
       "from_date": "2026-07-24T01:57:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -52883,7 +52883,7 @@
     {
       "model_id": "google/gemma-3-27b-it",
       "from_date": "2026-07-24T01:57:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000045
     },
@@ -52897,7 +52897,7 @@
     {
       "model_id": "qwen/qwen3.5-27b",
       "from_date": "2026-07-24T01:57:12Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000195,
       "completion_price": 0.00000156
     },
@@ -52967,7 +52967,7 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-07-24T13:21:26Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000132,
       "completion_price": 0.000000528
     },
@@ -52995,7 +52995,7 @@
     {
       "model_id": "minimax/minimax-m2",
       "from_date": "2026-07-24T13:21:26Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000255,
       "completion_price": 0.00000102
     },
@@ -53051,7 +53051,7 @@
     {
       "model_id": "nvidia/nemotron-3-super-120b-a12b",
       "from_date": "2026-07-25T01:56:35Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 8.5e-8,
       "completion_price": 0.0000004
     },
@@ -53107,7 +53107,7 @@
     {
       "model_id": "anthropic/claude-opus-5-fast",
       "from_date": "2026-07-25T01:56:35Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00001,
       "completion_price": 0.00005
     },
@@ -53156,7 +53156,7 @@
     {
       "model_id": "arcee-ai/trinity-large-thinking",
       "from_date": "2026-07-25T13:06:03Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000022,
       "completion_price": 0.00000085
     },
@@ -53212,7 +53212,7 @@
     {
       "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
       "from_date": "2026-07-26T02:01:29Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 4.815e-8,
       "completion_price": 0.00000019305
     },
@@ -53646,7 +53646,7 @@
     {
       "model_id": "qwen/qwen-plus-2025-07-28:thinking",
       "from_date": "2026-07-29T01:52:20Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000004,
       "completion_price": 0.0000012
     },
@@ -53723,7 +53723,7 @@
     {
       "model_id": "qwen/qwen3-next-80b-a3b-thinking",
       "from_date": "2026-07-29T01:52:20Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000012
     },
@@ -53772,7 +53772,7 @@
     {
       "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
       "from_date": "2026-07-29T01:52:20Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000024
     },
@@ -53828,7 +53828,7 @@
     {
       "model_id": "qwen/qwen3-vl-8b-thinking",
       "from_date": "2026-07-29T01:52:20Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000018,
       "completion_price": 0.0000021
     },
@@ -53849,7 +53849,7 @@
     {
       "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
       "from_date": "2026-07-29T01:52:20Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000024
     },
@@ -53912,7 +53912,7 @@
     {
       "model_id": "google/gemma-4-26b-a4b-it",
       "from_date": "2026-07-29T13:50:22Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 7e-8,
       "completion_price": 0.00000034
     },
@@ -53954,7 +53954,7 @@
     {
       "model_id": "qwen/qwen3.6-max-preview",
       "from_date": "2026-07-29T13:50:22Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000001027,
       "completion_price": 0.000006162
     },
@@ -53996,7 +53996,7 @@
     {
       "model_id": "google/gemma-4-31b-it",
       "from_date": "2026-07-30T01:45:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.00000034
     },
@@ -54059,7 +54059,7 @@
     {
       "model_id": "deepseek/deepseek-chat",
       "from_date": "2026-07-30T13:41:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000002574,
       "completion_price": 0.0000010287
     },
@@ -54115,21 +54115,21 @@
     {
       "model_id": "poolside/laguna-s-2.1",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000018
     },
     {
       "model_id": "openai/gpt-5.6-luna",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000006000000000000001
     },
     {
       "model_id": "openai/gpt-5.6-luna-pro",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000006000000000000001
     },
@@ -54143,21 +54143,21 @@
     {
       "model_id": "openai/gpt-5.6-terra",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000010000000000000002,
       "completion_price": 0.000006
     },
     {
       "model_id": "openai/gpt-5.6-terra-pro",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000010000000000000002,
       "completion_price": 0.000006
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-07-31T02:02:28Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000029,
       "completion_price": 0.000014
     },
@@ -54241,7 +54241,7 @@
     {
       "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
       "from_date": "2026-07-31T13:45:21Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000023,
       "completion_price": 0.0000023
     },
@@ -54290,7 +54290,7 @@
     {
       "model_id": "thinkingmachines/inkling-small",
       "from_date": "2026-08-01T02:03:49Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.0000012
     },
@@ -54395,14 +54395,14 @@
     {
       "model_id": "deepseek/deepseek-v4-flash-0731",
       "from_date": "2026-08-02T01:59:59Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000018
     },
     {
       "model_id": "~deepseek/deepseek-v4-flash-latest",
       "from_date": "2026-08-02T01:59:59Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000018
     },
@@ -54416,7 +54416,7 @@
     {
       "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
       "from_date": "2026-08-02T01:59:59Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000006,
       "completion_price": 0.0000036
     },
@@ -54570,7 +54570,7 @@
     {
       "model_id": "qwen/qwen3.6-27b",
       "from_date": "2026-08-03T14:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000289,
       "completion_price": 0.0000024
     },
@@ -54612,21 +54612,21 @@
     {
       "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 7e-8,
       "completion_price": 0.00000027
     },
     {
       "model_id": "z-ai/glm-5.2",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000076,
       "completion_price": 0.00000242
     },
     {
       "model_id": "meta-llama/llama-3.3-70b-instruct",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.00000032
     },
@@ -54640,7 +54640,7 @@
     {
       "model_id": "qwen/qwen3.8-max",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000002,
       "completion_price": 0.000006
     },
@@ -54654,7 +54654,7 @@
     {
       "model_id": "moonshotai/kimi-k2.6",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000589,
       "completion_price": 0.00000248
     },
@@ -54710,7 +54710,7 @@
     {
       "model_id": "qwen/qwen2.5-vl-72b-instruct",
       "from_date": "2026-08-04T13:52:18Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.00000075
     },
@@ -54752,14 +54752,14 @@
     {
       "model_id": "mistralai/mistral-small-3.2-24b-instruct",
       "from_date": "2026-08-05T01:49:38Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 9.375e-8,
       "completion_price": 0.00000025
     },
     {
       "model_id": "minimax/minimax-m2.7",
       "from_date": "2026-08-05T01:49:38Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000108
     },
@@ -54843,21 +54843,21 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 8.82e-8,
       "completion_price": 0.0000001764
     },
     {
       "model_id": "inclusionai/ling-3.0-flash",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.00000022
     },
     {
       "model_id": "qwen/qwen3-235b-a22b-2507",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 9e-8,
       "completion_price": 0.00000055
     },
@@ -54871,62 +54871,1910 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000022,
       "completion_price": 0.0000009
     },
     {
       "model_id": "moonshotai/kimi-k2.7-code",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.0000007,
       "completion_price": 0.0000035
     },
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.000000952,
       "completion_price": 0.000002992
     },
     {
       "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
       "from_date": "2026-08-06T01:50:09Z",
-      "to_date": null,
+      "to_date": "2026-11-07T18:45:35Z",
       "prompt_price": 0.00000098,
       "completion_price": 0.00000395
     },
     {
       "model_id": "openrouter/auto",
       "from_date": "2026-08-06T01:50:09Z",
+      "to_date": "2026-11-07T18:45:35Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-08-06T01:50:09Z",
+      "to_date": "2026-11-07T18:45:35Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-08-06T01:50:09Z",
+      "to_date": "2026-11-07T18:45:35Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-08-06T01:50:09Z",
+      "to_date": "2026-11-07T18:45:35Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-08-06T01:50:09Z",
+      "to_date": "2026-11-07T18:45:35Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "dots-studio/dots-3-note-preview:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "liquid/lfm-2.5-2.6b:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "liquid/lfm-3-1.7b:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-super-vl:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "recursive/flint-v1.0:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "stealth/crouton-alpha",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "scaledown/extract",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4e-8,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "scaledown/summarize",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4e-8,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "~z-ai/glm-flash-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.85e-8,
+      "completion_price": 9.23e-8
+    },
+    {
+      "model_id": "inclusionai/ling-3.1-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4.5e-8,
+      "completion_price": 0.000000135
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4.8e-8,
+      "completion_price": 0.000000144
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000018
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-tiny",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 1.5e-8,
+      "completion_price": 4.5e-8
+    },
+    {
+      "model_id": "openai/gpt-4.1-nano:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 9.1e-8,
+      "completion_price": 0.000000182
+    },
+    {
+      "model_id": "openai/gpt-6-luna-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "openai/gpt-6-luna:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "meta/muse-spark-1.2-contributor",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "meta/muse-spark-1.3-contributor",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "anthropic/claude-haiku-5.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.1e-8,
+      "completion_price": 6.3e-8
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4.34e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4.34e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.00000028
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000112,
+      "completion_price": 0.000000336
+    },
+    {
+      "model_id": "inception/mercury-3",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.00000035
+    },
+    {
+      "model_id": "mistralai/mistral-nemo",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.9e-8,
+      "completion_price": 3e-8
+    },
+    {
+      "model_id": "nvidia/nemotron-3-super-120b-a12b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000004
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-mini",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.5e-8,
+      "completion_price": 0.0000001
+    },
+    {
+      "model_id": "upstage/solar-mini4",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6e-9,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "particle-ai/particle-1",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "openai/gpt-5-nano:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.5e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "openai/gpt-6-luna",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "openai/gpt-6-luna-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "~openai/gpt-luna-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5.1e-8,
+      "completion_price": 0.000000567
+    },
+    {
+      "model_id": "anthropic/claude-haiku-5.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "~anthropic/claude-haiku-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-super-vl",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "qwen/qwen3.8-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.00000047
+    },
+    {
+      "model_id": "qwen/qwen3.8-omni-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.00000047
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 1.9e-8,
+      "completion_price": 7.1e-8
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "inception/mercury-2.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4e-8,
+      "completion_price": 0.00000015
+    },
+    {
+      "model_id": "ricursiveai/ripple-65b-preview",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "prism-ml/ternary-bonsai-2-9b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 8e-8,
+      "completion_price": 0.00000013
+    },
+    {
+      "model_id": "google/gemini-3.1-flash-lite:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000125,
+      "completion_price": 0.00000075
+    },
+    {
+      "model_id": "openai/gpt-4.1-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "openai/gpt-oss-20b:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.4e-8,
+      "completion_price": 0.000000112
+    },
+    {
+      "model_id": "liquid/lfm-3-1.7b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 8e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6.75e-8,
+      "completion_price": 0.000000225
+    },
+    {
+      "model_id": "nvidia/nemotron-3-nano-30b-a3b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6e-8,
+      "completion_price": 0.00000024
+    },
+    {
+      "model_id": "nex-agi/nex-n2.5-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "reflection/beam-1.0-501b-a23b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000435,
+      "completion_price": 0.00000087
+    },
+    {
+      "model_id": "openai/gpt-oss-120b:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 2.96e-8,
+      "completion_price": 0.000000136
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "openai/gpt-5.6-luna-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "google/gemini-3.5-flash-lite:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.00000125
+    },
+    {
+      "model_id": "z-ai/glm-5.3",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6.99e-8,
+      "completion_price": 0.0000014
+    },
+    {
+      "model_id": "~z-ai/glm-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6.99e-8,
+      "completion_price": 0.0000014
+    },
+    {
+      "model_id": "inference-net/schematron-v2-turbo",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 3e-8,
+      "completion_price": 0.00000015
+    },
+    {
+      "model_id": "upstage/solar-pro4",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flashx",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000037,
+      "completion_price": 0.00000125
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flashx-legal",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000037,
+      "completion_price": 0.00000125
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 8.25e-8,
+      "completion_price": 0.00000033
+    },
+    {
+      "model_id": "tencent/hy4",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000417,
+      "completion_price": 0.0000012505
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000017,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "google/gemini-3-flash-preview:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.0000015
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000586206,
+      "completion_price": 0.000001172412
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000044,
+      "completion_price": 0.00000132
+    },
+    {
+      "model_id": "openai/gpt-5.4-nano:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.000000625
+    },
+    {
+      "model_id": "inclusionai/ling-3.0-flash-vl",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6e-8,
+      "completion_price": 0.00000018
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.000001875
+    },
+    {
+      "model_id": "minimax/minimax-m3:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000224,
+      "completion_price": 0.00000088
+    },
+    {
+      "model_id": "google/gemini-3.6-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000375,
+      "completion_price": 0.000001875
+    },
+    {
+      "model_id": "google/gemini-3.7-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000375,
+      "completion_price": 0.000001875
+    },
+    {
+      "model_id": "google/gemini-3.8-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000375,
+      "completion_price": 0.000001875
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000048,
+      "completion_price": 0.0000018
+    },
+    {
+      "model_id": "inference-net/schematron-v2-small",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.00000023
+    },
+    {
+      "model_id": "prism-ml/ternary-bonsai-2-27b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "google/gemma-4-31b-it",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000004
+    },
+    {
+      "model_id": "z-ai/glm-4.7-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6.05e-8,
+      "completion_price": 0.0000004
+    },
+    {
+      "model_id": "z-ai/glm-5.3:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000045,
+      "completion_price": 0.000002
+    },
+    {
+      "model_id": "ibm-granite/granite-4.2-8b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000004,
+      "completion_price": 0.000002
+    },
+    {
+      "model_id": "thinkingmachines/inkling-small:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000036,
+      "completion_price": 0.00000096
+    },
+    {
+      "model_id": "meta-llama/llama-4-maverick",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000035,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "mistralai/mistral-large-4-0",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000007,
+      "completion_price": 0.0000021
+    },
+    {
+      "model_id": "openai/gpt-5-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000125,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "openai/gpt-6.1-terra-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "openai/gpt-6.1-terra:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000007506,
+      "completion_price": 0.0000022509
+    },
+    {
+      "model_id": "openai/gpt-4o-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "meta-llama/llama-3.2-3b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5.09e-8,
+      "completion_price": 0.000000335
+    },
+    {
+      "model_id": "tencent/hy3-preview",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000018,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "x-ai/grok-4.3:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000002
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-content-safety",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "thinkingmachines/inkling-small",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000045,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 8e-8,
+      "completion_price": 0.00000035
+    },
+    {
+      "model_id": "stepfun/step-5-preview",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.0000027
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-2507",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "qwen/qwen3-vl-8b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000025,
+      "completion_price": 0.00000075
+    },
+    {
+      "model_id": "qwen/qwen3.6-35b-a3b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000009
+    },
+    {
+      "model_id": "unbiased/pareto-26.10",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000008,
+      "completion_price": 0.0000032
+    },
+    {
+      "model_id": "~unbiased/pareto-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000008,
+      "completion_price": 0.0000032
+    },
+    {
+      "model_id": "deepseek/deepseek-v3.2",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000026,
+      "completion_price": 0.00000038
+    },
+    {
+      "model_id": "google/gemini-3.6-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.00000375
+    },
+    {
+      "model_id": "google/gemini-3.7-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.00000375
+    },
+    {
+      "model_id": "~google/gemini-flash-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.00000375
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro-0813",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000111,
+      "completion_price": 0.00000444
+    },
+    {
+      "model_id": "qwen/qwen3.7-plus:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000023,
+      "completion_price": 0.00000092
+    },
+    {
+      "model_id": "google/gemini-3.8-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000825,
+      "completion_price": 0.000004125
+    },
+    {
+      "model_id": "openai/gpt-4.1:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000004
+    },
+    {
+      "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000029,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "google/gemini-3.5-flash:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.0000045
+    },
+    {
+      "model_id": "minimax/minimax-m2.7",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000021,
+      "completion_price": 0.00000084
+    },
+    {
+      "model_id": "meta/muse-spark-1.3",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000125,
+      "completion_price": 0.00000425
+    },
+    {
+      "model_id": "meta/muse-spark-open",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000125,
+      "completion_price": 0.00000425
+    },
+    {
+      "model_id": "openai/gpt-6-sol-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6-sol:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6.1-terra",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6.1-terra-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "~openai/gpt-terra-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "google/gemini-4-argon:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "liquid/lfm-2.5-24b-a2b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 5e-8,
+      "completion_price": 0.0000007
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "z-ai/glm-5.2",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 6e-9,
+      "completion_price": 0.0000068
+    },
+    {
+      "model_id": "openai/gpt-5.4-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000375,
+      "completion_price": 0.00000225
+    },
+    {
+      "model_id": "liquid/lfm-2.5-2.6b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000035,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "google/gemini-3.1-pro-preview:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "deepseek/deepseek-chat",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000032,
+      "completion_price": 0.00000089
+    },
+    {
+      "model_id": "qwen/qwen3.8-2.4t-a95b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "~deepseek/deepseek-pro-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 9.99e-8,
+      "completion_price": 0.000008
+    },
+    {
+      "model_id": "qwen/qwen3.8-max-0902",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "sakana/fugu-max",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "aion-labs/aion-3.5-mini",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000007,
+      "completion_price": 0.0000014
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000016,
+      "completion_price": 0.000002
+    },
+    {
+      "model_id": "openai/gpt-5.4:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000125,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "deepseek/deepseek-chat-v3-0324",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000029,
+      "completion_price": 0.00000114
+    },
+    {
+      "model_id": "qwen/qwen3-14b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000012,
+      "completion_price": 0.00000024
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-4.6:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000001558,
+      "completion_price": 0.0000093388
+    },
+    {
+      "model_id": "meta/muse-glimmer-30b:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000024,
+      "completion_price": 0.00000096
+    },
+    {
+      "model_id": "mistralai/devstral-2512",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000004,
+      "completion_price": 0.000002
+    },
+    {
+      "model_id": "cohere/command-a-plus",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000015
+    },
+    {
+      "model_id": "meta-llama/llama-3.3-70b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000059,
+      "completion_price": 0.00000079
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000026,
+      "completion_price": 0.0000026
+    },
+    {
+      "model_id": "meta-llama/llama-3.1-70b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000072,
+      "completion_price": 0.00000072
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "openai/gpt-6-sol",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "openai/gpt-6-sol-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "openai/gpt-6.1-sol-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "~openai/gpt-sol-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "meta/muse-glimmer-30b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "bytedance-seed/seed-2-1-turbo",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000006,
+      "completion_price": 0.0000024
+    },
+    {
+      "model_id": "google/gemini-4-argon",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "moonshotai/kimi-k3.1-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "~google/gemini-pro-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "z-ai/glm-5.3-prime",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000028,
+      "completion_price": 0.0000088
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "anthropic/claude-sonnet-5.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.00001
+    },
+    {
+      "model_id": "qwen/qwen3.6-27b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000045,
+      "completion_price": 0.0000027
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-pro-ultraspeed",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000435,
+      "completion_price": 0.0000087
+    },
+    {
+      "model_id": "x-ai/grok-4.6:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000016,
+      "completion_price": 0.0000048
+    },
+    {
+      "model_id": "x-ai/grok-4.7:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000016,
+      "completion_price": 0.0000048
+    },
+    {
+      "model_id": "moonshotai/kimi-k3:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000228,
+      "completion_price": 0.0000114
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000012
+    },
+    {
+      "model_id": "openai/gpt-5.6-terra-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000012
+    },
+    {
+      "model_id": "bytedance-seed/seed-2.0-code",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "z-ai/glm-4.7",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000006,
+      "completion_price": 0.0000022
+    },
+    {
+      "model_id": "elorian/glimpse",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000006,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "openai/o3-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000055,
+      "completion_price": 0.0000022
+    },
+    {
+      "model_id": "openai/o4-mini:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000055,
+      "completion_price": 0.0000022
+    },
+    {
+      "model_id": "qwen/qwen2.5-vl-72b-instruct",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000008,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "openai/gpt-5.1:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000625,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000625,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "anthropic/claude-haiku-4.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.6:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000125
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.7:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000125
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.8:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000125
+    },
+    {
+      "model_id": "anthropic/claude-opus-5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000125
+    },
+    {
+      "model_id": "moonshotai/kimi-k3",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000192,
+      "completion_price": 0.000016
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.6",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000065,
+      "completion_price": 0.00000341
+    },
+    {
+      "model_id": "moonshotai/kimi-k2.7-code",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000006,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.0000036
+    },
+    {
+      "model_id": "x-ai/grok-4.6",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "x-ai/grok-4.7",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000002,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "qwen/qwen3.8-max-prime",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.000012
+    },
+    {
+      "model_id": "openai/gpt-5.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "mistralai/mistral-medium-3-5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000075,
+      "completion_price": 0.00000375
+    },
+    {
+      "model_id": "fireworks/ember-1",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000003,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "sakana/sakana-namazu",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000095,
+      "completion_price": 0.000004
+    },
+    {
+      "model_id": "openai/gpt-5.2:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000000875,
+      "completion_price": 0.000007
+    },
+    {
+      "model_id": "z-ai/glm-5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.0000032
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
+    },
+    {
+      "model_id": "meta/muse-wonder",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
+    },
+    {
+      "model_id": "anthropic/claude-opus-5.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
+    },
+    {
+      "model_id": "~anthropic/claude-opus-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
+    },
+    {
+      "model_id": "openai/o3:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000004
+    },
+    {
+      "model_id": "tencent/hy-mt2-1.8b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 4.4e-8,
+      "completion_price": 0.000000177
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000014,
+      "completion_price": 0.0000044
+    },
+    {
+      "model_id": "openai/gpt-6-astra-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.000025
+    },
+    {
+      "model_id": "openai/gpt-6-astra:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.000025
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.000025
+    },
+    {
+      "model_id": "anthropic/claude-fable-5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.000025
+    },
+    {
+      "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000045,
+      "completion_price": 0.0000035
+    },
+    {
+      "model_id": "aion-labs/aion-3.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000003,
+      "completion_price": 0.000006
+    },
+    {
+      "model_id": "sakana/fugu-ultra-v2",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.00003
+    },
+    {
+      "model_id": "unbiased/pareto-26.9",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "perceptron/perceptron-mk1.5",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000015
+    },
+    {
+      "model_id": "tencent/hy-mt2-30b-a3b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.4e-8,
+      "completion_price": 0.000000295
+    },
+    {
+      "model_id": "tencent/hy-mt2-7b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 7.4e-8,
+      "completion_price": 0.000000295
+    },
+    {
+      "model_id": "openai/gpt-4o:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000125,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-6-astra",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00001,
+      "completion_price": 0.00005
+    },
+    {
+      "model_id": "openai/gpt-6-astra-pro",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00001,
+      "completion_price": 0.00005
+    },
+    {
+      "model_id": "~openai/gpt-astra-latest",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00001,
+      "completion_price": 0.00005
+    },
+    {
+      "model_id": "anthropic/claude-fable-5.1",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00001,
+      "completion_price": 0.00005
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.5:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.0000125
+    },
+    {
+      "model_id": "google/gemini-omni-1.1-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.000009
+    },
+    {
+      "model_id": "google/gemini-omni-1.2-flash",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.000009
+    },
+    {
+      "model_id": "moondream/moondream3-preview",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "moondream/moondream3.1-9b-a2b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000025
+    },
+    {
+      "model_id": "openai/gpt-5.4-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000015,
+      "completion_price": 0.00009
+    },
+    {
+      "model_id": "openai/gpt-5.5-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000015,
+      "completion_price": 0.00009
+    },
+    {
+      "model_id": "google/gemini-nano-banana-2.1",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000075
+    },
+    {
+      "model_id": "mancer/weaver",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000004,
+      "completion_price": 0.00000075
+    },
+    {
+      "model_id": "openai/gpt-4-turbo:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.000005,
+      "completion_price": 0.000015
+    },
+    {
+      "model_id": "undi95/remm-slerp-l2-13b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.00000035,
+      "completion_price": 0.00000065
+    },
+    {
+      "model_id": "openai/gpt-5-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000075,
+      "completion_price": 0.00006
+    },
+    {
+      "model_id": "anthropic/claude-opus-4.1:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000075,
+      "completion_price": 0.0000375
+    },
+    {
+      "model_id": "anthracite-org/magnum-v4-72b",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000025,
+      "completion_price": 0.000005
+    },
+    {
+      "model_id": "openai/gpt-5.2-pro:batch",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": 0.0000105,
+      "completion_price": 0.000084
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": "nan",
+      "completion_price": "nan"
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T18:45:35Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-08-06T01:50:09Z",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": "nan",
+      "completion_price": "nan"
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T18:45:35Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-08-06T01:50:09Z",
+      "from_date": "2026-11-07T18:45:35Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-08-06T01:50:09Z",
+      "from_date": "2026-11-07T18:45:35Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-08-06T01:50:09Z",
+      "from_date": "2026-11-07T18:45:35Z",
+      "to_date": null,
+      "prompt_price": "nan",
+      "completion_price": "nan"
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T18:45:35Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

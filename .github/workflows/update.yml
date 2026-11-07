@@ -24,7 +24,10 @@ jobs:
         run: |
           jq -e '.version == 1' docs/data/current.json
           jq -e '.models | length >= 300' docs/data/current.json
-          test "$(stat -c%s docs/data/current.json)" -lt 204800
+          # Runaway-growth guard only: ~1 MiB covers ~1900 models at the current
+          # per-model size. The old 200KB cap tripped at ~400 models and silently
+          # blocked every update for months.
+          test "$(stat -c%s docs/data/current.json)" -lt 1048576
           if [ -f docs/data/history.json ]; then
             jq -e '.version == 1' docs/data/history.json
             jq -e '.entries | length >= 1' docs/data/history.json

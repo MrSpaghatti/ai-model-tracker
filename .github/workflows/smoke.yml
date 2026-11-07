@@ -41,7 +41,21 @@ jobs:
         run: |
           size=$(curl -s -w '%{size_download}' -o /dev/null https://models.spagserv.uk/data/current.json)
           echo "current.json size: $size bytes"
-          if [ "$size" -gt 204800 ]; then
-            echo "FAIL: current.json exceeds 200KB limit"
+          if [ "$size" -gt 1048576 ]; then
+            echo "FAIL: current.json exceeds 1MiB runaway-growth limit"
+            exit 1
+          fi
+
+      # The site sat stale for months because nothing checked freshness.
+      # Update Data runs every 12h; 36h allows two missed runs before failing.
+      - name: Check data freshness
+        run: |
+          generated=$(curl -s https://models.spagserv.uk/data/current.json | jq -r '.generated_at')
+          echo "generated_at: $generated"
+          gen_epoch=$(date -d "$generated" +%s)
+          age_h=$(( ( $(date +%s) - gen_epoch ) / 3600 ))
+          echo "age: ${age_h}h"
+          if [ "$age_h" -gt 36 ]; then
+            echo "FAIL: data is ${age_h}h old (expected <= 36h) — Update Data workflow is not landing commits"
             exit 1
           fi
