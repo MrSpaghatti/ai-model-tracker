@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-07T21:45:52Z",
+  "generated_at": "2026-11-07T21:49:53Z",
   "entries": [
     {
       "model_id": "inclusionai/ring-2.6-1t:free",
@@ -57643,55 +57643,279 @@
     {
       "model_id": "nvidia/switchyard",
       "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T21:45:52Z",
+      "to_date": "2026-11-07T21:47:37Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T21:47:37Z",
+      "to_date": "2026-11-07T21:47:51Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T21:47:51Z",
+      "to_date": "2026-11-07T21:48:29Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-beta",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/auto-code",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/bodybuilder",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/fusion",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "openrouter/pareto-code",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "typesafe/jev-router",
+      "from_date": "2026-11-07T21:48:29Z",
+      "to_date": "2026-11-07T21:49:53Z",
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "nvidia/switchyard",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-beta",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/auto-code",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/bodybuilder",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/fusion",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "openrouter/pareto-code",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"
     },
     {
       "model_id": "typesafe/jev-router",
-      "from_date": "2026-11-07T21:45:52Z",
+      "from_date": "2026-11-07T21:49:53Z",
       "to_date": null,
       "prompt_price": "nan",
       "completion_price": "nan"

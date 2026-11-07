@@ -28,73 +28,11 @@
 
     // ============ Price-change detection ============
 
-    // History entries record price *changes*, so the price in effect on any past
-    // date is the last entry whose from_date precedes it. Comparing that with
-    // today's price is what makes this a tracker instead of a snapshot.
-    var CHANGE_WINDOW_DAYS = 30;
+    // The 30-day delta is computed by the generator (src/main.nim ->
+    // docs/data/changes.json) and attached to each model by loadData. It used to
+    // be derived here from history.json, which meant every page load pulled
+    // 1.7 MB just to render one column.
     var CHANGE_EPSILON_PCT = 0.5;   // below this it rounds to noise, not a change
-
-    function computePriceChanges(models, entries, windowDays) {
-        windowDays = windowDays || CHANGE_WINDOW_DAYS;
-        var byModel = {};
-        (entries || []).forEach(function(e) {
-            if (!e || !e.model_id) return;
-            (byModel[e.model_id] || (byModel[e.model_id] = [])).push(e);
-        });
-
-        var cutoff = Date.now() / 1000 - windowDays * 86400;
-        var out = {};
-
-        (models || []).forEach(function(m) {
-            var hist = byModel[m.id];
-            if (!hist || !hist.length) return;
-            hist.sort(function(a, b) { return a.from_date.localeCompare(b.from_date); });
-
-            var base = null;
-            for (var i = 0; i < hist.length; i++) {
-                var ts = new Date(hist[i].from_date).getTime() / 1000;
-                if (!isFinite(ts)) continue;
-                if (ts <= cutoff) base = hist[i];
-                else break;
-            }
-
-            var spanDays = windowDays;
-            if (!base) {
-                // Newer than the window: use the oldest entry we have and report
-                // the shorter span rather than pretending the window is full.
-                base = hist[0];
-                var oldest = new Date(base.from_date).getTime();
-                if (!isFinite(oldest)) return;
-                spanDays = Math.round((Date.now() - oldest) / 86400000);
-                if (spanDays < 1) return;
-            }
-
-            var fromP = Number(base.prompt_price) * 1e6;
-            var fromC = Number(base.completion_price) * 1e6;
-            var toP = Number(m.pricing && m.pricing.prompt) * 1e6;
-            var toC = Number(m.pricing && m.pricing.completion) * 1e6;
-            if (!isFinite(fromP) || !isFinite(toP) || !isFinite(fromC) || !isFinite(toC)) return;
-
-            // The date the comparison price was in effect on: the window cutoff,
-            // or the oldest entry when the model is younger than the window.
-            var compareDate = new Date((Date.now() / 1000 - spanDays * 86400) * 1000)
-                .toISOString().slice(0, 10);
-
-            out[m.id] = {
-                // pct is null when the old price was $0 — a ratio from zero does
-                // not exist, so the UI says "was free" instead of inventing one.
-                pct: fromP > 0 ? ((toP - fromP) / fromP) * 100 : null,
-                pctCompletion: fromC > 0 ? ((toC - fromC) / fromC) * 100 : null,
-                from: fromP, to: toP,
-                fromCompletion: fromC, toCompletion: toC,
-                spanDays: spanDays,
-                compareDate: compareDate,
-                fromDate: base.from_date
-            };
-        });
-
-        return out;
-    }
 
     function formatDelta(chg) {
         if (!chg) return '<span class="delta delta-none">\u2014</span>';
@@ -484,6 +422,16 @@
         }
         el.classList.add('active');
 
+        if (!hist) {
+            // loadData no longer ships history.json; fetch it on first chart open
+            // and re-enter once it lands.
+            el.innerHTML = '<div class="chart-placeholder">Loading price history…</div>';
+            loadHistory(opts.dataPath).then(function(h) {
+                if (st.selectedModel) renderChart(h, st, opts);
+            });
+            return;
+        }
+
         function placeholder(msg) {
             el.innerHTML = '<div class="chart-placeholder">' + msg + '</div>';
         }
@@ -660,16 +608,27 @@
 
     // ============ Data Loading Functions ============
 
+    // history.json is 1.7 MB and only the chart needs it, so it is fetched on
+    // the first chart open instead of on every page load.
+    var historyPromise = null;
+    function loadHistory(dataPath) {
+        if (historyPromise) return historyPromise;
+        historyPromise = fetch((dataPath || './data/') + 'history.json')
+            .then(function(r) { return r.ok ? r.json() : { entries: [] }; })
+            .catch(function() { return { entries: [] }; });
+        return historyPromise;
+    }
+
     async function loadData(dataPath) {
         dataPath = dataPath || './data/';
-        let currentRes, historyRes;
+        let currentRes, changesRes;
         try {
             const results = await Promise.all([
                 fetch(dataPath + 'current.json'),
-                fetch(dataPath + 'history.json').catch(function() { return null; })
+                fetch(dataPath + 'changes.json').catch(function() { return null; })
             ]);
             currentRes = results[0];
-            historyRes = results[1];
+            changesRes = results[1];
         } catch (_e) {
             throw new Error('Network error loading data');
         }
@@ -694,15 +653,13 @@
             });
         });
 
-        let history = { entries: [] };
-        if (historyRes && historyRes.ok) {
-            try { history = await historyRes.json(); }
+        // Deltas are precomputed by the generator (changes.json, ~85 KB) rather
+        // than derived in the browser from history.json (1.7 MB) on every load.
+        let changes = {};
+        if (changesRes && changesRes.ok) {
+            try { changes = (await changesRes.json()).changes || {}; }
             catch (_e) {}
         }
-
-        // Attach the window change to each model so every page can render it
-        // without re-deriving it from history.
-        var changes = computePriceChanges(models, history.entries);
         models.forEach(function(m) {
             m.priceChange = changes[m.id] || null;
         });
@@ -711,7 +668,8 @@
 
         return {
             models: models,
-            history: history,
+            // Fetched lazily by renderChart; see loadHistory().
+            history: null,
             generatedAt: current.generated_at
         };
     }
@@ -762,7 +720,6 @@
         isFreeModel: isFreeModel,
 
         // Price changes
-        computePriceChanges: computePriceChanges,
         formatDelta: formatDelta,
         
         // Filtering

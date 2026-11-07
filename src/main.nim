@@ -1,4 +1,4 @@
-import std/[json, math, options, os, sequtils, strutils, tables, times]
+import std/[algorithm, json, math, options, os, sequtils, strutils, tables, times]
 
 import fetcher
 import formatter
@@ -187,6 +187,110 @@ proc writeJsonHistoryIncremental(rows: seq[ModelRow]) =
     raise newException(CatchableError,
       "Unable to write " & HistoryJsonPath & ": " & exc.msg)
 
+const ChangesJsonPath = "docs/data/changes.json"
+const ChangeWindowDays = 30
+
+proc parseIso(s: string): DateTime =
+  parse(s, "yyyy-MM-dd'T'HH:mm:ss'Z'", utc())
+
+proc isFiniteFloat(x: float): bool =
+  ## Some registry entries price themselves as the string "nan" (openrouter/auto
+  ## and friends, whose cost is variable). Nim's json module serialises a NaN as
+  ## the *string* "nan", which would put a non-number in a numeric field, so
+  ## those models are skipped rather than emitted.
+  classify(x) notin {fcNan, fcInf, fcNegInf}
+
+proc writePriceChanges(rows: seq[ModelRow]) =
+  ## Precompute the 30-day price delta for every model.
+  ##
+  ## The pages used to derive this in the browser, which meant downloading
+  ## history.json (1.7 MB, ~108 KB gzipped) on every page load just to render one
+  ## column. Emitting the answer here keeps the payload small and puts the
+  ## definition of "the price 30 days ago" in exactly one place.
+  ##
+  ## History entries record price *changes*, so the price in effect on a past
+  ## date is the last entry whose from_date precedes it — not the nearest one.
+  if not fileExists(HistoryJsonPath):
+    stderr.writeLine("Warning: " & HistoryJsonPath & " missing; skipping changes.json.")
+    return
+
+  var entries: seq[JsonHistoryEntry] = @[]
+  try:
+    let parsed = parseJson(readFile(HistoryJsonPath))
+    if parsed.hasKey("entries"):
+      for node in parsed["entries"].elems:
+        entries.add(parseHistoryEntry(node))
+  except CatchableError as exc:
+    stderr.writeLine("Warning: could not read " & HistoryJsonPath & ": " & exc.msg)
+    return
+
+  var byModel = initTable[string, seq[JsonHistoryEntry]]()
+  for e in entries:
+    byModel.mgetOrPut(e.model_id, @[]).add(e)
+  for id in byModel.keys:
+    byModel[id].sort(proc(a, b: JsonHistoryEntry): int = cmp(a.from_date, b.from_date))
+
+  # DateTime, not Time: `Time - Duration` stays a Time and comparing it against
+  # a parsed DateTime is ambiguous at compile time.
+  let now = getTime().utc
+  let cutoff = now - initDuration(days = ChangeWindowDays)
+
+  var changes = newJObject()
+  for row in rows:
+    if not byModel.hasKey(row.id): continue
+    let hist = byModel[row.id]
+    if hist.len == 0: continue
+
+    var baseIdx = -1
+    for i, e in hist:
+      let ts = parseIso(e.from_date)
+      if ts <= cutoff: baseIdx = i
+      else: break
+
+    var spanDays = ChangeWindowDays
+    if baseIdx < 0:
+      # Younger than the window: compare against the oldest entry we have and
+      # report the shorter span rather than pretending the window is full.
+      baseIdx = 0
+      spanDays = int((now - parseIso(hist[0].from_date)).inDays)
+      if spanDays < 1: continue
+
+    let base = hist[baseIdx]
+    let fromP = base.prompt_price * 1e6
+    let fromC = base.completion_price * 1e6
+    let toP = row.promptPrice * 1e6
+    let toC = row.completionPrice * 1e6
+    if not isFiniteFloat(fromP) or not isFiniteFloat(fromC) or
+       not isFiniteFloat(toP) or not isFiniteFloat(toC):
+      continue
+
+    var node = newJObject()
+    # pct is null when the old price was $0: a ratio from zero does not exist,
+    # so the UI says "now free"/"new" instead of inventing a number.
+    if fromP > 0: node["pct"] = %(((toP - fromP) / fromP) * 100)
+    else: node["pct"] = newJNull()
+    if fromC > 0: node["pctCompletion"] = %(((toC - fromC) / fromC) * 100)
+    else: node["pctCompletion"] = newJNull()
+    node["from"] = %fromP
+    node["to"] = %toP
+    node["fromCompletion"] = %fromC
+    node["toCompletion"] = %toC
+    node["spanDays"] = %spanDays
+    node["compareDate"] = %(now - initDuration(days = spanDays)).format("yyyy-MM-dd")
+    node["fromDate"] = %base.from_date
+    changes[row.id] = node
+
+  let root = %*{
+    "version": 1,
+    "generated_at": now.utc.format("yyyy-MM-dd'T'HH:mm:ss'Z'"),
+    "window_days": ChangeWindowDays,
+    "changes": changes
+  }
+  try:
+    writeFile(ChangesJsonPath, pretty(root))
+  except CatchableError as exc:
+    stderr.writeLine("Warning: could not write " & ChangesJsonPath & ": " & exc.msg)
+
 const HeartbeatJsonPath = "docs/data/heartbeat.json"
 const HeartbeatMaxRuns = 1000
 
@@ -245,6 +349,7 @@ proc main() =
     writeReadme("")
     writeJsonCurrent(rows)
     writeJsonHistoryIncremental(rows)
+    writePriceChanges(rows)
     writeOutputFile(FreeModelsOutputPath, generateFreeModelsPage(rows), "FREE_MODELS.md")
     writeOutputFile(PaidModelsOutputPath, generatePaidModelsPage(rows), "PAID_MODELS.md")
     writeOutputFile(LocalModelsOutputPath, generateLocalModelsTable(), "LOCAL_MODELS.md")
