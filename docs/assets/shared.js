@@ -363,10 +363,14 @@
                     bv = toNumber(b.created) || 0;
                     break;
                 case 'delta':
-                    // Ascending puts the biggest price cuts first; models with no
-                    // comparable history sink to the bottom either way.
-                    av = (a.priceChange && a.priceChange.pct !== null) ? a.priceChange.pct : Infinity;
-                    bv = (b.priceChange && b.priceChange.pct !== null) ? b.priceChange.pct : Infinity;
+                    // Ascending puts the biggest price cuts first. Models with no
+                    // comparable history must sink to the bottom in BOTH
+                    // directions, so the sentinel has to flip with sortDir —
+                    // a fixed Infinity floats them to the top when descending.
+                    av = (a.priceChange && a.priceChange.pct !== null)
+                        ? a.priceChange.pct : (sortDir === 'asc' ? Infinity : -Infinity);
+                    bv = (b.priceChange && b.priceChange.pct !== null)
+                        ? b.priceChange.pct : (sortDir === 'asc' ? Infinity : -Infinity);
                     break;
                 default: 
                     av = a.contextPerCent; 
