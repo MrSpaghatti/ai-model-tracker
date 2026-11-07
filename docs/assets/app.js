@@ -108,8 +108,16 @@
     window.__renderChart = function(hist, st) {
         var el = document.getElementById('chart-container');
         if (!el) return;
-        if (!st.selectedModel || !hist || !hist.entries || !hist.entries.length) {
-            el.innerHTML = '<div class="chart-placeholder">Select a model to view price history</div>';
+        // #chart-container is display:none until .active is set — nothing else
+        // toggles it, so without this the price-history chart never appears.
+        if (!st.selectedModel) {
+            el.classList.remove('active');
+            el.innerHTML = '';
+            return;
+        }
+        el.classList.add('active');
+        if (!hist || !hist.entries || !hist.entries.length) {
+            el.innerHTML = '<div class="chart-placeholder">No price history available</div>';
             return;
         }
 

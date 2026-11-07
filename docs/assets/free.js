@@ -76,7 +76,14 @@
     window.__renderChart = function(hist, st) {
         var el = document.getElementById('chart-container');
         if (!el) return;
-        if (!st.selectedModel || !hist || !hist.entries || !hist.entries.length) {
+        // #chart-container is display:none until .active is set (see style.css).
+        if (!st.selectedModel) {
+            el.classList.remove('active');
+            el.innerHTML = '';
+            return;
+        }
+        el.classList.add('active');
+        if (!hist || !hist.entries || !hist.entries.length) {
             el.innerHTML = '';
             return;
         }
