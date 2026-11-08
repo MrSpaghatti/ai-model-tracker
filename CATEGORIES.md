@@ -50,7 +50,7 @@
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | ⚠️ | 44,431,186,441 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | ⚠️ | 87,381,333,333 |
-| inclusionai/ling-3.0-flash | inclusionAI: Ling 3.0 Flash | 262,144 | $0.0210 | $0.0630 | ⚠️ | 62,415,238,095 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 
 ## Top 5 Models for Encoding
 
@@ -70,8 +70,8 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
 | mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | ⚠️ | 17,476,266,667 |
@@ -80,9 +80,9 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
@@ -90,9 +90,9 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
@@ -100,9 +100,9 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
@@ -110,9 +110,9 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
