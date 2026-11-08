@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T18:34:04Z",
+  "generated_at": "2026-11-08T18:35:30Z",
   "window_days": 30,
   "changes": {
     "cohere/north-mini-code:free": {
@@ -443,6 +443,17 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "openai/gpt-oss-120b": {
+      "pct": -67.56756756756756,
+      "pctCompletion": -74.11764705882354,
+      "from": 0.037,
+      "to": 0.012,
+      "fromCompletion": 0.16999999999999998,
+      "toCompletion": 0.044,
+      "spanDays": 30,
+      "compareDate": "2026-10-09",
+      "fromDate": "2026-07-15T13:18:47Z"
+    },
     "mistralai/mistral-nemo": {
       "pct": 52.63157894736841,
       "pctCompletion": 0.0,
@@ -472,17 +483,6 @@
       "to": 0.02,
       "fromCompletion": 0.08,
       "toCompletion": 0.04,
-      "spanDays": 30,
-      "compareDate": "2026-10-09",
-      "fromDate": "2026-07-15T13:18:47Z"
-    },
-    "openai/gpt-oss-120b": {
-      "pct": -64.86486486486486,
-      "pctCompletion": -71.17647058823529,
-      "from": 0.037,
-      "to": 0.013000000000000001,
-      "fromCompletion": 0.16999999999999998,
-      "toCompletion": 0.049,
       "spanDays": 30,
       "compareDate": "2026-10-09",
       "fromDate": "2026-07-15T13:18:47Z"

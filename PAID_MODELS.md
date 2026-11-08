@@ -29,10 +29,10 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~deepseek/deepseek-v4-flash-latest | DeepSeek: DeepSeek V4 Flash Latest | 1,048,576 | $0.0434 | $0.3000 | - | ⚠️ | 61,070,238,789 |
 | minimax/minimax-m3.1-flash | MiniMax: MiniMax M3.1 Flash | 1,048,576 | $0.0750 | $0.3000 | - | ⚠️ | 55,924,053,333 |
 | xiaomi/mimo-v2.6-flash | Xiaomi: MiMo-V2.6-Flash | 1,050,000 | $0.1400 | $0.2800 | - | ⚠️ | 50,000,000,000 |
+| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0120 | $0.0440 | - | ⚠️ | 46,811,428,571 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | - | ⚠️ | 44,431,186,441 |
 | nvidia/nemotron-3-super-120b-a12b | NVIDIA: Nemotron 3 Super | 1,048,576 | $0.0750 | $0.4000 | - | ⚠️ | 44,150,568,421 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | - | ⚠️ | 43,690,666,667 |
-| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0130 | $0.0490 | - | ⚠️ | 42,281,290,323 |
 | nex-agi/nex-n2.5-mini | Nex AGI: Nex-N2.5-Mini | 262,144 | $0.0250 | $0.1000 | - | ⚠️ | 41,943,040,000 |
 | upstage/solar-mini4 | Upstage: Solar Mini 4 | 524,288 | $0.0500 | $0.2000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |

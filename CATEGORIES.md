@@ -48,9 +48,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | scaledown/extract | ScaleDown: Extract | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
+| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0120 | $0.0440 | ⚠️ | 46,811,428,571 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | ⚠️ | 44,431,186,441 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | ⚠️ | 87,381,333,333 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 
 ## Top 5 Models for Encoding
 

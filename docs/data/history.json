@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T18:34:04Z",
+  "generated_at": "2026-11-08T18:35:30Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -8881,7 +8881,7 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-11-08T18:34:04Z",
-      "to_date": null,
+      "to_date": "2026-11-08T18:35:30Z",
       "prompt_price": 1.3e-8,
       "completion_price": 4.9e-8
     },
@@ -8891,6 +8891,13 @@
       "to_date": null,
       "prompt_price": 0.0000001824,
       "completion_price": 0.0000093388
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-11-08T18:35:30Z",
+      "to_date": null,
+      "prompt_price": 1.2e-8,
+      "completion_price": 4.4e-8
     }
   ]
 }
