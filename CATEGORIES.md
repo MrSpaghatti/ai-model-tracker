@@ -50,7 +50,7 @@
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | ⚠️ | 44,431,186,441 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | ⚠️ | 87,381,333,333 |
-| openai/gpt-oss-120b | OpenAI: gpt-oss-120b | 131,072 | $0.0130 | $0.0480 | ⚠️ | 42,974,426,230 |
+| inclusionai/ling-3.0-flash | inclusionAI: Ling 3.0 Flash | 262,144 | $0.0210 | $0.0630 | ⚠️ | 62,415,238,095 |
 
 ## Top 5 Models for Encoding
 

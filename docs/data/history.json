@@ -1,11 +1,11 @@
 {
   "version": 1,
-  "generated_at": "2026-11-08T04:57:16Z",
+  "generated_at": "2026-11-08T06:20:46Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-08T04:56:22Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 0.000000413772,
       "completion_price": 0.000000827544
     },
@@ -68,7 +68,7 @@
     {
       "model_id": "openai/gpt-oss-120b",
       "from_date": "2026-11-08T04:56:22Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 1.3e-8,
       "completion_price": 4.8e-8
     },
@@ -117,7 +117,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-08T04:56:22Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 0.0000001824,
       "completion_price": 0.0000093388
     },
@@ -733,14 +733,14 @@
     {
       "model_id": "inception/mercury-2.5",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 4e-8,
       "completion_price": 0.00000015
     },
     {
       "model_id": "inception/mercury-3",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.00000035
     },
@@ -6907,7 +6907,7 @@
     {
       "model_id": "inception/mercury-2",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-08T06:20:46Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.00000075
     },
@@ -8786,6 +8786,27 @@
       "to_date": null,
       "prompt_price": 0.00000075,
       "completion_price": 0.0000045
+    },
+    {
+      "model_id": "openai/gpt-oss-120b",
+      "from_date": "2026-11-08T06:20:46Z",
+      "to_date": null,
+      "prompt_price": 2.6e-8,
+      "completion_price": 9.5e-8
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-08T06:20:46Z",
+      "to_date": null,
+      "prompt_price": 0.000000393588,
+      "completion_price": 0.000000787176
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-08T06:20:46Z",
+      "to_date": null,
+      "prompt_price": 0.0000001662,
+      "completion_price": 0.0000105448
     }
   ]
 }
