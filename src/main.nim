@@ -88,6 +88,16 @@ proc writeJsonCurrent(rows: seq[ModelRow]) =
 const HistoryJsonPath = "docs/data/history.json"
 const PriceEpsilon = 1e-12
 
+proc parseHistoryPrice(node: JsonNode): float =
+  ## Nim serialises NaN as the *string* "nan" (JSON has no NaN literal), and
+  ## getFloat() answers its 0.0 default for a string. A round-tripped
+  ## variable-price model therefore came back as "free", which never compared
+  ## equal to the registry's NaN and made the generator record a fresh price
+  ## change on every single run. Read the sentinel back as NaN.
+  if node.kind == JString and node.getStr == "nan": NaN
+  elif node.kind == JNull: NaN
+  else: node.getFloat
+
 proc parseHistoryEntry(node: JsonNode): JsonHistoryEntry =
   result.model_id = node["model_id"].getStr
   result.from_date = node["from_date"].getStr
@@ -95,10 +105,15 @@ proc parseHistoryEntry(node: JsonNode): JsonHistoryEntry =
     result.to_date = some(node["to_date"].getStr)
   else:
     result.to_date = none(string)
-  result.prompt_price = node["prompt_price"].getFloat
-  result.completion_price = node["completion_price"].getFloat
+  result.prompt_price = parseHistoryPrice(node["prompt_price"])
+  result.completion_price = parseHistoryPrice(node["completion_price"])
 
 proc pricesEqual(a, b: float): bool =
+  ## NaN means "no fixed per-token price" (openrouter/auto and friends). Two NaNs
+  ## are the same non-price, but `abs(NaN - NaN) < eps` is false, so without this
+  ## those models looked like they changed price on every run.
+  if classify(a) == fcNan or classify(b) == fcNan:
+    return classify(a) == classify(b)
   abs(a - b) < PriceEpsilon
 
 proc writeJsonHistoryIncremental(rows: seq[ModelRow]) =
@@ -200,6 +215,9 @@ proc isFiniteFloat(x: float): bool =
   ## those models are skipped rather than emitted.
   classify(x) notin {fcNan, fcInf, fcNegInf}
 
+proc startOfUtcDay(d: DateTime): DateTime =
+  dateTime(d.year, d.month, d.monthday, 0, 0, 0, zone = utc())
+
 proc writePriceChanges(rows: seq[ModelRow]) =
   ## Precompute the 30-day price delta for every model.
   ##
@@ -230,10 +248,13 @@ proc writePriceChanges(rows: seq[ModelRow]) =
   for id in byModel.keys:
     byModel[id].sort(proc(a, b: JsonHistoryEntry): int = cmp(a.from_date, b.from_date))
 
-  # DateTime, not Time: `Time - Duration` stays a Time and comparing it against
-  # a parsed DateTime is ambiguous at compile time.
+  # Compare against whole UTC days, not the run's clock time. Measuring from
+  # `now` moved the reported "vs <date>" by a day depending on when the generator
+  # happened to run, and could pick a different base entry between two runs on
+  # the same day.
   let now = getTime().utc
-  let cutoff = now - initDuration(days = ChangeWindowDays)
+  let today = startOfUtcDay(now)
+  let cutoff = today - initDuration(days = ChangeWindowDays)
 
   var changes = newJObject()
   for row in rows:
@@ -252,7 +273,7 @@ proc writePriceChanges(rows: seq[ModelRow]) =
       # Younger than the window: compare against the oldest entry we have and
       # report the shorter span rather than pretending the window is full.
       baseIdx = 0
-      spanDays = int((now - parseIso(hist[0].from_date)).inDays)
+      spanDays = int((today - startOfUtcDay(parseIso(hist[0].from_date))).inDays)
       if spanDays < 1: continue
 
     let base = hist[baseIdx]
@@ -276,7 +297,7 @@ proc writePriceChanges(rows: seq[ModelRow]) =
     node["fromCompletion"] = %fromC
     node["toCompletion"] = %toC
     node["spanDays"] = %spanDays
-    node["compareDate"] = %(now - initDuration(days = spanDays)).format("yyyy-MM-dd")
+    node["compareDate"] = %(today - initDuration(days = spanDays)).format("yyyy-MM-dd")
     node["fromDate"] = %base.from_date
     changes[row.id] = node
 

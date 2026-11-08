@@ -58,7 +58,11 @@ proc main() =
   # Build history entries
   var entries: seq[JsonHistoryEntry] = @[]
   for i, snapshot in snapshots:
-    let toDate = if i + 1 < snapshots.len: some(isoUtc(snapshots[i + 1].ts)) else: none(string)
+    # `snapshots` comes from `git log`, which is newest-first, so the interval
+    # that starts at snapshot i ends when the next NEWER snapshot (i - 1) was
+    # taken. Reading i + 1 instead made every interval point backwards in time.
+    # i == 0 is the newest observation: still current, so it stays open.
+    let toDate = if i > 0: some(isoUtc(snapshots[i - 1].ts)) else: none(string)
     for model in snapshot.models.elems:
       let pricing = model["pricing"]
       entries.add JsonHistoryEntry(
