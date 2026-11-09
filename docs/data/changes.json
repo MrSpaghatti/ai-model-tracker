@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T00:20:04Z",
+  "generated_at": "2026-11-09T12:20:04Z",
   "window_days": 30,
   "changes": {
     "cohere/north-mini-code:free": {
@@ -432,17 +432,6 @@
       "compareDate": "2026-10-10",
       "fromDate": "2026-08-02T01:59:59Z"
     },
-    "minimax/minimax-m3.1-flash": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.075,
-      "to": 0.075,
-      "fromCompletion": 0.3,
-      "toCompletion": 0.3,
-      "spanDays": 2,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
     "xiaomi/mimo-v2.6-flash": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -696,6 +685,17 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "minimax/minimax-m3.1-flash": {
+      "pct": 100.0,
+      "pctCompletion": 100.0,
+      "from": 0.075,
+      "to": 0.15,
+      "fromCompletion": 0.3,
+      "toCompletion": 0.6,
+      "spanDays": 2,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "ricursiveai/ripple-65b-preview": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -728,6 +728,17 @@
       "spanDays": 2,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "openai/gpt-oss-20b": {
+      "pct": -40.0,
+      "pctCompletion": -30.769230769230777,
+      "from": 0.03,
+      "to": 0.018,
+      "fromCompletion": 0.13,
+      "toCompletion": 0.09,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-08-01T13:02:55Z"
     },
     "google/gemini-3.1-flash-lite:batch": {
       "pct": 0.0,
@@ -806,28 +817,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "mistralai/mistral-small-3.2-24b-instruct": {
-      "pct": -20.000000000000004,
-      "pctCompletion": -20.000000000000007,
-      "from": 0.09375,
-      "to": 0.075,
-      "fromCompletion": 0.25,
-      "toCompletion": 0.19999999999999998,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-08-05T01:49:38Z"
-    },
-    "google/gemma-4-26b-a4b-it": {
-      "pct": -3.571428571428574,
-      "pctCompletion": -33.82352941176471,
-      "from": 0.07,
-      "to": 0.0675,
-      "fromCompletion": 0.33999999999999997,
-      "toCompletion": 0.22499999999999998,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-07-29T13:50:22Z"
-    },
     "openai/gpt-5-nano": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -882,17 +871,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-10",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "openai/gpt-oss-20b": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.03,
-      "to": 0.03,
-      "fromCompletion": 0.13,
-      "toCompletion": 0.13,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-08-01T13:02:55Z"
     },
     "nex-agi/nex-n2.5-pro": {
       "pct": 0.0,
@@ -1081,6 +1059,17 @@
       "compareDate": "2026-10-10",
       "fromDate": "2026-05-01T04:56:56Z"
     },
+    "google/gemma-4-26b-a4b-it": {
+      "pct": 28.57142857142855,
+      "pctCompletion": -11.764705882352937,
+      "from": 0.07,
+      "to": 0.09,
+      "fromCompletion": 0.33999999999999997,
+      "toCompletion": 0.3,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-07-29T13:50:22Z"
+    },
     "google/gemma-3-12b-it": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1158,6 +1147,17 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "mistralai/mistral-small-3.2-24b-instruct": {
+      "pct": 6.666666666666658,
+      "pctCompletion": 19.999999999999996,
+      "from": 0.09375,
+      "to": 0.09999999999999999,
+      "fromCompletion": 0.25,
+      "toCompletion": 0.3,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-08-05T01:49:38Z"
+    },
     "tencent/hy4": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1190,17 +1190,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-10",
       "fromDate": "2026-06-07T13:26:01Z"
-    },
-    "z-ai/glm-5.2:batch": {
-      "pct": 22.70270270270271,
-      "pctCompletion": -15.266666666666673,
-      "from": 0.37,
-      "to": 0.454,
-      "fromCompletion": 1.5,
-      "toCompletion": 1.271,
-      "spanDays": 1,
-      "compareDate": "2026-11-08",
-      "fromDate": "2026-11-08T04:56:22Z"
     },
     "google/gemini-3-flash-preview:batch": {
       "pct": 0.0,
@@ -1245,6 +1234,17 @@
       "spanDays": 2,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "z-ai/glm-5.2:batch": {
+      "pct": 68.37837837837839,
+      "pctCompletion": -15.266666666666673,
+      "from": 0.37,
+      "to": 0.623,
+      "fromCompletion": 1.5,
+      "toCompletion": 1.271,
+      "spanDays": 1,
+      "compareDate": "2026-11-08",
+      "fromDate": "2026-11-08T04:56:22Z"
     },
     "openai/gpt-5.4-nano:batch": {
       "pct": 0.0,
@@ -1577,12 +1577,12 @@
       "fromDate": "2026-07-22T01:54:12Z"
     },
     "deepseek/deepseek-v4-pro": {
-      "pct": 118.00000000000001,
-      "pctCompletion": 118.00000000000001,
+      "pct": 119.6,
+      "pctCompletion": 119.6,
       "from": 0.435,
-      "to": 0.9483,
+      "to": 0.9552599999999999,
       "fromCompletion": 0.87,
-      "toCompletion": 1.8966,
+      "toCompletion": 1.9105199999999998,
       "spanDays": 30,
       "compareDate": "2026-10-10",
       "fromDate": "2026-06-26T02:38:06Z"
@@ -1774,17 +1774,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "google/gemma-3-27b-it": {
-      "pct": 0.0,
-      "pctCompletion": -22.222222222222218,
-      "from": 0.08,
-      "to": 0.08,
-      "fromCompletion": 0.44999999999999996,
-      "toCompletion": 0.35,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-07-24T01:57:12Z"
-    },
     "google/gemini-3-flash-preview": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1927,6 +1916,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-10",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "google/gemma-3-27b-it": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.08,
+      "to": 0.08,
+      "fromCompletion": 0.44999999999999996,
+      "toCompletion": 0.44999999999999996,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-07-24T01:57:12Z"
     },
     "deepseek/deepseek-v3.2-exp": {
       "pct": 0.0,
@@ -2522,17 +2522,6 @@
       "compareDate": "2026-10-10",
       "fromDate": "2026-07-30T13:41:09Z"
     },
-    "z-ai/glm-4.5-air": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.13,
-      "to": 0.13,
-      "fromCompletion": 0.85,
-      "toCompletion": 0.85,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-06-16T16:28:00Z"
-    },
     "mistralai/mistral-large-2512": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2808,17 +2797,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "~moonshotai/kimi-latest": {
-      "pct": -94.07241379310345,
-      "pctCompletion": -30.377857142857145,
-      "from": 2.9000000000000004,
-      "to": 0.1719,
-      "fromCompletion": 14.0,
-      "toCompletion": 9.7471,
-      "spanDays": 30,
-      "compareDate": "2026-10-10",
-      "fromDate": "2026-07-31T02:02:28Z"
-    },
     "openai/gpt-4.1": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2840,6 +2818,28 @@
       "spanDays": 30,
       "compareDate": "2026-10-10",
       "fromDate": "2026-07-18T01:46:59Z"
+    },
+    "~moonshotai/kimi-latest": {
+      "pct": -94.72758620689656,
+      "pctCompletion": -27.48428571428571,
+      "from": 2.9000000000000004,
+      "to": 0.1529,
+      "fromCompletion": 14.0,
+      "toCompletion": 10.1522,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-07-31T02:02:28Z"
+    },
+    "z-ai/glm-4.5-air": {
+      "pct": 53.84615384615383,
+      "pctCompletion": 29.411764705882366,
+      "from": 0.13,
+      "to": 0.19999999999999998,
+      "fromCompletion": 0.85,
+      "toCompletion": 1.1,
+      "spanDays": 30,
+      "compareDate": "2026-10-10",
+      "fromDate": "2026-06-16T16:28:00Z"
     },
     "google/gemini-3.5-flash": {
       "pct": 0.0,

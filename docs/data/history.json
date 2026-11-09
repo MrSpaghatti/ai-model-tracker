@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-09T00:20:04Z",
+  "generated_at": "2026-11-09T12:20:04Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -705,14 +705,14 @@
     {
       "model_id": "google/gemma-3-27b-it",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000035
     },
     {
       "model_id": "google/gemma-4-26b-a4b-it",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 6.75e-8,
       "completion_price": 0.000000225
     },
@@ -964,7 +964,7 @@
     {
       "model_id": "mistralai/mistral-small-3.2-24b-instruct",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000002
     },
@@ -2357,7 +2357,7 @@
     {
       "model_id": "openai/gpt-oss-20b",
       "from_date": "2026-08-01T13:02:55Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 3e-8,
       "completion_price": 0.00000013
     },
@@ -5143,7 +5143,7 @@
     {
       "model_id": "z-ai/glm-4.5-air",
       "from_date": "2026-06-16T16:28:00Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 0.00000013,
       "completion_price": 0.00000085
     },
@@ -8811,7 +8811,7 @@
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-08T18:28:48Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000003
     },
@@ -8902,7 +8902,7 @@
     {
       "model_id": "z-ai/glm-5.2:batch",
       "from_date": "2026-11-09T00:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 0.000000454,
       "completion_price": 0.000001271
     },
@@ -8923,7 +8923,7 @@
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-09T00:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 0.0000009483,
       "completion_price": 0.0000018966
     },
@@ -8944,7 +8944,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-09T00:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-09T12:20:04Z",
       "prompt_price": 0.0000001719,
       "completion_price": 0.0000097471
     },
@@ -8954,6 +8954,69 @@
       "to_date": null,
       "prompt_price": 0.0000006,
       "completion_price": 0.0000036
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 1.8e-8,
+      "completion_price": 9e-8
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 9e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "mistralai/mistral-small-3.2-24b-instruct",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.0000001,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "z-ai/glm-5.2:batch",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.000000623,
+      "completion_price": 0.000001271
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.00000095526,
+      "completion_price": 0.00000191052
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 8e-8,
+      "completion_price": 0.00000045
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.0000001529,
+      "completion_price": 0.0000101522
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "from_date": "2026-11-09T12:20:04Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000011
     }
   ]
 }

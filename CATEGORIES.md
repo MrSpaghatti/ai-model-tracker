@@ -83,8 +83,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0180 | $0.0900 | ⚠️ | 24,272,592,593 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~24 GB VRAM
 
@@ -93,8 +93,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0180 | $0.0900 | ⚠️ | 24,272,592,593 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~32 GB VRAM
 
@@ -103,8 +103,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0180 | $0.0900 | ⚠️ | 24,272,592,593 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~48 GB VRAM
 
@@ -113,6 +113,6 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| openai/gpt-oss-20b | OpenAI: gpt-oss-20b | 131,072 | $0.0180 | $0.0900 | ⚠️ | 24,272,592,593 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
