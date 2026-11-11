@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T06:21:01Z",
+  "generated_at": "2026-11-11T18:20:18Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -474,7 +474,7 @@
     {
       "model_id": "bytedance-seed/seed-2.0-code",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.0000005,
       "completion_price": 0.000003
     },
@@ -908,7 +908,7 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -6494,14 +6494,14 @@
     {
       "model_id": "bytedance-seed/seed-1.6",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.00000025,
       "completion_price": 0.000002
     },
     {
       "model_id": "bytedance-seed/seed-1.6-flash",
       "from_date": "2026-05-01T04:56:56Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000003
     },
@@ -9000,7 +9000,7 @@
     {
       "model_id": "google/gemma-3-27b-it",
       "from_date": "2026-11-09T12:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000045
     },
@@ -9224,14 +9224,14 @@
     {
       "model_id": "z-ai/glm-5.3-flash:batch",
       "from_date": "2026-11-10T22:11:07Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 4.2e-8,
       "completion_price": 6.1e-8
     },
     {
       "model_id": "baidu/ernie-5.5-flash-preview",
       "from_date": "2026-11-10T22:11:07Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.00000028,
       "completion_price": 0.00000113
     },
@@ -9287,28 +9287,28 @@
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-11T03:36:05Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-11T03:36:05Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.000000132,
       "completion_price": 0.000000528
     },
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-11T03:36:05Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.00000095526,
       "completion_price": 0.00000191052
     },
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-11T03:36:05Z",
-      "to_date": null,
+      "to_date": "2026-11-11T18:20:18Z",
       "prompt_price": 0.000000834,
       "completion_price": 0.000002501
     },
@@ -9339,6 +9339,62 @@
       "to_date": null,
       "prompt_price": 0.0000001824,
       "completion_price": 0.0000110055
+    },
+    {
+      "model_id": "baidu/ernie-5.5-flash-preview:free",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 0.0,
+      "completion_price": 0.0
+    },
+    {
+      "model_id": "z-ai/glm-5.3-flash:batch",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 4.7e-8,
+      "completion_price": 6.1e-8
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 8.25e-8,
+      "completion_price": 0.00000033
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 0.00000088044,
+      "completion_price": 0.00000176088
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 0.0000007506,
+      "completion_price": 0.0000022509
+    },
+    {
+      "model_id": "google/gemma-3-27b-it",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 8e-8,
+      "completion_price": 0.00000035
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-11-11T18:20:18Z",
+      "to_date": null,
+      "prompt_price": 0.00000027,
+      "completion_price": 0.00000108
     }
   ]
 }
