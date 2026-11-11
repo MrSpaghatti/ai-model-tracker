@@ -1,6 +1,7 @@
 # AI Model Price & Context Tracker
 
-> Automatically updated every 12 hours by a local cron on raven.
+> Automatically refreshed every 12 hours by a local cron job, and served from the homelab.
+> Live: <https://models.spagserv.uk> · GitHub is history/backup only.
 
 ## 📊 Pages
 
