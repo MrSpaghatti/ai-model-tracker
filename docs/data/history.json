@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-10T22:11:07Z",
+  "generated_at": "2026-11-11T03:36:05Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -509,7 +509,7 @@
     {
       "model_id": "deepseek/deepseek-v4-flash",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 9.1e-8,
       "completion_price": 0.000000182
     },
@@ -1930,7 +1930,7 @@
     {
       "model_id": "xingchen-agi/xing4.0-29b-a4b:free",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -1958,7 +1958,7 @@
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.0000014,
       "completion_price": 0.0000044
     },
@@ -2525,7 +2525,7 @@
     {
       "model_id": "qwen/qwen-2.5-7b-instruct",
       "from_date": "2026-07-30T01:45:09Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000002
     },
@@ -9035,7 +9035,7 @@
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-10T00:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000003
     },
@@ -9161,7 +9161,7 @@
     {
       "model_id": "deepseek/deepseek-v4.1-flash",
       "from_date": "2026-11-10T18:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -9175,7 +9175,7 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-10T18:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 8.25e-8,
       "completion_price": 0.00000033
     },
@@ -9189,7 +9189,7 @@
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-10T18:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.0000007506,
       "completion_price": 0.0000022509
     },
@@ -9238,7 +9238,7 @@
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-10T22:11:07Z",
-      "to_date": null,
+      "to_date": "2026-11-11T03:36:05Z",
       "prompt_price": 0.000000888966,
       "completion_price": 0.000001777932
     },
@@ -9269,6 +9269,69 @@
       "to_date": null,
       "prompt_price": 0.0000003,
       "completion_price": 0.0000005
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 9e-8,
+      "completion_price": 0.00000018
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 5.1e-8,
+      "completion_price": 0.000000567
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.000000132,
+      "completion_price": 0.000000528
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.00000095526,
+      "completion_price": 0.00000191052
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.000000834,
+      "completion_price": 0.000002501
+    },
+    {
+      "model_id": "kt/midm-k-3.0-pro",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.0000002,
+      "completion_price": 0.0000008
+    },
+    {
+      "model_id": "motif-technologies/motif-3",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-11-11T03:36:05Z",
+      "to_date": null,
+      "prompt_price": 0.00000133,
+      "completion_price": 0.00000418
     }
   ]
 }

@@ -15,7 +15,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | liquid/lfm-3-1.7b:free | LiquidAI: LFM3-1.7B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | recursive/flint-v1.0:free | Recursive: Flint (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| xingchen-agi/xing4.0-29b-a4b:free | XingChen: Xing4.0 29B A4B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | - | ✅ | ∞ |
 | nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free | NVIDIA: Nemotron 3 Nano Omni (free) | 256,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | openrouter/free | Free Models Router | 200,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
