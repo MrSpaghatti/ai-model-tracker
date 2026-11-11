@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T03:37:05Z",
+  "generated_at": "2026-11-11T06:21:01Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -9210,7 +9210,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-10T18:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-11T06:21:01Z",
       "prompt_price": 0.0000001824,
       "completion_price": 0.0000093388
     },
@@ -9332,6 +9332,13 @@
       "to_date": null,
       "prompt_price": 0.00000133,
       "completion_price": 0.00000418
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-11T06:21:01Z",
+      "to_date": null,
+      "prompt_price": 0.0000001824,
+      "completion_price": 0.0000110055
     }
   ]
 }

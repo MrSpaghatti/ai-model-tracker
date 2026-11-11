@@ -242,7 +242,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | ⚠️ | 2,240,547,009 |
 | anthropic/claude-sonnet-4.5:batch | Anthropic: Claude Sonnet 4.5 (batch) | 1,000,000 | $1.5000 | $7.5000 | - | ✅ | 2,222,222,222 |
 | anthropic/claude-sonnet-4.6:batch | Anthropic: Claude Sonnet 4.6 (batch) | 1,000,000 | $1.5000 | $7.5000 | - | ✅ | 2,222,222,222 |
-| ~moonshotai/kimi-latest | MoonshotAI: Kimi Latest | 1,048,576 | $0.1824 | $9.3388 | - | ⚠️ | 2,202,613,116 |
 | meta/muse-glimmer-30b:batch | Meta: Muse Glimmer 30B (batch) | 131,072 | $0.2400 | $0.9600 | - | ⚠️ | 2,184,533,333 |
 | z-ai/glm-4.6v | Z.ai: GLM 4.6V | 131,072 | $0.3000 | $0.9000 | - | ⚠️ | 2,184,533,333 |
 | mistralai/devstral-2512 | Mistral: Devstral 2 2512 | 262,144 | $0.4000 | $2.0000 | - | ⚠️ | 2,184,533,333 |
@@ -251,6 +250,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | thinkingmachines/inkling | Thinking Machines: Inkling | 524,288 | $1.0000 | $4.0500 | - | ⚠️ | 2,076,388,119 |
 | z-ai/glm-4.5-air | Z.ai: GLM 4.5 Air | 131,072 | $0.2000 | $1.1000 | - | ⚠️ | 2,016,492,308 |
 | google/gemini-3.5-flash | Google: Gemini 3.5 Flash | 1,048,576 | $1.5000 | $9.0000 | - | ⚠️ | 1,997,287,619 |
+| ~moonshotai/kimi-latest | MoonshotAI: Kimi Latest | 1,048,576 | $0.1824 | $11.0055 | - | ⚠️ | 1,874,482,253 |
 | morph/morph-v3-large | Morph: Morph V3 Large | 262,144 | $0.9000 | $1.9000 | - | ⚠️ | 1,872,457,143 |
 | google/gemini-2.5-pro | Google: Gemini 2.5 Pro | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |
 | google/gemini-2.5-pro-preview | Google: Gemini 2.5 Pro Preview 06-05 | 1,048,576 | $1.2500 | $10.0000 | - | ⚠️ | 1,864,135,111 |

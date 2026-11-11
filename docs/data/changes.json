@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-11T03:37:05Z",
+  "generated_at": "2026-11-11T06:21:01Z",
   "window_days": 30,
   "changes": {
     "cohere/north-mini-code:free": {
@@ -2764,17 +2764,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "~moonshotai/kimi-latest": {
-      "pct": -93.71034482758621,
-      "pctCompletion": -33.29428571428572,
-      "from": 2.9000000000000004,
-      "to": 0.18239999999999998,
-      "fromCompletion": 14.0,
-      "toCompletion": 9.338799999999999,
-      "spanDays": 30,
-      "compareDate": "2026-10-12",
-      "fromDate": "2026-07-31T02:02:28Z"
-    },
     "meta/muse-glimmer-30b:batch": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2862,6 +2851,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-12",
       "fromDate": "2026-05-21T03:54:05Z"
+    },
+    "~moonshotai/kimi-latest": {
+      "pct": -93.71034482758621,
+      "pctCompletion": -21.389285714285716,
+      "from": 2.9000000000000004,
+      "to": 0.18239999999999998,
+      "fromCompletion": 14.0,
+      "toCompletion": 11.0055,
+      "spanDays": 30,
+      "compareDate": "2026-10-12",
+      "fromDate": "2026-07-31T02:02:28Z"
     },
     "morph/morph-v3-large": {
       "pct": 0.0,
