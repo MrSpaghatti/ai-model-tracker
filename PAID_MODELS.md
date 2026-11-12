@@ -11,7 +11,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | - | ⚠️ | 125,000,000,000 |
 | inclusionai/ling-3.1-flash | inclusionAI: Ling 3.1 Flash | 1,000,000 | $0.0450 | $0.1350 | - | ⚠️ | 111,111,111,111 |
 | deepseek/deepseek-v4-flash-0731:batch | DeepSeek: DeepSeek V4 Flash 0731 (batch) | 1,048,576 | $0.0480 | $0.1440 | - | ⚠️ | 109,226,666,667 |
-| deepseek/deepseek-v4.1-flash-1017:batch | DeepSeek: DeepSeek V4.1 Flash 1017 (batch) | 1,048,576 | $0.0110 | $0.2000 | - | ⚠️ | 99,391,090,047 |
+| deepseek/deepseek-v4.1-flash-1017:batch | DeepSeek: DeepSeek V4.1 Flash 1017 (batch) | 1,048,576 | $0.0500 | $0.1500 | - | ⚠️ | 104,857,600,000 |
 | z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0500 | $0.1800 | - | ⚠️ | 91,180,521,739 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | - | ⚠️ | 87,381,333,333 |
 | openai/gpt-4.1-nano:batch | OpenAI: GPT-4.1 Nano (batch) | 1,047,576 | $0.0500 | $0.2000 | - | ✅ | 83,806,080,000 |
@@ -26,8 +26,8 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.5-flash-02-23 | Qwen: Qwen3.5-Flash | 1,000,000 | $0.0650 | $0.2600 | - | ⚠️ | 61,538,461,538 |
 | deepseek/deepseek-v4-flash-0731 | DeepSeek: DeepSeek V4 Flash 0731 | 1,048,576 | $0.0434 | $0.3000 | - | ⚠️ | 61,070,238,789 |
 | ~deepseek/deepseek-v4-flash-latest | DeepSeek: DeepSeek V4 Flash Latest | 1,048,576 | $0.0434 | $0.3000 | - | ⚠️ | 61,070,238,789 |
+| minimax/minimax-m3.1-flash | MiniMax: MiniMax M3.1 Flash | 1,048,576 | $0.0750 | $0.3000 | - | ⚠️ | 55,924,053,333 |
 | xiaomi/mimo-v2.6-flash | Xiaomi: MiMo-V2.6-Flash | 1,050,000 | $0.1400 | $0.2800 | - | ⚠️ | 50,000,000,000 |
-| deepseek/deepseek-v4.1-flash | DeepSeek: DeepSeek V4.1 Flash | 1,048,576 | $0.0220 | $0.4000 | - | ⚠️ | 49,695,545,024 |
 | ~deepseek/deepseek-flash-latest | DeepSeek: DeepSeek Flash Latest | 1,048,576 | $0.0220 | $0.4000 | - | ⚠️ | 49,695,545,024 |
 | deepseek/deepseek-v4.1-flash:batch | DeepSeek: DeepSeek V4.1 Flash (batch) | 1,048,576 | $0.1120 | $0.3360 | - | ⚠️ | 46,811,428,571 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | - | ⚠️ | 44,431,186,441 |
@@ -36,7 +36,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | upstage/solar-mini4 | Upstage: Solar Mini 4 | 524,288 | $0.0500 | $0.2000 | - | ⚠️ | 41,943,040,000 |
 | google/gemini-2.5-flash-lite | Google: Gemini 2.5 Flash Lite | 1,048,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,943,040,000 |
 | openai/gpt-4.1-nano | OpenAI: GPT-4.1 Nano | 1,047,576 | $0.1000 | $0.4000 | - | ⚠️ | 41,903,040,000 |
-| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0520 | $0.0760 | - | ⚠️ | 40,960,000,000 |
 | particle-ai/particle-1 | Particle AI: Particle-1 | 1,048,576 | $0.0500 | $0.5000 | - | ⚠️ | 38,130,036,364 |
 | openai/gpt-5-nano:batch | OpenAI: GPT-5 Nano (batch) | 400,000 | $0.0250 | $0.2000 | - | ✅ | 35,555,555,556 |
 | openai/gpt-6-luna | OpenAI: GPT-6 Luna | 1,050,000 | $0.1000 | $0.5000 | - | ✅ | 35,000,000,000 |
@@ -50,8 +49,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.8-omni-flash | Qwen: Qwen3.8 Omni Flash | 1,000,000 | $0.1500 | $0.4700 | - | ⚠️ | 32,258,064,516 |
 | openai/gpt-5.6-luna-pro:batch | OpenAI: GPT-5.6 Luna Pro (batch) | 1,050,000 | $0.1000 | $0.6000 | - | ✅ | 30,000,000,000 |
 | openai/gpt-5.6-luna:batch | OpenAI: GPT-5.6 Luna (batch) | 1,050,000 | $0.1000 | $0.6000 | - | ✅ | 30,000,000,000 |
-| google/gemma-4-26b-a4b-it | Google: Gemma 4 26B A4B  | 262,144 | $0.0800 | $0.1000 | - | ⚠️ | 29,127,111,111 |
-| minimax/minimax-m3.1-flash | MiniMax: MiniMax M3.1 Flash | 1,048,576 | $0.1500 | $0.6000 | - | ⚠️ | 27,962,026,667 |
+| deepseek/deepseek-v4.1-flash-1017 | DeepSeek: DeepSeek V4.1 Flash 1017 | 1,048,576 | $0.1500 | $0.6000 | - | ⚠️ | 27,962,026,667 |
 | ricursiveai/ripple-65b-preview | Ricursive: Ripple 65B Preview | 1,048,576 | $0.2000 | $0.6000 | - | ⚠️ | 26,214,400,000 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | - | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | - | ⚠️ | 24,966,095,238 |
@@ -71,20 +69,20 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | nex-agi/nex-n2.5-pro | Nex AGI: Nex-N2.5-Pro | 262,144 | $0.0750 | $0.2500 | - | ⚠️ | 16,131,938,462 |
 | reflection/beam-1.0-501b-a23b | Reflection: Beam 1.0 501B A23B | 1,048,576 | $0.3000 | $1.0000 | - | ⚠️ | 16,131,938,462 |
 | xiaomi/mimo-v2.6-pro | Xiaomi: MiMo-V2.6-Pro | 1,050,000 | $0.4350 | $0.8700 | - | ⚠️ | 16,091,954,023 |
+| z-ai/glm-5.2:batch | Z.ai: GLM 5.2 (batch) | 1,048,576 | $0.3220 | $0.9890 | - | ⚠️ | 15,996,582,761 |
 | openai/gpt-oss-120b:batch | OpenAI: gpt-oss-120b (batch) | 131,072 | $0.0296 | $0.1360 | - | ⚠️ | 15,829,951,691 |
 | qwen/qwen3.6-flash | Qwen: Qwen3.6 Flash | 1,000,000 | $0.1875 | $1.1250 | - | ⚠️ | 15,238,095,238 |
 | openai/gpt-5.6-luna | OpenAI: GPT-5.6 Luna | 1,050,000 | $0.2000 | $1.2000 | - | ✅ | 15,000,000,000 |
 | openai/gpt-5.6-luna-pro | OpenAI: GPT-5.6 Luna Pro | 1,050,000 | $0.2000 | $1.2000 | - | ✅ | 15,000,000,000 |
 | google/gemini-3.5-flash-lite:batch | Google: Gemini 3.5 Flash Lite (batch) | 1,048,576 | $0.1500 | $1.2500 | - | ⚠️ | 14,979,657,143 |
-| z-ai/glm-5.2:batch | Z.ai: GLM 5.2 (batch) | 1,048,576 | $0.3500 | $1.0750 | - | ⚠️ | 14,716,856,140 |
-| z-ai/glm-5.3:batch | Z.ai: GLM 5.3 (batch) | 1,048,576 | $0.3500 | $1.0750 | - | ⚠️ | 14,716,856,140 |
 | amazon/nova-micro-v1 | Amazon: Nova Micro 1.0 | 128,000 | $0.0350 | $0.1400 | - | ✅ | 14,628,571,429 |
 | z-ai/glm-5.3 | Z.ai: GLM 5.3 | 1,048,576 | $0.0699 | $1.4000 | - | ⚠️ | 14,267,310,701 |
 | ~z-ai/glm-latest | Z.ai: GLM Latest | 1,048,576 | $0.0699 | $1.4000 | - | ⚠️ | 14,267,310,701 |
 | inference-net/schematron-v2-turbo | Inference.net: Schematron V2 Turbo | 128,000 | $0.0300 | $0.1500 | - | ⚠️ | 14,222,222,222 |
+| google/gemma-4-26b-a4b-it | Google: Gemma 4 26B A4B  | 262,144 | $0.0900 | $0.2800 | - | ⚠️ | 14,169,945,946 |
 | meituan/longcat-2.0 | Meituan: LongCat 2.0 | 1,048,756 | $0.3000 | $1.2000 | - | ⚠️ | 13,983,413,333 |
 | upstage/solar-pro4 | Upstage: Solar Pro 4 | 524,288 | $0.1500 | $0.6000 | - | ⚠️ | 13,981,013,333 |
-| deepseek/deepseek-v4.1-flash-1017 | DeepSeek: DeepSeek V4.1 Flash 1017 | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
+| deepseek/deepseek-v4.1-flash | DeepSeek: DeepSeek V4.1 Flash | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
 | minimax/minimax-m3 | MiniMax: MiniMax M3 | 1,048,576 | $0.3000 | $1.2000 | - | ⚠️ | 13,981,013,333 |
 | cohere/command-r7b-12-2024 | Cohere: Command R7B (12-2024) | 128,000 | $0.0375 | $0.1500 | - | ✅ | 13,653,333,333 |
 | google/gemma-3-12b-it | Google: Gemma 3 12B | 131,072 | $0.0500 | $0.1500 | - | ⚠️ | 13,107,200,000 |
@@ -95,7 +93,9 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | z-ai/glm-5.3-flashx | Z.ai: GLM 5.3 FlashX | 1,048,576 | $0.3700 | $1.2500 | - | ⚠️ | 12,945,382,716 |
 | z-ai/glm-5.3-flashx-legal | Z.ai: GLM 5.3 FlashX Legal | 1,048,576 | $0.3700 | $1.2500 | - | ⚠️ | 12,945,382,716 |
 | mistralai/mistral-small-3.2-24b-instruct | Mistral: Mistral Small 3.2 24B | 256,000 | $0.1000 | $0.3000 | - | ⚠️ | 12,800,000,000 |
+| tencent/hy3 | Tencent: Hy3 | 262,144 | $0.0825 | $0.3300 | - | ⚠️ | 12,710,012,121 |
 | tencent/hy4 | Tencent: Hy4 | 1,048,576 | $0.4170 | $1.2505 | - | ⚠️ | 12,576,623,688 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.1690 | $0.2490 | - | ⚠️ | 12,542,775,120 |
 | qwen/qwen3.7-plus | Qwen: Qwen3.7 Plus | 1,000,000 | $0.3200 | $1.2800 | - | ⚠️ | 12,500,000,000 |
 | ibm-granite/granite-4.2-8b | IBM: Granite 4.2 8B | 131,072 | $0.0600 | $0.1500 | - | ⚠️ | 12,483,047,619 |
 | google/gemini-3-flash-preview:batch | Google: Gemini 3 Flash Preview (batch) | 1,048,576 | $0.2500 | $1.5000 | - | ⚠️ | 11,983,725,714 |
@@ -124,15 +124,15 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.6-plus | Qwen: Qwen3.6 Plus | 1,000,000 | $0.3250 | $1.9500 | - | ⚠️ | 8,791,208,791 |
 | google/gemma-4-31b-it | Google: Gemma 4 31B | 262,144 | $0.2000 | $0.4000 | - | ⚠️ | 8,738,133,333 |
 | z-ai/glm-4.7-flash | Z.ai: GLM 4.7 Flash | 200,000 | $0.0605 | $0.4000 | - | ⚠️ | 8,686,210,641 |
+| z-ai/glm-5.3:batch | Z.ai: GLM 5.3 (batch) | 1,048,576 | $0.4500 | $2.0000 | - | ⚠️ | 8,559,804,082 |
 | bytedance/ui-tars-1.5-7b | ByteDance: UI-TARS 7B  | 128,000 | $0.1000 | $0.2000 | - | ⚠️ | 8,533,333,333 |
 | xiaomi/mimo-v2.5 | Xiaomi: MiMo-V2.5 | 1,000,000 | $0.4000 | $2.0000 | - | ⚠️ | 8,333,333,333 |
-| tencent/hy3 | Tencent: Hy3 | 262,144 | $0.1320 | $0.5280 | - | ⚠️ | 7,943,757,576 |
 | thinkingmachines/inkling-small:batch | Thinking Machines: Inkling Small (batch) | 524,288 | $0.3600 | $0.9600 | - | ⚠️ | 7,943,757,576 |
+| deepseek/deepseek-v4-pro | DeepSeek: DeepSeek V4 Pro 0423 | 1,048,576 | $0.8923 | $1.7845 | - | ⚠️ | 7,834,501,886 |
 | meta-llama/llama-4-maverick | Meta: Llama 4 Maverick | 524,288 | $0.3500 | $1.0000 | - | ⚠️ | 7,767,229,630 |
 | mistralai/mistral-large-4-0 | Mistral: Mistral Large 4 | 1,048,576 | $0.7000 | $2.1000 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-2.5-flash | Google: Gemini 2.5 Flash | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
 | google/gemini-3.5-flash-lite | Google: Gemini 3.5 Flash Lite | 1,048,576 | $0.3000 | $2.5000 | - | ⚠️ | 7,489,828,571 |
-| deepseek/deepseek-v4-pro | DeepSeek: DeepSeek V4 Pro 0423 | 1,048,576 | $0.9553 | $1.9105 | - | ⚠️ | 7,317,909,958 |
 | qwen/qwen3-32b | Qwen: Qwen3 32B | 131,072 | $0.0800 | $0.2800 | - | ⚠️ | 7,281,777,778 |
 | amazon/nova-2-lite-v1 | Amazon: Nova 2 Lite | 1,000,000 | $0.3000 | $2.5000 | - | ✅ | 7,142,857,143 |
 | openai/gpt-5-mini:batch | OpenAI: GPT-5 Mini (batch) | 400,000 | $0.1250 | $1.0000 | - | ✅ | 7,111,111,111 |
@@ -142,13 +142,13 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | mistralai/mistral-small-2603 | Mistral: Mistral Small 4 | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.1500 | $0.6000 | - | ✅ | 6,990,506,667 |
 | qwen/qwen3-vl-30b-a3b-instruct | Qwen: Qwen3 VL 30B A3B Instruct | 262,144 | $0.1500 | $0.6000 | - | ⚠️ | 6,990,506,667 |
+| tencent/hy4-preview | Tencent: Hy4 preview | 1,048,576 | $0.7506 | $2.2509 | - | ⚠️ | 6,987,013,160 |
 | meta-llama/llama-3.2-3b-instruct | Meta: Llama 3.2 3B Instruct | 131,072 | $0.0500 | $0.3300 | - | ⚠️ | 6,898,526,316 |
 | openai/gpt-4o-mini:batch | OpenAI: GPT-4o-mini (batch) | 128,000 | $0.0750 | $0.3000 | - | ✅ | 6,826,666,667 |
 | tencent/hy3-preview | Tencent: Hy3 preview | 262,144 | $0.1800 | $0.6000 | - | ⚠️ | 6,721,641,026 |
 | x-ai/grok-4.3:batch | SpaceXAI: Grok 4.3 (batch) | 1,000,000 | $1.0000 | $2.0000 | - | ⚠️ | 6,666,666,667 |
 | nvidia/nemotron-3.5-content-safety | NVIDIA: Nemotron 3.5 Content Safety | 131,072 | $0.2000 | $0.2000 | - | ⚠️ | 6,553,600,000 |
 | thinkingmachines/inkling-small | Thinking Machines: Inkling Small | 524,288 | $0.4500 | $1.2000 | - | ⚠️ | 6,355,006,061 |
-| tencent/hy4-preview | Tencent: Hy4 preview | 1,048,576 | $0.8340 | $2.5010 | - | ⚠️ | 6,288,311,844 |
 | google/gemma-3-27b-it | Google: Gemma 3 27B | 131,072 | $0.0800 | $0.3500 | - | ⚠️ | 6,096,372,093 |
 | google/gemini-3-flash-preview | Google: Gemini 3 Flash Preview | 1,048,576 | $0.5000 | $3.0000 | - | ⚠️ | 5,991,862,857 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | - | ⚠️ | 5,698,782,609 |
@@ -168,7 +168,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | deepseek/deepseek-v3.2-exp | DeepSeek: DeepSeek V3.2 Exp | 163,840 | $0.2700 | $0.4100 | - | ⚠️ | 4,818,823,529 |
 | google/gemini-3.6-flash | Google: Gemini 3.6 Flash | 1,048,576 | $0.7500 | $3.7500 | - | ⚠️ | 4,660,337,778 |
 | google/gemini-3.7-flash | Google: Gemini 3.7 Flash | 1,048,576 | $0.7500 | $3.7500 | - | ⚠️ | 4,660,337,778 |
-| ~google/gemini-flash-latest | Google: Gemini Flash Latest | 1,048,576 | $0.7500 | $3.7500 | - | ⚠️ | 4,660,337,778 |
 | deepseek/deepseek-v4-pro-0813 | DeepSeek: DeepSeek V4 Pro 0813 | 1,048,576 | $0.1110 | $4.4400 | - | ⚠️ | 4,608,112,503 |
 | qwen/qwen3.5-35b-a3b | Qwen: Qwen3.5-35B-A3B | 262,144 | $0.1400 | $1.0000 | - | ⚠️ | 4,599,017,544 |
 | qwen/qwen3.7-plus:batch | Qwen: Qwen3.7 Plus (batch) | 262,144 | $0.2300 | $0.9200 | - | ⚠️ | 4,559,026,087 |
@@ -227,18 +226,20 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen3.8-2.4t-a95b | Qwen: Qwen3.8 2.4T A95B | 1,048,576 | $2.0000 | $6.0000 | - | ⚠️ | 2,621,440,000 |
 | ~deepseek/deepseek-pro-latest | DeepSeek: DeepSeek Pro Latest | 1,048,576 | $0.0999 | $8.0000 | - | ⚠️ | 2,589,108,508 |
 | deepseek/deepseek-v3.1-terminus | DeepSeek: DeepSeek V3.1 Terminus | 163,840 | $0.2700 | $1.0000 | - | ⚠️ | 2,580,157,480 |
-| qwen/qwen3-14b | Qwen: Qwen3 14B | 40,960 | $0.1000 | $0.2200 | - | ⚠️ | 2,560,000,000 |
 | qwen/qwen3.8-max-0902 | Qwen: Qwen3.8 Max (0902) | 1,000,000 | $2.0000 | $6.0000 | - | ⚠️ | 2,500,000,000 |
 | sakana/fugu-max | Sakana: Fugu Max | 1,000,000 | $2.0000 | $6.0000 | - | ⚠️ | 2,500,000,000 |
 | aion-labs/aion-3.5-mini | AionLabs: Aion 3.5 Mini | 262,144 | $0.7000 | $1.4000 | - | ⚠️ | 2,496,609,524 |
 | qwen/qwen3-vl-235b-a22b-instruct | Qwen: Qwen3 VL 235B A22B Instruct | 262,144 | $0.2100 | $1.9000 | - | ⚠️ | 2,484,777,251 |
 | relace/relace-apply-3 | Relace: Relace Apply 3 | 256,000 | $0.8500 | $1.2500 | - | ⚠️ | 2,438,095,238 |
 | qwen/qwen3.8-27b:batch | Qwen: Qwen3.8 27B (batch) | 262,144 | $0.1600 | $2.0000 | - | ⚠️ | 2,427,259,259 |
-| moonshotai/kimi-k3.1-pro | MoonshotAI: Kimi K3.1 Pro | 1,048,576 | $0.2375 | $8.4085 | - | ⚠️ | 2,425,574,832 |
 | openai/gpt-5.4:batch | OpenAI: GPT-5.4 (batch) | 1,050,000 | $1.2500 | $7.5000 | - | ✅ | 2,400,000,000 |
 | bytedance-seed/seed-2.0-lite | ByteDance Seed: Seed-2.0-Lite | 262,144 | $0.2500 | $2.0000 | - | ⚠️ | 2,330,168,889 |
+| google/gemini-4-hydrogen | Google: Gemini 4 Hydrogen | 1,048,576 | $1.5000 | $7.5000 | - | ⚠️ | 2,330,168,889 |
+| ~google/gemini-flash-latest | Google: Gemini Flash Latest | 1,048,576 | $1.5000 | $7.5000 | - | ⚠️ | 2,330,168,889 |
 | cognitivecomputations/dolphin-mistral-24b-venice-edition | Venice: Uncensored | 128,000 | $0.2000 | $0.9000 | - | ⚠️ | 2,327,272,727 |
+| moonshotai/kimi-k3.1-pro | MoonshotAI: Kimi K3.1 Pro | 1,048,576 | $0.2375 | $8.7856 | - | ⚠️ | 2,324,203,433 |
 | deepseek/deepseek-chat-v3-0324 | DeepSeek: DeepSeek V3 0324 | 163,840 | $0.2900 | $1.1400 | - | ⚠️ | 2,291,468,531 |
+| qwen/qwen3-14b | Qwen: Qwen3 14B | 40,960 | $0.1200 | $0.2400 | - | ⚠️ | 2,275,555,556 |
 | qwen/qwen3.5-122b-a10b | Qwen: Qwen3.5-122B-A10B | 262,144 | $0.2600 | $2.0800 | - | ⚠️ | 2,240,547,009 |
 | anthropic/claude-sonnet-4.5:batch | Anthropic: Claude Sonnet 4.5 (batch) | 1,000,000 | $1.5000 | $7.5000 | - | ✅ | 2,222,222,222 |
 | anthropic/claude-sonnet-4.6:batch | Anthropic: Claude Sonnet 4.6 (batch) | 1,000,000 | $1.5000 | $7.5000 | - | ✅ | 2,222,222,222 |
@@ -268,6 +269,7 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | ~openai/gpt-sol-latest | OpenAI: GPT Sol Latest | 1,050,000 | $2.0000 | $10.0000 | - | ✅ | 1,750,000,000 |
 | meta/muse-glimmer-30b | Meta: Muse Glimmer 30B | 131,072 | $0.3000 | $1.2000 | - | ⚠️ | 1,747,626,667 |
 | bytedance-seed/seed-2-1-turbo | ByteDance Seed: Seed 2.1 Turbo | 262,144 | $0.5000 | $2.5000 | - | ⚠️ | 1,747,626,667 |
+| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.5000 | $2.5000 | - | ⚠️ | 1,747,626,667 |
 | nvidia/nemotron-3-ultra-550b-a55b | NVIDIA: Nemotron 3 Ultra | 262,144 | $0.6000 | $2.4000 | - | ⚠️ | 1,747,626,667 |
 | google/gemini-4-argon | Google: Gemini 4 Argon | 1,048,576 | $2.0000 | $10.0000 | - | ⚠️ | 1,747,626,667 |
 | google/gemini-4-carbon | Google: Gemini 4 Carbon | 1,048,576 | $2.0000 | $10.0000 | - | ⚠️ | 1,747,626,667 |
@@ -305,7 +307,6 @@ Paid models sorted by **Context/Cent** — how much context you get for $0.01 ba
 | qwen/qwen2.5-vl-72b-instruct | Qwen: Qwen2.5 VL 72B Instruct | 128,000 | $0.8000 | $1.0000 | - | ⚠️ | 1,422,222,222 |
 | openai/gpt-5.1:batch | OpenAI: GPT-5.1 (batch) | 400,000 | $0.6250 | $5.0000 | - | ✅ | 1,422,222,222 |
 | openai/gpt-5:batch | OpenAI: GPT-5 (batch) | 400,000 | $0.6250 | $5.0000 | - | ✅ | 1,422,222,222 |
-| moonshotai/kimi-k2.5 | MoonshotAI: Kimi K2.5 | 262,144 | $0.5320 | $3.3250 | - | ⚠️ | 1,359,315,530 |
 | anthropic/claude-haiku-4.5:batch | Anthropic: Claude Haiku 4.5 (batch) | 200,000 | $0.5000 | $2.5000 | - | ✅ | 1,333,333,333 |
 | amazon/nova-premier-v1 | Amazon: Nova Premier 1.0 | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
 | anthropic/claude-opus-4.6:batch | Anthropic: Claude Opus 4.6 (batch) | 1,000,000 | $2.5000 | $12.5000 | - | ✅ | 1,333,333,333 |
