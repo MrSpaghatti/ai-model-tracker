@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-13T06:20:45Z",
+  "generated_at": "2026-11-13T18:20:02Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -789,14 +789,14 @@
     {
       "model_id": "liquid/lfm-2.5-2.6b",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.00000035,
       "completion_price": 0.0000005
     },
     {
       "model_id": "liquid/lfm-2.5-2.6b:free",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -9392,7 +9392,7 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-11-11T18:20:18Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000108
     },
@@ -9455,7 +9455,7 @@
     {
       "model_id": "ibm-granite/granite-4.2-8b",
       "from_date": "2026-11-12T06:20:20Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 6e-8,
       "completion_price": 0.00000015
     },
@@ -9539,7 +9539,7 @@
     {
       "model_id": "z-ai/glm-5.2:batch",
       "from_date": "2026-11-12T18:20:46Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.000000322,
       "completion_price": 0.000000989
     },
@@ -9630,7 +9630,7 @@
     {
       "model_id": "apodex/apodex-1.1-mini:free",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.0,
       "completion_price": 0.0
     },
@@ -9658,28 +9658,28 @@
     {
       "model_id": "inclusionai/ling-3.0-flash-fin",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 4.2e-8,
       "completion_price": 0.0000001232
     },
     {
       "model_id": "inclusionai/ling-3.0-flash-sante",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 4.2e-8,
       "completion_price": 0.0000001232
     },
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
     {
       "model_id": "qwen/qwen3.5-9b",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 8.5e-8,
       "completion_price": 0.000000125
     },
@@ -9700,7 +9700,7 @@
     {
       "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -9721,14 +9721,14 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.000000132,
       "completion_price": 0.000000528
     },
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-13T18:20:02Z",
       "prompt_price": 0.000000834,
       "completion_price": 0.000002501
     },
@@ -9752,6 +9752,62 @@
       "to_date": null,
       "prompt_price": 0.000002,
       "completion_price": 0.00001
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 3.8e-8,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "z-ai/glm-5.2:batch",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 0.000000298,
+      "completion_price": 0.000000916
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 0.000000132,
+      "completion_price": 0.000000195
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 8.25e-8,
+      "completion_price": 0.00000033
+    },
+    {
+      "model_id": "ibm-granite/granite-4.2-8b",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 6e-8,
+      "completion_price": 0.00000025
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 0.0000007506,
+      "completion_price": 0.0000022509
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-11-13T18:20:02Z",
+      "to_date": null,
+      "prompt_price": 0.00000027,
+      "completion_price": 0.00000095
     }
   ]
 }
