@@ -6,12 +6,14 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| particle-ai/particle-1:free | Particle AI: Particle-1 (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | thinkingmachines/inkling-2-small:free | Thinking Machines: Inkling 2 Small (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | baidu/ernie-5.5-flash-preview:free | Baidu: ERNIE-5.5-Flash-Preview (free) | 1,024,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-ultra-550b-a55b:free | NVIDIA: Nemotron 3 Ultra (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-lightning:free | NVIDIA: Nemotron 3.5 Lightning (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-super-vl:free | NVIDIA: Nemotron 3.5 Super VL (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | dots-studio/dots-3-note-preview:free | Dots Studio: Dots3-Note Preview (free) | 512,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
+| apodex/apodex-1.1-mini:free | Apodex: Apodex 1.1 Mini (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | liquid/lfm-3-1.7b:free | LiquidAI: LFM3-1.7B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |

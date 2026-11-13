@@ -18,9 +18,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| particle-ai/particle-1:free | Particle AI: Particle-1 (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | thinkingmachines/inkling-2-small:free | Thinking Machines: Inkling 2 Small (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-super-vl:free | NVIDIA: Nemotron 3.5 Super VL (free) | 1,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| dots-studio/dots-3-note-preview:free | Dots Studio: Dots3-Note Preview (free) | 512,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
 
@@ -72,9 +72,9 @@ _No matching models found._
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0850 | $0.1250 | ⚠️ | 24,966,095,238 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0500 | $0.1000 | ⚠️ | 17,476,266,667 |
-| mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | ⚠️ | 17,476,266,667 |
 
 ## Top 5 Models for ~16 GB VRAM
 
@@ -83,8 +83,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0850 | $0.1250 | ⚠️ | 24,966,095,238 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~24 GB VRAM
 
@@ -93,8 +93,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0850 | $0.1250 | ⚠️ | 24,966,095,238 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~32 GB VRAM
 
@@ -103,8 +103,8 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0850 | $0.1250 | ⚠️ | 24,966,095,238 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
 ## Top 5 Models for ~48 GB VRAM
 
@@ -113,6 +113,6 @@ _No matching models found._
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| qwen/qwen3.5-9b | Qwen: Qwen3.5-9B | 262,144 | $0.0850 | $0.1250 | ⚠️ | 24,966,095,238 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
-| liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 
