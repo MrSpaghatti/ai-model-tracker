@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-15T18:20:37Z",
+  "generated_at": "2026-11-16T06:20:37Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -8951,7 +8951,7 @@
     {
       "model_id": "qwen/qwen3.5-397b-a17b",
       "from_date": "2026-11-09T00:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.0000006,
       "completion_price": 0.0000036
     },
@@ -9014,7 +9014,7 @@
     {
       "model_id": "z-ai/glm-4.5-air",
       "from_date": "2026-11-09T12:20:04Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.0000002,
       "completion_price": 0.0000011
     },
@@ -9735,7 +9735,7 @@
     {
       "model_id": "z-ai/glm-5.3",
       "from_date": "2026-11-13T06:20:45Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 8.4e-8,
       "completion_price": 0.0000036
     },
@@ -9805,7 +9805,7 @@
     {
       "model_id": "minimax/minimax-m2.5",
       "from_date": "2026-11-13T18:20:02Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.00000027,
       "completion_price": 0.00000095
     },
@@ -9819,7 +9819,7 @@
     {
       "model_id": "deepseek/deepseek-v4.1-flash",
       "from_date": "2026-11-14T06:20:02Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 5.07e-8,
       "completion_price": 0.0000002028
     },
@@ -9847,7 +9847,7 @@
     {
       "model_id": "google/gemma-4-26b-a4b-it",
       "from_date": "2026-11-14T06:20:02Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 6.75e-8,
       "completion_price": 0.000000225
     },
@@ -9917,7 +9917,7 @@
     {
       "model_id": "openai/gpt-oss-20b",
       "from_date": "2026-11-14T18:20:19Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 3e-8,
       "completion_price": 0.00000013
     },
@@ -10022,49 +10022,49 @@
     {
       "model_id": "openai/gpt-5.6-sol",
       "from_date": "2026-11-15T06:20:19Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.0000044,
       "completion_price": 0.000022
     },
     {
       "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 2e-8,
       "completion_price": 0.000000108
     },
     {
       "model_id": "~deepseek/deepseek-flash-latest",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 2e-8,
       "completion_price": 0.000000108
     },
     {
       "model_id": "deepseek/deepseek-v4.1-flash-1017:batch",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 2.9e-8,
       "completion_price": 0.000000253
     },
     {
       "model_id": "qwen/qwen3.5-9b",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 3.2e-8,
       "completion_price": 4.6e-8
     },
     {
       "model_id": "deepseek/deepseek-v4-flash-0731",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 4.34e-8,
       "completion_price": 0.0000003
     },
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000003
     },
@@ -10078,7 +10078,7 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 8.25e-8,
       "completion_price": 0.00000033
     },
@@ -10099,7 +10099,7 @@
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.0000007506,
       "completion_price": 0.0000022509
     },
@@ -10113,7 +10113,7 @@
     {
       "model_id": "moonshotai/kimi-k3.1-pro",
       "from_date": "2026-11-15T18:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-16T06:20:37Z",
       "prompt_price": 0.000002,
       "completion_price": 0.00001
     },
@@ -10123,6 +10123,132 @@
       "to_date": null,
       "prompt_price": 0.0000005,
       "completion_price": 0.00000215
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 6e-8,
+      "completion_price": 0.00000018
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017:batch",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 3.7e-8,
+      "completion_price": 0.000000325
+    },
+    {
+      "model_id": "~deepseek/deepseek-flash-latest",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 3.6e-8,
+      "completion_price": 0.0000005
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.00000042
+    },
+    {
+      "model_id": "qwen/qwen3.5-9b",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.00000011
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "z-ai/glm-5.3",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 6.99e-8,
+      "completion_price": 0.0000014
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "google/gemma-4-26b-a4b-it",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 9e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.000000132,
+      "completion_price": 0.000000528
+    },
+    {
+      "model_id": "openai/gpt-oss-20b",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.000000834,
+      "completion_price": 0.000002501
+    },
+    {
+      "model_id": "qwen/qwen4-max",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.0000015,
+      "completion_price": 0.0000045
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.00000013,
+      "completion_price": 0.00000085
+    },
+    {
+      "model_id": "minimax/minimax-m2.5",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.000000295,
+      "completion_price": 0.0000012
+    },
+    {
+      "model_id": "moonshotai/kimi-k3.1-pro",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.0000002403,
+      "completion_price": 0.0000084023
+    },
+    {
+      "model_id": "qwen/qwen3.5-397b-a17b",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.00000045,
+      "completion_price": 0.000003
+    },
+    {
+      "model_id": "openai/gpt-5.6-sol",
+      "from_date": "2026-11-16T06:20:37Z",
+      "to_date": null,
+      "prompt_price": 0.000004,
+      "completion_price": 0.00002
     }
   ]
 }
