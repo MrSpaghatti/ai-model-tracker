@@ -20,7 +20,7 @@
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | inclusionai/ling-3.2-flash:free | inclusionAI: Ling 3.2 Flash (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 | particle-ai/particle-1:free | Particle AI: Particle-1 (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
-| thinkingmachines/inkling-2-small:free | Thinking Machines: Inkling 2 Small (free) | 1,048,576 | $0.0000 | $0.0000 | ⚠️ | ∞ |
+| nvidia/nemotron-3.5-super-vl:free | NVIDIA: Nemotron 3.5 Super VL (free) | 1,000,000 | $0.0000 | $0.0000 | ⚠️ | ∞ |
 
 ## Top 5 Best Value Models
 

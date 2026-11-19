@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-19T06:20:24Z",
+  "generated_at": "2026-11-19T18:20:42Z",
   "window_days": 30,
   "changes": {
     "baidu/ernie-5.5-flash-preview:free": {
@@ -179,17 +179,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "thinkingmachines/inkling-2-small:free": {
-      "pct": null,
-      "pctCompletion": null,
-      "from": 0.0,
-      "to": 0.0,
-      "fromCompletion": 0.0,
-      "toCompletion": 0.0,
-      "spanDays": 9,
-      "compareDate": "2026-11-10",
-      "fromDate": "2026-11-10T00:20:04Z"
-    },
     "scaledown/extract": {
       "pct": 0.0,
       "pctCompletion": null,
@@ -256,17 +245,6 @@
       "compareDate": "2026-11-16",
       "fromDate": "2026-11-16T18:20:56Z"
     },
-    "~deepseek/deepseek-flash-latest": {
-      "pct": 483.33333333333337,
-      "pctCompletion": -70.0,
-      "from": 0.006,
-      "to": 0.035,
-      "fromCompletion": 0.5,
-      "toCompletion": 0.15,
-      "spanDays": 12,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
       "pct": 227.27272727272725,
       "pctCompletion": -24.999999999999996,
@@ -277,6 +255,17 @@
       "spanDays": 11,
       "compareDate": "2026-11-08",
       "fromDate": "2026-11-08T04:56:22Z"
+    },
+    "~deepseek/deepseek-v4-flash-latest": {
+      "pct": -48.17777777777778,
+      "pctCompletion": -22.26666666666667,
+      "from": 0.09,
+      "to": 0.04664,
+      "fromCompletion": 0.18,
+      "toCompletion": 0.13992,
+      "spanDays": 30,
+      "compareDate": "2026-10-20",
+      "fromDate": "2026-08-02T01:59:59Z"
     },
     "inclusionai/ling-3.1-flash": {
       "pct": 0.0,
@@ -318,6 +307,17 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
+      "spanDays": 12,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "pct": -0.5882352941176503,
+      "pctCompletion": -64.23280423280424,
+      "from": 0.051,
+      "to": 0.050699999999999995,
+      "fromCompletion": 0.5670000000000001,
+      "toCompletion": 0.20279999999999998,
       "spanDays": 12,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
@@ -433,26 +433,26 @@
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "deepseek/deepseek-v4-flash-0731": {
-      "pct": -38.888888888888886,
+      "pct": -31.11111111111111,
       "pctCompletion": 66.66666666666666,
       "from": 0.09,
-      "to": 0.055,
+      "to": 0.062,
       "fromCompletion": 0.18,
       "toCompletion": 0.3,
       "spanDays": 30,
       "compareDate": "2026-10-20",
       "fromDate": "2026-08-02T01:59:59Z"
     },
-    "~deepseek/deepseek-v4-flash-latest": {
-      "pct": -38.888888888888886,
-      "pctCompletion": 66.66666666666666,
-      "from": 0.09,
-      "to": 0.055,
-      "fromCompletion": 0.18,
+    "minimax/minimax-m3.1-flash": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.075,
+      "to": 0.075,
+      "fromCompletion": 0.3,
       "toCompletion": 0.3,
-      "spanDays": 30,
-      "compareDate": "2026-10-20",
-      "fromDate": "2026-08-02T01:59:59Z"
+      "spanDays": 12,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "ricursiveai/ripple-65b-preview": {
       "pct": -50.0,
@@ -552,6 +552,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-20",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "~deepseek/deepseek-flash-latest": {
+      "pct": 500.0,
+      "pctCompletion": 0.0,
+      "from": 0.006,
+      "to": 0.036,
+      "fromCompletion": 0.5,
+      "toCompletion": 0.5,
+      "spanDays": 12,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "particle-ai/particle-1": {
       "pct": 20.000000000000007,
@@ -707,12 +718,12 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "minimax/minimax-m3.1-flash": {
-      "pct": 100.0,
-      "pctCompletion": 100.0,
-      "from": 0.075,
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.15,
       "to": 0.15,
-      "fromCompletion": 0.3,
+      "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 12,
       "compareDate": "2026-11-07",
@@ -1059,28 +1070,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "deepseek/deepseek-v4.1-flash": {
-      "pct": 488.2352941176471,
-      "pctCompletion": 111.6402116402116,
-      "from": 0.051,
-      "to": 0.3,
-      "fromCompletion": 0.5670000000000001,
-      "toCompletion": 1.2,
-      "spanDays": 12,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "deepseek/deepseek-v4.1-flash-1017": {
-      "pct": 100.0,
-      "pctCompletion": 100.0,
-      "from": 0.15,
-      "to": 0.3,
-      "fromCompletion": 0.6,
-      "toCompletion": 1.2,
-      "spanDays": 12,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
     "minimax/minimax-m3": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1190,6 +1179,17 @@
       "spanDays": 12,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "tencent/hy3": {
+      "pct": -37.499999999999986,
+      "pctCompletion": -37.499999999999986,
+      "from": 0.13199999999999998,
+      "to": 0.0825,
+      "fromCompletion": 0.5279999999999999,
+      "toCompletion": 0.33,
+      "spanDays": 30,
+      "compareDate": "2026-10-20",
+      "fromDate": "2026-07-24T13:21:26Z"
     },
     "tencent/hy4": {
       "pct": 0.0,
@@ -1554,17 +1554,6 @@
       "compareDate": "2026-10-20",
       "fromDate": "2026-07-15T13:18:47Z"
     },
-    "tencent/hy3": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.13199999999999998,
-      "to": 0.13199999999999998,
-      "fromCompletion": 0.5279999999999999,
-      "toCompletion": 0.5279999999999999,
-      "spanDays": 30,
-      "compareDate": "2026-10-20",
-      "fromDate": "2026-07-24T13:21:26Z"
-    },
     "thinkingmachines/inkling-small:batch": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1719,6 +1708,28 @@
       "compareDate": "2026-10-20",
       "fromDate": "2026-08-04T13:52:18Z"
     },
+    "tencent/hy4-preview": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.7505999999999999,
+      "to": 0.7505999999999999,
+      "fromCompletion": 2.2509,
+      "toCompletion": 2.2509,
+      "spanDays": 12,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "z-ai/glm-5.2": {
+      "pct": -18.42105263157895,
+      "pctCompletion": 0.0,
+      "from": 0.76,
+      "to": 0.62,
+      "fromCompletion": 2.42,
+      "toCompletion": 2.42,
+      "spanDays": 30,
+      "compareDate": "2026-10-20",
+      "fromDate": "2026-08-04T01:47:54Z"
+    },
     "openai/gpt-4o-mini:batch": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1784,17 +1795,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-20",
       "fromDate": "2026-08-01T02:03:49Z"
-    },
-    "tencent/hy4-preview": {
-      "pct": 11.111111111111116,
-      "pctCompletion": 11.1111111111111,
-      "from": 0.7505999999999999,
-      "to": 0.834,
-      "fromCompletion": 2.2509,
-      "toCompletion": 2.501,
-      "spanDays": 12,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "google/gemini-3-flash-preview": {
       "pct": 0.0,
@@ -2005,17 +2005,6 @@
       "compareDate": "2026-11-13",
       "fromDate": "2026-11-13T06:20:45Z"
     },
-    "deepseek/deepseek-v4-pro-0813": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.111,
-      "to": 0.111,
-      "fromCompletion": 4.4399999999999995,
-      "toCompletion": 4.4399999999999995,
-      "spanDays": 12,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
     "qwen/qwen3.5-35b-a3b": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2202,6 +2191,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-20",
       "fromDate": "2026-08-05T01:49:38Z"
+    },
+    "deepseek/deepseek-v4-pro-0813": {
+      "pct": 17.117117117117118,
+      "pctCompletion": 23.873873873873887,
+      "from": 0.111,
+      "to": 0.13,
+      "fromCompletion": 4.4399999999999995,
+      "toCompletion": 5.5,
+      "spanDays": 12,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "openai/gpt-5-mini": {
       "pct": 0.0,
@@ -2489,17 +2489,6 @@
       "compareDate": "2026-10-20",
       "fromDate": "2026-05-01T04:56:56Z"
     },
-    "z-ai/glm-5.2": {
-      "pct": -99.07894736842105,
-      "pctCompletion": 180.99173553719007,
-      "from": 0.76,
-      "to": 0.007,
-      "fromCompletion": 2.42,
-      "toCompletion": 6.8,
-      "spanDays": 30,
-      "compareDate": "2026-10-20",
-      "fromDate": "2026-08-04T01:47:54Z"
-    },
     "openai/gpt-5.4-mini:batch": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2644,10 +2633,10 @@
       "fromDate": "2026-11-07T18:45:35Z"
     },
     "~deepseek/deepseek-pro-latest": {
-      "pct": 0.0,
+      "pct": 17.117117117117118,
       "pctCompletion": 0.0,
       "from": 0.0999,
-      "to": 0.0999,
+      "to": 0.117,
       "fromCompletion": 8.0,
       "toCompletion": 8.0,
       "spanDays": 12,
@@ -2974,10 +2963,10 @@
       "fromDate": "2026-06-26T02:38:06Z"
     },
     "~moonshotai/kimi-latest": {
-      "pct": -93.71034482758621,
+      "pct": -93.77586206896552,
       "pctCompletion": -21.389285714285716,
       "from": 2.9000000000000004,
-      "to": 0.18239999999999998,
+      "to": 0.18050000000000002,
       "fromCompletion": 14.0,
       "toCompletion": 11.0055,
       "spanDays": 30,
@@ -3688,17 +3677,6 @@
       "compareDate": "2026-10-20",
       "fromDate": "2026-05-01T04:56:56Z"
     },
-    "moonshotai/kimi-k2.7-code": {
-      "pct": -14.285714285714283,
-      "pctCompletion": 0.0,
-      "from": 0.7,
-      "to": 0.6,
-      "fromCompletion": 3.5,
-      "toCompletion": 3.5,
-      "spanDays": 30,
-      "compareDate": "2026-10-20",
-      "fromDate": "2026-08-06T01:50:09Z"
-    },
     "perplexity/sonar": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -3709,6 +3687,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-20",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "moonshotai/kimi-k2.7-code": {
+      "pct": -7.142857142857134,
+      "pctCompletion": 0.0,
+      "from": 0.7,
+      "to": 0.65,
+      "fromCompletion": 3.5,
+      "toCompletion": 3.5,
+      "spanDays": 30,
+      "compareDate": "2026-10-20",
+      "fromDate": "2026-08-06T01:50:09Z"
     },
     "x-ai/grok-4.5": {
       "pct": 0.0,
