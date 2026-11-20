@@ -6,11 +6,11 @@
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| cohere/north-mini-code:free | Cohere: North Mini Code (free) | 256,000 | $0.0000 | $0.0000 | ✅ | ∞ |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.1500 | $0.6000 | ✅ | 6,990,506,667 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | ⚠️ | 5,698,782,609 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | ⚠️ | 4,266,666,667 |
+| qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 262,144 | $0.3000 | $1.0000 | ⚠️ | 4,032,984,615 |
 
 ## Top 5 Vision Models
 
@@ -28,9 +28,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | scaledown/extract | ScaleDown: Extract | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
-| z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0240 | $0.0690 | ⚠️ | 225,500,215,054 |
+| z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0230 | $0.0680 | ⚠️ | 230,456,263,736 |
+| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0399 | $0.0784 | ⚠️ | 177,274,049,028 |
 | ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0399 | $0.0784 | ⚠️ | 177,274,049,028 |
-| qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | ⚠️ | 125,000,000,000 |
 
 ## Top 5 Largest Context Windows
 
@@ -40,7 +40,7 @@
 | openrouter/auto-beta | Auto Router (Beta) | 2,000,000 | N/A | N/A | ⚠️ | N/A |
 | openrouter/auto-code | Auto Code | 2,000,000 | N/A | N/A | ⚠️ | N/A |
 | openrouter/pareto-code | Pareto Code Router | 2,000,000 | N/A | N/A | ⚠️ | N/A |
-| x-ai/grok-4.20 | SpaceXAI: Grok 4.20 | 2,000,000 | $1.2500 | $2.5000 | ⚠️ | 10,666,666,667 |
+| x-ai/grok-4.20 | SpaceXSI: Grok 4.20 | 2,000,000 | $1.2500 | $2.5000 | ⚠️ | 10,666,666,667 |
 
 ## Top 5 Cheapest Paid Models
 
