@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-21T06:20:59Z",
+  "generated_at": "2026-11-21T18:20:07Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -10799,7 +10799,7 @@
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-11-19T06:20:24Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.00000119,
       "completion_price": 0.00000374
     },
@@ -10883,7 +10883,7 @@
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-19T18:20:42Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.0000001805,
       "completion_price": 0.0000110055
     },
@@ -11121,7 +11121,7 @@
     {
       "model_id": "thinkingmachines/inkling-2-mini",
       "from_date": "2026-11-21T06:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.0000001,
       "completion_price": 0.0000004
     },
@@ -11135,7 +11135,7 @@
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-21T06:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
@@ -11170,14 +11170,14 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-21T06:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.000000132,
       "completion_price": 0.000000528
     },
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-21T06:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-21T18:20:07Z",
       "prompt_price": 0.000000834,
       "completion_price": 0.000002501
     },
@@ -11208,6 +11208,48 @@
       "to_date": null,
       "prompt_price": 0.0000006,
       "completion_price": 0.0000018
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "thinkingmachines/inkling-2-mini",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 8.25e-8,
+      "completion_price": 0.00000033
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000007506,
+      "completion_price": 0.0000022509
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000001824,
+      "completion_price": 0.0000106066
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-11-21T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000014,
+      "completion_price": 0.0000044
     }
   ]
 }
