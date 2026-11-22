@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-21T18:20:07Z",
+  "generated_at": "2026-11-22T06:20:07Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -2217,7 +2217,7 @@
     {
       "model_id": "gryphe/mythomax-l2-13b",
       "from_date": "2026-08-04T01:47:54Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 8e-8,
       "completion_price": 0.00000011
     },
@@ -5339,7 +5339,7 @@
     {
       "model_id": "google/gemma-3-4b-it",
       "from_date": "2026-06-07T13:26:01Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 5e-8,
       "completion_price": 0.0000001
     },
@@ -11079,7 +11079,7 @@
     {
       "model_id": "qwen/qwen3.8-27b",
       "from_date": "2026-11-20T18:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 6e-8,
       "completion_price": 0.00000196
     },
@@ -11100,7 +11100,7 @@
     {
       "model_id": "qwen/qwen3.5-27b",
       "from_date": "2026-11-20T18:20:59Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 0.000000195,
       "completion_price": 0.00000156
     },
@@ -11212,7 +11212,7 @@
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-21T18:20:07Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 7.5e-8,
       "completion_price": 0.0000003
     },
@@ -11226,30 +11226,93 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-21T18:20:07Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 8.25e-8,
       "completion_price": 0.00000033
     },
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-21T18:20:07Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 0.0000007506,
       "completion_price": 0.0000022509
     },
     {
       "model_id": "~moonshotai/kimi-latest",
       "from_date": "2026-11-21T18:20:07Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 0.0000001824,
       "completion_price": 0.0000106066
     },
     {
       "model_id": "z-ai/glm-5.1",
       "from_date": "2026-11-21T18:20:07Z",
-      "to_date": null,
+      "to_date": "2026-11-22T06:20:07Z",
       "prompt_price": 0.0000014,
       "completion_price": 0.0000044
+    },
+    {
+      "model_id": "google/gemma-3-4b-it",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 4e-8,
+      "completion_price": 5e-8
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "qwen/qwen3.8-27b",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 3.5e-8,
+      "completion_price": 0.0000015
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.00000058
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.000000834,
+      "completion_price": 0.000002501
+    },
+    {
+      "model_id": "~moonshotai/kimi-latest",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000001824,
+      "completion_price": 0.0000110055
+    },
+    {
+      "model_id": "qwen/qwen3.5-27b",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000026,
+      "completion_price": 0.0000026
+    },
+    {
+      "model_id": "z-ai/glm-5.1",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000119,
+      "completion_price": 0.00000374
+    },
+    {
+      "model_id": "gryphe/mythomax-l2-13b",
+      "from_date": "2026-11-22T06:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000003,
+      "completion_price": 0.0000005
     }
   ]
 }
