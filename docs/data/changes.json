@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-22T06:20:07Z",
+  "generated_at": "2026-11-22T18:20:25Z",
   "window_days": 30,
   "changes": {
     "baidu/ernie-5.5-flash-preview:free": {
@@ -443,6 +443,17 @@
       "compareDate": "2026-10-23",
       "fromDate": "2026-08-02T01:59:59Z"
     },
+    "minimax/minimax-m3.1-flash": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.075,
+      "to": 0.075,
+      "fromCompletion": 0.3,
+      "toCompletion": 0.3,
+      "spanDays": 15,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "thinkingmachines/inkling-2-mini": {
       "pct": -24.999999999999996,
       "pctCompletion": -24.999999999999996,
@@ -718,28 +729,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "minimax/minimax-m3.1-flash": {
-      "pct": 100.0,
-      "pctCompletion": 100.0,
-      "from": 0.075,
-      "to": 0.15,
-      "fromCompletion": 0.3,
-      "toCompletion": 0.6,
-      "spanDays": 15,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "openai/gpt-oss-20b": {
-      "pct": -43.33333333333333,
-      "pctCompletion": -34.61538461538463,
-      "from": 0.03,
-      "to": 0.017,
-      "fromCompletion": 0.13,
-      "toCompletion": 0.08499999999999999,
-      "spanDays": 30,
-      "compareDate": "2026-10-23",
-      "fromDate": "2026-08-01T13:02:55Z"
-    },
     "thedrummer/unslopnemo-12b": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -915,6 +904,17 @@
       "spanDays": 15,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "openai/gpt-oss-20b": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.03,
+      "to": 0.03,
+      "fromCompletion": 0.13,
+      "toCompletion": 0.13,
+      "spanDays": 30,
+      "compareDate": "2026-10-23",
+      "fromDate": "2026-08-01T13:02:55Z"
     },
     "nex-agi/nex-n2.5-pro": {
       "pct": 0.0,
@@ -1675,6 +1675,17 @@
       "compareDate": "2026-10-23",
       "fromDate": "2026-08-04T13:52:18Z"
     },
+    "tencent/hy4-preview": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.7505999999999999,
+      "to": 0.7505999999999999,
+      "fromCompletion": 2.2509,
+      "toCompletion": 2.2509,
+      "spanDays": 15,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "meta-llama/llama-3.2-3b-instruct": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1740,17 +1751,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-23",
       "fromDate": "2026-08-01T02:03:49Z"
-    },
-    "tencent/hy4-preview": {
-      "pct": 11.111111111111116,
-      "pctCompletion": 11.1111111111111,
-      "from": 0.7505999999999999,
-      "to": 0.834,
-      "fromCompletion": 2.2509,
-      "toCompletion": 2.501,
-      "spanDays": 15,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "google/gemini-3-flash-preview": {
       "pct": 0.0,
@@ -2577,17 +2577,6 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
-    "~deepseek/deepseek-pro-latest": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.0999,
-      "to": 0.0999,
-      "fromCompletion": 8.0,
-      "toCompletion": 8.0,
-      "spanDays": 15,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
     "radixark/daisyrose-27b": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2598,6 +2587,17 @@
       "spanDays": 1,
       "compareDate": "2026-11-21",
       "fromDate": "2026-11-21T06:20:59Z"
+    },
+    "~deepseek/deepseek-pro-latest": {
+      "pct": 18.918918918918916,
+      "pctCompletion": 0.0,
+      "from": 0.0999,
+      "to": 0.1188,
+      "fromCompletion": 8.0,
+      "toCompletion": 8.0,
+      "spanDays": 15,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "deepseek/deepseek-v3.1-terminus": {
       "pct": 0.0,
@@ -2687,6 +2687,17 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "moonshotai/kimi-k3.1-pro": {
+      "pct": -87.985,
+      "pctCompletion": -15.977000000000013,
+      "from": 2.0,
+      "to": 0.2403,
+      "fromCompletion": 10.0,
+      "toCompletion": 8.402299999999999,
+      "spanDays": 15,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "openai/gpt-5.4:batch": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -2752,17 +2763,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-23",
       "fromDate": "2026-07-10T02:09:00Z"
-    },
-    "moonshotai/kimi-k3.1-pro": {
-      "pct": -87.35,
-      "pctCompletion": -11.999999999999993,
-      "from": 2.0,
-      "to": 0.253,
-      "fromCompletion": 10.0,
-      "toCompletion": 8.8,
-      "spanDays": 15,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "xiaomi/mimo-v2.5-pro": {
       "pct": 10.344827586206893,
@@ -2906,17 +2906,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-23",
       "fromDate": "2026-08-02T01:59:59Z"
-    },
-    "z-ai/glm-4.7": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.39999999999999997,
-      "to": 0.39999999999999997,
-      "fromCompletion": 1.75,
-      "toCompletion": 1.75,
-      "spanDays": 30,
-      "compareDate": "2026-10-23",
-      "fromDate": "2026-06-26T02:38:06Z"
     },
     "~moonshotai/kimi-latest": {
       "pct": -93.71034482758621,
@@ -3456,6 +3445,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-23",
       "fromDate": "2026-08-03T14:20:37Z"
+    },
+    "z-ai/glm-4.7": {
+      "pct": 50.000000000000014,
+      "pctCompletion": 25.714285714285722,
+      "from": 0.39999999999999997,
+      "to": 0.6,
+      "fromCompletion": 1.75,
+      "toCompletion": 2.2,
+      "spanDays": 30,
+      "compareDate": "2026-10-23",
+      "fromDate": "2026-06-26T02:38:06Z"
     },
     "elorian/glimpse": {
       "pct": 0.0,
@@ -4029,17 +4029,6 @@
       "compareDate": "2026-10-23",
       "fromDate": "2026-05-01T04:56:56Z"
     },
-    "z-ai/glm-5.1": {
-      "pct": 25.0,
-      "pctCompletion": 25.000000000000007,
-      "from": 0.952,
-      "to": 1.19,
-      "fromCompletion": 2.992,
-      "toCompletion": 3.74,
-      "spanDays": 30,
-      "compareDate": "2026-10-23",
-      "fromDate": "2026-08-06T01:50:09Z"
-    },
     "mistralai/mistral-saba": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -4160,6 +4149,17 @@
       "spanDays": 30,
       "compareDate": "2026-10-23",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "z-ai/glm-5.1": {
+      "pct": 47.05882352941176,
+      "pctCompletion": 47.058823529411775,
+      "from": 0.952,
+      "to": 1.4,
+      "fromCompletion": 2.992,
+      "toCompletion": 4.4,
+      "spanDays": 30,
+      "compareDate": "2026-10-23",
+      "fromDate": "2026-08-06T01:50:09Z"
     },
     "openai/gpt-6-astra-pro:batch": {
       "pct": 0.0,
