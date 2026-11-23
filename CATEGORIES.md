@@ -29,8 +29,8 @@
 | scaledown/extract | ScaleDown: Extract | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0230 | $0.0680 | ⚠️ | 230,456,263,736 |
-| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0399 | $0.0784 | ⚠️ | 177,274,049,028 |
-| ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0399 | $0.0784 | ⚠️ | 177,274,049,028 |
+| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0399 | $0.0740 | ⚠️ | 184,122,212,467 |
+| ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0399 | $0.0740 | ⚠️ | 184,122,212,467 |
 
 ## Top 5 Largest Context Windows
 

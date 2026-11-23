@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-23T06:20:25Z",
+  "generated_at": "2026-11-23T18:20:43Z",
   "window_days": 30,
   "changes": {
     "baidu/ernie-5.5-flash-preview:free": {
@@ -203,22 +203,22 @@
     },
     "z-ai/glm-5.3-flash": {
       "pct": -73.4,
-      "pctCompletion": -84.32,
+      "pctCompletion": -85.2,
       "from": 0.15,
       "to": 0.0399,
       "fromCompletion": 0.5,
-      "toCompletion": 0.0784,
+      "toCompletion": 0.074,
       "spanDays": 16,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
     "~z-ai/glm-flash-latest": {
       "pct": 39.999999999999986,
-      "pctCompletion": -15.059588299024915,
+      "pctCompletion": -19.826652221018414,
       "from": 0.0285,
       "to": 0.0399,
       "fromCompletion": 0.0923,
-      "toCompletion": 0.0784,
+      "toCompletion": 0.074,
       "spanDays": 16,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
@@ -278,6 +278,28 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "pct": -80.0,
+      "pctCompletion": -66.66666666666667,
+      "from": 0.15,
+      "to": 0.03,
+      "fromCompletion": 0.6,
+      "toCompletion": 0.19999999999999998,
+      "spanDays": 16,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "~deepseek/deepseek-flash-latest": {
+      "pct": 400.0,
+      "pctCompletion": -60.00000000000001,
+      "from": 0.006,
+      "to": 0.03,
+      "fromCompletion": 0.5,
+      "toCompletion": 0.19999999999999998,
+      "spanDays": 16,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "inclusionai/ling-3.0-tiny": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -285,6 +307,17 @@
       "to": 0.015,
       "fromCompletion": 0.045,
       "toCompletion": 0.045,
+      "spanDays": 16,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "inclusionai/ling-3.1-flash": {
+      "pct": 33.33333333333333,
+      "pctCompletion": 33.33333333333332,
+      "from": 0.045,
+      "to": 0.06,
+      "fromCompletion": 0.135,
+      "toCompletion": 0.18,
       "spanDays": 16,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
@@ -307,17 +340,6 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 16,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "inclusionai/ling-3.1-flash": {
-      "pct": 33.33333333333333,
-      "pctCompletion": 33.33333333333332,
-      "from": 0.045,
-      "to": 0.06,
-      "fromCompletion": 0.135,
-      "toCompletion": 0.18,
       "spanDays": 16,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
@@ -454,6 +476,17 @@
       "compareDate": "2026-10-24",
       "fromDate": "2026-08-02T01:59:59Z"
     },
+    "minimax/minimax-m3.1-flash": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.075,
+      "to": 0.075,
+      "fromCompletion": 0.3,
+      "toCompletion": 0.3,
+      "spanDays": 16,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "thinkingmachines/inkling-2-mini": {
       "pct": -24.999999999999996,
       "pctCompletion": -24.999999999999996,
@@ -552,17 +585,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-24",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "~deepseek/deepseek-flash-latest": {
-      "pct": 500.0,
-      "pctCompletion": 0.0,
-      "from": 0.006,
-      "to": 0.036,
-      "fromCompletion": 0.5,
-      "toCompletion": 0.5,
-      "spanDays": 16,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "particle-ai/particle-1": {
       "pct": 40.00000000000002,
@@ -717,17 +739,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-24",
       "fromDate": "2026-06-07T13:26:01Z"
-    },
-    "minimax/minimax-m3.1-flash": {
-      "pct": 100.0,
-      "pctCompletion": 100.0,
-      "from": 0.075,
-      "to": 0.15,
-      "fromCompletion": 0.3,
-      "toCompletion": 0.6,
-      "spanDays": 16,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "thedrummer/unslopnemo-12b": {
       "pct": 0.0,
@@ -1066,17 +1077,6 @@
       "to": 0.15,
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
-      "spanDays": 16,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "deepseek/deepseek-v4.1-flash-1017": {
-      "pct": 100.0,
-      "pctCompletion": 100.0,
-      "from": 0.15,
-      "to": 0.3,
-      "fromCompletion": 0.6,
-      "toCompletion": 1.2,
       "spanDays": 16,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
@@ -1719,6 +1719,17 @@
       "compareDate": "2026-10-24",
       "fromDate": "2026-06-18T14:52:18Z"
     },
+    "tencent/hy4-preview": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.7505999999999999,
+      "to": 0.7505999999999999,
+      "fromCompletion": 2.2509,
+      "toCompletion": 2.2509,
+      "spanDays": 16,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
     "meta-llama/llama-3.2-3b-instruct": {
       "pct": 0.0,
       "pctCompletion": 0.0,
@@ -1784,17 +1795,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-24",
       "fromDate": "2026-08-01T02:03:49Z"
-    },
-    "tencent/hy4-preview": {
-      "pct": 11.111111111111116,
-      "pctCompletion": 11.1111111111111,
-      "from": 0.7505999999999999,
-      "to": 0.834,
-      "fromCompletion": 2.2509,
-      "toCompletion": 2.501,
-      "spanDays": 16,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "google/gemini-3-flash-preview": {
       "pct": 0.0,
@@ -2060,11 +2060,22 @@
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
+    "thinkingmachines/inkling": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 1.0,
+      "to": 1.0,
+      "fromCompletion": 4.05,
+      "toCompletion": 4.05,
+      "spanDays": 30,
+      "compareDate": "2026-10-24",
+      "fromDate": "2026-07-18T01:46:59Z"
+    },
     "~deepseek/deepseek-pro-latest": {
-      "pct": 18.918918918918916,
+      "pct": 0.0,
       "pctCompletion": -37.5,
       "from": 0.0999,
-      "to": 0.1188,
+      "to": 0.0999,
       "fromCompletion": 8.0,
       "toCompletion": 5.0,
       "spanDays": 16,
@@ -2884,17 +2895,6 @@
       "spanDays": 30,
       "compareDate": "2026-10-24",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "thinkingmachines/inkling": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 1.0,
-      "to": 1.0,
-      "fromCompletion": 4.05,
-      "toCompletion": 4.05,
-      "spanDays": 30,
-      "compareDate": "2026-10-24",
-      "fromDate": "2026-07-18T01:46:59Z"
     },
     "google/gemini-3.5-flash": {
       "pct": 0.0,
