@@ -12,7 +12,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | nvidia/nemotron-3-ultra-550b-a55b:free | NVIDIA: Nemotron 3 Ultra (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-lightning:free | NVIDIA: Nemotron 3.5 Lightning (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3.5-super-vl:free | NVIDIA: Nemotron 3.5 Super VL (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| dots-studio/dots-3-note-preview:free | Dots Studio: Dots3-Note Preview (free) | 512,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-26b-a4b-it:free | Google: Gemma 4 26B A4B  (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/gemma-4-31b-it:free | Google: Gemma 4 31B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | liquid/lfm-3-1.7b:free | LiquidAI: LFM3-1.7B (free) | 262,144 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |

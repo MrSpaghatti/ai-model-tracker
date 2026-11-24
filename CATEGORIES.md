@@ -29,8 +29,8 @@
 | scaledown/extract | ScaleDown: Extract | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0230 | $0.0680 | ⚠️ | 230,456,263,736 |
-| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0356 | $0.0815 | ⚠️ | 179,090,691,716 |
 | ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0356 | $0.0815 | ⚠️ | 179,090,691,716 |
+| qwen/qwen3.7-flash | Qwen: Qwen3.7 Flash | 1,000,000 | $0.0300 | $0.1300 | ⚠️ | 125,000,000,000 |
 
 ## Top 5 Largest Context Windows
 
@@ -50,7 +50,7 @@
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | ⚠️ | 44,431,186,441 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | ⚠️ | 87,381,333,333 |
-| google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
+| inclusionai/ling-3.0-flash | inclusionAI: Ling 3.0 Flash | 262,144 | $0.0210 | $0.0630 | ⚠️ | 62,415,238,095 |
 
 ## Top 5 Models for Encoding
 
