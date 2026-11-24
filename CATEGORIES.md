@@ -29,8 +29,8 @@
 | scaledown/extract | ScaleDown: Extract | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | z-ai/glm-5.3-flash:batch | Z.ai: GLM 5.3 Flash (batch) | 1,048,576 | $0.0230 | $0.0680 | ⚠️ | 230,456,263,736 |
-| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0399 | $0.0740 | ⚠️ | 184,122,212,467 |
-| ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0399 | $0.0740 | ⚠️ | 184,122,212,467 |
+| z-ai/glm-5.3-flash | Z.ai: GLM 5.3 Flash | 1,048,576 | $0.0356 | $0.0815 | ⚠️ | 179,090,691,716 |
+| ~z-ai/glm-flash-latest | Z.ai: GLM Flash Latest | 1,048,576 | $0.0356 | $0.0815 | ⚠️ | 179,090,691,716 |
 
 ## Top 5 Largest Context Windows
 
@@ -50,7 +50,7 @@
 | scaledown/summarize | ScaleDown: Summarize | 1,000,000 | $0.0400 | $0.0000 | ⚠️ | 500,000,000,000 |
 | mistralai/mistral-nemo | Mistral: Mistral Nemo | 131,072 | $0.0290 | $0.0300 | ⚠️ | 44,431,186,441 |
 | inclusionai/ling-3.0-tiny | inclusionAI: Ling 3.0 Tiny | 262,144 | $0.0150 | $0.0450 | ⚠️ | 87,381,333,333 |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
+| google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 
 ## Top 5 Models for Encoding
 
@@ -70,9 +70,9 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
 | mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | ⚠️ | 17,476,266,667 |
 
@@ -80,39 +80,39 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~24 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~32 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~48 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
-| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0200 | $0.0400 | ⚠️ | 43,690,666,667 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
+| meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
