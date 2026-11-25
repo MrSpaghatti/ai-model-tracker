@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T06:21:01Z",
+  "generated_at": "2026-11-25T18:20:07Z",
   "entries": [
     {
       "model_id": "deepseek/deepseek-v4-pro",
@@ -1825,14 +1825,14 @@
     {
       "model_id": "unbiased/pareto-26.10",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.0000008,
       "completion_price": 0.0000032
     },
     {
       "model_id": "unbiased/pareto-26.9",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.0000025,
       "completion_price": 0.0000075
     },
@@ -2105,7 +2105,7 @@
     {
       "model_id": "~unbiased/pareto-latest",
       "from_date": "2026-11-07T18:45:35Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.0000008,
       "completion_price": 0.0000032
     },
@@ -9483,7 +9483,7 @@
     {
       "model_id": "unbiased/pareto-26.10-preview",
       "from_date": "2026-11-12T06:20:20Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.0000008,
       "completion_price": 0.0000032
     },
@@ -10218,7 +10218,7 @@
     {
       "model_id": "z-ai/glm-4.5-air",
       "from_date": "2026-11-16T06:20:37Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.00000013,
       "completion_price": 0.00000085
     },
@@ -11513,7 +11513,7 @@
     {
       "model_id": "nvidia/nemotron-3.5-lightning",
       "from_date": "2026-11-24T06:20:43Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 5e-8,
       "completion_price": 0.0000002
     },
@@ -11569,7 +11569,7 @@
     {
       "model_id": "deepseek/deepseek-v4-pro",
       "from_date": "2026-11-24T06:20:43Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.00000128,
       "completion_price": 0.00000256
     },
@@ -11660,14 +11660,14 @@
     {
       "model_id": "deepseek/deepseek-v4-flash-0731",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 4.7e-8,
       "completion_price": 0.0000003
     },
     {
       "model_id": "~deepseek/deepseek-v4-flash-latest",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 4.7e-8,
       "completion_price": 0.0000003
     },
@@ -11688,21 +11688,21 @@
     {
       "model_id": "deepseek/deepseek-v4.1-flash",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.00000014,
       "completion_price": 0.00000042
     },
     {
       "model_id": "xiaomi/mimo-v2.6-flash-mopd",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.00000042
     },
     {
       "model_id": "minimax/minimax-m3.1-flash",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.00000015,
       "completion_price": 0.0000006
     },
@@ -11716,7 +11716,7 @@
     {
       "model_id": "deepseek/deepseek-v4.1-flash-1017",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
     },
@@ -11730,14 +11730,14 @@
     {
       "model_id": "tencent/hy3",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.000000132,
       "completion_price": 0.000000528
     },
     {
       "model_id": "tencent/hy4-preview",
       "from_date": "2026-11-25T06:21:01Z",
-      "to_date": null,
+      "to_date": "2026-11-25T18:20:07Z",
       "prompt_price": 0.000000834,
       "completion_price": 0.000002501
     },
@@ -11754,6 +11754,97 @@
       "to_date": null,
       "prompt_price": 0.0000003,
       "completion_price": 0.0000012
+    },
+    {
+      "model_id": "~deepseek/deepseek-v4-flash-latest",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 4.532e-8,
+      "completion_price": 0.00000013596
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 5.07e-8,
+      "completion_price": 0.0000002028
+    },
+    {
+      "model_id": "nvidia/nemotron-3.5-lightning",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 7e-8,
+      "completion_price": 0.0000002
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-flash-0731",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 4.56e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "minimax/minimax-m3.1-flash",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 7.5e-8,
+      "completion_price": 0.0000003
+    },
+    {
+      "model_id": "deepseek/deepseek-v4.1-flash-1017",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000015,
+      "completion_price": 0.0000006
+    },
+    {
+      "model_id": "xiaomi/mimo-v2.6-flash-mopd",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000005,
+      "completion_price": 0.000001
+    },
+    {
+      "model_id": "tencent/hy3",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 8.25e-8,
+      "completion_price": 0.00000033
+    },
+    {
+      "model_id": "deepseek/deepseek-v4-pro",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.000000735242,
+      "completion_price": 0.0000015228
+    },
+    {
+      "model_id": "tencent/hy4-preview",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.0000007506,
+      "completion_price": 0.0000022509
+    },
+    {
+      "model_id": "z-ai/glm-4.5-air",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.00000014,
+      "completion_price": 0.00000086
+    },
+    {
+      "model_id": "tngtech/deepseek-r1t2-chimera",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": 0.000001,
+      "completion_price": 0.000002625
+    },
+    {
+      "model_id": "~unbiased/pareto-latest",
+      "from_date": "2026-11-25T18:20:07Z",
+      "to_date": null,
+      "prompt_price": "nan",
+      "completion_price": "nan"
     }
   ]
 }
