@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-11-25T18:20:07Z",
+  "generated_at": "2026-11-26T06:20:07Z",
   "window_days": 30,
   "changes": {
     "baidu/ernie-5.5-flash-preview:free": {
@@ -10,7 +10,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 14,
+      "spanDays": 15,
       "compareDate": "2026-11-11",
       "fromDate": "2026-11-11T18:20:18Z"
     },
@@ -22,7 +22,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemma-4-31b-it:free": {
@@ -33,7 +33,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/lyria-3-clip-preview": {
@@ -44,7 +44,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/lyria-3-pro-preview": {
@@ -55,7 +55,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "inclusionai/ling-3.2-flash:free": {
@@ -65,7 +65,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 11,
+      "spanDays": 12,
       "compareDate": "2026-11-14",
       "fromDate": "2026-11-14T06:20:02Z"
     },
@@ -76,7 +76,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -88,7 +88,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "nvidia/nemotron-3-ultra-550b-a55b:free": {
@@ -99,7 +99,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-04T14:40:53Z"
     },
     "nvidia/nemotron-3.5-lightning:free": {
@@ -109,7 +109,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -120,7 +120,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -132,7 +132,7 @@
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "particle-ai/particle-1:free": {
@@ -142,7 +142,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 12,
+      "spanDays": 13,
       "compareDate": "2026-11-13",
       "fromDate": "2026-11-13T06:20:45Z"
     },
@@ -153,7 +153,7 @@
       "to": 0.0,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -164,7 +164,7 @@
       "to": 0.04,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -175,7 +175,7 @@
       "to": 0.04,
       "fromCompletion": 0.0,
       "toCompletion": 0.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -186,9 +186,20 @@
       "to": 0.023,
       "fromCompletion": 0.18,
       "toCompletion": 0.068,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "upstage/solar-mini-4-5": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.01,
+      "to": 0.01,
+      "fromCompletion": 0.04,
+      "toCompletion": 0.04,
+      "spanDays": 1,
+      "compareDate": "2026-11-25",
+      "fromDate": "2026-11-25T06:21:01Z"
     },
     "~z-ai/glm-flash-latest": {
       "pct": 24.91228070175438,
@@ -197,7 +208,7 @@
       "to": 0.0356,
       "fromCompletion": 0.0923,
       "toCompletion": 0.08149999999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -209,7 +220,7 @@
       "fromCompletion": 0.13,
       "toCompletion": 0.13,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-28T01:49:42Z"
     },
     "tencent/hy4-flash": {
@@ -219,20 +230,9 @@
       "to": 0.035,
       "fromCompletion": 0.175625,
       "toCompletion": 0.14049999999999999,
-      "spanDays": 9,
+      "spanDays": 10,
       "compareDate": "2026-11-16",
       "fromDate": "2026-11-16T18:20:56Z"
-    },
-    "~deepseek/deepseek-v4-flash-latest": {
-      "pct": -49.64444444444444,
-      "pctCompletion": -24.466666666666665,
-      "from": 0.09,
-      "to": 0.04532,
-      "fromCompletion": 0.18,
-      "toCompletion": 0.13596,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-08-02T01:59:59Z"
     },
     "deepseek/deepseek-v4.1-flash-1017:batch": {
       "pct": 218.18181818181822,
@@ -241,7 +241,7 @@
       "to": 0.035,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.149,
-      "spanDays": 17,
+      "spanDays": 18,
       "compareDate": "2026-11-08",
       "fromDate": "2026-11-08T04:56:22Z"
     },
@@ -252,7 +252,7 @@
       "to": 0.048,
       "fromCompletion": 0.144,
       "toCompletion": 0.144,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -263,7 +263,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.33599999999999997,
       "toCompletion": 0.15,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -274,9 +274,20 @@
       "to": 0.015,
       "fromCompletion": 0.045,
       "toCompletion": 0.045,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "deepseek/deepseek-v4-flash-0731": {
+      "pct": -33.33333333333333,
+      "pctCompletion": 0.0,
+      "from": 0.09,
+      "to": 0.06,
+      "fromCompletion": 0.18,
+      "toCompletion": 0.18,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-08-02T01:59:59Z"
     },
     "openai/gpt-4.1-nano:batch": {
       "pct": 0.0,
@@ -285,18 +296,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "deepseek/deepseek-v4.1-flash": {
-      "pct": -0.5882352941176503,
-      "pctCompletion": -64.23280423280424,
-      "from": 0.051,
-      "to": 0.050699999999999995,
-      "fromCompletion": 0.5670000000000001,
-      "toCompletion": 0.20279999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -308,7 +308,7 @@
       "fromCompletion": 0.1764,
       "toCompletion": 0.18,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "nvidia/nemotron-3.5-lightning": {
@@ -318,7 +318,7 @@
       "to": 0.07,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -329,7 +329,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.25,
       "toCompletion": 0.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -340,7 +340,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.25,
       "toCompletion": 0.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -351,7 +351,7 @@
       "to": 0.075,
       "fromCompletion": 0.135,
       "toCompletion": 0.22499999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -362,7 +362,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -373,7 +373,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -384,7 +384,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.25,
       "toCompletion": 0.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -396,7 +396,7 @@
       "fromCompletion": 0.3,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-07T13:26:01Z"
     },
     "inclusionai/ling-3.0-flash": {
@@ -407,7 +407,7 @@
       "fromCompletion": 0.22,
       "toCompletion": 0.063,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "qwen/qwen3.5-flash-02-23": {
@@ -418,30 +418,19 @@
       "fromCompletion": 0.26,
       "toCompletion": 0.26,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
-    "deepseek/deepseek-v4-flash-0731": {
-      "pct": -49.333333333333336,
+    "~deepseek/deepseek-v4-flash-latest": {
+      "pct": -47.77777777777777,
       "pctCompletion": 66.66666666666666,
       "from": 0.09,
-      "to": 0.045599999999999995,
+      "to": 0.047,
       "fromCompletion": 0.18,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-02T01:59:59Z"
-    },
-    "minimax/minimax-m3.1-flash": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.075,
-      "to": 0.075,
-      "fromCompletion": 0.3,
-      "toCompletion": 0.3,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "thinkingmachines/inkling-2-mini": {
       "pct": -24.999999999999996,
@@ -450,7 +439,7 @@
       "to": 0.075,
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.3,
-      "spanDays": 4,
+      "spanDays": 5,
       "compareDate": "2026-11-21",
       "fromDate": "2026-11-21T06:20:59Z"
     },
@@ -461,7 +450,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.6,
       "toCompletion": 0.3,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -472,7 +461,7 @@
       "to": 0.14,
       "fromCompletion": 0.28,
       "toCompletion": 0.28,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -484,7 +473,7 @@
       "fromCompletion": 0.03,
       "toCompletion": 0.03,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-18T01:46:59Z"
     },
     "nex-agi/nex-n2.5-mini": {
@@ -494,7 +483,7 @@
       "to": 0.024999999999999998,
       "fromCompletion": 0.09999999999999999,
       "toCompletion": 0.09999999999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -505,7 +494,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -517,19 +506,8 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "z-ai/glm-5.3-flash": {
-      "pct": -20.0,
-      "pctCompletion": -24.0,
-      "from": 0.15,
-      "to": 0.12,
-      "fromCompletion": 0.5,
-      "toCompletion": 0.38,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "openai/gpt-4.1-nano": {
       "pct": 0.0,
@@ -539,7 +517,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "~deepseek/deepseek-flash-latest": {
@@ -549,7 +527,18 @@
       "to": 0.036,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "deepseek/deepseek-v4.1-flash": {
+      "pct": 174.5098039215687,
+      "pctCompletion": -25.925925925925934,
+      "from": 0.051,
+      "to": 0.14,
+      "fromCompletion": 0.5670000000000001,
+      "toCompletion": 0.42,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -560,7 +549,7 @@
       "to": 0.07,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -572,7 +561,7 @@
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "openai/gpt-6-luna": {
@@ -582,7 +571,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -593,7 +582,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -604,7 +593,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -615,7 +604,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T00:20:04Z"
     },
@@ -626,7 +615,7 @@
       "to": 0.15,
       "fromCompletion": 0.5,
       "toCompletion": 0.47,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -637,7 +626,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -649,8 +638,19 @@
       "fromCompletion": 5.0,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "z-ai/glm-5.3-flash": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.15,
+      "to": 0.15,
+      "fromCompletion": 0.5,
+      "toCompletion": 0.5,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "qwen/qwen3.8-flash": {
       "pct": 0.0,
@@ -659,7 +659,7 @@
       "to": 0.15,
       "fromCompletion": 0.47,
       "toCompletion": 0.47,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -670,7 +670,7 @@
       "to": 0.15,
       "fromCompletion": 0.47,
       "toCompletion": 0.47,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -681,7 +681,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -692,7 +692,7 @@
       "to": 0.09999999999999999,
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -704,17 +704,17 @@
       "fromCompletion": 0.09999999999999999,
       "toCompletion": 0.049999999999999996,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-07T13:26:01Z"
     },
-    "deepseek/deepseek-v4.1-flash-1017": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.15,
+    "minimax/minimax-m3.1-flash": {
+      "pct": 100.0,
+      "pctCompletion": 100.0,
+      "from": 0.075,
       "to": 0.15,
-      "fromCompletion": 0.6,
+      "fromCompletion": 0.3,
       "toCompletion": 0.6,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -726,7 +726,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "prism-ml/ternary-bonsai-2-9b": {
@@ -736,7 +736,7 @@
       "to": 0.08,
       "fromCompletion": 0.13,
       "toCompletion": 0.13,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -748,8 +748,19 @@
       "fromCompletion": 0.75,
       "toCompletion": 0.75,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
+    },
+    "upstage/solar-pro-4-contributor": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.09,
+      "to": 0.09,
+      "fromCompletion": 0.36,
+      "toCompletion": 0.36,
+      "spanDays": 1,
+      "compareDate": "2026-11-25",
+      "fromDate": "2026-11-25T06:21:01Z"
     },
     "openai/gpt-4.1-mini:batch": {
       "pct": 0.0,
@@ -758,7 +769,7 @@
       "to": 0.19999999999999998,
       "fromCompletion": 0.7999999999999999,
       "toCompletion": 0.7999999999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -770,7 +781,7 @@
       "fromCompletion": 0.08,
       "toCompletion": 0.08,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "amazon/nova-lite-v1": {
@@ -781,7 +792,7 @@
       "fromCompletion": 0.24,
       "toCompletion": 0.24,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-oss-20b:batch": {
@@ -791,7 +802,7 @@
       "to": 0.024,
       "fromCompletion": 0.112,
       "toCompletion": 0.112,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -803,7 +814,7 @@
       "fromCompletion": 0.78,
       "toCompletion": 0.78,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "liquid/lfm-3-1.7b": {
@@ -813,7 +824,7 @@
       "to": 0.08,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -825,7 +836,7 @@
       "fromCompletion": 0.25,
       "toCompletion": 0.19999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-05T01:49:38Z"
     },
     "openai/gpt-5-nano": {
@@ -836,7 +847,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/ministral-8b-2512": {
@@ -847,7 +858,7 @@
       "fromCompletion": 0.15,
       "toCompletion": 0.15,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "nvidia/nemotron-3-nano-30b-a3b": {
@@ -858,7 +869,7 @@
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.24,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-coder-flash": {
@@ -869,19 +880,8 @@
       "fromCompletion": 0.975,
       "toCompletion": 0.975,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "reflection/beam-1.0-501b-a23b": {
-      "pct": -16.666666666666664,
-      "pctCompletion": 0.0,
-      "from": 0.3,
-      "to": 0.25,
-      "fromCompletion": 1.0,
-      "toCompletion": 1.0,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "openai/gpt-oss-20b": {
       "pct": 0.0,
@@ -891,7 +891,7 @@
       "fromCompletion": 0.13,
       "toCompletion": 0.13,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-01T13:02:55Z"
     },
     "nex-agi/nex-n2.5-pro": {
@@ -901,7 +901,18 @@
       "to": 0.075,
       "fromCompletion": 0.25,
       "toCompletion": 0.25,
-      "spanDays": 18,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "reflection/beam-1.0-501b-a23b": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.3,
+      "to": 0.3,
+      "fromCompletion": 1.0,
+      "toCompletion": 1.0,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -912,7 +923,7 @@
       "to": 0.3,
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
-      "spanDays": 12,
+      "spanDays": 13,
       "compareDate": "2026-11-13",
       "fromDate": "2026-11-13T06:20:45Z"
     },
@@ -923,7 +934,7 @@
       "to": 0.435,
       "fromCompletion": 0.87,
       "toCompletion": 0.87,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -934,7 +945,7 @@
       "to": 0.322,
       "fromCompletion": 1.5,
       "toCompletion": 0.989,
-      "spanDays": 17,
+      "spanDays": 18,
       "compareDate": "2026-11-08",
       "fromDate": "2026-11-08T04:56:22Z"
     },
@@ -945,7 +956,7 @@
       "to": 0.0296,
       "fromCompletion": 0.136,
       "toCompletion": 0.136,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -957,7 +968,7 @@
       "fromCompletion": 1.125,
       "toCompletion": 1.125,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-21T03:54:05Z"
     },
     "openai/gpt-5.6-luna": {
@@ -968,7 +979,7 @@
       "fromCompletion": 0.6000000000000001,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T02:02:28Z"
     },
     "openai/gpt-5.6-luna-pro": {
@@ -979,8 +990,19 @@
       "fromCompletion": 0.6000000000000001,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T02:02:28Z"
+    },
+    "qwen/qwen3.5-9b": {
+      "pct": 0.0,
+      "pctCompletion": 66.66666666666667,
+      "from": 0.09999999999999999,
+      "to": 0.09999999999999999,
+      "fromCompletion": 0.15,
+      "toCompletion": 0.25,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-06-07T13:26:01Z"
     },
     "qwen/qwen3-coder-30b-a3b-instruct": {
       "pct": 0.0,
@@ -990,7 +1012,7 @@
       "fromCompletion": 0.27,
       "toCompletion": 0.28,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "google/gemini-3.5-flash-lite:batch": {
@@ -1001,7 +1023,7 @@
       "fromCompletion": 1.25,
       "toCompletion": 1.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "amazon/nova-micro-v1": {
@@ -1012,7 +1034,7 @@
       "fromCompletion": 0.14,
       "toCompletion": 0.14,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "z-ai/glm-5.3": {
@@ -1022,7 +1044,7 @@
       "to": 0.0699,
       "fromCompletion": 1.4,
       "toCompletion": 1.4,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1033,7 +1055,7 @@
       "to": 0.0699,
       "fromCompletion": 1.4,
       "toCompletion": 1.4,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1044,7 +1066,7 @@
       "to": 0.03,
       "fromCompletion": 0.15,
       "toCompletion": 0.15,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1055,7 +1077,18 @@
       "to": 0.15,
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
-      "spanDays": 18,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "deepseek/deepseek-v4.1-flash-1017": {
+      "pct": 100.0,
+      "pctCompletion": 100.0,
+      "from": 0.15,
+      "to": 0.3,
+      "fromCompletion": 0.6,
+      "toCompletion": 1.2,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1067,8 +1100,19 @@
       "fromCompletion": 1.2,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-01T02:52:54Z"
+    },
+    "xiaomi/mimo-v2.6-flash-mopd": {
+      "pct": 233.33333333333334,
+      "pctCompletion": 138.0952380952381,
+      "from": 0.15,
+      "to": 0.5,
+      "fromCompletion": 0.42,
+      "toCompletion": 1.0,
+      "spanDays": 1,
+      "compareDate": "2026-11-25",
+      "fromDate": "2026-11-25T06:21:01Z"
     },
     "z-ai/glm-5.3:batch": {
       "pct": -37.777777777777764,
@@ -1077,7 +1121,7 @@
       "to": 0.28,
       "fromCompletion": 2.0,
       "toCompletion": 1.249,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1089,7 +1133,7 @@
       "fromCompletion": 0.15,
       "toCompletion": 0.15,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemma-4-26b-a4b-it": {
@@ -1100,7 +1144,7 @@
       "fromCompletion": 0.33999999999999997,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T13:50:22Z"
     },
     "qwen/qwen3.8-27b": {
@@ -1110,7 +1154,7 @@
       "to": 0.035,
       "fromCompletion": 1.875,
       "toCompletion": 1.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1122,7 +1166,7 @@
       "fromCompletion": 0.15,
       "toCompletion": 0.15,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-07T13:26:01Z"
     },
     "mistralai/ministral-3b-2512": {
@@ -1133,7 +1177,7 @@
       "fromCompletion": 0.09999999999999999,
       "toCompletion": 0.09999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/ministral-14b-2512": {
@@ -1144,7 +1188,7 @@
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-30b-a3b-instruct-2507": {
@@ -1155,7 +1199,7 @@
       "fromCompletion": 0.19305,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-26T02:01:29Z"
     },
     "z-ai/glm-5.3-flashx": {
@@ -1165,7 +1209,7 @@
       "to": 0.37,
       "fromCompletion": 1.25,
       "toCompletion": 1.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1176,20 +1220,9 @@
       "to": 0.37,
       "fromCompletion": 1.25,
       "toCompletion": 1.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "tencent/hy3": {
-      "pct": -37.499999999999986,
-      "pctCompletion": -37.499999999999986,
-      "from": 0.13199999999999998,
-      "to": 0.0825,
-      "fromCompletion": 0.5279999999999999,
-      "toCompletion": 0.33,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-07-24T13:21:26Z"
     },
     "tencent/hy4": {
       "pct": 0.0,
@@ -1198,7 +1231,7 @@
       "to": 0.417,
       "fromCompletion": 1.2505,
       "toCompletion": 1.2505,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1210,7 +1243,7 @@
       "fromCompletion": 1.28,
       "toCompletion": 1.28,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-11T15:40:08Z"
     },
     "ibm-granite/granite-4.2-8b": {
@@ -1220,20 +1253,9 @@
       "to": 0.06,
       "fromCompletion": 0.25,
       "toCompletion": 0.15,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "qwen/qwen3.5-9b": {
-      "pct": 70.0,
-      "pctCompletion": 66.66666666666667,
-      "from": 0.09999999999999999,
-      "to": 0.16999999999999998,
-      "fromCompletion": 0.15,
-      "toCompletion": 0.25,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-06-07T13:26:01Z"
     },
     "google/gemini-3-flash-preview:batch": {
       "pct": 0.0,
@@ -1243,7 +1265,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "google/gemini-3.1-flash-lite": {
@@ -1254,7 +1276,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-08T02:16:04Z"
     },
     "google/gemini-3.1-flash-lite-preview": {
@@ -1265,7 +1287,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
@@ -1275,7 +1297,7 @@
       "to": 0.44,
       "fromCompletion": 1.32,
       "toCompletion": 1.32,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1287,7 +1309,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-25T01:56:35Z"
     },
     "openai/gpt-5.4-nano:batch": {
@@ -1298,7 +1320,7 @@
       "fromCompletion": 0.625,
       "toCompletion": 0.625,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "qwen/qwen3.5-plus-02-15": {
@@ -1309,7 +1331,7 @@
       "fromCompletion": 1.56,
       "toCompletion": 1.56,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "inclusionai/ling-3.0-flash-vl": {
@@ -1319,7 +1341,7 @@
       "to": 0.06,
       "fromCompletion": 0.18,
       "toCompletion": 0.18,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1331,7 +1353,7 @@
       "fromCompletion": 0.44999999999999996,
       "toCompletion": 0.16,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-24T01:57:12Z"
     },
     "x-ai/grok-4.20": {
@@ -1342,7 +1364,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "x-ai/grok-4.20-multi-agent": {
@@ -1353,7 +1375,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-16T02:57:31Z"
     },
     "bytedance-seed/seed-2.0-mini": {
@@ -1364,7 +1386,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4.1-mini": {
@@ -1375,7 +1397,7 @@
       "fromCompletion": 1.5999999999999999,
       "toCompletion": 1.5999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "nex-agi/nex-n2.6": {
@@ -1385,7 +1407,7 @@
       "to": 0.12,
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T18:20:04Z"
     },
@@ -1397,7 +1419,7 @@
       "fromCompletion": 1.7999999999999998,
       "toCompletion": 1.7999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-21T03:54:05Z"
     },
     "minimax/minimax-m3:batch": {
@@ -1408,7 +1430,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.88,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "google/gemini-3.6-flash:batch": {
@@ -1419,7 +1441,7 @@
       "fromCompletion": 3.75,
       "toCompletion": 1.875,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "google/gemini-3.7-flash:batch": {
@@ -1429,7 +1451,7 @@
       "to": 0.375,
       "fromCompletion": 1.875,
       "toCompletion": 1.875,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1440,20 +1462,9 @@
       "to": 0.375,
       "fromCompletion": 1.875,
       "toCompletion": 1.875,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
-    },
-    "deepseek/deepseek-v4-pro": {
-      "pct": 69.02114942528735,
-      "pctCompletion": 75.03448275862071,
-      "from": 0.435,
-      "to": 0.735242,
-      "fromCompletion": 0.87,
-      "toCompletion": 1.5228000000000002,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-06-26T02:38:06Z"
     },
     "inference-net/schematron-v2-small": {
       "pct": 0.0,
@@ -1462,7 +1473,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.22999999999999998,
       "toCompletion": 0.22999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1473,7 +1484,7 @@
       "to": 0.075,
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1485,7 +1496,7 @@
       "fromCompletion": 0.18,
       "toCompletion": 0.18,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.6-plus": {
@@ -1496,8 +1507,19 @@
       "fromCompletion": 1.95,
       "toCompletion": 1.95,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "deepseek/deepseek-v4-pro": {
+      "pct": 104.18114942528736,
+      "pctCompletion": 73.35632183908046,
+      "from": 0.435,
+      "to": 0.888188,
+      "fromCompletion": 0.87,
+      "toCompletion": 1.5082,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-06-26T02:38:06Z"
     },
     "openai/gpt-oss-120b": {
       "pct": 35.13513513513513,
@@ -1507,7 +1529,7 @@
       "fromCompletion": 0.16999999999999998,
       "toCompletion": 0.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "google/gemma-4-31b-it": {
@@ -1518,7 +1540,7 @@
       "fromCompletion": 0.33999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-30T01:45:09Z"
     },
     "bytedance/ui-tars-1.5-7b": {
@@ -1529,8 +1551,19 @@
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "tencent/hy3": {
+      "pct": 0.0,
+      "pctCompletion": 0.0,
+      "from": 0.13199999999999998,
+      "to": 0.13199999999999998,
+      "fromCompletion": 0.5279999999999999,
+      "toCompletion": 0.5279999999999999,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-07-24T13:21:26Z"
     },
     "thinkingmachines/inkling-small:batch": {
       "pct": 0.0,
@@ -1539,7 +1572,7 @@
       "to": 0.36,
       "fromCompletion": 0.96,
       "toCompletion": 0.96,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1551,7 +1584,7 @@
       "fromCompletion": 0.7999999999999999,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-12T13:02:42Z"
     },
     "mistralai/mistral-large-4-0": {
@@ -1561,7 +1594,7 @@
       "to": 0.7,
       "fromCompletion": 2.0999999999999996,
       "toCompletion": 2.0999999999999996,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1573,7 +1606,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3.5-flash-lite": {
@@ -1584,7 +1617,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-22T01:54:12Z"
     },
     "qwen/qwen3-32b": {
@@ -1595,7 +1628,7 @@
       "fromCompletion": 0.28,
       "toCompletion": 0.28,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-09T02:09:03Z"
     },
     "amazon/nova-2-lite-v1": {
@@ -1606,7 +1639,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5-mini:batch": {
@@ -1617,7 +1650,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "openai/gpt-6.1-terra-pro:batch": {
@@ -1627,7 +1660,7 @@
       "to": 0.5,
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1638,7 +1671,7 @@
       "to": 0.5,
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1650,7 +1683,7 @@
       "fromCompletion": 0.3,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/mistral-small-2603": {
@@ -1661,7 +1694,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-vl-30b-a3b-instruct": {
@@ -1672,19 +1705,8 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T13:52:18Z"
-    },
-    "tencent/hy4-preview": {
-      "pct": 0.0,
-      "pctCompletion": 0.0,
-      "from": 0.7505999999999999,
-      "to": 0.7505999999999999,
-      "fromCompletion": 2.2509,
-      "toCompletion": 2.2509,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "meta-llama/llama-3.2-3b-instruct": {
       "pct": 0.0,
@@ -1694,7 +1716,7 @@
       "fromCompletion": 0.33,
       "toCompletion": 0.33,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-23T02:02:08Z"
     },
     "z-ai/glm-5.2": {
@@ -1705,7 +1727,7 @@
       "fromCompletion": 2.42,
       "toCompletion": 2.42,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "openai/gpt-4o-mini:batch": {
@@ -1715,7 +1737,7 @@
       "to": 0.075,
       "fromCompletion": 0.3,
       "toCompletion": 0.3,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1726,7 +1748,7 @@
       "to": 1.0,
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1737,7 +1759,7 @@
       "to": 0.19999999999999998,
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1749,8 +1771,19 @@
       "fromCompletion": 1.2,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-01T02:03:49Z"
+    },
+    "tencent/hy4-preview": {
+      "pct": 11.111111111111116,
+      "pctCompletion": 11.1111111111111,
+      "from": 0.7505999999999999,
+      "to": 0.834,
+      "fromCompletion": 2.2509,
+      "toCompletion": 2.501,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
     },
     "google/gemini-3-flash-preview": {
       "pct": 0.0,
@@ -1760,7 +1793,7 @@
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-coder-next": {
@@ -1771,7 +1804,7 @@
       "fromCompletion": 0.7999999999999999,
       "toCompletion": 0.7999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T13:50:22Z"
     },
     "z-ai/glm-4.7-flash": {
@@ -1782,7 +1815,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-23T02:02:08Z"
     },
     "qwen/qwen3-235b-a22b-2507": {
@@ -1793,7 +1826,7 @@
       "fromCompletion": 0.55,
       "toCompletion": 0.7999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "openai/gpt-5.4-nano": {
@@ -1804,7 +1837,7 @@
       "fromCompletion": 1.25,
       "toCompletion": 1.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "stepfun/step-5-preview": {
@@ -1814,7 +1847,7 @@
       "to": 1.0,
       "fromCompletion": 2.7,
       "toCompletion": 2.7,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1826,7 +1859,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.6-35b-a3b": {
@@ -1837,7 +1870,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 0.8899999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-18T14:52:18Z"
     },
     "qwen/qwen3-vl-8b-instruct": {
@@ -1848,7 +1881,7 @@
       "fromCompletion": 0.45499999999999996,
       "toCompletion": 0.75,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-02T13:42:12Z"
     },
     "kt/midm-k-3.0-pro": {
@@ -1858,7 +1891,7 @@
       "to": 0.19999999999999998,
       "fromCompletion": 0.7999999999999999,
       "toCompletion": 0.7999999999999999,
-      "spanDays": 14,
+      "spanDays": 15,
       "compareDate": "2026-11-11",
       "fromDate": "2026-11-11T03:36:05Z"
     },
@@ -1870,7 +1903,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.38,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "mistralai/mistral-small-24b-instruct-2501": {
@@ -1881,7 +1914,7 @@
       "fromCompletion": 0.08,
       "toCompletion": 0.08,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "deepseek/deepseek-v3.2-exp": {
@@ -1892,7 +1925,7 @@
       "fromCompletion": 0.41,
       "toCompletion": 0.41,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3.6-flash": {
@@ -1903,7 +1936,7 @@
       "fromCompletion": 7.5,
       "toCompletion": 3.75,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-22T01:54:12Z"
     },
     "google/gemini-3.7-flash": {
@@ -1913,7 +1946,7 @@
       "to": 0.75,
       "fromCompletion": 3.75,
       "toCompletion": 3.75,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1924,7 +1957,7 @@
       "to": 0.75,
       "fromCompletion": 3.75,
       "toCompletion": 3.75,
-      "spanDays": 12,
+      "spanDays": 13,
       "compareDate": "2026-11-13",
       "fromDate": "2026-11-13T06:20:45Z"
     },
@@ -1935,7 +1968,18 @@
       "to": 0.111,
       "fromCompletion": 4.4399999999999995,
       "toCompletion": 4.4399999999999995,
-      "spanDays": 18,
+      "spanDays": 19,
+      "compareDate": "2026-11-07",
+      "fromDate": "2026-11-07T18:45:35Z"
+    },
+    "~deepseek/deepseek-pro-latest": {
+      "pct": 11.111111111111109,
+      "pctCompletion": -44.50000000000001,
+      "from": 0.0999,
+      "to": 0.111,
+      "fromCompletion": 8.0,
+      "toCompletion": 4.4399999999999995,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1947,7 +1991,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T13:50:22Z"
     },
     "qwen/qwen3.7-plus:batch": {
@@ -1957,7 +2001,7 @@
       "to": 0.22999999999999998,
       "fromCompletion": 0.9199999999999999,
       "toCompletion": 0.9199999999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -1969,7 +2013,7 @@
       "fromCompletion": 0.19999999999999998,
       "toCompletion": 0.19999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-next-80b-a3b-instruct": {
@@ -1980,7 +2024,7 @@
       "fromCompletion": 1.1,
       "toCompletion": 1.1,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "mistralai/codestral-2508": {
@@ -1991,7 +2035,7 @@
       "fromCompletion": 0.8999999999999999,
       "toCompletion": 0.8999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3.8-flash": {
@@ -2001,7 +2045,7 @@
       "to": 0.8250000000000001,
       "fromCompletion": 4.125,
       "toCompletion": 4.125,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2012,7 +2056,7 @@
       "to": 1.0,
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2024,19 +2068,8 @@
       "fromCompletion": 4.05,
       "toCompletion": 4.05,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-18T01:46:59Z"
-    },
-    "~deepseek/deepseek-pro-latest": {
-      "pct": 0.0,
-      "pctCompletion": -37.5,
-      "from": 0.0999,
-      "to": 0.0999,
-      "fromCompletion": 8.0,
-      "toCompletion": 5.0,
-      "spanDays": 18,
-      "compareDate": "2026-11-07",
-      "fromDate": "2026-11-07T18:45:35Z"
     },
     "baidu/ernie-light-dt-1.0-intl": {
       "pct": 0.0,
@@ -2045,7 +2078,7 @@
       "to": 1.13,
       "fromCompletion": 3.9400000000000004,
       "toCompletion": 3.9400000000000004,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T22:11:07Z"
     },
@@ -2057,7 +2090,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-24T13:21:26Z"
     },
     "google/gemini-3.5-flash:batch": {
@@ -2068,7 +2101,7 @@
       "fromCompletion": 4.5,
       "toCompletion": 4.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "meta/muse-spark-1.1": {
@@ -2079,7 +2112,7 @@
       "fromCompletion": 4.25,
       "toCompletion": 4.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-17T01:57:08Z"
     },
     "meta/muse-spark-1.2": {
@@ -2090,7 +2123,7 @@
       "fromCompletion": 4.25,
       "toCompletion": 4.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "meta/muse-spark-1.3": {
@@ -2100,7 +2133,7 @@
       "to": 1.25,
       "fromCompletion": 4.25,
       "toCompletion": 4.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2111,7 +2144,7 @@
       "to": 1.25,
       "fromCompletion": 4.25,
       "toCompletion": 4.25,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2123,7 +2156,7 @@
       "fromCompletion": 1.15,
       "toCompletion": 1.15,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-29T02:33:24Z"
     },
     "morph/morph-v3-large:batch": {
@@ -2133,7 +2166,7 @@
       "to": 0.44999999999999996,
       "fromCompletion": 0.95,
       "toCompletion": 0.95,
-      "spanDays": 17,
+      "spanDays": 18,
       "compareDate": "2026-11-08",
       "fromDate": "2026-11-08T04:56:22Z"
     },
@@ -2145,7 +2178,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.1-codex-mini": {
@@ -2156,7 +2189,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "moonshotai/kimi-k3.1-pro:batch": {
@@ -2166,7 +2199,7 @@
       "to": 0.372,
       "fromCompletion": 6.0,
       "toCompletion": 5.582999999999999,
-      "spanDays": 13,
+      "spanDays": 14,
       "compareDate": "2026-11-12",
       "fromDate": "2026-11-12T06:20:20Z"
     },
@@ -2177,7 +2210,7 @@
       "to": 1.4249999999999998,
       "fromCompletion": 4.5,
       "toCompletion": 4.2749999999999995,
-      "spanDays": 9,
+      "spanDays": 10,
       "compareDate": "2026-11-16",
       "fromDate": "2026-11-16T06:20:37Z"
     },
@@ -2188,7 +2221,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2199,7 +2232,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2210,7 +2243,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2221,7 +2254,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2232,7 +2265,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2243,7 +2276,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2254,7 +2287,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 7,
+      "spanDays": 8,
       "compareDate": "2026-11-18",
       "fromDate": "2026-11-18T06:20:06Z"
     },
@@ -2265,7 +2298,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 7,
+      "spanDays": 8,
       "compareDate": "2026-11-18",
       "fromDate": "2026-11-18T06:20:06Z"
     },
@@ -2276,7 +2309,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2287,7 +2320,7 @@
       "to": 0.3,
       "fromCompletion": 1.2,
       "toCompletion": 1.2,
-      "spanDays": 14,
+      "spanDays": 15,
       "compareDate": "2026-11-11",
       "fromDate": "2026-11-11T03:36:05Z"
     },
@@ -2298,7 +2331,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2309,7 +2342,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T18:20:04Z"
     },
@@ -2321,7 +2354,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "liquid/lfm-2.5-24b-a2b": {
@@ -2331,7 +2364,7 @@
       "to": 0.049999999999999996,
       "fromCompletion": 0.7,
       "toCompletion": 0.7,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2343,7 +2376,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4o-mini-2024-07-18": {
@@ -2354,7 +2387,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.7-max": {
@@ -2365,7 +2398,7 @@
       "fromCompletion": 4.425,
       "toCompletion": 4.425,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T13:50:22Z"
     },
     "anthropic/claude-sonnet-5.5:batch": {
@@ -2375,7 +2408,7 @@
       "to": 1.0,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2387,7 +2420,7 @@
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "thedrummer/cydonia-24b-v4.1": {
@@ -2398,7 +2431,7 @@
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "writer/palmyra-x5": {
@@ -2409,7 +2442,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.4-mini:batch": {
@@ -2420,7 +2453,7 @@
       "fromCompletion": 2.25,
       "toCompletion": 2.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "openai/gpt-5.6-terra-pro:batch": {
@@ -2430,7 +2463,7 @@
       "to": 1.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2441,7 +2474,7 @@
       "to": 1.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2453,7 +2486,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "z-ai/glm-5.3-prime": {
@@ -2463,7 +2496,7 @@
       "to": 1.68,
       "fromCompletion": 8.8,
       "toCompletion": 5.28,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2475,7 +2508,7 @@
       "fromCompletion": 0.5549999999999999,
       "toCompletion": 0.5549999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-21T03:54:05Z"
     },
     "deepseek/deepseek-chat-v3.1": {
@@ -2486,19 +2519,8 @@
       "fromCompletion": 0.95,
       "toCompletion": 0.95,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-13T14:12:58Z"
-    },
-    "z-ai/glm-4.5-air": {
-      "pct": 7.692307692307699,
-      "pctCompletion": 1.176470588235295,
-      "from": 0.13,
-      "to": 0.14,
-      "fromCompletion": 0.85,
-      "toCompletion": 0.86,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-06-16T16:28:00Z"
     },
     "deepseek/deepseek-chat-v3-0324": {
       "pct": -7.407407407407414,
@@ -2508,7 +2530,7 @@
       "fromCompletion": 1.12,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "mistralai/mistral-large-2512": {
@@ -2519,7 +2541,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "morph/morph-v3-fast": {
@@ -2530,7 +2552,7 @@
       "fromCompletion": 1.2,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.8-2.4t-a95b": {
@@ -2540,7 +2562,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2551,7 +2573,7 @@
       "to": 0.15,
       "fromCompletion": 1.875,
       "toCompletion": 1.875,
-      "spanDays": 4,
+      "spanDays": 5,
       "compareDate": "2026-11-21",
       "fromDate": "2026-11-21T06:20:59Z"
     },
@@ -2563,7 +2585,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "deepseek/deepseek-chat": {
@@ -2574,7 +2596,7 @@
       "fromCompletion": 1.0287,
       "toCompletion": 1.0287,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-30T13:41:09Z"
     },
     "qwen/qwen3.8-max-0902": {
@@ -2584,7 +2606,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2595,7 +2617,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2606,7 +2628,7 @@
       "to": 0.7,
       "fromCompletion": 1.4,
       "toCompletion": 1.4,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2618,7 +2640,7 @@
       "fromCompletion": 1.9,
       "toCompletion": 1.9,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "relace/relace-apply-3": {
@@ -2629,7 +2651,7 @@
       "fromCompletion": 1.25,
       "toCompletion": 1.25,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.8-27b:batch": {
@@ -2639,7 +2661,7 @@
       "to": 0.16,
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2650,7 +2672,7 @@
       "to": 0.2403,
       "fromCompletion": 10.0,
       "toCompletion": 8.402299999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2662,7 +2684,7 @@
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "bytedance-seed/seed-2.0-lite": {
@@ -2673,7 +2695,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-4-hydrogen": {
@@ -2683,7 +2705,7 @@
       "to": 1.5,
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
-      "spanDays": 13,
+      "spanDays": 14,
       "compareDate": "2026-11-12",
       "fromDate": "2026-11-12T18:20:46Z"
     },
@@ -2694,7 +2716,7 @@
       "to": 1.5,
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
-      "spanDays": 6,
+      "spanDays": 7,
       "compareDate": "2026-11-19",
       "fromDate": "2026-11-19T06:20:24Z"
     },
@@ -2706,7 +2728,7 @@
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-22T01:54:12Z"
     },
     "cognitivecomputations/dolphin-mistral-24b-venice-edition": {
@@ -2717,7 +2739,7 @@
       "fromCompletion": 0.8999999999999999,
       "toCompletion": 0.8999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-10T02:09:00Z"
     },
     "qwen/qwen3-14b": {
@@ -2728,7 +2750,7 @@
       "fromCompletion": 0.9099999999999999,
       "toCompletion": 0.24,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-23T02:02:08Z"
     },
     "qwen/qwen3.5-122b-a10b": {
@@ -2739,7 +2761,7 @@
       "fromCompletion": 2.08,
       "toCompletion": 2.08,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "anthropic/claude-sonnet-4.5:batch": {
@@ -2750,7 +2772,7 @@
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthropic/claude-sonnet-4.6:batch": {
@@ -2760,7 +2782,7 @@
       "to": 1.5,
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2771,7 +2793,7 @@
       "to": 0.24,
       "fromCompletion": 0.96,
       "toCompletion": 0.96,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2783,7 +2805,7 @@
       "fromCompletion": 0.8999999999999999,
       "toCompletion": 0.8999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/devstral-2512": {
@@ -2794,7 +2816,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "cohere/command-a-plus": {
@@ -2804,7 +2826,7 @@
       "to": 0.3,
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2816,8 +2838,19 @@
       "fromCompletion": 8.0,
       "toCompletion": 8.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "z-ai/glm-4.5-air": {
+      "pct": 53.84615384615383,
+      "pctCompletion": 29.411764705882366,
+      "from": 0.13,
+      "to": 0.19999999999999998,
+      "fromCompletion": 0.85,
+      "toCompletion": 1.1,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-06-16T16:28:00Z"
     },
     "google/gemini-3.5-flash": {
       "pct": 0.0,
@@ -2827,7 +2860,7 @@
       "fromCompletion": 9.0,
       "toCompletion": 9.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-21T03:54:05Z"
     },
     "nvidia/nemotron-3-ultra-550b-a55b": {
@@ -2838,7 +2871,7 @@
       "fromCompletion": 3.5999999999999996,
       "toCompletion": 2.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-02T01:59:59Z"
     },
     "~moonshotai/kimi-latest": {
@@ -2849,7 +2882,7 @@
       "fromCompletion": 14.0,
       "toCompletion": 11.0055,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T02:02:28Z"
     },
     "morph/morph-v3-large": {
@@ -2860,7 +2893,7 @@
       "fromCompletion": 1.9,
       "toCompletion": 1.9,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-2.5-pro": {
@@ -2871,7 +2904,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-2.5-pro-preview": {
@@ -2882,7 +2915,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "meta-llama/llama-3.3-70b-instruct": {
@@ -2893,7 +2926,7 @@
       "fromCompletion": 0.32,
       "toCompletion": 0.71,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "qwen/qwen3.5-27b": {
@@ -2904,7 +2937,7 @@
       "fromCompletion": 1.56,
       "toCompletion": 2.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-24T01:57:12Z"
     },
     "sao10k/l3-lunaris-8b": {
@@ -2915,7 +2948,7 @@
       "fromCompletion": 0.049999999999999996,
       "toCompletion": 0.049999999999999996,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "meta-llama/llama-3.1-70b-instruct": {
@@ -2926,7 +2959,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.72,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5-image-mini": {
@@ -2937,7 +2970,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.6-sol-pro:batch": {
@@ -2947,7 +2980,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2958,7 +2991,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2969,7 +3002,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2980,7 +3013,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -2991,7 +3024,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3002,7 +3035,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3013,7 +3046,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 8,
+      "spanDays": 9,
       "compareDate": "2026-11-17",
       "fromDate": "2026-11-17T18:20:07Z"
     },
@@ -3024,7 +3057,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 8,
+      "spanDays": 9,
       "compareDate": "2026-11-17",
       "fromDate": "2026-11-17T18:20:07Z"
     },
@@ -3035,7 +3068,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3046,7 +3079,7 @@
       "to": 0.5,
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3058,7 +3091,7 @@
       "fromCompletion": 2.8499999999999996,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "google/gemini-4-argon": {
@@ -3068,7 +3101,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3079,7 +3112,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T18:20:04Z"
     },
@@ -3091,7 +3124,7 @@
       "fromCompletion": 12.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-5.5:batch": {
@@ -3101,7 +3134,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3113,7 +3146,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-01T02:44:28Z"
     },
     "anthropic/claude-sonnet-5.5": {
@@ -3123,7 +3156,7 @@
       "to": 2.0,
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3135,7 +3168,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-01T02:44:28Z"
     },
     "rekaai/reka-edge": {
@@ -3146,7 +3179,7 @@
       "fromCompletion": 0.09999999999999999,
       "toCompletion": 0.09999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/voxtral-small-24b-2507": {
@@ -3157,7 +3190,7 @@
       "fromCompletion": 0.3,
       "toCompletion": 0.3,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "morph/morph-v3-fast:batch": {
@@ -3167,7 +3200,7 @@
       "to": 0.39999999999999997,
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
-      "spanDays": 17,
+      "spanDays": 18,
       "compareDate": "2026-11-08",
       "fromDate": "2026-11-08T04:56:22Z"
     },
@@ -3179,7 +3212,7 @@
       "fromCompletion": 1.08,
       "toCompletion": 1.7999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-05T01:49:38Z"
     },
     "z-ai/glm-4.6": {
@@ -3190,7 +3223,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-15T13:18:47Z"
     },
     "xiaomi/mimo-v2.6-pro-ultraspeed": {
@@ -3200,7 +3233,7 @@
       "to": 4.35,
       "fromCompletion": 8.7,
       "toCompletion": 8.7,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3211,7 +3244,7 @@
       "to": 1.5999999999999999,
       "fromCompletion": 4.8,
       "toCompletion": 4.8,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3222,7 +3255,7 @@
       "to": 1.5999999999999999,
       "fromCompletion": 4.8,
       "toCompletion": 4.8,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3234,7 +3267,7 @@
       "fromCompletion": 0.14,
       "toCompletion": 0.14,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-24T02:33:47Z"
     },
     "sao10k/l3.1-euryale-70b": {
@@ -3245,7 +3278,7 @@
       "fromCompletion": 0.85,
       "toCompletion": 0.85,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "moonshotai/kimi-k3:batch": {
@@ -3255,7 +3288,7 @@
       "to": 2.2800000000000002,
       "fromCompletion": 11.399999999999999,
       "toCompletion": 11.399999999999999,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3267,7 +3300,7 @@
       "fromCompletion": 4.5,
       "toCompletion": 4.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "~openai/gpt-mini-latest": {
@@ -3278,19 +3311,8 @@
       "fromCompletion": 4.5,
       "toCompletion": 4.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
-    },
-    "qwen/qwen3.5-397b-a17b": {
-      "pct": 15.384615384615369,
-      "pctCompletion": 28.20512820512821,
-      "from": 0.39,
-      "to": 0.44999999999999996,
-      "fromCompletion": 2.34,
-      "toCompletion": 3.0,
-      "spanDays": 30,
-      "compareDate": "2026-10-26",
-      "fromDate": "2026-07-17T01:57:08Z"
     },
     "amazon/nova-pro-v1": {
       "pct": 0.0,
@@ -3300,7 +3322,7 @@
       "fromCompletion": 3.1999999999999997,
       "toCompletion": 3.1999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.6-terra": {
@@ -3311,7 +3333,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T02:02:28Z"
     },
     "openai/gpt-5.6-terra-pro": {
@@ -3322,7 +3344,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T02:02:28Z"
     },
     "google/gemini-3.1-pro-preview": {
@@ -3333,7 +3355,7 @@
       "fromCompletion": 12.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3.1-pro-preview-customtools": {
@@ -3344,7 +3366,7 @@
       "fromCompletion": 12.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3.6-27b": {
@@ -3355,7 +3377,7 @@
       "fromCompletion": 2.4,
       "toCompletion": 3.1999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-03T14:20:37Z"
     },
     "z-ai/glm-4.7": {
@@ -3366,7 +3388,7 @@
       "fromCompletion": 1.75,
       "toCompletion": 2.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-26T02:38:06Z"
     },
     "elorian/glimpse": {
@@ -3376,7 +3398,7 @@
       "to": 0.6,
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3388,7 +3410,7 @@
       "fromCompletion": 3.5,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "openai/o3-mini:batch": {
@@ -3398,7 +3420,7 @@
       "to": 0.55,
       "fromCompletion": 2.2,
       "toCompletion": 2.2,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3409,7 +3431,7 @@
       "to": 0.55,
       "fromCompletion": 2.2,
       "toCompletion": 2.2,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3421,7 +3443,7 @@
       "fromCompletion": 0.75,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T13:52:18Z"
     },
     "openai/gpt-5.1:batch": {
@@ -3432,7 +3454,7 @@
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "openai/gpt-5:batch": {
@@ -3443,7 +3465,7 @@
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "meta/muse-glimmer-30b": {
@@ -3453,7 +3475,7 @@
       "to": 0.35,
       "fromCompletion": 1.2,
       "toCompletion": 1.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3465,7 +3487,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "amazon/nova-premier-v1": {
@@ -3476,7 +3498,7 @@
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.6:batch": {
@@ -3487,7 +3509,7 @@
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthropic/claude-opus-4.7:batch": {
@@ -3498,7 +3520,7 @@
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthropic/claude-opus-4.8:batch": {
@@ -3509,7 +3531,7 @@
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthropic/claude-opus-5:batch": {
@@ -3519,7 +3541,7 @@
       "to": 2.5,
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3531,7 +3553,7 @@
       "fromCompletion": 0.5,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-26T13:02:48Z"
     },
     "moonshotai/kimi-k3": {
@@ -3542,7 +3564,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 16.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-17T01:57:08Z"
     },
     "moonshotai/kimi-k2.6": {
@@ -3553,7 +3575,7 @@
       "fromCompletion": 2.48,
       "toCompletion": 3.41,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "relace/relace-search": {
@@ -3564,8 +3586,19 @@
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
+    },
+    "qwen/qwen3.5-397b-a17b": {
+      "pct": 28.2051282051282,
+      "pctCompletion": 53.84615384615385,
+      "from": 0.39,
+      "to": 0.5,
+      "fromCompletion": 2.34,
+      "toCompletion": 3.5999999999999996,
+      "spanDays": 30,
+      "compareDate": "2026-10-27",
+      "fromDate": "2026-07-17T01:57:08Z"
     },
     "perplexity/sonar": {
       "pct": 0.0,
@@ -3575,7 +3608,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "x-ai/grok-4.5": {
@@ -3586,7 +3619,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-09T02:09:50Z"
     },
     "x-ai/grok-4.6": {
@@ -3596,7 +3629,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3607,7 +3640,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3619,7 +3652,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-09T02:09:50Z"
     },
     "qwen/qwen3.8-max-prime": {
@@ -3629,7 +3662,7 @@
       "to": 4.0,
       "fromCompletion": 12.0,
       "toCompletion": 12.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3641,7 +3674,7 @@
       "fromCompletion": 1.4,
       "toCompletion": 1.4,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-08T01:56:56Z"
     },
     "openai/gpt-5.4": {
@@ -3652,7 +3685,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.5:batch": {
@@ -3663,7 +3696,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "mistralai/mistral-medium-3-5:batch": {
@@ -3673,7 +3706,7 @@
       "to": 0.75,
       "fromCompletion": 3.75,
       "toCompletion": 3.75,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3684,7 +3717,7 @@
       "to": 3.0,
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3695,7 +3728,7 @@
       "to": 3.0,
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
-      "spanDays": 6,
+      "spanDays": 7,
       "compareDate": "2026-11-19",
       "fromDate": "2026-11-19T06:20:24Z"
     },
@@ -3707,7 +3740,7 @@
       "fromCompletion": 2.1500000000000004,
       "toCompletion": 2.2859999999999996,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-26T02:38:06Z"
     },
     "qwen/qwen3.8-max-0902:batch": {
@@ -3717,7 +3750,7 @@
       "to": 1.15,
       "fromCompletion": 3.45,
       "toCompletion": 3.45,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T00:20:04Z"
     },
@@ -3729,7 +3762,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-sonnet-4.6": {
@@ -3740,7 +3773,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "aion-labs/aion-2.0": {
@@ -3751,7 +3784,7 @@
       "fromCompletion": 1.5999999999999999,
       "toCompletion": 1.5999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "sakana/sakana-namazu": {
@@ -3761,7 +3794,7 @@
       "to": 0.95,
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3773,7 +3806,7 @@
       "fromCompletion": 7.0,
       "toCompletion": 7.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "z-ai/glm-5": {
@@ -3784,7 +3817,7 @@
       "fromCompletion": 2.5500000000000003,
       "toCompletion": 3.1999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-20T03:27:42Z"
     },
     "z-ai/glm-4.5": {
@@ -3795,7 +3828,7 @@
       "fromCompletion": 2.2,
       "toCompletion": 2.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.6-sol": {
@@ -3806,7 +3839,7 @@
       "fromCompletion": 30.0,
       "toCompletion": 20.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-10T02:09:00Z"
     },
     "openai/gpt-5.6-sol-pro": {
@@ -3817,7 +3850,7 @@
       "fromCompletion": 30.0,
       "toCompletion": 20.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-10T02:09:00Z"
     },
     "openai/gpt-6.2-astra-pro:batch": {
@@ -3827,7 +3860,7 @@
       "to": 4.0,
       "fromCompletion": 20.0,
       "toCompletion": 20.0,
-      "spanDays": 7,
+      "spanDays": 8,
       "compareDate": "2026-11-18",
       "fromDate": "2026-11-18T06:20:06Z"
     },
@@ -3838,7 +3871,7 @@
       "to": 4.0,
       "fromCompletion": 20.0,
       "toCompletion": 20.0,
-      "spanDays": 7,
+      "spanDays": 8,
       "compareDate": "2026-11-18",
       "fromDate": "2026-11-18T06:20:06Z"
     },
@@ -3850,7 +3883,7 @@
       "fromCompletion": 0.8999999999999999,
       "toCompletion": 1.2,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "meta/muse-wonder": {
@@ -3860,7 +3893,7 @@
       "to": 4.0,
       "fromCompletion": 20.0,
       "toCompletion": 20.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3872,7 +3905,7 @@
       "fromCompletion": 0.39999999999999997,
       "toCompletion": 0.39999999999999997,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-audio-mini": {
@@ -3883,7 +3916,7 @@
       "fromCompletion": 2.4,
       "toCompletion": 2.4,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-fable-5.2:batch": {
@@ -3893,7 +3926,7 @@
       "to": 4.0,
       "fromCompletion": 20.0,
       "toCompletion": 20.0,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T00:20:04Z"
     },
@@ -3904,7 +3937,7 @@
       "to": 4.0,
       "fromCompletion": 20.0,
       "toCompletion": 20.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3916,7 +3949,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 20.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/mistral-saba": {
@@ -3927,7 +3960,7 @@
       "fromCompletion": 0.6,
       "toCompletion": 0.6,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/o3:batch": {
@@ -3937,7 +3970,7 @@
       "to": 1.0,
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -3949,7 +3982,7 @@
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "z-ai/glm-5v-turbo": {
@@ -3960,7 +3993,7 @@
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-23T02:33:07Z"
     },
     "google/gemini-3.1-flash-lite-image": {
@@ -3971,7 +4004,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-01T02:44:28Z"
     },
     "google/gemini-3.1-flash-image": {
@@ -3982,7 +4015,7 @@
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-18T14:52:18Z"
     },
     "tencent/hy-mt2-1.8b": {
@@ -3992,7 +4025,7 @@
       "to": 0.044,
       "fromCompletion": 0.17700000000000002,
       "toCompletion": 0.17700000000000002,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4004,7 +4037,7 @@
       "fromCompletion": 1.1,
       "toCompletion": 2.625,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5": {
@@ -4015,7 +4048,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.1": {
@@ -4026,7 +4059,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.1-codex": {
@@ -4037,7 +4070,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.1-codex-max": {
@@ -4048,7 +4081,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "z-ai/glm-5.1": {
@@ -4059,7 +4092,7 @@
       "fromCompletion": 2.992,
       "toCompletion": 4.4,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-06T01:50:09Z"
     },
     "openai/gpt-6-astra-pro:batch": {
@@ -4069,7 +4102,7 @@
       "to": 5.0,
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4080,7 +4113,7 @@
       "to": 5.0,
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4092,7 +4125,7 @@
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-fable-5.1:batch": {
@@ -4102,7 +4135,7 @@
       "to": 5.0,
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4114,7 +4147,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthropic/claude-opus-4.6": {
@@ -4125,7 +4158,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.7": {
@@ -4136,7 +4169,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.8": {
@@ -4147,7 +4180,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-29T02:33:24Z"
     },
     "anthropic/claude-opus-5": {
@@ -4158,7 +4191,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-25T01:56:35Z"
     },
     "nousresearch/hermes-4-405b": {
@@ -4169,7 +4202,7 @@
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "qwen/qwen3-235b-a22b-thinking-2507": {
@@ -4180,7 +4213,7 @@
       "fromCompletion": 2.3,
       "toCompletion": 3.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-31T13:45:21Z"
     },
     "openai/gpt-5.5": {
@@ -4191,7 +4224,7 @@
       "fromCompletion": 30.0,
       "toCompletion": 30.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "aion-labs/aion-3.5": {
@@ -4201,7 +4234,7 @@
       "to": 3.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4213,7 +4246,7 @@
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-05T02:06:13Z"
     },
     "sakana/fugu-ultra": {
@@ -4224,7 +4257,7 @@
       "fromCompletion": 30.0,
       "toCompletion": 30.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-24T14:11:13Z"
     },
     "sakana/fugu-ultra-v2": {
@@ -4234,7 +4267,7 @@
       "to": 5.0,
       "fromCompletion": 30.0,
       "toCompletion": 30.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4246,7 +4279,7 @@
       "fromCompletion": 1.7999999999999998,
       "toCompletion": 1.7999999999999998,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.2": {
@@ -4257,7 +4290,7 @@
       "fromCompletion": 14.0,
       "toCompletion": 14.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.2-codex": {
@@ -4268,7 +4301,7 @@
       "fromCompletion": 14.0,
       "toCompletion": 14.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.3-codex": {
@@ -4279,7 +4312,7 @@
       "fromCompletion": 14.0,
       "toCompletion": 14.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "thedrummer/skyfall-36b-v2": {
@@ -4290,7 +4323,7 @@
       "fromCompletion": 0.7999999999999999,
       "toCompletion": 0.7999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "perceptron/perceptron-mk1.5": {
@@ -4300,7 +4333,7 @@
       "to": 0.15,
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4311,7 +4344,7 @@
       "to": 0.074,
       "fromCompletion": 0.295,
       "toCompletion": 0.295,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4322,7 +4355,7 @@
       "to": 0.074,
       "fromCompletion": 0.295,
       "toCompletion": 0.295,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4333,7 +4366,7 @@
       "to": 8.0,
       "fromCompletion": 40.0,
       "toCompletion": 40.0,
-      "spanDays": 8,
+      "spanDays": 9,
       "compareDate": "2026-11-17",
       "fromDate": "2026-11-17T18:20:07Z"
     },
@@ -4344,7 +4377,7 @@
       "to": 8.0,
       "fromCompletion": 40.0,
       "toCompletion": 40.0,
-      "spanDays": 8,
+      "spanDays": 9,
       "compareDate": "2026-11-17",
       "fromDate": "2026-11-17T18:20:07Z"
     },
@@ -4355,7 +4388,7 @@
       "to": 8.0,
       "fromCompletion": 50.0,
       "toCompletion": 40.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4366,7 +4399,7 @@
       "to": 8.0,
       "fromCompletion": 40.0,
       "toCompletion": 40.0,
-      "spanDays": 15,
+      "spanDays": 16,
       "compareDate": "2026-11-10",
       "fromDate": "2026-11-10T00:20:04Z"
     },
@@ -4378,7 +4411,7 @@
       "fromCompletion": 50.0,
       "toCompletion": 40.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-10T02:41:10Z"
     },
     "openai/gpt-4o:batch": {
@@ -4388,7 +4421,7 @@
       "to": 1.25,
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4400,7 +4433,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/o3": {
@@ -4411,7 +4444,7 @@
       "fromCompletion": 8.0,
       "toCompletion": 8.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5-image": {
@@ -4422,7 +4455,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "perceptron/perceptron-mk1": {
@@ -4433,7 +4466,7 @@
       "fromCompletion": 1.5,
       "toCompletion": 1.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-21T03:54:05Z"
     },
     "qwen/qwen-2.5-coder-32b-instruct": {
@@ -4444,7 +4477,7 @@
       "fromCompletion": 1.0,
       "toCompletion": 1.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3.1-flash-image-preview": {
@@ -4455,7 +4488,7 @@
       "fromCompletion": 3.0,
       "toCompletion": 3.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-6-astra": {
@@ -4465,7 +4498,7 @@
       "to": 10.0,
       "fromCompletion": 50.0,
       "toCompletion": 50.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4476,7 +4509,7 @@
       "to": 10.0,
       "fromCompletion": 50.0,
       "toCompletion": 50.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4488,7 +4521,7 @@
       "fromCompletion": 50.0,
       "toCompletion": 50.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-10T02:41:10Z"
     },
     "anthropic/claude-fable-5.1": {
@@ -4498,7 +4531,7 @@
       "to": 10.0,
       "fromCompletion": 50.0,
       "toCompletion": 50.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4510,7 +4543,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/mistral-large": {
@@ -4521,7 +4554,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mistralai/pixtral-large-2502": {
@@ -4531,7 +4564,7 @@
       "to": 2.0,
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
-      "spanDays": 5,
+      "spanDays": 6,
       "compareDate": "2026-11-20",
       "fromDate": "2026-11-20T06:20:42Z"
     },
@@ -4543,7 +4576,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-08T01:56:56Z"
     },
     "aion-labs/aion-rp-llama-3.1-8b": {
@@ -4554,7 +4587,7 @@
       "fromCompletion": 1.5999999999999999,
       "toCompletion": 1.5999999999999999,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.5:batch": {
@@ -4565,7 +4598,7 @@
       "fromCompletion": 12.5,
       "toCompletion": 12.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "perplexity/sonar-deep-research": {
@@ -4576,7 +4609,7 @@
       "fromCompletion": 8.0,
       "toCompletion": 8.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "perplexity/sonar-reasoning-pro": {
@@ -4587,7 +4620,7 @@
       "fromCompletion": 8.0,
       "toCompletion": 8.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-omni-1.1-flash": {
@@ -4597,7 +4630,7 @@
       "to": 1.5,
       "fromCompletion": 9.0,
       "toCompletion": 9.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4608,7 +4641,7 @@
       "to": 1.5,
       "fromCompletion": 9.0,
       "toCompletion": 9.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4620,7 +4653,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-2.5-flash-image": {
@@ -4631,7 +4664,7 @@
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "moondream/moondream3-preview": {
@@ -4641,7 +4674,7 @@
       "to": 0.3,
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4652,7 +4685,7 @@
       "to": 0.3,
       "fromCompletion": 2.5,
       "toCompletion": 2.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4664,7 +4697,7 @@
       "fromCompletion": 30.0,
       "toCompletion": 30.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-06T02:06:34Z"
     },
     "perplexity/sonar-pro": {
@@ -4675,7 +4708,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "perplexity/sonar-pro-search": {
@@ -4686,7 +4719,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "gryphe/mythomax-l2-13b": {
@@ -4697,7 +4730,7 @@
       "fromCompletion": 0.11,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-08-04T01:47:54Z"
     },
     "cohere/command-r-plus-08-2024": {
@@ -4708,7 +4741,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4o": {
@@ -4719,7 +4752,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4o-2024-08-06": {
@@ -4730,7 +4763,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4o-2024-11-20": {
@@ -4741,7 +4774,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-audio": {
@@ -4752,7 +4785,7 @@
       "fromCompletion": 10.0,
       "toCompletion": 10.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "mancer/weaver": {
@@ -4763,7 +4796,7 @@
       "fromCompletion": 0.75,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-18T01:46:59Z"
     },
     "openai/gpt-5.4-pro:batch": {
@@ -4773,7 +4806,7 @@
       "to": 15.0,
       "fromCompletion": 90.0,
       "toCompletion": 90.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4784,7 +4817,7 @@
       "to": 15.0,
       "fromCompletion": 90.0,
       "toCompletion": 90.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4796,7 +4829,7 @@
       "fromCompletion": 12.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-06-18T14:52:18Z"
     },
     "mistralai/mixtral-8x22b-instruct": {
@@ -4807,7 +4840,7 @@
       "fromCompletion": 6.0,
       "toCompletion": 6.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.2-chat": {
@@ -4818,7 +4851,7 @@
       "fromCompletion": 14.0,
       "toCompletion": 14.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "undi95/remm-slerp-l2-13b": {
@@ -4829,7 +4862,7 @@
       "fromCompletion": 0.65,
       "toCompletion": 0.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-nano-banana-2.1": {
@@ -4839,7 +4872,7 @@
       "to": 1.5,
       "fromCompletion": 7.5,
       "toCompletion": 7.5,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4851,7 +4884,7 @@
       "fromCompletion": 25.0,
       "toCompletion": 25.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4-turbo:batch": {
@@ -4861,7 +4894,7 @@
       "to": 5.0,
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4873,7 +4906,7 @@
       "fromCompletion": 15.0,
       "toCompletion": 15.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemma-2-27b-it": {
@@ -4884,7 +4917,7 @@
       "fromCompletion": 0.65,
       "toCompletion": 0.65,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5-pro:batch": {
@@ -4894,7 +4927,7 @@
       "to": 7.5,
       "fromCompletion": 60.0,
       "toCompletion": 60.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4906,7 +4939,7 @@
       "fromCompletion": 180.0,
       "toCompletion": 180.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.5-pro": {
@@ -4917,7 +4950,7 @@
       "fromCompletion": 180.0,
       "toCompletion": 180.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "google/gemini-3-pro-image-preview": {
@@ -4928,7 +4961,7 @@
       "fromCompletion": 12.0,
       "toCompletion": 12.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.1:batch": {
@@ -4939,7 +4972,7 @@
       "fromCompletion": 37.5,
       "toCompletion": 37.5,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-07-29T01:52:20Z"
     },
     "anthracite-org/magnum-v4-72b": {
@@ -4950,7 +4983,7 @@
       "fromCompletion": 5.0,
       "toCompletion": 5.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.2-pro:batch": {
@@ -4960,7 +4993,7 @@
       "to": 10.5,
       "fromCompletion": 84.0,
       "toCompletion": 84.0,
-      "spanDays": 18,
+      "spanDays": 19,
       "compareDate": "2026-11-07",
       "fromDate": "2026-11-07T18:45:35Z"
     },
@@ -4972,7 +5005,7 @@
       "fromCompletion": 120.0,
       "toCompletion": 120.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-3.5-turbo-16k": {
@@ -4983,7 +5016,7 @@
       "fromCompletion": 4.0,
       "toCompletion": 4.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "anthropic/claude-opus-4.1": {
@@ -4994,7 +5027,7 @@
       "fromCompletion": 75.0,
       "toCompletion": 75.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-5.2-pro": {
@@ -5005,7 +5038,7 @@
       "fromCompletion": 168.0,
       "toCompletion": 168.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/o3-pro": {
@@ -5016,7 +5049,7 @@
       "fromCompletion": 80.0,
       "toCompletion": 80.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-3.5-turbo-0613": {
@@ -5027,7 +5060,7 @@
       "fromCompletion": 2.0,
       "toCompletion": 2.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     },
     "openai/gpt-4": {
@@ -5038,7 +5071,7 @@
       "fromCompletion": 60.0,
       "toCompletion": 60.0,
       "spanDays": 30,
-      "compareDate": "2026-10-26",
+      "compareDate": "2026-10-27",
       "fromDate": "2026-05-01T04:56:56Z"
     }
   }

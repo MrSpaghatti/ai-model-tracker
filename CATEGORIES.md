@@ -8,9 +8,9 @@
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
 | qwen/qwen3-coder-flash | Qwen: Qwen3 Coder Flash | 1,000,000 | $0.1950 | $0.9750 | ⚠️ | 17,094,017,094 |
 | qwen/qwen3-coder-30b-a3b-instruct | Qwen: Qwen3 Coder 30B A3B Instruct | 262,144 | $0.0700 | $0.2800 | ⚠️ | 14,979,657,143 |
+| mistralai/codestral-2508:batch | Mistral: Codestral 2508 (batch) | 256,000 | $0.1500 | $0.4500 | ⚠️ | 8,533,333,333 |
 | qwen/qwen3-coder-next | Qwen: Qwen3 Coder Next | 262,144 | $0.1200 | $0.8000 | ⚠️ | 5,698,782,609 |
 | mistralai/codestral-2508 | Mistral: Codestral 2508 | 256,000 | $0.3000 | $0.9000 | ⚠️ | 4,266,666,667 |
-| qwen/qwen3-coder | Qwen: Qwen3 Coder 480B A35B | 262,144 | $0.3000 | $1.0000 | ⚠️ | 4,032,984,615 |
 
 ## Top 5 Vision Models
 
@@ -70,49 +70,49 @@ _No matching models found._
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| mistralai/ministral-8b-2512:batch | Mistral: Ministral 3 8B 2512 (batch) | 262,144 | $0.0750 | $0.0750 | ⚠️ | 34,952,533,333 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
 | liquid/lfm-3-1.7b | LiquidAI: LFM3-1.7B | 262,144 | $0.0800 | $0.2000 | ⚠️ | 18,724,571,429 |
-| mistralai/ministral-8b-2512 | Mistral: Ministral 3 8B 2512 | 262,144 | $0.1500 | $0.1500 | ⚠️ | 17,476,266,667 |
 
 ## Top 5 Models for ~16 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| mistralai/ministral-8b-2512:batch | Mistral: Ministral 3 8B 2512 (batch) | 262,144 | $0.0750 | $0.0750 | ⚠️ | 34,952,533,333 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~24 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| mistralai/ministral-8b-2512:batch | Mistral: Ministral 3 8B 2512 (batch) | 262,144 | $0.0750 | $0.0750 | ⚠️ | 34,952,533,333 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~32 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| mistralai/ministral-8b-2512:batch | Mistral: Ministral 3 8B 2512 (batch) | 262,144 | $0.0750 | $0.0750 | ⚠️ | 34,952,533,333 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
 ## Top 5 Models for ~48 GB VRAM
 
 | Model ID | Name | Context | Prompt ($/1M) | Completion ($/1M) | Moderated | Context per Cent |
 | --- | --- | ---: | ---: | ---: | :---: | ---: |
+| mistralai/ministral-8b-2512:batch | Mistral: Ministral 3 8B 2512 (batch) | 262,144 | $0.0750 | $0.0750 | ⚠️ | 34,952,533,333 |
 | google/gemma-3-4b-it | Google: Gemma 3 4B | 131,072 | $0.0400 | $0.0500 | ⚠️ | 29,127,111,111 |
 | thedrummer/unslopnemo-12b | TheDrummer: UnslopNemo 12B | 1,024,000 | $0.4000 | $0.4000 | ⚠️ | 25,600,000,000 |
 | prism-ml/ternary-bonsai-2-9b | PrismML: Ternary Bonsai 2 9B | 262,144 | $0.0800 | $0.1300 | ⚠️ | 24,966,095,238 |
 | meta-llama/llama-3.1-8b-instruct | Meta: Llama 3.1 8B Instruct | 131,072 | $0.0500 | $0.0800 | ⚠️ | 20,164,923,077 |
-| openai/gpt-oss-20b:batch | OpenAI: gpt-oss-20b (batch) | 131,072 | $0.0240 | $0.1120 | ⚠️ | 19,275,294,118 |
 
