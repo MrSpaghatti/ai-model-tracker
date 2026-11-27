@@ -6,7 +6,6 @@ Models are considered free when both prompt and completion prices are zero. Sort
 | --- | --- | ---: | ---: | ---: | ---: | :---: | ---: |
 | google/lyria-3-clip-preview | Google: Lyria 3 Clip Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | google/lyria-3-pro-preview | Google: Lyria 3 Pro Preview | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
-| inclusionai/ling-3.2-flash:free | inclusionAI: Ling 3.2 Flash (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | particle-ai/particle-1:free | Particle AI: Particle-1 (free) | 1,048,576 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | baidu/ernie-5.5-flash-preview:free | Baidu: ERNIE-5.5-Flash-Preview (free) | 1,024,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
 | nvidia/nemotron-3-ultra-550b-a55b:free | NVIDIA: Nemotron 3 Ultra (free) | 1,000,000 | $0.0000 | $0.0000 | - | ⚠️ | ∞ |
